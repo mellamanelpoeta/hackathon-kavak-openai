@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 48000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente perdió a un familiar cercano y ha estado con altos niveles de estrés. La demora en la entrega de la unidad que vendió y problemas mecánicos no resueltos le han incrementado su frustración, sintiéndose desatendido justo cuando necesita soluciones rápidas y claras para manejar sus asuntos personales y laborales.",
+  "historia_revelada": "Cliente con historial de compra y venta de autos en Kavak. Última venta se ha visto afectada por demoras y reportes de fallas mecánicas que no han tenido resolución inmediata.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso en recolección de vehículo vendido y expresó inconformidad con el seguimiento.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó actualización sobre estado mecánico de su unidad con respuestas tardías.",
+      "nps": null
+    }
+  ],
+  "problema": "La logística para la recolección del vehículo vendido ha sido deficiente y adicionalmente el auto presenta fallas mecánicas que no han sido atendidas, lo que genera desconfianza y molestias severas.",
+  "expectativa_solucion": "Quiere una solución rápida que incluya recolección inmediata y revisión mecánica detallada con compensación por las molestias causadas.",
+  "prompt_conversacional": "Adopta un tono empático y tranquilo. Contén su frustración validando su molestia y pide disculpas por la situación. Asegura que entendemos la importancia de una solución rápida y concreta. Propón pasos claros y fechas específicas para resolver el problema, y ofrece un canal abierto para seguimiento continuo."
+}

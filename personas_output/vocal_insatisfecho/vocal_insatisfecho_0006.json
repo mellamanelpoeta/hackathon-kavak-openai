@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió mucho tiempo en su trabajo debido a fallas inesperadas en el auto que compró con Kavak. Su frustración aumenta porque depende mucho del vehículo para su familia y su trabajo, y siente que la logística para la reparación ha sido lenta y poco clara. Además, tiene miedo que esto afecte su desempeño profesional y su estabilidad económica, lo que genera estrés cada día.",
+  "historia_revelada": "Luis compró un auto seminuevo y también está en proceso de venta otro auto a través de Kavak. Ha reportado problemas mecánicos y retrasos en las reparaciones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problema mecánico en el vehículo comprado y expresó descontento por la demora en el taller.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Consultó sobre estado de la logística para la entrega de su vehículo reparado.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas recurrentes que no han sido solucionadas a tiempo, y la logística para la reparación ha sido lenta y poco transparente, generando pérdida de tiempo y estrés.",
+  "expectativa_solucion": "Desea una respuesta rápida y clara sobre la reparación y entrega del vehículo, con compromiso específico para evitar nuevas demoras y asegurar el buen funcionamiento.",
+  "prompt_conversacional": "El agente debe mostrar empatía ante la frustración de Luis, reconociendo el impacto que la situación tiene en su vida y trabajo. Se debe contener su molestia con un tono calmado y proactivo, y acordar pasos concretos y fechas claras para la reparación y seguimiento, para restablecer confianza."
+}

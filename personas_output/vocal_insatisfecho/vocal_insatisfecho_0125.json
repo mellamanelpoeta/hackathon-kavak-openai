@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 28000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro ha confiado en Kavak para comprar y vender vehículos varias veces debido a su exigente trabajo y horarios ajustados. Actualmente atraviesa un momento de estrés profesional y personal, y la demora y confusión en la logística de su último vehículo comprado han generado frustración profunda, pues necesitaba el auto para desplazarse a citas laborales importantes. Siente que Kavak ha fallado en comprender la importancia emocional y profesional de la situación, lo que agrava su molestia.",
+  "historia_revelada": "Cliente con historial de compra y venta en Kavak desde hace 3 años. Recientemente adquirió un vehículo que presentó problemas mecánicos al poco tiempo. Ha reportado inconformidad con la atención recibida y demora en la solución ofrecida.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar problema mecánico y expresar frustración. Recibió promesa de seguimiento.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre el estado de la reparación y mostró inconformidad por la falta de respuestas claras.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presentó fallas mecánicas graves y la reparación ha sido lenta y sin información clara. Esto me está afectando laboralmente porque dependo mucho del auto y siento que Kavak no está tomando la situación con la urgencia que merece.",
+  "expectativa_solucion": "Quiero que Kavak agilice la reparación o me ofrezca una solución inmediata que me permita contar con un vehículo en óptimas condiciones lo antes posible, además de una comunicación clara y comprometida.",
+  "prompt_conversacional": "Actúa con empatía y comprensión para contener la frustración de Alejandro. Reafirma que entendemos la importancia de su situación y acuerda con él pasos concretos y tiempos claros para resolver su caso, asegurando una comunicación continua y efectiva."
+}

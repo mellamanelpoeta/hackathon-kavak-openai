@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra_venta",
+  "ltv": 750000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis vive con su esposa e hijos pequeños, depende mucho de un auto porque su trabajo requiere movilidad constante. La demora en la entrega y problemas mecánicos han generado estrés y preocupación, ya que siente que afecta su estabilidad familiar y laboral, incrementando su frustración.",
+  "historia_revelada": "Ha comprado y vendido dos autos a través de Kavak. Recientemente adquirió un vehículo que ha presentado problemas mecánicos y tuvo retrasos logísticos en la entrega del nuevo auto que vendió.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reportó retraso en la entrega del vehículo comprado y expresó su frustración.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Cliente solicitó soporte por fallas mecánicas y pidió una pronta solución.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta problemas mecánicos serios y además la entrega ha sufrido varios retrasos sin explicaciones claras, afectando mi movilidad y generando mucho estrés.",
+  "expectativa_solucion": "Quiero que Kavak me proporcione una solución rápida y concreta, ya sea reparar el vehículo sin costo o un reemplazo, y que mejoren la comunicación para evitar retrasos y ansiedad.",
+  "prompt_conversacional": "El agente debe contener la frustración de Luis mostrando empatía, validar su molestia y estrés, explicar claramente los siguientes pasos concretos para resolver el problema mecánico y logístico, prometiendo seguimiento frecuente y tiempo estimado para la solución."
+}

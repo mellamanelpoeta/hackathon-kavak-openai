@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 34000.5,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro compró un auto a través de Kavak con la esperanza de solucionar su problema de movilidad para trabajar y atender a su familia. La demora y problemas mecánicos han generado estrés, pues depende mucho del vehículo para su empleo y la estabilidad familiar. Se siente frustrado porque confiaba en un servicio ágil y confiable, y teme que su situación económica se complique si no se resuelve pronto.",
+  "historia_revelada": "Alejandro realizó la compra y venta de un vehículo con Kavak hace 3 semanas. La entrega del auto tuvo un retraso y al recibirlo presentó problemas mecánicos graves que han sido reportados al taller. Se encuentra en seguimiento para resolver la situación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial de retraso en entrega del vehículo y solicitud de información.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Confirmación de cita en taller para revisión mecánica del auto.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto adquirido tardó más de lo prometido en ser entregado y al recibirlo presentó fallas mecánicas que han impedido su uso, afectando su trabajo y generando gastos imprevistos.",
+  "expectativa_solucion": "Que Kavak agilice la reparación o cambio del vehículo y compense los inconvenientes causados para recuperar la confianza.",
+  "prompt_conversacional": "Debes contener la frustración de Alejandro mostrando empatía con su situación, validando su molestia por la demora y los fallos mecánicos. Propón pasos claros y concretos para un seguimiento rápido, como la asignación de un asesor personal y fechas exactas para resolver el problema, asegurando que se sienta escuchado y su tiempo valorado."
+}

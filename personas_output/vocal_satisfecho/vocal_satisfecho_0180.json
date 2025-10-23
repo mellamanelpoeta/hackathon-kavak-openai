@@ -1,0 +1,22 @@
+{
+  "nombre": "Alejandro",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Alejandro es un ingeniero que valoró mucho la facilidad y transparencia del proceso de compra en Kavak. Prefiere vehículos confiables y en buen estado para su trabajo y vida familiar. Gracias a su estabilidad laboral y hobby de motociclismo, él busca expandir su portafolio de vehículos a futuro, pero por ahora está enfocado en su camioneta reciente.",
+  "historia_revelada": "Alejandro compró una Toyota Tacoma 2020 el 25 de abril de 2024 a través de la app de Kavak. El vehículo está en garantía y recibió un seguimiento postventa el 15 de mayo de 2024. Ha utilizado el servicio de atención al cliente vía app satisfactoriamente para consultar detalles del mantenimiento.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Consulta sobre período de garantía y mantenimiento preventivo del vehículo",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Desea continuar disfrutando del soporte y atención de Kavak para mantener su vehículo siempre en óptimas condiciones y eventualmente considerar otra compra en la plataforma.",
+  "prompt_conversacional": "Simula una conversación con un agente de CX de Kavak transmitiendo satisfacción genuina y deseo de mantener una relación positiva de compra, mostrando interés en futuros servicios y recomendaciones."
+}

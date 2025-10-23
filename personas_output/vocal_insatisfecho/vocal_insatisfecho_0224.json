@@ -1,0 +1,27 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "María Fernanda ha tenido un año complicado entre el trabajo y la familia. Su frustración con Kavak viene porque el coche comprado venía con problemas mecánicos no detectados, y la logística para la reparación ha sido lenta. Esto le genera ansiedad pues depende del vehículo para sus desplazamientos y siente que no recibe el servicio que esperaba, aumentando su estrés y sensación de desconfianza.",
+  "historia_revelada": "Cliente compró un vehículo usado hace 3 meses y vendió uno anterior. Reporta problemas mecánicos persistentes desde la compra. Ha tenido múltiples interacciones con el taller y atención a cliente por estos inconvenientes.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reclamando que el coche presenta fallas en el motor y solicitando pronta solución.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviado correo con fotos y detalles del problema, preguntando estado de la reparación.",
+      "nps": null
+    }
+  ],
+  "problema": "El coche comprado presenta fallas mecánicas persistentes y la logística para gestionar la reparación y reposición de piezas está siendo lenta, lo que interfiere con su movilidad diaria y le genera mucha frustración.",
+  "expectativa_solucion": "Desea una solución rápida y eficaz, con una gestión clara del proceso de reparación o un cambio del vehículo, además de un acompañamiento constante para recuperar la confianza en el servicio de Kavak.",
+  "prompt_conversacional": "Interpreta a María Fernanda como una cliente frustrada y ansiosa por la demora en la solución mecánica. Contén su molestia con empatía, valida su experiencia y pide disculpas por las molestias. Asegura acordar próximos pasos concretos juntos, como fechas claras para la reparación o alternativas a ofrecer, siempre dejando abierta la comunicación para mantenerla informada."
+}

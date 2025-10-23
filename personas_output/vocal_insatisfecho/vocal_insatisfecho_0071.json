@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió un proyecto importante debido a que necesitaba un vehículo confiable para movilizar equipo técnico. La demora en la entrega y problemas mecánicos le causaron una gran frustración, ya que siente que su reputación profesional está en riesgo. Siente ansiedad porque dependía mucho del auto para su trabajo y no poder contar con la herramienta adecuada le afecta emocionalmente y económicamente.",
+  "historia_revelada": "Cliente adquirió un vehículo usado y vendió otro con Kavak. Ha tenido problemas recurrentes con retrasos en entregas y fallas mecánicas que afectan su uso. Reportó insatisfacción reciente por la garantía y soporte técnico proporcionado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando retraso en la entrega y solicitud de solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Mensaje detallando problemas mecánicos y expresando frustración por falta de respuesta rápida.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presentó fallas mecánicas repetidas que no fueron solucionadas en tiempo y forma. Además, la entrega del auto comprado se retrasó significativamente sin información clara, afectando mi trabajo y confianza en Kavak.",
+  "expectativa_solucion": "Quiero que Kavak asuma la responsabilidad y me brinde una solución rápida y efectiva, ya sea con la reparación inmediata o cambio del vehículo, así como una comunicación constante y transparente que me permita planear sin imprevistos.",
+  "prompt_conversacional": "Eres un agente de CX que debe escuchar atentamente a Luis, contener su frustración y mostrar empatía genuina. Tu objetivo es validar su molestia, aclarar los pasos que Kavak realizará, ofrecer soluciones concretas y asegurar un seguimiento puntual para recuperar su confianza."
+}

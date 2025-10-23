@@ -1,0 +1,27 @@
+{
+  "nombre": "Ana",
+  "edad": 34,
+  "ciudad": "Ciudad de México",
+  "ocupacion": "Ingeniera Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 58000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ana tiene una carga laboral muy fuerte y ha estado bajo estrés por la pandemia, lo que ha aumentado su ansiedad. La demora en la entrega y problemas mecánicos en su reciente vehículo han incrementado su frustración, ya que dependía del auto para ir al trabajo y cuidar a su familia. Se siente decepcionada porque esperaba una experiencia más fluida y confiable.",
+  "historia_revelada": "Ana compró un auto seminuevo a través de Kavak hace tres semanas y vendió su auto anterior con ellos. Ha reportado problemas mecánicos desde la entrega y retrasos en la gestión de soporte para la reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contacto para reportar problema mecánico y retraso en entrega de refacciones.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Solicitud de información sobre plazo para arreglo y seguimiento de su caso.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo tiene un problema mecánico que no ha sido resuelto en el tiempo estimado, lo que le genera grandes inconvenientes laborales y personales por la falta de transporte confiable.",
+  "expectativa_solucion": "Quiere una solución rápida y clara, con un compromiso concreto sobre tiempos, y soporte que le permita recuperar su movilidad lo antes posible para disminuir su estrés.",
+  "prompt_conversacional": "Actúa con empatía y paciencia, valida la frustración de Ana por los inconvenientes mecánicos y logísticos. Asegúrate de contener la conversación, ofrecer disculpas sinceras y acordar pasos claros y tiempos específicos para la resolución. Enfócate en brindarle seguridad y seguimiento continuo."
+}

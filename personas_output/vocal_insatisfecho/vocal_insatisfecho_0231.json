@@ -1,0 +1,27 @@
+{
+  "nombre": "Lucía",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.75,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Lucía compró un vehículo usado y además vendió su auto antiguo a través de Kavak. Tiene un hijo pequeño y actualmente depende mucho de su auto para equilibrar su trabajo y cuidado familiar. La demora en la entrega de su nuevo vehículo y las reparaciones constantes han generado un estrés significativo, agravado porque ha tenido que pedir favores para transportarse y siente que la empresa no le da la atención necesaria, lo que ha afectado su confianza y tranquilidad emocional.",
+  "historia_revelada": "Cliente adquirió un vehículo usado hace 3 semanas y vendió su auto anterior por medio de Kavak. Ha reportado problemas con la entrega y reparaciones mecánicas a través de los canales oficiales.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en entrega del nuevo vehículo y solicitar actualización.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando soporte urgente por falla mecánica detectada en el vehículo entregado.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré tiene fallas mecánicas que no fueron detectadas antes de la compra y la entrega se retrasó más de dos semanas. Esto me ha causado problemas de movilidad y estrés porque dependo del auto para mi trabajo y responsabilidades familiares.",
+  "expectativa_solucion": "Quiero que me ofrezcan una solución rápida y concreta, como arreglos inmediatos o una compensación adecuada, además de un mejor seguimiento para evitar más retrasos y molestias.",
+  "prompt_conversacional": "Interpretar la frustración de Lucía con empatía, contener su molestia validando su experiencia y ofrecer un plan claro con tiempos y acciones específicas para resolver los problemas logísticos y mecánicos. Confirmar los próximos pasos con ella para recuperar su confianza."
+}

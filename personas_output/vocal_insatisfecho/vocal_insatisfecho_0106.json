@@ -1,0 +1,27 @@
+{
+  "nombre": "Laura",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 25000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Laura ha tenido una semana muy estresante debido a problemas en su trabajo y cuidar a su hijo pequeño. La demora en la entrega y las fallas mecánicas de su vehículo comprado y el que puso en venta han incrementado su ansiedad, pues depende mucho de ambos para sus desplazamientos diarios y no puede permitirse más inconvenientes. Se siente frustrada y decepcionada porque esperaba un mejor soporte y soluciones rápidas.",
+  "historia_revelada": "Laura compró un vehículo con Kavak hace tres meses y está en proceso de venta de otro. Ha reportado retrasos en la entrega del nuevo auto y problemas recurrentes en la mecánica. Ha contactado al centro de atención en varias ocasiones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reportó retraso en la entrega y mecánica defectuosa, solicitó solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Cliente envio mensaje expresando frustración por falta de respuesta y fallas.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas que dificultan su uso diario y además la entrega tardía me ha generado muchos inconvenientes, siento que la logística y soporte no están a la altura de mis necesidades.",
+  "expectativa_solucion": "Deseo que me brinden una solución efectiva y rápida para las fallas mecánicas y que mejoren la logística para que no siga teniendo retrasos ni más problemas, además que me mantengan informada con claridad.",
+  "prompt_conversacional": "Contén la frustración de Laura, valida su molestia con empatía y orienta la conversación hacia acordar pasos concretos y tiempos claros para resolver la mecánica y la entrega. Busca que se sienta escuchada y confiada en el seguimiento que Kavak dará."
+}

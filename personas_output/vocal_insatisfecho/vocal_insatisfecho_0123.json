@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a su padre, lo que lo tiene emocionalmente vulnerable. Además, ha tenido un día a día muy estresante por problemas laborales y esperaba que la compra y venta de su auto con Kavak fuera un proceso sencillo. La demora y problemas mecánicos detectados en el vehículo le generan ansiedad y desconfianza, afectando su estabilidad emocional.",
+  "historia_revelada": "Luis compró un vehículo seminuevo en Kavak hace dos semanas y puso a la venta otro a través de la plataforma. Ha reportado fallas mecánicas en el auto comprado y retrasos en el proceso de venta que esperaba fueran más ágiles.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó fallas mecánicas del vehículo recién comprado. Expresó frustración por la demora en la reparación.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviado correo solicitando actualización sobre la venta del auto. Reclamó falta de información clara.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas y la venta del auto usado está demorando más de lo esperado, lo que genera ansiedad y desconfianza hacia el servicio.",
+  "expectativa_solucion": "Que Kavak solucione rápidamente las fallas mecánicas del vehículo y acelere la venta del auto usado, con comunicación clara y seguimiento constante.",
+  "prompt_conversacional": "Contén la frustración del cliente reconociendo su situación emocional y validando su molestia. Ofrece disculpas por los inconvenientes y acuerdo inmediato en próximos pasos concretos para solucionar las fallas mecánicas y agilizar la venta, asegurando un seguimiento personalizado y continuo."
+}

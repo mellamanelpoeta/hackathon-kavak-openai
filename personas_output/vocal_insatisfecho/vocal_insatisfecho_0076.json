@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 13500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente perdió a su padre, quien era un gran aficionado a los autos. Para él, el vehículo que compró a través de Kavak era un homenaje emocional y un recuerdo tangible. La avería constante y la demora en la respuesta del taller le generan una angustia profunda, ya que siente que está fallando en honrar esa memoria. Además, esto afecta su movilidad diaria y su trabajo, aumentando su frustración y ansiedad.",
+  "historia_revelada": "Carlos compró un automóvil y recientemente ha vendido otro a través de Kavak. Ha reportado problemas mecánicos inesperados con su compra reciente y ha utilizado múltiples canales para comunicarse con atención al cliente buscando solución.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problemas mecánicos persistentes en el vehículo comprado, solicitando solución urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Envío de correo detallando inconformidad por la demora en la reparación y falta de información clara sobre tiempos de entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas recurrentes que han afectado seriamente mi movilidad y actividades diarias. Además, la logística del taller para atender el problema es ineficiente y no recibo información clara ni tiempos estimados adecuados.",
+  "expectativa_solucion": "Quiero que Kavak gestione una solución rápida y efectiva, ya sea una reparación prioritaria con plazos claros o un cambio del vehículo para recuperar la confianza y tranquilidad.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración del cliente mostrando empatía, reconociendo el valor emocional y la urgencia del problema mecánico y logístico. Debes acordar con Carlos próximos pasos concretos, como prioridades en el taller y canales de comunicación claros, para restablecer la confianza."
+}

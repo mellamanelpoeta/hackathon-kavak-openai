@@ -1,0 +1,27 @@
+{
+  "nombre": "Verónica",
+  "edad": 36,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 12500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Verónica recientemente perdió tiempo valioso debido a constantes problemas mecánicos con su vehículo comprado a través de Kavak. Además, la incertidumbre sobre fechas de entrega y falta de comunicación clara ha incrementado su frustración y afecta su trabajo y movilidad diaria, generando ansiedad y desconfianza.",
+  "historia_revelada": "Cliente compró un vehículo y posteriormente vendió otro usando la plataforma Kavak. Ha reportado demoras en la entrega y fallas mecánicas repetidas que han requerido múltiples visitas al taller certificado por Kavak.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte de fallas mecánicas y solicitud de solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Consulta sobre estado de la reparación y fechas estimadas para devolución del vehículo.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas recurrentes que afectan su uso diario. Además, la falta de actualización clara sobre el estado de las reparaciones y los retrasos en la entrega generan molestia y desconfianza en el servicio.",
+  "expectativa_solucion": "Desea una solución rápida y definitiva a las fallas mecánicas, comunicación clara y constante sobre el proceso, y compromiso explícito con plazos concretos de entrega.",
+  "prompt_conversacional": "Actúa con empatía escuchando la frustración de Verónica, valida sus sentimientos y ofrece disculpas. Evita promesas no concretas, enfócate en acordar pasos claros y plazos realistas para resolver su situación, y asegúrate que se sienta acompañada en el proceso."
+}

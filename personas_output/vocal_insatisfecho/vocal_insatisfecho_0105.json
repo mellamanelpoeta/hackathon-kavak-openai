@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 37000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha tenido un día laboral muy estresante y esperaba que la entrega y reparación de su vehículo fueran procesos sin complicaciones para poder cumplir con sus responsabilidades familiares y laborales. La demora inesperada en la logística y problemas mecánicos recurrentes han aumentado su frustración, ya que depende mucho de su auto para transportar a sus hijos a la escuela y para sus compromisos profesionales. Se siente decepcionado y preocupado porque estas fallas afectan su estabilidad y tiempos personales.",
+  "historia_revelada": "Cliente adquirió un vehículo a través de Kavak y además ha vendido uno recientemente. Reporta retrasos en la entrega y problemas mecánicos en el vehículo comprado, lo que generó varias quejas en el soporte técnico.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada informando retraso en la entrega y reportando ruido mecánico en el motor.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando actualización urgente sobre el estado de la reparación y la entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "Demoras en la entrega del vehículo y problemas mecánicos persistentes que afectan su uso diario y generan mucha inseguridad y estrés.",
+  "expectativa_solucion": "Que Kavak resuelva de manera rápida y eficiente las fallas mecánicas, que mejore la comunicación sobre los tiempos y que le otorguen algún tipo de compensación por los inconvenientes.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Luis. Valida su molestia y ofrece disculpas sinceras. Asegura un plan de acción claro con fechas específicas para la reparación y entrega, y acuerda próximos pasos concretos para mantenerlo informado durante el proceso."
+}

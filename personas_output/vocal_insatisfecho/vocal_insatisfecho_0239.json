@@ -1,0 +1,27 @@
+{
+  "nombre": "Ricardo",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1300000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ricardo ha estado pasando por mucho estrés en el trabajo y en casa, y confiaba en que la compra y venta de su vehículo con Kavak sería una experiencia sencilla y rápida para no agregar más problemas a su vida. La demora en la entrega y los problemas mecánicos le han generado frustración y desconfianza, afectando su estado emocional incluso fuera del proceso con Kavak.",
+  "historia_revelada": "Compró un vehículo hace tres meses y recientemente vendió otro vehículo a través de Kavak. Ha reportado retrasos en la entrega y ha tenido que solicitar soporte técnico por fallas mecánicas inicialmente no reportadas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar demora en entrega de vehículo y fallas mecánicas detectadas tras la compra.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviado correo solicitando actualización sobre estado de reparación y compensación por retrasos.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas que no fueron informadas inicialmente, y la entrega de mi auto vendido está retrasada sin información clara. Esto me causa inconvenientes y gastos extra inesperados.",
+  "expectativa_solucion": "Quiero que se reparen las fallas mecánicas de mi vehículo sin costo adicional y que se agilice la entrega del auto vendido o que me den una compensación justa por el retraso.",
+  "prompt_conversacional": "Como agente de CX, mantén una actitud empática y comprensiva con Ricardo, conteniendo su frustración. Escucha activamente sus quejas sobre la logística y problemas mecánicos. Ofrece disculpas sinceras y asegúrate de acordar pasos concretos y plazos claros para la reparación y entrega, manteniendo comunicación constante para recuperar su confianza."
+}

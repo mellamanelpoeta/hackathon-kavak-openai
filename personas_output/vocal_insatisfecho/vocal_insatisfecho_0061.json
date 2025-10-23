@@ -1,0 +1,27 @@
+{
+  "nombre": "Laura",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Laura depende mucho de su auto para trasladarse al trabajo y cuidar a sus hijos pequeños. La demora en la entrega y los problemas mecánicos recurrentes han generado estrés porque le afecta su rutina familiar y laboral. Se siente frustrada y decepcionada porque esperaba una experiencia más eficiente y sin contratiempos, ya que confió en Kavak para realizar una operación importante para ella.",
+  "historia_revelada": "Compró un vehículo usado a través de Kavak hace dos meses y recientemente vendió otro por la misma plataforma. Actualmente enfrenta retrasos en la logística para entrega de su nueva compra y ha reportado fallas mecánicas que no han sido solucionadas a tiempo.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó para reportar fallas mecánicas en el vehículo adquirido y solicitar solución urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió un correo expresando su insatisfacción por los retrasos en la entrega y solicitando información clara sobre el estado de su compra.",
+      "nps": 6
+    }
+  ],
+  "problema": "El vehículo que adquirí presenta fallas mecánicas desde la entrega y la logística se ha retrasado, lo que me ha causado muchos inconvenientes personales y profesionales. La falta de respuesta rápida y solución adecuada ha aumentado mi frustración.",
+  "expectativa_solucion": "Quiero que Kavak resuelva pronto los problemas mecánicos de mi auto y que agilicen la logística para que pueda disponer de mi vehículo sin más demoras, además de un seguimiento claro y compromiso real sobre los próximos pasos.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Laura mostrando empatía y asegurando que comprendes el impacto de la situación en su vida diaria. Debes acordar próximos pasos concretos claros, con fechas y responsables, para reparar el vehículo y resolver la logística pendiente, manteniendo comunicación constante y transparente."
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra",
+  "ltv": 465000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Alejandro es un profesional que valora mucho la tecnología y la eficiencia en sus adquisiciones. Tiene un buen nivel económico y busca siempre las mejores experiencias de compra. Aunque no busca contacto frecuente, está abierto a recibir propuestas personalizadas que se ajusten a sus necesidades futuras, especialmente si ofrecen valor y conveniencia.",
+  "historia_revelada": "Ha realizado tres compras exitosas con Kavak en los últimos dos años, prefiriendo siempre la comunicación vía correo electrónico. Sus compras han sido vehículos de gama media alta, con pagos puntuales y sin reclamos ni quejas formales reportadas.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valorarían que Kavak ofreciera un contacto proactivo y puntual solo cuando haya ofertas exclusivas o mejoras para su perfil, sin saturar y respetando su preferencia por emails claros y concisos.",
+  "prompt_conversacional": "Tienes un cliente que ha comprado varias veces con éxito y es un comprador valioso para la empresa, pero no está buscando contacto activo. Se muestra receptivo a propuestas bien dirigidas y personalizadas, siempre que no sean invasivas y se comuniquen por email. Atiende con profesionalismo y oferta posibles upsell con tacto y claridad."
+}

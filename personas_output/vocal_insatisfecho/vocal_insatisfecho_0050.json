@@ -1,0 +1,27 @@
+{
+  "nombre": "Andrea",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Andrea se siente frustrada y preocupada porque compró un automóvil a través de Kavak que ha presentado fallas mecánicas inesperadas poco después de la compra. Además, intentó vender otro vehículo por la plataforma y ha tenido problemas con la logística para la recogida, lo que la hace sentir que está perdiendo tiempo valioso y afectando su trabajo. Tiene responsabilidades familiares que dependen en parte del correcto funcionamiento de su transporte, lo que incrementa su ansiedad y molestia hacia el servicio.",
+  "historia_revelada": "Compró un auto usado hace un mes y reportó una falla mecánica a los 15 días. Actualmente tiene un vehículo en venta a través de Kavak, pero la recogida ha sido pospuesta dos veces. Ha contactado soporte y ha registrado reclamos por problemas logísticos y técnicos.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial de la falla mecánica detectada en su auto y solicitud de revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta sobre el estado de la recogida del vehículo en venta y reclamo por demora.",
+      "nps": null
+    }
+  ],
+  "problema": "El automóvil que compré presenta una falla mecánica grave que no me permitieron revisar antes de la compra, y además, el proceso para recoger el vehículo que intento vender está retrasado sin una comunicación clara, lo que afecta mis planes y genera mucha incertidumbre.",
+  "expectativa_solucion": "Espero que Kavak me brinde una reparación rápida y sin costo del auto defectuoso, así como agilizar la logística para la venta y recogida de mi vehículo, con comunicación clara y puntual.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Andrea, reconociendo sus molestias. Brinda información clara y concreta sobre los pasos a seguir para resolver los problemas mecánicos y logísticos, asegurando compromisos definidos y tiempos realistas para restablecer la confianza."
+}

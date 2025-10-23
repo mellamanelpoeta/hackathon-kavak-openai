@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandra",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 75000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandra depende de su auto para llevar a su hijo a la escuela y llegar puntual al trabajo. La reciente falla mecánica inesperada y los retrasos en el taller le generan mucho estrés y ansiedad, debido a que ha tenido que reorganizar sus días y afectó también su tranquilidad familiar. Se siente frustrada porque esperaba un servicio más eficiente y sentir que sus preocupaciones son escuchadas.",
+  "historia_revelada": "Cliente con historial de compra y venta de vehículos con Kavak. Última compra hace 6 meses y vehículo lleva 3 semanas en taller por problemas mecánicos. Ha contactado vía teléfono y Whatsapp para reportar retrasos en reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en entrega del vehículo en taller; cliente expresó molestia y pidió solución urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando información del estado de la reparación; recibió respuesta tardía pero atenta.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo está en taller por una falla mecánica y el proceso está tomando más tiempo del prometido. La falta de información oportuna y los continuos retrasos están afectando mi rutina diaria y generando mucha frustración.",
+  "expectativa_solucion": "Quiero que me den una respuesta clara y un compromiso real con una fecha específica para la entrega de mi vehículo o una solución alternativa mientras tanto.",
+  "prompt_conversacional": "Eres un agente empático que reconoce la frustración de Alejandra por los retrasos mecánicos y la falta de información. Tu objetivo es contener su molestia, validar su preocupación y acordar con ella los próximos pasos concretos para resolver su situación lo antes posible, asegurando compromiso claro y seguimiento."
+}

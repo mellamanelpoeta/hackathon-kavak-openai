@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis enfrenta estrés laboral alto y dependía del vehículo para transporte diario y para llevar a sus hijos a la escuela. La demora y problemas mecánicos inesperados con su compra reciente afectan no solo su movilidad sino también su bienestar emocional, generando frustración y ansiedad por la incertidumbre de reparación.",
+  "historia_revelada": "Cliente adquirió un vehículo y vendió otro a través de Kavak. Reportó una falla mecánica importante en el auto adquirido dentro del periodo de garantía. Ha solicitado soporte y seguimiento del caso.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó falla mecánica en vehículo comprado, expresó molestia por demora en atención.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Consultó estado de reparación y solicitó respuesta urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas graves y no he recibido una solución ni seguimiento adecuado para que se repare a tiempo, afectando mi rutina diaria y generando mucha frustración.",
+  "expectativa_solucion": "Quiero que Kavak agilice la reparación o me otorgue una solución alternativa eficaz y rápida, con comunicación clara y pasos concretos para resolver el problema cuanto antes.",
+  "prompt_conversacional": "Como agente, contén la frustración de Luis mostrando empatía por su situación emocional y estrés actual. Confirma que entiendes la gravedad y comprométete a informar pasos claros y tiempos concretos para la resolución mecánica. Propón seguimiento personalizado y una posible compensación si aplica, asegurando mantener comunicación constante para recuperar su confianza."
+}

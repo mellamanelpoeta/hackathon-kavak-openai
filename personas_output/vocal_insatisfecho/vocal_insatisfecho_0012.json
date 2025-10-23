@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de proyectos",
+  "relacion_kavak": "compra_venta",
+  "ltv": 380000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego recientemente perdió a su padre y siente una gran presión financiera y emocional para mantener estabilidad. La compra y venta de autos a través de Kavak era su intento por generar ingresos extras, pero los problemas logísticos y mecánicos le generan frustración adicional, acentuando su sensación de inseguridad en este proceso.",
+  "historia_revelada": "Ha comprado y vendido 3 autos con Kavak en los últimos 18 meses. En su última venta surgió un problema con la entrega del vehículo al comprador y tambien tuvo que regresar el auto vendido por fallas mecánicas detectadas post-venta.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso en la entrega del auto vendido y exigió solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó vía chat sobre reintegro por fallas mecánicas del auto vendido.",
+      "nps": null
+    }
+  ],
+  "problema": "Los fallos mecánicos detectados después de la venta y los retrasos en la logística de entrega han generado una gran pérdida de confianza y afectado su situación financiera.",
+  "expectativa_solucion": "Quiere una solución clara y rápida que incluya compensación por daños y garantías para evitar repetir esta mala experiencia.",
+  "prompt_conversacional": "El agente debe abordar la frustración de Diego con empatía y contención, reconocer el impacto emocional y financiero de la situación, validar su malestar, y acordar pasos concretos y realistas para resolver el problema, como reembolsos, revisiones adicionales o seguimiento personalizado."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1400000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis depende mucho del auto para sus traslados diarios y para llevar a sus hijos a la escuela. Actualmente atraviesa un momento de mucho estrés en el trabajo y la logística del automóvil ha generado frustración, pues esperaba mayor calidad y prontitud en los servicios contratados, y la demora le afecta emocionalmente porque siente que no puede cumplir con sus responsabilidades familiares y laborales a tiempo.",
+  "historia_revelada": "Luis compró un vehículo seminuevo hace 5 meses y vendió otro por medio de Kavak. Recientemente reportó problemas mecánicos con el vehículo comprado, requiriendo soporte de taller. También ha tenido retrasos en la gestión de documentos de su venta. Ha interactuado por teléfono y WhatsApp en sus últimos reportes.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó fallas mecánicas iniciales y solicitó revisión gratuita.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización sobre el estado de la reparación y quejas por retrasos.",
+      "nps": null
+    }
+  ],
+  "problema": "El automóvil comprado presenta fallas mecánicas que no han sido resueltas a tiempo. Además, la gestión para la venta de su anterior vehículo ha registrado demoras administrativas que le generan estrés y pérdida de confianza.",
+  "expectativa_solucion": "Quiere una solución rápida y eficiente para reparar su auto, que le den claridad y rapidez en la documentación de su venta y un compromiso concreto para evitar futuras demoras que afecten su rutina.",
+  "prompt_conversacional": "El cliente está frustrado y se siente estresado por la lentitud en la atención a sus problemas mecánicos y documentación. Escucha activamente y muestra empatía sincera. Contén su frustración reconociendo su situación y acuerda pasos claros con tiempos específicos para resolver ambas situaciones, garantizando seguimientos puntuales."
+}

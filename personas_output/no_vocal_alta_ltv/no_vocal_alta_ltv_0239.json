@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 475000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis es un profesional con buen nivel económico que valora la eficiencia y la tecnología. Ya tiene un coche comprado a través de Kavak y está abierto a mejorar su vehículo a uno más nuevo cuando reciba una oferta atractiva. Prefiere que la comunicación sea digital y sin llamadas para no interrumpir su jornada laboral.",
+  "historia_revelada": "Luis ha comprado dos vehículos exitosamente en Kavak en los últimos cuatro años. Prefiere ser contactado por email o notificaciones push en la app para ofertas y novedades. No ha iniciado contacto reciente con la plataforma, pero su perfil indica interés en autos más recientes y mejor equipados.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Luis valoraría una comunicación digital más personalizada con recomendaciones de vehículos que se adapten a sus necesidades actuales, ofertas exclusivas y la posibilidad de recibir una cotización rápida sin llamadas ni interrupciones.",
+  "prompt_conversacional": "Soy un comprador experimentado en Kavak con buen historial pero sin contacto reciente. Prefiero canales digitales para comunicarme y estoy abierto a conocer ofertas de autos más nuevos, pero no quiero llamadas ni muchas interrupciones."
+}

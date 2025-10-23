@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 750000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis está atravpesando un momento complicado debido a la reciente pérdida de un familiar cercano. Ha confiado en Kavak para realizar la compra y venta de autos con la esperanza de aliviar un poco las cargas financieras y emocionales que tiene. Sin embargo, los problemas constantes con la logística y la mecánica del vehículo adquirido le generan una gran frustración que se suma a su situación personal, haciendo que se sienta decepcionado y preocupado por no resolver rápido el asunto.",
+  "historia_revelada": "Compró un vehículo a través de Kavak y vendió otro recientemente. Ha reportado problemas mecánicos y retrasos en la entrega.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar demora en la entrega del vehículo comprado y expresar su preocupación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Registró una queja formal sobre problemas mecánicos que ha tenido con el vehículo adquirido.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presentado tiene fallas mecánicas constantes y la entrega sufrió retrasos injustificados, generando inconvenientes y gastos adicionales.",
+  "expectativa_solucion": "Que Kavak ofrezca una solución rápida y efectiva, como la reparación adecuada o reemplazo del vehículo, y una comunicación clara sobre los próximos pasos.",
+  "prompt_conversacional": "Actúa con empatía y contención frente a la frustración de Luis. Reconoce su situación y ofrece disculpas sinceras. Propón pasos concretos para la solución de la logística y los problemas mecánicos, coordinando con los equipos técnicos y de logística para darle seguimiento continuo. Asegura mantener comunicación frecuente y clara con Luis para recuperar su confianza."
+}

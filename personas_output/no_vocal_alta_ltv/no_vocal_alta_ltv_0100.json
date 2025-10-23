@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 42,
+  "ciudad": "Monterrey",
+  "ocupacion": "Empresario",
+  "relacion_kavak": "compra",
+  "ltv": 520000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis es un empresario estable en Monterrey que disfruta de autos de alta gama para su uso personal y ocasionalmente para su familia. Valora mucho la confianza y la calidad en sus compras, y suele ser muy analítico antes de hacer adquisiciones importantes. Tiene un estilo de vida cómodo y busca siempre optimizar sus inversiones, incluyendo sus vehículos. Prefiere mantener bajo perfil y no suele iniciar contacto con proveedores a menos que reciba ofertas o información relevante que llamen su atención.",
+  "historia_revelada": "Luis ha comprado dos vehículos a través de Kavak en los últimos 3 años sin inconvenientes ni reclamaciones. Ambas compras fueron exitosas, con entregas a tiempo y experiencia satisfactoria con la plataforma y la atención. Prefiere comunicarse por email y ocasionalmente por la app para recibir notificaciones y ofertas exclusivas. No ha respondido a llamadas telefónicas o mensajes directos recientes.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valorar una comunicación más personalizada y relevante vía email con ofertas exclusivas y novedades sobre modelos premium que le puedan interesar. Apreciaría recibir invitaciones a eventos privados o promociones VIP que le permitan explorar opciones para su próxima compra sin compromisos.",
+  "prompt_conversacional": "Luis es un comprador selectivo y exigente pero no suele iniciar contacto. Se muestra receptivo ante comunicaciones claras, exclusivas y bien segmentadas. Se debe invitar a descubrir modelos premium y beneficios especiales para clientes con buen historial, sin ser invasivo."
+}

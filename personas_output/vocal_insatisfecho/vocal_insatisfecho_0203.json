@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente perdió tiempo valioso debido a retrasos en el mantenimiento de su vehículo comprado en Kavak. Además, enfrenta presión laboral intensa y no puede permitirse más inconvenientes, lo que incrementa su frustración. Se siente decepcionado porque esperaba un servicio ágil y confiable, pero la logística y problemas mecánicos lo están afectando emocionalmente y económicamente.",
+  "historia_revelada": "Cliente compró un vehículo hace 4 meses y ha vendido dos autos con Kavak. Ha reportado problemas mecánicos en el vehículo recientemente adquirido y ha experimentado retrasos en el taller para su reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Consultó sobre el retraso en la entrega del vehículo tras mantenimiento programado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Reportó falla mecánica en el vehículo y solicitó soporte urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas recurrentes y el taller ha demorado varias semanas en realizar las reparaciones. Esto ha causado grandes molestias y pérdidas de tiempo, afectando mis actividades diarias.",
+  "expectativa_solucion": "Espero que Kavak agilice la reparación o proponga una solución efectiva y rápida para que pueda usar mi vehículo sin inconvenientes.",
+  "prompt_conversacional": "Evalúa las emociones de frustración del cliente con empatía y paciencia. Contén su molestia validando su experiencia. Proponle pasos concretos y claros para resolver el problema, incluyendo tiempos estimados y posibles alternativas, asegurando un acompañamiento humano durante el proceso."
+}

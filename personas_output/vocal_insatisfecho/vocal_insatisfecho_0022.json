@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana está atravesando un momento personal estresante debido a problemas económicos tras el nacimiento reciente de su hijo. Depende mucho de su auto para el trabajo y el día a día familiar, y la demora en la entrega de su vehículo y las fallas mecánicas le generan mucha ansiedad y frustración porque teme afectar su estabilidad y la de su familia.",
+  "historia_revelada": "Mariana realizó la compra y venta de un vehículo a través de Kavak hace dos meses. Actualmente reporta fallas mecánicas en su auto nuevo y retrasos en la logística para su reparación. Ha estado en contacto con el soporte varias veces.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar fallas mecánicas en el vehículo reciente y solicitar una revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización sobre el estado de la reparación y expresó frustración por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "Mi auto comprado en Kavak tiene fallas mecánicas graves y llevo semanas esperando que solucionen el problema. Además, la logística para recogerlo y entregarlo reparado es muy lenta y nada clara, lo que ha complicado mucho mi movilidad diaria y mi trabajo.",
+  "expectativa_solucion": "Espero que Kavak agilice la reparación y la logística, me brinde información clara y compense las molestias causadas para recuperar la confianza.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Mariana. Valida su molestia por los problemas mecánicos y la logística lenta. Propón pasos claros y concretos para acelerar la solución, como ofrecer un vehículo temporal o prioritizar la reparación, y asegúrale seguimiento constante para recuperar su confianza."
+}

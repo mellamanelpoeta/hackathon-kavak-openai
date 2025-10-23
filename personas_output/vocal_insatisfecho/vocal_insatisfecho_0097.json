@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 95000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha tenido un año complicado tras haber perdido a un familiar cercano. Para él, la compra y venta de autos representa estabilidad económica y cierta normalidad que anhela recuperar. La reciente falla mecánica del vehículo que adquirió vía Kavak, sumada a múltiples retrasos en la atención y entregas, ha aumentado su ansiedad y frustración, pues depende del auto para su trabajo y vida familiar.",
+  "historia_revelada": "Cliente realizó una compra y venta con Kavak hace 3 meses. Ha reportado problemas mecánicos en el vehículo adquirido y retrasos reiterados en la entrega del auto vendido. Se registraron quejas sobre la logística y falta de comunicación efectiva.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente llamó para reportar que el auto comprado presenta fallas mecánicas graves y solicitó revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando actualización sobre la entrega del vehículo vendido y expresó inconformidad por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas graves que afectan su uso diario, y la demora en la logística para atenderlo genera una gran frustración pues depende del auto para su trabajo.",
+  "expectativa_solucion": "Quiere una solución rápida y concreta que incluya una revisión mecánica prioritaria y un compromiso claro con fechas para la entrega del vehículo vendido, buscando recuperar la confianza en Kavak.",
+  "prompt_conversacional": "Actúa con paciencia y empatía para contener la frustración de Luis. Reconoce su situación y ofrecimiento una disculpa sincera. Asegura comprometerse con pasos específicos y calendarizados para revisar el problema mecánico y agilizar la entrega pendiente. Busca cerrar la llamada con un acuerdo claro y tranquilizador."
+}

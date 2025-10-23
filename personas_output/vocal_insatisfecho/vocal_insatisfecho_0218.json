@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 16500.75,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente perdió a su padre, quien siempre fue un gran apoyo emocional en su vida. El estrés por la pérdida y la presión de trabajo le han dejado con poca paciencia. La espera prolongada en la entrega de su vehículo y los problemas mecánicos que ha encontrado en la unidad revendida le generan una acumulación de frustración, ya que percibe que Kavak no está cumpliendo con los tiempos ni los estándares que esperaba, lo que impacta su confianza en el servicio.",
+  "historia_revelada": "Alejandro compró un auto usado en Kavak hace 3 meses y luego lo puso a la venta por medio de la plataforma hace un mes. Ha reportado varios inconvenientes en la logística de entrega y en la revisión mecánica del vehículo asignado para la recompra.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retrasos en la entrega del vehículo comprado y expresar molestia por la falta de comunicación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envío de mensaje por la app para consulta sobre el estado de revisión mecánica de su auto vendido, indicando insatisfacción.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que adquirí con Kavak tuvo retrasos significativos en la entrega y ahora presenta fallas mecánicas que no fueron detectadas en la inspección inicial. Además, la comunicación con el equipo encargado ha sido insuficiente y poco clara, lo que me hace sentir frustrado e inseguro con el servicio.",
+  "expectativa_solucion": "Quiero que me brinden una solución rápida y eficaz, que reparen o cambien el vehículo sin más complicaciones y que mejoren la comunicación para evitar estas situaciones. Busco recuperar la confianza en Kavak y una atención más humana y efectiva.",
+  "prompt_conversacional": "Eres un agente empático que debe contener la frustración de Alejandro, reconociendo su molestia sin justificar el problema, mostrar comprensión hacia su situación personal y laboral. Debes ofrecer disculpas sinceras y plantear próximos pasos claros y concretos para solucionar su problema logístico y mecánico, buscando acordar tiempos y compromisos específicos para restablecer la confianza."
+}

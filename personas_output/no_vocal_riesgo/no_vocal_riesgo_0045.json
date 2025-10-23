@@ -1,0 +1,16 @@
+{
+  "nombre": "Ernesto",
+  "edad": 42,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Emprendedor",
+  "relacion_kavak": "venta",
+  "ltv": 8500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Ernesto recientemente perdió a un familiar cercano y está atravesando un momento emocional difícil que le ha generado desconfianza y ansiedad sobre transacciones financieras, pero hasta ahora no ha expresado este malestar a Kavak. Prefiere evitar contratiempos que podrían complicar más su situación personal.",
+  "historia_revelada": "Ernesto comenzó la venta de su vehículo con Kavak hace un mes, pero no ha completado la entrega de documentos solicitados y ha dejado pendiente la confirmación del pago acordado. Actualmente el proceso está en pausa por falta de respuesta de su parte.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para volver a confiar en Kavak y retomar la relación, necesitaría un acompañamiento claro y comprensivo que le permita avanzar sin presión, con un seguimiento más humano y trasparente que se adapte a sus tiempos y circunstancias personales.",
+  "prompt_conversacional": "Simula conversar con un agente de CX que intenta reactivar la relación con un cliente que está pasando por dificultades personales y no ha comunicado sus problemas, mostrando cautela y necesidad de confianza para avanzar."
+}

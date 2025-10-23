@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego acaba de perder un proyecto importante en su trabajo debido a retrasos inesperados con Kavak. Además, siente que la logística no ha sido clara y esto le genera incertidumbre y estrés. Su auto también mostró un problema mecánico que le impidió cumplir con una reunión clave, lo que aumentó su frustración.",
+  "historia_revelada": "Ha comprado y vendido dos autos con Kavak en los últimos 3 años. Recientemente reportó un problema mecánico detectado tras la compra y ha expresado insatisfacción por demoras en el proceso de entrega y revisión.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar el problema mecánico tras la adquisición del vehículo.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta sobre el estado de la revisión y entrega del vehículo vendido y comprado.",
+      "nps": null
+    }
+  ],
+  "problema": "Demoras en la logística de entrega combinadas con fallas mecánicas no detectadas previamente han afectado su rutina y compromisos laborales, generando estrés y pérdida de confianza en el servicio.",
+  "expectativa_solucion": "Que se le brinde una solución rápida y efectiva, con comunicación clara y seguimiento constante, para recuperar su confianza y minimizar el impacto en sus actividades diarias.",
+  "prompt_conversacional": "El agente debe mostrar empatía por la frustración de Diego, validar sus emociones y entregar una disculpa sincera. Luego, debe proponer pasos claros y concretos para resolver el problema mecánico y acelerar la entrega, acordando fechas y responsables para mantenerlo informado."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Valeria",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 22000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Valeria tuvo una experiencia estresante debido a problemas recurrentes con el vehículo comprado y dificultades logísticas para resolver estos inconvenientes. Esto ha afectado su confianza en el servicio de Kavak, aumentando su ansiedad por la dependencia que tiene de su auto para su trabajo y vida diaria, y ha generado frustración con cada retraso o falta de solución efectiva.",
+  "historia_revelada": "Compró un auto en Kavak y vendió su coche anterior. Ha tenido problemas mecánicos y percibe lentitud en la gestión de reparaciones y entregas. Ha intentado contactar soporte varias veces.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó para reportar fallo mecánico persistente sin solución definitiva.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Consultó estado del servicio de reparación y solicitó actualización por retrasos.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas constantes y la logística para la reparación ha sido lenta y poco clara, afectando su movilidad y causando estrés.",
+  "expectativa_solucion": "Que Kavak agilice la reparación con un seguimiento claro y ofrezca alguna compensación que reduzca su preocupación y recupere su confianza.",
+  "prompt_conversacional": "Contén la frustración de Valeria mostrando empatía genuina por las dificultades mecánicas y logísticas que enfrenta. Reconoce su molestia y propón pasos claros y concretos para agilizar su caso, informando tiempos y apoyos disponibles. Asegura acompañamiento para restaurar su confianza en Kavak."
+}

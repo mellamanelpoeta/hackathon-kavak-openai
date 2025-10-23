@@ -1,0 +1,27 @@
+{
+  "nombre": "Esteban",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñador gráfico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Esteban ha tenido una semana muy estresante con múltiples responsabilidades familiares y laborales. La demora inesperada en la entrega del auto que vendió y la falta de respuesta clara sobre el estado del vehículo que compró le generan ansiedad, pues necesita el auto para movilizarse y cuidar de sus hijos. Se siente frustrado y poco escuchado, lo cual afecta su confianza hacia Kavak.",
+  "historia_revelada": "Esteban realizó la compra y venta de un automóvil a través de Kavak hace 3 semanas. Ha reportado retrasos en la logística de entrega y problemas mecánicos detectados en el auto adquirido que no fueron aclarados inicialmente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar el retraso en la entrega del automóvil vendido y expresar preocupación por la falta de información.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envió mensajes solicitando actualización sobre la revisión mecánica del auto que compró, mostrando frustración por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos prolongados en la entrega del auto vendido y problemas mecánicos en el auto comprado que no se notificaron, generando desconfianza y estrés por la falta de apoyo claro.",
+  "expectativa_solucion": "Que Kavak agilice la logística, brinde una revisión mecánica certificada y comunicación transparente con soluciones concretas para restablecer la confianza.",
+  "prompt_conversacional": "Actúa con empatía y comprensión ante la frustración de Esteban. Contén su molestia validando su ansiedad y preocupaciones. Asegura un plan de acción claro con pasos concretos para resolver los problemas de logística y mecánica, y acuerda tiempos específicos de seguimiento."
+}

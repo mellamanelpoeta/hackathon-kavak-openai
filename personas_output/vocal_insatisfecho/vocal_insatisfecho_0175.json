@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 75000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha comprado y vendido autos con Kavak varias veces, pero recientemente sufrió un problema serio con la entrega de un vehículo adquirido que llegó con fallas mecánicas inesperadas. Esto le generó mucha frustración porque requiere el auto para su traslado diario al trabajo y tiene un hijo pequeño que depende de él. Además, es una persona que valora mucho la eficiencia y la puntualidad, por lo que la demora y la falta de comunicación han deteriorado su confianza en la empresa.",
+  "historia_revelada": "Cliente ha realizado dos transacciones de compra y venta con Kavak. Última compra fue há 3 semanas. Reportó un incidente mecánico con el auto recibido y ha hecho seguimiento con atención al cliente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reportó fallas mecánicas del vehículo entregado y solicitó información sobre la reposición o solución.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Reclamación formal enviada solicitando solución rápida y compensación por el daño causado.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presentó fallas mecánicas graves al momento de la entrega que impiden su uso diario. La atención subsecuente ha sido lenta y con poca claridad en los tiempos de resolución, afectando la movilidad y generando estrés familiar.",
+  "expectativa_solucion": "Luis desea una solución rápida y concreta, que puede ser una reparación inmediata o una sustitución del vehículo en condiciones óptimas, además de una comunicación clara sobre los pasos y tiempos para resolver el problema.",
+  "prompt_conversacional": "Contén la frustración de Luis mostrando empatía por el impacto que el problema mecánico le ha causado. Reafirma nuestro compromiso para resolver la situación y establece junto con él próximos pasos claros y específicos para la reparación o sustitución, con tiempos concretos y seguimiento cercano."
+}

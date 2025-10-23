@@ -1,0 +1,22 @@
+{
+  "nombre": "Sofía",
+  "edad": 32,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra",
+  "ltv": 320000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Sofía es una profesional creativa que recientemente decidió adquirir su primer automóvil propio para facilitar sus traslados laborales y personales en Monterrey. Valora la transparencia y la facilidad en procesos digitales debido a su ritmo de vida dinámico.",
+  "historia_revelada": "Sofía compró un Honda Civic 2020 el 10 de marzo de 2024 a través de la plataforma de Kavak. La entrega se realizó el 20 de marzo de 2024, y ha reportado que el vehículo se encuentra en excelentes condiciones y que el proceso de compra fue claro y eficiente.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Sofía calificó su experiencia de compra con un NPS de 9 y felicitó la facilidad de la plataforma y el soporte recibido.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Que Kavak mantenga la misma calidad y eficiencia para futuras compras o servicios, asegurando una experiencia confiable.",
+  "prompt_conversacional": "Como cliente satisfecha y reciente compradora, Sofía espera una atención amable, eficiente y que se le ofrezcan beneficios para mantener su fidelidad con Kavak."
+}

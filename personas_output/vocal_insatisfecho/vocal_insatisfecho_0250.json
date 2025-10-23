@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis depende de su vehículo para sus trayectos diarios al trabajo y para transportar a su familia. Tiene una agenda muy apretada y cualquier falla mecánica o retraso logístico le genera mucha ansiedad y estrés. La inseguridad de no contar con un transporte confiable está afectando su estabilidad emocional y su confianza en Kavak.",
+  "historia_revelada": "Compra un auto hace 4 meses y vende otro a través de Kavak. Ha reportado problemas mecánicos persistentes en la unidad comprada y retrasos en la entrega del vehículo que vendió.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar la falla en el motor del vehículo que compró; expresó frustración por la demora en la solución.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre el estado del trámite de venta, preocupado por la falta de actualización en la entrega.",
+      "nps": 7
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas que no han sido solucionadas oportunamente, además el vehículo que vendió tuvo retrasos en la entrega afectando su movilidad y generándole costos adicionales.",
+  "expectativa_solucion": "Quiero una respuesta clara y rápida sobre la reparación definitiva de mi auto y un compromiso concreto sobre la logística de entrega para no seguir perdiendo tiempo ni dinero.",
+  "prompt_conversacional": "El agente debe mostrar empatía y contener la frustración de Luis, reconociendo el impacto emocional y práctico de los problemas mecánicos y logísticos. Debe acordar próximos pasos específicos y plazos claros para la solución, asegurando seguimiento constante y transparencia."
+}

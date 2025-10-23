@@ -1,0 +1,27 @@
+{
+  "nombre": "Ana María",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ana María recientemente perdió a su padre y ha estado bajo mucho estrés personal. La compra de un auto usado en Kavak pretendía facilitar su movilidad para sus responsabilidades laborales y familiares, pero los problemas mecánicos y de logística que ha experimentado han aumentado su ansiedad y frustración, sintiendo que no puede confiar en el servicio cuando más lo necesita.",
+  "historia_revelada": "Cliente realizó la compra de un vehículo y además tiene un vehículo en venta con Kavak. Ha reportado fallas mecánicas y retrasos en la entrega tanto del automóvil adquirido como problemas en la gestión de su automóvil en venta.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas con la entrega y solicitó información sobre estado de su vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Consultó vía chat sobre procesos para devolución y se mostró insatisfecha con la solución parcial ofrecida.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que no fueron informadas inicialmente y la entrega ha sufrido múltiples retrasos, generando inconvenientes en sus actividades diarias y desconfianza hacia Kavak.",
+  "expectativa_solucion": "Que Kavak gestione con rapidez la revisión o reemplazo del vehículo afectado y mejore la comunicación, ofreciendo una solución definitiva y acompañamiento claro para restaurar la confianza.",
+  "prompt_conversacional": "Actúa con empatía y paciencia ante la frustración de Ana María. Contén su molestia escuchando activamente y reconoce el impacto personal. Propón pasos concretos y claros para resolver el problema, asegurando seguimiento cercano y compromiso con una solución rápida."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 28000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió tiempo valioso debido a la falta de respuesta oportuna sobre el estado mecánico de su vehículo comprado a través de Kavak. Esto lo tiene frustrado, pues confía en la marca para evitar problemas logísticos. Además, tiene presión laboral que limita su disponibilidad para ir personalmente al taller, incrementando su estrés y molestia al sentir que no se atienden sus necesidades rápidamente.",
+  "historia_revelada": "Cliente con dos operaciones registradas: compra y posterior venta de vehículo usado. Ha reportado retrasos en la entrega y problemas mecánicos no anticipados en su última compra. La atención previa no resolvió completamente sus dudas ni reparaciones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Consultó sobre el estatus de la reparación del vehículo, expresó molestia por la demora.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió reclamo formal solicitando pronta solución a inconvenientes mecánicos detectados.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos continuos en la atención mecánica del vehículo comprado, falta de comunicación clara sobre tiempos de solución, lo que ha afectado sus planes y generado incertidumbre y enojo.",
+  "expectativa_solucion": "Que Kavak agilice la reparación, mejore la comunicación proactiva sobre el status y ofrezca una compensación justa por los inconvenientes sufridos.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Luis. Reconoce su molestia por los retrasos y falta de información clara. Propón próximos pasos concretos, como una actualización inmediata del estatus, fechas exactas de entrega, y una propuesta de compensación para recuperar su confianza."
+}

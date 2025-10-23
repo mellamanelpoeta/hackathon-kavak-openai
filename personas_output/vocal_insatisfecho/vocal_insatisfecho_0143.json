@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1500000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos depende mucho de su auto para trasladarse al trabajo y cuidar a sus hijos. Recientemente experimentó retrasos graves en la entrega del vehículo que compró por problemas mecánicos no previstos, lo que le generó mucha ansiedad y frustración porque tuvo que gastar en transporte alternativo de última hora y perdió días importantes en la oficina. Siente que la comunicación de Kavak no ha sido clara ni oportuna, lo que incrementa su malestar y preocupación por la confiabilidad del servicio.",
+  "historia_revelada": "Compró un automóvil a través de Kavak pero ha tenido que vender otro vehículo. La última compra presentó problemas mecánicos que retrasaron la entrega. Ha reportado incidencias por canales telefónicos y por correo electrónico.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problemas mecánicos en vehículo entregado y solicitando actualización urgente del estado de la reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo enviado expresando descontento por el retraso en la entrega y falta de información clara.",
+      "nps": null
+    }
+  ],
+  "problema": "Retraso en la entrega de su vehículo comprado debido a problemas mecánicos. La falta de comunicación clara y oportuna ha generado frustración y ha afectado su rutina diaria y confianza en Kavak.",
+  "expectativa_solucion": "Que Kavak agilice la reparación, mejore la comunicación con un seguimiento transparente y ofrezca una compensación o solución concreta que le permita recuperar la confianza y normalizar su movilidad cuanto antes.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración del cliente Carlos con empatía y reconocimiento de las molestias causadas. Tu objetivo es validar su experiencia negativa, disculparte sinceramente, explicar pasos claros y realistas para resolver el problema mecánico, ofrecer alternativas mientras tanto y acordar un seguimiento de llamada con fecha y hora concreta para evitar incertidumbre."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 22500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos compró y vendió autos con Kavak varias veces en los últimos 3 años, confiando en la plataforma para sus autos de trabajo y personales. Recientemente, al comprar un vehículo que necesitaba para su familia, experimentó múltiples retrasos en la entrega y fallas mecánicas que le han generado mucha frustración, ya que confía mucho en su medio de transporte para llegar a tiempo a su trabajo y cuidar a sus hijos. La falta de comunicación clara y solución rápida ha aumentado su ansiedad y desconfianza hacia Kavak, afectando su percepción emocional del servicio y su estabilidad diaria.",
+  "historia_revelada": "Cliente con 3 compras y 2 ventas exitosas en Kavak, última compra con retraso en entrega y reportes de fallas mecánicas que están pendientes de resolver.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reportó retraso significativo en la entrega del vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Solicitó información y solución a fallas mecánicas detectadas tras la entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos reiterados en la entrega del vehículo y problemas mecánicos no resueltos que le han causado inconvenientes personales y laborales.",
+  "expectativa_solucion": "Desea una solución rápida y concreta que incluya reparación efectiva o un cambio de vehículo, con comunicación clara para recuperar la confianza con Kavak.",
+  "prompt_conversacional": "Eres un agente empático que debe contener la frustración de Carlos escuchando activamente su situación, reconociendo la importancia de su problema y comprometiéndote a coordinar una solución rápida y pasos claros para la reparación o reemplazo de su vehículo, cuidando que se sienta atendido y confiado durante la conversación."
+}

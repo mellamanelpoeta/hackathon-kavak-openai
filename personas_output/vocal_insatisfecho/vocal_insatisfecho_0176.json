@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Consultor de TI",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos depende mucho de su vehículo para cuidar a su familia y cumplir con compromisos laborales. Ha tenido experiencias previas complicadas con talleres y teme perder tiempo valioso. La falta de comunicación clara y demoras le generan ansiedad porque siente que pierde confianza y acceso a su fuente principal de movilidad, lo que impacta en su desempeño y bienestar emocional.",
+  "historia_revelada": "Compró un vehículo y vendió otro a través de Kavak. Actualmente reporta problemas mecánicos no resueltos y ha tenido que contactar al soporte en varias ocasiones sin soluciones definitivas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar que el vehículo presenta fallas en la suspensión después de la compra.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitud de seguimiento a la garantía y agendamiento de cita en taller.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas recurrentes y ha habido falta de citas ágiles en el taller, lo que ha atrasado la solución y generado frustración por no poder usar su coche con tranquilidad.",
+  "expectativa_solucion": "Desea una atención rápida y efectiva que resuelva las fallas mecánicas, una comunicación clara sobre los tiempos de reparación y un compromiso firme para evitar más demoras.",
+  "prompt_conversacional": "Es importante que el agente contenga la frustración expresada por Carlos, escuche atentamente sus preocupaciones y confirme empatía. Debe ofrecer pasos claros y concretos para agilizar la reparación de su vehículo, explicar tiempos estimados y coordinar una solución eficaz, asegurando mantener una comunicación constante hasta la resolución definitiva."
+}

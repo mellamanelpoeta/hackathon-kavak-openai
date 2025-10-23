@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente compró un auto usado a través de Kavak y también vendió uno anterior. Está bajo mucha presión laboral y económica debido a una reciente restructuración en su empresa, y esperaba que la compra y venta del auto fueran procesos fluidos para no añadir estrés adicional. Sin embargo, la entrega se ha retrasado y el vehículo presenta fallas mecánicas que no esperaba, generándole frustración y decepción porque confiaba en la calidad del servicio y del auto para moverse diariamente a su trabajo y actividades familiares.",
+  "historia_revelada": "Cliente compró un vehículo usado hace un mes y vendió el vehículo anterior simultáneamente. Ha reportado problemas mecánicos recientes y múltiples demoras en la entrega y revisiones del auto comprado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó expresando su molestia por el retraso en la entrega del vehículo y petición de solución rápida.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte de incidencia mecánica a través de la aplicación y solicitud de seguimiento urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que no fueron informadas inicialmente, y además ha habido retrasos reiterados en la entrega definitiva, lo que afecta su rutina diaria y genera incertidumbre sobre la confiabilidad del servicio.",
+  "expectativa_solucion": "Quiere que se le ofrezca una solución rápida y concreta, ya sea la reparación inmediata del vehículo o un reemplazo, además de una compensación por las molestias, para recuperar su confianza en Kavak.",
+  "prompt_conversacional": "Contener la frustración de Alejandro con empatía, reconocer el impacto negativo que ha tenido la situación en su vida diaria, y acordar próximos pasos claros y concretos para resolver el problema mecánico y el tema logístico, asegurando comunicación constante y seguimiento personalizado."
+}

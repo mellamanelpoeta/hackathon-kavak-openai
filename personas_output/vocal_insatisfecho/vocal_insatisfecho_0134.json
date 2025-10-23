@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 68000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos depende de su vehículo para trasladarse al trabajo y atender asuntos familiares importantes. Tiene alta ansiedad por la incertidumbre generada por retrasos en la entrega de su auto y problemas mecánicos recurrentes. Esto le provoca frustración porque siente que la falta de comunicación y atención de Kavak afecta su estabilidad laboral y emocional.",
+  "historia_revelada": "Compró un vehículo usado y vendió otro mediante Kavak hace dos meses. Ha reportado dos incidencias por problemas mecánicos que no han sido resueltas en tiempo y forma. Ha contactado por teléfono y a través de la app sin respuesta satisfactoria.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar falla mecánica persistente. Solicitud de seguimiento urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Mensaje apremiante pidiendo actualización sobre reparación y fecha de entrega del vehículo comprado.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos constantes en la reparación mecánica de su auto y falta de información clara sobre los avances, lo que le genera mucha incertidumbre y afecta su vida diaria.",
+  "expectativa_solucion": "Que Kavak agilice las reparaciones y le proporcione información constante y clara para recuperar la confianza y poder usar su auto sin preocupaciones.",
+  "prompt_conversacional": "Contén la frustración de Carlos mostrando empatía hacia su situación emocional. Recalca que entiendes la importancia de su vehículo en su vida diaria. Propón pasos concretos para resolver la reparación, incluyendo tiempos específicos, y acuerda un canal de comunicación claro para mantenerlo informado."
+}

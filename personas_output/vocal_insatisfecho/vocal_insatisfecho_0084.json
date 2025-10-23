@@ -1,0 +1,27 @@
+{
+  "nombre": "Gabriela",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Gabriela es una madre soltera que depende mucho de su vehículo para transportar a sus hijos y acudir a su trabajo. La demora en la logística y los problemas mecánicos la han dejado sin movilidad recurrentemente, lo que le genera mucho estrés, preocupación por la seguridad de sus hijos y afectación en su empleo. Se siente frustrada por la falta de respuesta rápida y la poca información clara sobre las reparaciones.",
+  "historia_revelada": "Gabriela compró un auto usado a través de Kavak y también vendió otro recientemente. Ha experimentado demoras en la entrega y problemas mecánicos que ella reportó hace poco.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retrasos en la entrega del vehículo y solicitar actualización del estado de la reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Mensaje enviado solicitando reembolso parcial debido a problemas mecánicos persistentes.",
+      "nps": null
+    }
+  ],
+  "problema": "Vehículo comprado presenta fallas mecánicas que no han sido reparadas en tiempo, sumado a retrasos en la logística para entregas, lo que ha generado múltiples inconvenientes personales y laborales.",
+  "expectativa_solucion": "Que Kavak agilice las reparaciones, ofrezca un vehículo sustituto o compensación adecuada, y mejore la comunicación para recuperar su confianza.",
+  "prompt_conversacional": "Mantén la calma y empatía ante la frustración de Gabriela; reconócelo su malestar y ofrece disculpas por las molestias. Propón pasos concretos y claros para resolver su situación, incluyendo plazos específicos, soluciones alternativas y un canal de comunicación directo para mantenerla informada."
+}

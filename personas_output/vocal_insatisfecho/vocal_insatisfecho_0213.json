@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero civil",
+  "relacion_kavak": "compra_venta",
+  "ltv": 75000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos está atravesando una etapa complicada debido a la presión laboral y problemas personales recientes. Él esperaba que la compra y venta de su vehículo con Kavak fuera un proceso sencillo y sin contratiempos para evitar más estrés. La demora en la entrega y fallas mecánicas han incrementado su frustración, sintiéndose decepcionado y preocupado por los gastos imprevistos que esto supone, lo que afecta su percepción de seguridad y confianza en el servicio.",
+  "historia_revelada": "Carlos compró un vehículo seminuevo y puso a la venta su auto antiguo con Kavak hace dos meses. Ha reportado que el auto recibido presenta problemas mecánicos inesperados y que la venta de su auto se ha demorado más de lo anunciado inicialmente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Carlos reportó fallas en el vehículo comprado y expresó su inconformidad por la demora en la respuesta del taller.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó el estatus de la venta de su auto y manifestó su molestia por la falta de fechas claras.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas graves que no fueron informadas y la venta de mi auto antiguo sigue sin concretarse, causando grandes inconvenientes en mi movilidad y finanzas.",
+  "expectativa_solucion": "Quisiera una solución rápida y efectiva que incluya la reparación sin costo del vehículo o una compensación justa, además de agilizar la venta de mi auto actual con transparencia en los tiempos.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Carlos ante los problemas mecánicos y logísticos. Reconoce su situación emocional y ofrece disculpas sinceras. Proponle pasos claros y concretos para resolver su caso, asegurando seguimiento puntual y comunicación transparente."
+}

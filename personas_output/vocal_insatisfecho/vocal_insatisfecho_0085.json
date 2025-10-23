@@ -1,0 +1,27 @@
+{
+  "nombre": "Ernesto",
+  "edad": 42,
+  "ciudad": "Monterrey",
+  "ocupacion": "Consultor empresarial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 25000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ernesto compró y vendió autos con Kavak varias veces, pero recientemente ha experimentado retrasos significativos en la entrega del vehículo que vendió, lo que afecta su movilidad laboral. Su frustración crece porque depende mucho del auto para visitas a clientes y teme perder oportunidades de negocio. Además, siente que sus mensajes no son atendidos con la urgencia que él espera, lo que le genera ansiedad y desconfianza hacia el servicio.",
+  "historia_revelada": "Cliente con 3 transacciones previas exitosas. Últimamente reportó retrasos de más de 2 semanas en la recolección del vehículo vendido y problemas en la inspección mecánica solicitando clarificaciones. Ha interactuado con soporte vía teléfono y WhatsApp sin recibir solución definitiva.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en recolección del vehículo vendido y expresar molestia.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje detallando problemas en la inspección mecánica y solicitando apoyo urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que vendí a través de Kavak no ha sido recogido en la fecha pactada y además detectaron problemas mecánicos que no me habían informado, lo que retrasa la entrega y genera incertidumbre en mis planes personales y profesionales.",
+  "expectativa_solucion": "Quiero que se agilice la recolección del auto y que me brinden un informe claro y detallado sobre el estado mecánico para poder tomar decisiones informadas cuanto antes.",
+  "prompt_conversacional": "Interpreta a Ernesto como un cliente frustrado por problemas logísticos y mecánicos recientes. Mantén una actitud empática y calmada, valida sus molestias y ofrece soluciones concretas. El objetivo es contener su frustración y acordar con él pasos inmediatos para resolver el problema, asegurando una comunicación clara sobre los tiempos y acciones a seguir."
+}

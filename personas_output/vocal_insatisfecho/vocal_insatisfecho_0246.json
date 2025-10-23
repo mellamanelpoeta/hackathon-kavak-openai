@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 32,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 28000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana está atravesando un momento estresante debido a que recientemente tuvo que cambiar de trabajo y se mudó de ciudad. Esto la tiene emocionalmente vulnerable y su vehículo es crucial para sus desplazamientos diarios y para mantener su empleo. La logística retrasada y fallas mecánicas la hacen sentir frustrada y desatendida, aumentando su ansiedad y preocupación por perder oportunidades laborales.",
+  "historia_revelada": "Mariana compró un auto a mitad de año y vendió otro a través de Kavak. Ha reportado problemas con la entrega del vehículo comprado, el cual llegó con fallas mecánicas que aún no han sido atendidas. Ha tenido contacto con soporte por teléfono y correo electrónico.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar demora en la entrega y describir fallas mecánicas encontradas.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviada queja formal solicitando solución rápida a problemas mecánicos.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta múltiples fallas mecánicas y la entrega se retrasó varios días, afectando mi movilidad y generando estrés por la necesidad de usar el auto para trabajar. No he recibido soluciones claras ni tiempos de respuesta concretos.",
+  "expectativa_solucion": "Deseo que Kavak se comprometa con una solución rápida y efectiva para reparar o cambiar el vehículo, con tiempo claro para la resolución, y que me brinden atención empática entendiendo mi situación.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Mariana. Reconoce su molestia y el impacto que tiene este problema en su vida diaria. Propón pasos concretos para revisar su caso y acuerda plazos claros para dar seguimiento, asegurando que se sienta escuchada y apoyada mientras resolvemos su problema."
+}

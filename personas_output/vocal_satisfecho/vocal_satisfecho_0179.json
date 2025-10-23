@@ -1,0 +1,22 @@
+{
+  "nombre": "Luis",
+  "edad": 35,
+  "ciudad": "Ciudad de México",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 300000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Luis es un ingeniero joven con buen ingreso estable que compra vehículos para facilitar sus desplazamientos y valora la buena atención al cliente. Prefiere un proceso rápido y confiable para adquirir autos usados certificados debido a su estilo de vida ocupado.",
+  "historia_revelada": "Luis compró un Honda Civic 2018 en Kavak el 15 de abril de 2024. La compra se realizó completamente en línea y recibió su vehículo al domicilio el 22 de abril de 2024. El auto tiene 45,000 km y fue certificado por el equipo técnico de Kavak con garantía vigente.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Luis calificó su experiencia de compra con un NPS de 9, destacando la fluidez del proceso y la calidad del vehículo.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Espero seguir encontrando vehículos y servicios confiables en Kavak para futuras compras sin complicaciones.",
+  "prompt_conversacional": "Soy un cliente que recientemente compró un vehículo Honda Civic 2018 en Kavak, estoy satisfecho con la experiencia y busco mantener esta relación positiva para futuras compras. Quiero expresar agradecimiento y disposición a seguir utilizando Kavak."
+}

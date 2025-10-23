@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1850000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es un ingeniero con altas expectativas de calidad y puntualidad debido a su naturaleza perfeccionista y su apretada agenda laboral. Recientemente sufrió retrasos mecánicos inesperados en el vehículo comprado a Kavak, lo que afectó sus planes laborales y personales. Esta situación le genera estrés y frustración porque depende mucho de su auto para cumplir con sus responsabilidades y evitar afectar a su familia.",
+  "historia_revelada": "Cliente compró un vehículo hace 2 meses y vendió otro a través de Kavak. Ha reportado incidencias técnicas que requieren atención en el taller, y ha tenido contacto por teléfono y WhatsApp para seguimiento.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problema de motor al equipo de soporte, solicitando urgencia en la reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre el estado de su vehículo y se mostró frustrado por la demora en la atención.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas graves y el taller no brinda información clara ni solución rápida, lo que afecta mi movilidad y compromete mi trabajo.",
+  "expectativa_solucion": "Quiero que Kavak priorice la revisión y reparación de mi auto, con información constante y un plan claro para evitar nuevas fallas y recuperar mi confianza.",
+  "prompt_conversacional": "Actúa con empatía ante la frustración de Luis, reconoce el impacto emocional y laboral que le genera la falla mecánica. Contén su enojo validando su experiencia y comprométete a darle un seguimiento inmediato con plazos claros. Propón un plan de acción concreto y transparente para resolver su problema y recupera así su confianza en Kavak."
+}

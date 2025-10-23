@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1500000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es padre de dos niños pequeños y trabaja largas horas para mantener a su familia. La compra y venta del auto con Kavak representaba un paso importante para mejorar su calidad de vida y facilitar la movilidad familiar. Sin embargo, problemas mecánicos recurrentes y una logística deficiente para la entrega y revisión del vehículo han generado una fuerte frustración, pues siente que su tiempo y dinero son desperdiciados, afectando el bienestar de su familia y su confianza en la empresa.",
+  "historia_revelada": "Luis compró un automóvil usado hace tres meses y recientemente intentó vender su auto actual a través de Kavak. Ha reportado problemas mecánicos tras la compra y ha tenido demoras en la logística de entrega. Hay registros de quejas a soporte y solicitudes de revisión técnica.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contacto para reportar fallas mecánicas persistentes y solicitar revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Seguimiento en app para programar la logística de entrega del vehículo vendido, con retrasos y quejas registradas.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas graves que afectan su uso diario, además la logística para entrega y revisión ha sido lenta y poco clara, generando retrasos y pérdida de tiempo.",
+  "expectativa_solucion": "Luis espera una solución rápida y efectiva con una revisión mecánica confiable sin costo adicional, además de mejorar la comunicación y logística para concretar la venta sin más demoras.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Luis, un cliente insatisfecho por problemas mecánicos y logísticos. Debes mostrar empatía, validar su molestia y acordar próximos pasos concretos para resolver su problema cuanto antes, asegurando claridad en tiempos y responsabilidades."
+}

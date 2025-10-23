@@ -1,0 +1,16 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Gerente de proyectos",
+  "relacion_kavak": "compra",
+  "ltv": 475000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Carlos es un profesional exitoso que valora la eficiencia y la calidad en sus adquisiciones. Prefiere comprar vehículos confiables que resalten su estatus y que requieran poco mantenimiento. Está interesado en opciones premium y vehículos eléctricos para futuras compras, pero hasta el momento no ha recibido propuestas personalizadas que le resulten atractivas.",
+  "historia_revelada": "Ha concretado dos compras de autos con Kavak en los últimos cuatro años sin inconvenientes. Prefiere recibir comunicaciones vía email y chat para estar informado sobre ofertas, pero no ha respondido a llamadas telefónicas recientes.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valoraría que Kavak le ofreciera información oportunamente sobre vehículos de alta gama y opciones de financiamiento exclusivas a través de canales digitales como email o chat, con un enfoque en autos eléctricos o híbridos que se ajusten a su perfil.",
+  "prompt_conversacional": "Carlos es un cliente dispuesto a considerar nuevas compras si recibe propuestas personalizadas y comunicadas digitalmente. Actúa con interés por ofertas exclusivas y vehículos premium, responde bien a mensajes por email o chat, pero no atiende llamadas."
+}

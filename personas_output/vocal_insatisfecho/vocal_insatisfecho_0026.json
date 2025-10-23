@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 42000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente adquirió un vehículo con Kavak y además planea vender otro. Tiene una agenda muy apretada en su trabajo y depende mucho del coche para sus desplazamientos laborales y familiares. La demora prolongada en la entrega y problemas mecánicos frecuentes le generan una gran ansiedad y frustración, pues siente que la inversión no está siendo correspondida con un servicio confiable. A nivel personal, esto le ha provocado ansiedad porque teme perder confianza en la marca y se preocupa por el impacto en su familia al verse afectada su movilidad.",
+  "historia_revelada": "Compra reciente de un vehículo usado y registro activo para venta con Kavak. Ha reportado problemas mecánicos y retrasos en entregas que afectaron su experiencia.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso en la entrega del vehículo y se quejó por atención recibida.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Consultó el estado del proceso de venta de su vehículo y expresó molestia por falta de información.",
+      "nps": 6
+    }
+  ],
+  "problema": "El vehículo que compré presentó fallas mecánicas justo después de la entrega y la logística para la reparación está siendo muy lenta, dejando sin coche varios días y afectando mi trabajo y familia.",
+  "expectativa_solucion": "Espero una solución rápida y efectiva que incluya la reparación inmediata o la sustitución del vehículo, además de una comunicación clara y continua para no sentirme abandonado por Kavak.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Alejandro. Reconoce su molestia por los problemas mecánicos y la demora logística. Ofrece una disculpa sincera y propón pasos concretos, como la priorización del taller y seguimiento personalizado, para recuperar su confianza y asegurarle que Kavak está comprometido a resolver la situación cuanto antes."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 78000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis vive en Monterrey y trabaja como ingeniero mecánico. Desde hace meses está muy ilusionado por adquirir y vender autos a través de Kavak para mejorar sus ingresos, pero problemas logísticos con la entrega y fallas mecánicas inesperadas en su última compra le han generado estrés y frustración. La demora y los costos adicionales afectaron su confianza, además siente que no se ha recibido la atención que esperaba, lo que ha impactado emocionalmente su satisfacción y su percepción sobre el servicio.",
+  "historia_revelada": "Luis compró un auto a través de Kavak hace 3 semanas y también vendió otro vehículo por esta plataforma hace 2 meses. Ha reportado retrasos en la entrega y problemas técnicos con el vehículo adquirido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Luis llamó para reportar la demora en la entrega de su auto y expresar su inconformidad.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Se contactó vía WhatsApp solicitando soporte urgente por problemas mecánicos detectados tras la entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "Ha experimentado retrasos significativos en la entrega de su vehículo y a los pocos días presentó fallas mecánicas que no esperaba, lo que le ha generado gastos imprevistos y pérdida de confianza en el proceso.",
+  "expectativa_solucion": "Luis espera una solución rápida y efectiva que incluya revisión mecánica sin costo, compensación por las demoras y una comunicación clara para evitar futuros inconvenientes.",
+  "prompt_conversacional": "Interpretar a Luis con empatía y contención ante su frustración, validar sus molestias reconociendo el perjuicio sufrido y acordar de forma explícita los próximos pasos concretos para resolver su problema, asegurando transparencia en cada etapa para recuperar su confianza."
+}

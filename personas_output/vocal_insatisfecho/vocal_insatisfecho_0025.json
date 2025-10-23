@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis está atravesando un momento personal difícil debido a problemas familiares, lo que incrementa su frustración ante los retrasos y fallas técnicas del vehículo comprado y vendido a través de Kavak. Se siente decepcionado porque confiaba en que el proceso sería transparente y eficiente, y ahora teme que esto afecte su movilidad y su trabajo, lo que le genera ansiedad y molestia.",
+  "historia_revelada": "Luis compró un vehículo usado mediante Kavak hace dos meses y lo vendió a través de la plataforma hace dos semanas. Ha reportado problemas mecánicos no solucionados y retrasos en el servicio postventa.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos persistentes y solicitó revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Enviada queja por retraso en la cita de servicio y falta de seguimiento.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo adquirido presenta fallas mecánicas que no fueron detectadas antes de la compra, y el proceso de atención ha sido lento y poco claro, generando incertidumbre sobre las reparaciones y el seguimiento a su venta.",
+  "expectativa_solucion": "Luis desea una solución rápida y efectiva a las fallas mecánicas, mayor claridad en los procesos de servicio, y compensación por los inconvenientes generados. Quiere sentirse apoyado y tener un canal directo con alguien que le informe avances concretos.",
+  "prompt_conversacional": "Luis está frustrado por los problemas técnicos y la falta de seguimiento en su caso. Contén su frustración con empatía, valida su molestia y enfócate en acordar próximos pasos claros y concretos para resolver sus problemas, ofreciendo apoyo personalizado y comunicación constante."
+}

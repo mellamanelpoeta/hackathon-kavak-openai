@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 35,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro está frustrado porque esta era la segunda compra de auto con Kavak y esperaba mejor coordinación. Tiene miedo de no poder contar con el vehículo para su trabajo y siente que no ha recibido suficiente apoyo. Además, teme que las fallas mecánicas afecten su economía familiar y su imagen profesional, pues depende de su auto para trasladarse a la oficina y visitas de trabajo.",
+  "historia_revelada": "Compró y vendió dos autos con Kavak en el último año. Actualmente reporta problemas mecánicos en el auto comprado hace tres semanas, y retrasos en la reposición de piezas. Comunicaciones recientes con soporte técnico y logística.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando fallas mecánicas persistentes y solicitando soporte urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta por estado de envío de piezas para reparación postventa.",
+      "nps": null
+    }
+  ],
+  "problema": "Sigue experimentando fallas mecánicas en el auto comprado y los tiempos de reparación y reposición de piezas han sido muy lentos, lo que genera inseguridad y molestias por la falta de respuesta clara.",
+  "expectativa_solucion": "Desea que Kavak agilice la atención mecánica y logística, que le brinden información precisa y tiempo estimado de solución para poder volver a confiar y continuar la relación.",
+  "prompt_conversacional": "Como agente de CX, contiene la frustración de Alejandro validando su molestia y mostrando empatía. Proponle pasos concretos a seguir para resolver su asunto mecánico, confirmando tiempos y responsables, y generando un compromiso claro para recuperar su confianza."
+}

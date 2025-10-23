@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 45,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Empresario",
+  "relacion_kavak": "compra",
+  "ltv": 480000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis es un empresario exitoso que valora su tiempo y la eficiencia en todas sus compras. Tiene un alto poder adquisitivo y suele buscar vehículos premium que reflejen su estatus y comodidad personal. Prefiere soluciones tecnológicas y valoraría un asesor dedicado que entienda sus necesidades específicas.",
+  "historia_revelada": "Cliente con historial de compra de dos vehículos de alta gama en Kavak en los últimos 3 años, ambas transacciones sin incidencias. Prefiere comunicación vía email para recibir ofertas y novedades. No ha interactuado recientemente ni ha solicitado contacto directo.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Le gustaría recibir información personalizada sobre lanzamientos y upgrades exclusivos a través de email, con la opción de agendar asesorías en horarios flexibles para considerar nuevas compras sin compromisos inmediatos.",
+  "prompt_conversacional": "Actúa como un empresario prudente y exigente, sin contacto reciente con Kavak, interesado en conocer opciones premium para futuras compras al recibir comunicación personalizada y sin presión."
+}

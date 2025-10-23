@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 75000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro compró y vendió su auto con Kavak debido a su apretada agenda laboral y necesidad de movilidad confiable. La reciente demora en la entrega del automóvil comprado y la persistencia de fallas mecánicas le han generado una gran frustración porque depende del vehículo para sus traslados diarios y compromisos familiares. Se siente desatendido y preocupado por la inseguridad de tener un auto que cree debería estar revisado y garantizado. Esto lo ha hecho dudar de la efectividad del servicio, afectando su confianza y tranquilidad.",
+  "historia_revelada": "Cliente realizó compra y venta de vehículo con Kavak hace 3 meses. Reportó retraso en entrega de auto comprado y problemas mecánicos detectados después de la recepción. Ha solicitado asistencia técnica y soporte logístico sin resoluciones satisfactorias hasta la fecha.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar demora excesiva en la entrega del vehículo comprado y expresar frustración por falta de información clara.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Enviado reporte vía app solicitando asistencia inmediata para revisión mecánica debido a fallas detectadas tras entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado ha presentado fallas mecánicas que no fueron detectadas antes de la entrega y la logística para la solución está siendo lenta y poco clara, lo que le ha generado gran molestia y preocupación.",
+  "expectativa_solucion": "Desea una revisión mecánica urgente y una solución concreta que incluya reparación o cambio de vehículo con una mejora en comunicación y tiempos de respuesta para restablecer su confianza.",
+  "prompt_conversacional": "Como agente debe contener la frustración de Alejandro mostrando empatía, validando sus molestias, asegurando que entiende la importancia del vehículo para su rutina y comprometiéndose a coordinar de manera clara y rápida los siguientes pasos para su reparación o cambio, ofreciendo seguimiento continuo y cumpliendo los tiempos prometidos."
+}

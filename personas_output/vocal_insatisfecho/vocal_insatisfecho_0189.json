@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente sufrió una presión laboral alta y tiene poco tiempo para atender problemas personales. Su frustración con la logística y problemas mecánicos en el vehículo que compró y vendió por Kavak aumentan su estrés, pues depende del auto para su trabajo y siente que la empresa no responde adecuadamente, lo que afecta su confianza y tranquilidad.",
+  "historia_revelada": "Luis compró un vehículo usado hace 3 meses y recientemente vendió otro vehículo a través de Kavak. Ha reportado problemas mecánicos posteriores a la compra y dificultades logísticas para coordinar visitas al taller y entregas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial de problemas mecánicos y solicitud de atención urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Consulta sobre estado de reparación y seguimiento en app, inconformidad expresada.",
+      "nps": null
+    }
+  ],
+  "problema": "Demoras constantes en la logística para coordinar las revisiones mecánicas y falta de comunicación clara sobre el estado de la reparación del vehículo, lo que ha afectado mi movilidad diaria y confianza en Kavak.",
+  "expectativa_solucion": "Quiero una solución rápida y clara, con fechas concretas para la entrega del vehículo en condiciones óptimas y que Kavak mejore la comunicación para evitar futuras frustraciones.",
+  "prompt_conversacional": "El cliente está frustrado por problemas logísticos y mecánicos; el agente debe mostrar empatía, validar la molestia, contener la frustración de Luis y acordar próximos pasos concretos con fechas específicas para resolver su caso."
+}

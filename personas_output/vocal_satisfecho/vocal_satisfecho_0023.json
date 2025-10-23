@@ -1,0 +1,22 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de Software",
+  "relacion_kavak": "compra",
+  "ltv": 320000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Luis es un profesional joven, entusiasta por la tecnología y la eficiencia. Prefiere comprar autos usados con garantía y valor confiable para desplazarse diariamente a su trabajo en Guadalajara. Valora mucho la atención rápida y transparente, y confía plenamente en Kavak para futuras compras.",
+  "historia_revelada": "Luis compró un Nissan Versa modelo 2018 a través de Kavak el 15 de marzo de 2024. El vehículo está en perfecto estado y cuenta con garantía extendida hasta marzo de 2026. Recibió la entrega a domicilio el 22 de marzo de 2024 y desde entonces no ha reportado inconvenientes.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Luis calificó su experiencia de compra con un NPS de 9 y comentó que la aplicación fue muy intuitiva y el seguimiento excelente.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Desea continuar como cliente satisfecho, aprovechar futuras promociones y mantener la relación con Kavak para su próximo cambio de auto.",
+  "prompt_conversacional": "Luis es un cliente satisfecho y reciente comprador de un vehículo Nissan Versa 2018 por Kavak. Le gusta la comunicación clara y rápida, y está enfocado en seguir utilizando los servicios de Kavak para nuevas compras futuras."
+}

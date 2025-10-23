@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis adquirió un vehículo mediante Kavak confiando en la promesa de entrega rápida y en buen estado para apoyar a su familia. Actualmente enfrenta retrasos graves en la entrega de un servicio mecánico pactado, que le afecta emocionalmente porque depende del vehículo para su trabajo y la seguridad de sus hijos. Se siente frustrado y decepcionado debido a la falta de comunicación clara y soluciones inmediatas, aumentando su ansiedad por la incertidumbre del transporte familiar.",
+  "historia_revelada": "Cliente con historial de compra y venta de vehículos a través de Kavak. Última operación con retrasos reportados y quejas recientes sobre el estado mecánico de un vehículo recibido. Contactos previos registrados sobre soporte técnico y seguimiento a entrega.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la entrega del vehículo y pedir actualización del estado mecánico.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitud de informe y respuesta a dudas sobre garantías y próximos pasos para resolver el problema mecánico.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos en atención mecánica y falta de comunicación clara para resolución, lo que ha generado inconvenientes en su vida laboral y personal.",
+  "expectativa_solucion": "Que Kavak ofrezca una solución rápida y efectiva para el problema mecánico, manteniendo comunicación constante y concrete plazos claros para la entrega del vehículo en condiciones óptimas.",
+  "prompt_conversacional": "El cliente está frustrado y molesto por retrasos y falta de información. Contén su frustración con empatía, valida sus sentimientos y asegúrate de acordar próximos pasos específicos y plazos realistas para solucionar el problema."
+}

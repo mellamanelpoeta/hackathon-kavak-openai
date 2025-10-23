@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 35,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis había esperado con mucha ilusión la compra y venta de su auto a través de Kavak, ya que necesitaba un vehículo confiable para su familia y su trabajo. Sin embargo, la serie de retrasos y problemas mecánicos han generado en él una gran frustración y estrés, pues depende de su auto para trasladarse a la planta donde trabaja y cuidar a sus hijos. Esta situación le afecta emocionalmente porque siente que ha perdido tiempo valioso y confianza en el servicio, lo que le genera preocupación por cumplir con sus responsabilidades diarias.",
+  "historia_revelada": "Cliente que realizó una compra y venta de vehículo hace 3 semanas. Reportó problemas con la entrega debido a retrasos logísticos y descubrió fallas mecánicas en el auto recibido. Inicio contacto con soporte para seguimiento.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar demora en la entrega y expresar molestia por falta de información clara.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo detallando problemas mecánicos encontrados y solicitando solución urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "Retraso en la entrega del vehículo combinado con fallas mecánicas descubiertas después de la compra, lo que le ha impedido usarlo y le genera inconvenientes para su trabajo y familia.",
+  "expectativa_solucion": "Desea que Kavak agilice la resolución del problema, ofreciendo una reparación pronta o reemplazo del vehículo y una comunicación clara para recuperar su confianza.",
+  "prompt_conversacional": "El cliente está frustrado por retrasos y problemas mecánicos en su automóvil. Prioriza contener su molestia, expresando empatía por su situación personal y laboral, asegurándole que se están tomando acciones concretas. El agente debe acordar un próximo paso claro, como una cita para revisión con mecánico certificado o una propuesta de compensación, y confirmar seguimiento puntual para restaurar la confianza."
+}

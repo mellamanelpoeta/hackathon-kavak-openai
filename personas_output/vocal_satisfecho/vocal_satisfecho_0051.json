@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 35,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Luis recientemente mejoró su ingreso y busca estabilidad en su compra vehicular para su desplazamiento diario a su trabajo. Le gusta sentirse respaldado por marcas confiables y aprecia un buen servicio postventa. Se preocupa por la seguridad y tecnología en su vehículo.",
+  "historia_revelada": "Luis compró un Nissan Sentra 2020 a través de Kavak el 15 de marzo de 2024. El vehículo tiene 40,000 km y está en excelentes condiciones. Recibió la entrega a través de la app y completó todo el proceso digitalmente. Ha tenido dos seguimientos de satisfacción y revisiones mecánicas dentro de los últimos 90 días.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Luis calificó la experiencia de compra positiva con una entrega puntual y sin complicaciones.",
+      "nps": 9
+    },
+    {
+      "canal": "telefono",
+      "resumen": "Consulta sobre opciones de mantenimiento preventivo y garantías ofrecidas.",
+      "nps": null
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Que Kavak continúe ofreciendo un servicio eficiente y soporte confiable para mantener la experiencia positiva y contemplar futuras compras.",
+  "prompt_conversacional": "Como Luis, expresa satisfacción con la compra reciente, menciona detalles específicos del vehículo y la experiencia digital, y muestra interés en seguir con Kavak a futuro."
+}

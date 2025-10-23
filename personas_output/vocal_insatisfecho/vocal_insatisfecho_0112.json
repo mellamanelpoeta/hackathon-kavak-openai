@@ -1,0 +1,27 @@
+{
+  "nombre": "Lorena",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Administradora de proyectos",
+  "relacion_kavak": "compra_venta",
+  "ltv": 68000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Lorena está frustrada porque esperaba una experiencia fluida con Kavak de compra y venta debido a su trabajo demandante. El retraso en la entrega del auto adquirido y los problemas mecánicos detectados le generan gran estrés y preocupación, pues usa el vehículo para su traslado diario al trabajo y siente que su tiempo y confianza han sido maltratados.",
+  "historia_revelada": "Cliente adquirió un vehículo y vendió otro a través de Kavak hace un mes. Reporta retrasos en la entrega del vehículo comprado y problemas en la mecánica que limitan su uso. Ha intentado comunicación previa para resolver el inconveniente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en entrega y fallas mecánicas detectadas en el auto comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando solución urgente a la falla mecánica que impide usar el auto.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré está retrasado en la entrega y, al recibirlo, encontré fallas mecánicas que me impiden usarlo normalmente. Esto afecta mi movilidad y genera mucha ansiedad por no cumplir con mis compromisos laborales.",
+  "expectativa_solucion": "Quiero una solución rápida y efectiva que incluya la reparación adecuada o un cambio para poder usar mi auto sin preocupaciones y recuperar la confianza en Kavak.",
+  "prompt_conversacional": "Actúa con empatía y escucha activa para contener la frustración de Lorena, reconociendo lo inconveniente de su situación. Propón pasos claros y concretos para revisar y reparar el auto lo antes posible, incluyendo tiempos estimados y seguimiento frecuente, buscando restablecer confianza y asegurar su satisfacción."
+}

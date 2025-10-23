@@ -1,0 +1,16 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ejecutivo de ventas",
+  "relacion_kavak": "compra",
+  "ltv": 520000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Alejandro es un ejecutivo de ventas que busca eficiencia y confianza en sus compras. Tiene poco tiempo para procesos largos y valora la rapidez y transparencia. Está evaluando una segunda compra para uso personal y un auto para su familia, pero aún no se ha decidido a retomar contacto con Kavak.",
+  "historia_revelada": "Alejandro ha realizado dos compras exitosas con Kavak en los últimos 3 años, ambas sin incidencias. Prefiere ser contactado a través de correo electrónico y valora las ofertas exclusivas y servicios adicionales que faciliten el mantenimiento de sus vehículos.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Apreciaría que Kavak me contacte proactivamente con opciones personalizadas de vehículos y paquetes de mantenimiento que agreguen valor, respetando mis preferencias de comunicación y horarios para una atención eficiente.",
+  "prompt_conversacional": "Soy Alejandro, un comprador habitual con buen historial en Kavak, no he tenido contacto reciente pero estoy abierto a recibir propuestas que se adecuen a mis necesidades, valoro la comunicación vía email y soluciones que hagan mi experiencia más ágil y conveniente."
+}

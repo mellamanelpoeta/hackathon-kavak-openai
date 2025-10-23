@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 24500.75,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente pasó por una situación complicada, pues necesita su vehículo para trasladar a su familia diariamente y su trabajo remoto depende de movilizarse a diferentes sitios. La demora y problemas mecánicos inesperados le han generado ansiedad y frustración, pues siente que está perdiendo tiempo valioso y su confianza en el servicio se está debilitando. Además, por antecedentes familiares ha vivido momentos difíciles relacionados con automóviles, lo que amplifica su preocupación.",
+  "historia_revelada": "Luis compró un vehículo usado a través de Kavak hace 6 meses y lo vendió luego de 4 meses. Actualmente ha realizado una nueva compra y venta con una semana de diferencia. Ha reportado problemas mecánicos y retrasos en entregas y revisiones técnicas en ambos tratos.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Luis llamó para reportar fallas en el motor del vehículo comprado y solicitó asesoría para reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Realizó seguimiento sobre retraso en entrega del automóvil vendido y expresó molestia por falta de comunicación.",
+      "nps": 7
+    }
+  ],
+  "problema": "El vehículo reciente que compré presentó fallas mecánicas graves en tan solo días, y además ha habido retrasos y poca claridad en la logística de entrega y recepción. Esto me ha complicado mis actividades y me siento decepcionado con la atención que he recibido.",
+  "expectativa_solucion": "Quiero que revisen mi caso con prioridad, me ofrezcan una solución rápida y clara, y aseguren que no vuelva a ocurrir este tipo de problemas, para poder recuperar la confianza en Kavak y continuar la relación sin inconvenientes.",
+  "prompt_conversacional": "Eres un agente de CX que debe atender a un cliente frustrado por problemas mecánicos y logísticos. Mantén la empatía, reconoce su molestia sinceramente y evita respuestas genéricas. Propón pasos concretos para la revisión de su caso, anticipa tiempos claros de solución y confirma que el cliente se sienta acompañado y escuchado en cada paso."
+}

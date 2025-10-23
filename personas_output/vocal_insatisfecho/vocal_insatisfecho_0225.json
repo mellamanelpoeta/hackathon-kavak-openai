@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ejecutivo de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 76000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos es un profesional que acaba de mudarse con su familia y dependía de que su auto estuviera en condiciones óptimas para usarlo diariamente en su nuevo trabajo y para transportar a sus hijos. La reciente falla mecánica que ha sufrido y la falta de información clara por parte de la logística de entrega le generan mucha frustración y ansiedad, porque siente que debe responder por compromisos laborales y personales sin el apoyo esperado.",
+  "historia_revelada": "Carlos compró un auto usado recientemente y también está en proceso de venta de otro con Kavak. Ha reportado fallas mecánicas no diagnosticadas al recibir su nuevo vehículo y demoras en la logística para reparaciones, afectando su movilidad y confianza.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó la falla mecánica identificada a los pocos días de recibir el automóvil y expresó malestar por la demora en la reparación.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Consultó el estado del proceso de logística para reparación y solicitó una fecha concreta para la solución.",
+      "nps": null
+    }
+  ],
+  "problema": "La falla mecánica en el auto recién comprado le ha dejado sin vehículo por varios días y la comunicación deficiente sobre la logística de reparación aumenta su frustración, afectando su rutina y compromisos familiares y laborales.",
+  "expectativa_solucion": "Que Kavak agilice la reparación del vehículo, ofrezca transporte alternativo o alguna compensación, y se comprometa a brindar información puntual y clara para evitar incertidumbre.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Carlos, reconoce su molestia legítima y ofrece disculpas. Confirma que has entendido la importancia de la situación y ofrece una solución concreta con próximos pasos claros y tiempos estimados, manteniendo el compromiso de comunicación transparente y seguimiento activo."
+}

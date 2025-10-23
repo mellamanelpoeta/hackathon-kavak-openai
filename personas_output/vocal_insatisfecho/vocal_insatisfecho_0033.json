@@ -1,0 +1,27 @@
+{
+  "nombre": "Miguel",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Miguel recientemente perdió a un familiar cercano y está pasando por un momento emocional difícil. La situación le ha generado estrés y se siente frustrado porque esperaba que la compra y venta de su vehículo fueran procesos sencillos y rápidos para poder concentrarse en asuntos personales. La demora en la entrega y problemas mecánicos han aumentado su ansiedad, sintiéndose desatendido justo cuando más necesitaba soporte confiable.",
+  "historia_revelada": "Miguel compró un auto seminuevo en Kavak hace dos meses y también vendió su vehículo anterior a través de la plataforma. Ha reportado retrasos en la entrega final del auto comprado y ha identificado fallas mecánicas que requieren taller. Ha contactado el servicio al cliente varias veces.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Consultó sobre el retraso en la entrega del vehículo nuevo y reportó nerviosismo por la espera.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió reclamación formal por las fallas mecánicas encontradas tras la entrega y pidió solución urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré llegó con fallas mecánicas que no detectaron en la revisión inicial y además la entrega se retrasó demasiado, afectando mis planes personales y generando mucha frustración.",
+  "expectativa_solucion": "Espero una revisión completa del vehículo sin costo, reparación rápida de las fallas mecánicas y una compensación parcial por los inconvenientes. Además, quisiera claridad en los tiempos y seguimiento constante para recuperar la confianza.",
+  "prompt_conversacional": "El cliente está visiblemente frustrado por retrasos y problemas mecánicos, además de estar emocionalmente afectado por situaciones personales. Debes contener su frustración mostrando empatía genuina, reconocer la importancia de resolver rápido y ofrecer pasos concretos: explicar el proceso de revisión y reparación, dar un plazo claro, y agendar una llamada de seguimiento para asegurarnos que su caso progresa."
+}

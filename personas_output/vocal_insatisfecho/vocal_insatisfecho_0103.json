@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro depende mucho de su coche para el trabajo y para cuidar a su familia. Tras comprar un vehículo usado con Kavak y luego vender uno que tenía, ha tenido problemas logísticos y mecánicos que le han generado mucha frustración. Se siente decepcionado pues esperaba un proceso confiable y sin más contratiempos, pero los fallos han afectado su rutina y seguridad, causando estrés y preocupación por su situación financiera y familiar.",
+  "historia_revelada": "Cliente con historial de compra y venta de autos en Kavak. Reciente reporte de problemas mecánicos no resueltos y retrasos en la entrega de documentos tras la venta.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar un fallo mecánico importante en el auto comprado y pedir solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando actualización sobre estado de documentación post venta y solución a incidencia mecánica.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré presentó una falla mecánica grave poco después de la entrega y la documentación de la venta que realicé no se ha procesado aún, lo que me genera problemas legales y movilidad limitada.",
+  "expectativa_solucion": "Quiero que Kavak agilice la resolución de la falla mecánica de forma gratuita y complete el trámite documental de la venta, para recuperar tranquilidad y confianza en el servicio.",
+  "prompt_conversacional": "Como agente, contén la frustración de Alejandro reconociendo su molestia y empatizando con su situación familiar y laboral. Propón pasos claros para atender la falla mecánica y verificar el estado de su documentación, acordando fechas específicas para dar seguimiento y mantenerlo informado."
+}

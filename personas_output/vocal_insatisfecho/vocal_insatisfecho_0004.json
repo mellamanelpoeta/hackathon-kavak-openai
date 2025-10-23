@@ -1,0 +1,27 @@
+{
+  "nombre": "Daniela",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 35000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Daniela ha tenido problemas recientes con la entrega tardía de su auto vendido y además el coche que compró presenta fallas mecánicas constantes, lo que le genera ansiedad pues depende del vehículo para llegar a su trabajo. El estrés acumulado por estas dificultades ha afectado su bienestar emocional y la confianza en Kavak.",
+  "historia_revelada": "Cliente compró un vehículo seminuevo hace 3 meses y vendió otro vehículo por medio de la plataforma hace 2 meses. Ha reportado retrasos en la logística de entrega y fallas mecánicas en el auto comprado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando que el auto comprado tiene problemas con la suspensión y requirió asistencia mecánica.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Mensaje en la app reclamando por la demora en la recepción del pago por la venta de su auto.",
+      "nps": 7
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas que no esperaban y la venta de mi auto se está demorando demasiado, lo cual afecta mis desplazamientos y finanzas personales.",
+  "expectativa_solucion": "Quiero que Kavak resuelva pronto las fallas mecánicas del auto que compré y agilice el pago por la venta de mi vehículo para recuperar mi tranquilidad.",
+  "prompt_conversacional": "La persona está frustrada por problemas con la compra y venta de autos, manifiesta ansiedad por la situación. Contenla empatizando con su molestia, valide la información y acuerde próximos pasos claros y realistas para solucionar su problema, asegurando seguimiento puntual."
+}

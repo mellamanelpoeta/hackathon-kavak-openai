@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro acaba de regresar a su ciudad después de un traslado laboral, lo que ha generado estrés adicional en su vida personal. Compró un auto a través de Kavak con la esperanza de simplificar su movilidad, pero ha tenido problemas mecánicos que le han generado mucha frustración. Se siente decepcionado porque confiaba en la calidad y servicio de Kavak y ahora su falta de movilidad afecta sus responsabilidades laborales y familiares.",
+  "historia_revelada": "Cliente ha realizado compra y venta de vehículo con Kavak hace 3 meses. Actualmente reporta problemas mecánicos persistentes en el vehículo adquirido y retrasos en la atención logística para la reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reporta fallas en el motor y falta de respuesta rápida por parte del taller.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Se acordó seguimiento para enviar vehículo a taller y se brindó explicación general sobre tiempos de reparación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas graves desde hace dos semanas y la logística para su reparación ha sido muy lenta, afectando mi movilidad y generando mucho estrés.",
+  "expectativa_solucion": "Quiero que Kavak agilice la reparación o gestione una solución temporal para que pueda movilizarme sin preocupaciones y recuperar la confianza en el servicio.",
+  "prompt_conversacional": "Eres un agente que debe escuchar con empatía, contener la frustración del cliente y validar su molestia por los problemas mecánicos y demoras en la logística. Ofrece disculpas sinceras, explica los próximos pasos claros y comprométete a dar seguimiento personalizado para resolver su situación pronto."
+}

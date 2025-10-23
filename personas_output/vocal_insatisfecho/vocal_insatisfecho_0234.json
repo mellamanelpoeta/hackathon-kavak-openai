@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 36,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ejecutivo de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis está atravesando una situación estresante en su trabajo, con mucho desgaste emocional. Compró y vendió un auto a través de Kavak confiando en la eficiencia prometida, pero problemas logísticos le generaron retrasos y pérdidas de tiempo valiosas. Se siente frustrado porque siente que no se le ha dado la atención adecuada y teme que esto afecte su imagen profesional y sus planes personales.",
+  "historia_revelada": "Cliente compró un vehículo y vendió otro en Kavak hace menos de dos meses. Ha reportado inconvenientes con la entrega del auto comprado y problemas mecánicos inesperados. Ha hecho múltiples contactos a servicio al cliente sin soluciones definitivas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la entrega del auto nuevo, expressando molestia por falta de información clara.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje enviando fotos del problema mecánico detectado y solicitando soporte rápido.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos en la entrega del vehículo comprado y un fallo mecánico que afectó su uso, generando mucha frustración y desconfianza en Kavak.",
+  "expectativa_solucion": "Que Kavak ofrezca una solución rápida y efectiva para reparar el vehículo, compense los inconvenientes y mejore la comunicación para recuperar su confianza.",
+  "prompt_conversacional": "El agente debe mostrar comprensión y contener la frustración de Luis, reconociendo el impacto que la situación le ha generado. Es clave acordar próximos pasos claros, como verificar el estado del vehículo, programar una reparación prioritaria y mantenerlo informado en cada etapa para recuperar su confianza."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha tenido problemas recientes con el vehículo que compró y además la venta de su auto anterior con Kavak se ha demorado más de lo prometido. Su frustración aumenta porque depende del auto para sus traslados diarios al trabajo y las fallas mecánicas le generan preocupación y estrés. Siente que no ha recibido un soporte adecuado y teme perder confianza en Kavak.",
+  "historia_revelada": "Luis compró un vehículo hace dos meses y vendió uno a través de Kavak. Ha reportado inconvenientes mecánicos desde hace dos semanas y la logística para revisión y reparación ha sido complicada. Ha llamado por teléfono y enviado mensajes por whatsapp solicitando atención.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada expresando molestia por retrasos en la logística para reparación del auto comprado, con solicitud de respuesta urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje pidiendo actualización sobre el estado de la venta de su vehículo y seguimiento a la reparación mecánica.",
+      "nps": 7
+    }
+  ],
+  "problema": "El vehículo que adquirió presenta fallas mecánicas y la logística para su reparación ha sido lenta y poco clara. Además, la venta de su auto anterior también ha enfrentado demoras, lo que le genera pérdidas económicas y mucho estrés.",
+  "expectativa_solucion": "Que Kavak agilice la logística para reparar su auto con calidad y sin nuevas demoras, y que se le dé seguimiento claro y constante a la venta de su vehículo para cerrar el proceso pronto.",
+  "prompt_conversacional": "Eres un agente que atiende a Luis, un cliente frustrado por fallas mecánicas en su auto y demoras en la venta de su vehículo. Debes contener su frustración validando su situación, mostrar empatía y comprometerte en brindar una solución rápida y concreta, acordando próximos pasos claros y plazos de seguimiento."
+}

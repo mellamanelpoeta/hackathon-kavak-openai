@@ -1,0 +1,16 @@
+{
+  "nombre": "Alejandro",
+  "edad": 42,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de proyectos",
+  "relacion_kavak": "compra",
+  "ltv": 520000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Alejandro es un ingeniero experimentado que valora la eficiencia en el uso de su tiempo y la calidad en sus adquisiciones. Busca vehículos confiables para sus desplazamientos diarios y para viajes familiares ocasionales. Tiene un buen nivel económico y prefiere recibir información clara y oportuna sin ser molestado constantemente. Está abierto a conocer ofertas o actualizaciones que se ajusten a sus necesidades específicas y a su estilo de vida ocupado.",
+  "historia_revelada": "Cliente con múltiples compras exitosas en Kavak en los últimos tres años, siempre ha optado por vehículos usados en excelentes condiciones. Ha demostrado preferencia por recibir comunicaciones vía correo electrónico y notificaciones en la app. Historial sin reclamos y compras que superan los 450,000 MXN en total.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valora que Kavak implemente un sistema de recomendaciones personalizadas y un canal de comunicación proactivo pero no intrusivo que le informe sobre vehículos de su interés o promociones exclusivas, manteniendo un equilibrio entre información relevante y respeto a su tiempo.",
+  "prompt_conversacional": "Alejandro es un cliente con alto valor para Kavak que prefiere recibir comunicaciones claras, relevantes y poco frecuentes. Está abierto a consideraciones para actualizar o complementar sus compras, pero sin sentir presión. Espera que el agente comprenda su perfil y ofrezca soluciones ajustadas a su ritmo y necesidades."
+}

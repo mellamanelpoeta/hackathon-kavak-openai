@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 42000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha estado atravesando un periodo de mucho estrés debido a problemas personales y laborales, lo que ha aumentado su sensibilidad a cualquier inconveniente. La falla mecánica en el vehículo que compró y la demora para solucionarla han generado una gran frustración, ya que depende del auto para trasladarse diariamente a su trabajo y cuidar de su familia. Además, siente que no le han brindado la atención adecuada o soluciones rápidas, lo cual afecta su confianza en Kavak.",
+  "historia_revelada": "Cliente adquirió un vehículo usado hace dos meses y lo vendió posteriormente. Recientemente reportó problemas mecánicos que retrasaron la entrega del nuevo vehículo comprado, y múltiples consultas sin respuestas claras.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó un problema mecánico con el vehículo comprado y pidió información sobre tiempos de reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó actualización sobre estatus de la garantía y seguimiento a la reparación del vehículo.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presentó fallas mecánicas y la reparación se ha retrasado considerablemente, afectando mi movilidad y generando una gran frustración. Además, siento una falta de comunicación clara por parte del equipo de soporte, lo que me hace sentir desatendido.",
+  "expectativa_solucion": "Que se agilice la reparación o se me brinde una compensación adecuada por el inconveniente, además de recibir información continua y clara para recuperar mi confianza y tranquilidad.",
+  "prompt_conversacional": "Atiende a Luis con empatía y contención, reconociendo su molestia. Mantén la calma para reducir su frustración y ofrece pasos concretos para acelerar la solución de su problema. Asegúrate de acordar seguimientos puntuales y de mantenerlo informado para restaurar la confianza."
+}

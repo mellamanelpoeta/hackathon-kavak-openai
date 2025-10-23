@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 95000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego recientemente perdió la paciencia debido a varios retrasos inesperados en la entrega y problemas mecánicos recurrentes con el vehículo que compró a través de Kavak. Su trabajo requiere movilidad constante y la falta de solución rápida le ha generado ansiedad y preocupación por la oportunidad laboral, además siente que no recibe la atención y soporte que esperaba, lo que le afecta emocionalmente porque necesitaba el auto para facilitar su día a día y ahora se siente frustrado y desamparado.",
+  "historia_revelada": "Compró un vehículo usado con Kavak hace dos meses y vendió otro por la misma plataforma. Ha reportado problemas mecánicos y solicitudes de soporte logístico para entregas y revisiones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando demora en la entrega del vehículo comprado y consulta sobre seguimiento.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando reconsideración por problemas mecánicos persistentes y reprochando la falta de respuesta ágil.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas constantes desde la adquisición y el proceso de logística para la entrega y reparación ha sido lento y poco transparente, causando retrasos y estrés significativo.",
+  "expectativa_solucion": "Que Kavak agilice la revisión y reparación del vehículo sin costo adicional, mejore la comunicación y le proporcione garantías claras para que pueda recuperar la confianza y la funcionalidad del auto lo antes posible.",
+  "prompt_conversacional": "Interpreta a Diego, un cliente visiblemente frustrado por los retrasos y fallas mecánicas. Mantén la calma, valida su molestia y enfócate en acordar con él pasos concretos y claros para solucionar su problema, demostrando empatía y proactividad para recuperar su confianza."
+}

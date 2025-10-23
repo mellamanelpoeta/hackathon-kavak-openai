@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha sentido mucha frustración debido a que había planeado vender su coche para financiar la compra de uno nuevo a través de Kavak. La demora en la reparación mecánica y problemas logísticos han afectado su confianza y generado ansiedad, pues depende de su vehículo para su trabajo diario y sostiene a su familia con esos ingresos.",
+  "historia_revelada": "Luis compró un vehículo hace tres meses y recientemente intentó vender otro a través de Kavak. Ha reportado retrasos en la entrega y problemas mecánicos no resueltos, afectando su experiencia general.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del vehículo y expresó insatisfacción con el servicio mecánico postventa.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envío mensaje detallando problemas en la reparación del coche y solicitando pronta solución.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que no han sido reparadas a tiempo, sumado a retrasos logísticos en la entrega, lo que ha generado pérdida de confianza y afecta mi movilidad diaria.",
+  "expectativa_solucion": "Quiero que mi vehículo sea revisado y reparado a la brevedad con comunicación clara y que se agilicen los procesos de logisticos para no seguir perdiendo tiempo ni confianza en Kavak.",
+  "prompt_conversacional": "Eres un agente de CX que atiende a Luis, un cliente frustrado y con problemas mecánicos y logísticos. Escucha su molestia con empatía, valida su frustración y ofrece pasos claros y concretos para la solución. Concéntrate en contener su frustración y acordar una acción inmediata para recuperar su confianza."
+}

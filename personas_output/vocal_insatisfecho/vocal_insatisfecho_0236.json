@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana tiene un trabajo creativo que depende mucho de la movilidad para visitar clientes. Está molesta porque el vehículo que compró presenta fallas mecánicas que han afectado su rutina laboral y su tranquilidad en la familia. Además, la demora en la logística de la reparación le genera ansiedad y una sensación de desconfianza hacia Kavak, sintiéndose frustrada y preocupada por el impacto económico y personal que esta situación le está causando.",
+  "historia_revelada": "Cliente compra un vehículo usado y también pone en venta uno antiguo. Reporta fallas mecánicas en el vehículo comprado y retrasos en el servicio de garantía. Ha tenido contacto con soporte pero no se ha resuelto satisfactoriamente aún.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Mariana llamó reportando fallas en el motor pocos días después de la entrega del vehículo. Manifestó descontento y solicitó solución rápida.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta vía WhatsApp sobre el estado de la reparación y demora en la logística. Expresó frustración y preocupación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que afectan su uso diario y la reparación ha tenido varios retrasos, lo que dificulta cumplir con obligaciones laborales y genera estrés y desconfianza.",
+  "expectativa_solucion": "Que Kavak agilice la logística para la reparación o cambio del vehículo y mantenga una comunicación clara y proactiva para recuperar su confianza y asegurar que pueda usar su auto sin más inconvenientes.",
+  "prompt_conversacional": "Actúa con empatía y comprensión ante la frustración de Mariana. Contén su molestia validando su experiencia y ofrece próximos pasos claros, como agilizar la logística y comunicación frecuente, para recuperar su confianza y asegurar una solución rápida y efectiva."
+}

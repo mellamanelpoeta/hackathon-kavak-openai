@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor independiente",
+  "relacion_kavak": "venta",
+  "ltv": 45000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis ha estado pasando por dificultades financieras recientes, incluyendo una reducción inesperada de ingresos y preocupaciones personales que le han generado estrés. Aunque no ha expresado estos problemas a Kavak, estos afectan su confianza para continuar la relación comercial de venta de su auto.",
+  "historia_revelada": "Luis inició el proceso para vender su vehículo hace dos meses, pero dejó pendiente la entrega de documentación importante necesaria para completar la venta. La comunicación con el equipo de Kavak ha sido intermitente y la operación no ha avanzado, quedando tareas sin seguimiento definido.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para recuperar la confianza en Kavak, Luis necesitaría un acompañamiento más claro y constante, con explicaciones detalladas sobre los pasos restantes y garantías de que la transacción se realizará sin contratiempos ni presiones.",
+  "prompt_conversacional": "Luis es reservado con sus problemas personales y se muestra distante. Aunque no ha comunicado insatisfacción directa, muestra señales de incertidumbre y duda. Como agente de CX, debes ser empático, brindarle confianza y ofrecer claridad sobre el proceso pendiente para ayudarlo a retomar la relación con Kavak."
+}

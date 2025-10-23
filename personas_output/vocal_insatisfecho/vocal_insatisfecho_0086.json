@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 820000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a su padre y la compra de su vehículo con Kavak era parte de un proyecto para honrar su memoria. La prolongada espera y problemas mecánicos le generan gran frustración y ansiedad, afectando incluso su estado emocional y su confianza en soluciones rápidas. Esta situación ha sido una carga adicional en un momento ya complicado emocionalmente.",
+  "historia_revelada": "Luis ha comprado y vendido dos vehículos con Kavak en el último año. Su vehículo actual presenta fallas mecánicas a las dos semanas de uso, con retrasos significativos en la gestión de taller y logística para la reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando demora en la entrega del vehículo reparado, manifestó molestia por falta de información clara.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envío de correo solicitando actualización sobre estado de la reparación y explicación de problemas mecánicos.",
+      "nps": null
+    }
+  ],
+  "problema": "El taller ha tardado más de dos semanas en reparar una falla mecánica que apareció poco después de la compra, y la falta de comunicación clara ha empeorado mi frustración y percepción del servicio.",
+  "expectativa_solucion": "Quiero que se agilice la reparación de mi vehículo y que el equipo de atención me mantenga informado con avances claros y una fecha concreta de entrega para recuperar mi confianza.",
+  "prompt_conversacional": "El cliente está muy frustrado por la demora y la falta de comunicación en la reparación de su vehículo, que afecta también su situación emocional personal. Contén su molestia con empatía, valida su preocupación, y acuerda pasos concretos y fechas claras para la solución, asegurando mantenerlo informado regularmente."
+}

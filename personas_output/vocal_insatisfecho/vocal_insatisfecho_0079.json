@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a un familiar y ha estado emocionalmente sensible. La frustración que siente con Kavak se intensifica porque confiaba en la rapidez y calidad del servicio para resolver un problema mecánico que afecta su movilidad diaria, fundamental para su trabajo y sustento. La demora y la falta de comunicación le generan ansiedad y preocupación por no cumplir con sus responsabilidades laborales.",
+  "historia_revelada": "Cliente con dos operaciones: compra reciente de un vehículo usado y venta de otro vehículo con Kavak. Ha reportado problemas mecánicos después de la compra y demoras en el taller autorizado. Ha hecho reclamaciones por canales telefónico y por app.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problema mecánico persistente y solicitud de actualización en proceso de reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte vía app solicitando seguimiento urgente a su caso y quejas por la demora en taller.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas graves que no han sido reparadas a tiempo, lo que afecta mi movilidad diaria y genera pérdidas en mi trabajo. La comunicación por parte del taller ha sido deficiente y la demora prolongada incrementa mi frustración.",
+  "expectativa_solucion": "Deseo que Kavak agilice la reparación o gestione una solución inmediata que me permita volver a usar un vehículo confiable, y que mantengan comunicación clara y constante sobre el estado del proceso.",
+  "prompt_conversacional": "Actúa con empatía y reconoce la frustración de Luis debido a la demora en la reparación y el impacto que tiene en su vida y trabajo. Contén su molestia escuchando activamente y validando sus emociones. Ofrece soluciones concretas, como fechas claras de entrega o alternativas temporales, y acuerda pasos específicos para mantenerlo informado de forma proactiva."
+}

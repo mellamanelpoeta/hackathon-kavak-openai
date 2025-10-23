@@ -1,0 +1,27 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "María Fernanda confió en Kavak para vender su auto anterior y comprar uno nuevo, ya que necesitaba un vehículo confiable para trasladarse debido a que su esposo ha estado enfermo y requiere atención médica frecuente. La demora en la entrega y los problemas mecánicos del auto que recibió la han generado una gran frustración y ansiedad. Además, siente que la atención recibida no ha mostrado la empatía que esperaba, lo que añade a su sensación de desamparo y desapego con la marca.",
+  "historia_revelada": "Compró un vehículo usado hace dos semanas y vendió el suyo mediante Kavak. Ha reportado problemas mecánicos con el auto recibido y retrasos en el proceso de entrega del nuevo vehículo.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar un ruido extraño en el motor del auto recién comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización sobre la entrega del vehículo de reemplazo tras reportar problemas.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que recibió presenta fallas mecánicas que no esperaba y la entrega del vehículo de reemplazo ha sido retrasada sin comunicación clara, lo que afecta su movilidad y genera estrés por la situación de salud familiar.",
+  "expectativa_solucion": "Desea que Kavak solucione los problemas mecánicos de forma inmediata o le entregue un vehículo en condiciones óptimas, con una comunicación clara y compromisos reales para no afectar su vida diaria.",
+  "prompt_conversacional": "Contén la frustración de María Fernanda validando sus preocupaciones y el impacto en su vida personal. Ofrece disculpas sinceras y propone pasos concretos y rápidos para la revisión mecánica o reemplazo del vehículo, asegurando comunicación constante y seguimiento personalizado."
+}

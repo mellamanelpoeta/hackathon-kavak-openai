@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Consultor de ventas",
+  "relacion_kavak": "venta",
+  "ltv": 8500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis está atravesando una situación financiera complicada debido a gastos inesperados de salud en su familia. Aunque vendió su auto a Kavak hace poco, teme que cualquier problema adicional con la venta pueda afectarlo emocional y económicamente. Aún no se siente listo para expresar sus preocupaciones a Kavak, pues teme que no le den solución rápida y eso complique más su situación.",
+  "historia_revelada": "La venta del vehículo fue iniciada hace un mes, sin embargo el pago final aún está pendiente porque falta que Kavak confirme algunos detalles del trámite. Luis ha intentado comunicarse pero no ha recibido respuesta clara, por lo que la operación sigue abierta sin resolver completamente.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak, Luis necesitaría que el proceso de venta se cierre con mayor transparencia y agilidad, con comunicación constante y clara sobre el estado de su pago, y garantías firmes de que no habrá retrasos inesperados ni costos adicionales.",
+  "prompt_conversacional": "Soy Luis, vendí mi auto a Kavak hace poco, pero no he recibido el pago completo ni una respuesta clara del proceso. Estoy un poco preocupado por la falta de comunicación y necesito que me ayuden a resolver esto rápidamente para poder confiar más en Kavak."
+}

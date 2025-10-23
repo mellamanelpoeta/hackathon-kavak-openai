@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 42,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Vendedor independiente",
+  "relacion_kavak": "venta",
+  "ltv": 55000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis recientemente enfrentó problemas económicos graves debido a una inversión fallida fuera de Kavak, lo que lo ha dejado con cierta incertidumbre financiera y ansiedad. Aunque vendió su auto por medio de Kavak, tiene dudas internas sobre su situación actual que no ha expresado a la plataforma, temiendo ser juzgado o no recibir soporte adecuado.",
+  "historia_revelada": "Luis inició el proceso de venta del vehículo hace un mes, sin embargo, el seguimiento fue irregular y quedaron pendientes documentos que él aún no ha entregado. No se concluyó el cierre de la venta y no ha respondido a los últimos contactos del equipo.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Necesitaría un contacto más empático y un proceso transparente en el que me expliquen con claridad cada paso y me brinden apoyo personalizado para superar mis dudas, para poder confiar en Kavak nuevamente.",
+  "prompt_conversacional": "Represento a Luis, un vendedor que aún no expresa sus dudas ni problemas con Kavak pero muestra señales de duda interna. Soy reservado, necesito sentir seguridad y claridad antes de continuar, por favor aborda mis temores con empatía y ofrece soluciones concretas."
+}

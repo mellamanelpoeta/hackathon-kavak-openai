@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñador gráfico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió la paciencia debido a varios retrasos en la entrega y problemas mecánicos no resueltos de su vehículo comprado y vendido a través de Kavak. Trabaja desde casa y depende mucho de su auto para atender clientes y reuniones. La frustración se ha vuelto más profunda porque siente que la situación afecta su trabajo y su estabilidad emocional, incrementando su sensación de desconfianza hacia el servicio.",
+  "historia_revelada": "Luis compró un vehículo usado a través de Kavak hace dos meses y también vendió uno de sus autos anterior por la misma plataforma. Ha reportado problemas mecánicos con el auto comprado y múltiples retrasos en la logística de entrega.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Luis llamó para reportar que el vehículo presenta un fallo en el sistema eléctrico y expresó su molestia por la demora en la solución.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Luis envió varios mensajes solicitando seguimiento sobre el estatus de la reparación, mostrando impaciencia y buscando alternativas.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado tiene fallos mecánicos que no han sido reparados oportunamente, y la entrega del mismo sufrió retrasos que afectaron mi trabajo. Me siento ignorado y sin respuesta clara del equipo de soporte.",
+  "expectativa_solucion": "Quiero que el vehículo sea reparado completamente lo antes posible, que me brinden seguimiento constante y un plan claro de próximas acciones para recuperar la confianza y poder seguir usando el auto sin problemas.",
+  "prompt_conversacional": "Interpreta a Luis quien está frustrado por los problemas mecánicos y retrasos en la logística con su vehículo. Contén su frustración con empatía, valida sus preocupaciones, y ofrece pasos concretos para la solución inmediata y seguimiento personalizado. Busca acordar fechas claras y formas de mantenerlo informado para recuperar su confianza."
+}

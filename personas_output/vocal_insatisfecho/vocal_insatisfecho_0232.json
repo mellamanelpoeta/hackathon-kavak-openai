@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis adquirió un vehículo usado por Kavak para facilitar sus traslados al trabajo y sus fines de semana con su familia. Está muy frustrado porque esperaba un auto en óptimas condiciones y problemas recurrentes de mecánica le han generado gastos imprevistos y estrés. Además, la logística para la entrega del auto fue complicada y poco clara, lo que le generó ansiedad y desconfianza. Luis se siente decepcionado porque invirtió un dinero importante con la esperanza de una experiencia fácil y confiable que le permita cuidar de su familia sin problemas.",
+  "historia_revelada": "Luis compró un vehículo usado en Monterrey hace dos semanas y también puso a la venta un carro suyo a través de Kavak. Ha tenido problemas mecánicos desde la entrega y retrasos en la gestión para reparaciones. Actualmente mantiene contacto con el equipo de soporte por inconvenientes en logística y garantías.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos del vehículo y expresó frustración con la demora en la respuesta de garantías.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó actualización sobre la logística para la entrega del vehículo nuevo y el retiro del vehículo en venta.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que afectan su uso diario y el proceso logístico para repararlo está siendo lento y poco claro, generando un impacto económico y emocional fuerte para Luis.",
+  "expectativa_solucion": "Luis desea que Kavak le ofrezca una solución rápida y concreta para reparar el vehículo, mejorar la comunicación sobre la logística y compensar los inconvenientes causados para recuperar la confianza.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Luis, reconociendo los inconvenientes mecánicos y logísticos. Busca acordar pasos claros y concretos para la reparación del vehículo y una mejora en la comunicación. Prioriza calmar y generar confianza en Luis, confirmando tiempos y acciones específicas para solucionar la situación."
+}

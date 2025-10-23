@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 84000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana tiene una agenda muy apretada y confió en Kavak para agilizar la compra y venta de su coche. La espera y los problemas mecánicos inesperados la han hecho sentir frustrada y preocupada porque teme que esto afecte su trabajo y reputación profesional. Además, siente que no ha recibido suficiente comunicación clara, lo que aumenta su ansiedad y desconfianza.",
+  "historia_revelada": "Mariana adquirió un vehículo usado a través de Kavak hace dos meses y ha publicado su coche anterior para la venta con ellos. Reportó fallas mecánicas en su nuevo coche y retrasos en la entrega del servicio de mantenimiento pactado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó por llamada para reportar fallas mecánicas persistentes y expresó su frustración por la demora en la atención.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió mensajes solicitando actualización sobre el estado de su servicio mecánico y venta de su coche antiguo.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas y el servicio de reparación ha tenido retrasos constantes, lo que me impide cumplir con mis actividades laborales. Además, siento que no me brindan información clara ni seguimiento oportuno.",
+  "expectativa_solucion": "Quiero que resuelvan las fallas de mi vehículo cuanto antes, recibo comunicación clara y frecuente, y que mi coche anterior se venda pronto con un proceso transparente.",
+  "prompt_conversacional": "Actúa con empatía y contén la frustración de Mariana. Reconoce su molestia por los retrasos y la falta de información clara. Asegura que estás comprometido a darle seguimiento prioritario a su caso. Propón pasos concretos que incluirán un diagnóstico mecánico detallado hoy mismo, actualizaciones diarias vía app o teléfono, y una revisión urgente para acelerar la venta de su coche anterior. Cierra confirmando con ella los próximos pasos para recuperar su confianza."
+}

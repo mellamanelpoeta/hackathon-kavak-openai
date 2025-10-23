@@ -1,0 +1,16 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "venta",
+  "ltv": 8500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Mariana está pasando por dificultades económicas recientes debido a la pérdida de un proyecto importante. Aunque vendió su auto con Kavak, siente inseguridad sobre si recibió un buen trato y teme no poder reponer su vehículo a buen precio pronto. No ha expresado esto directamente a Kavak, manteniendo la reserva por desconfianza y miedo a no ser atendida.",
+  "historia_revelada": "Mariana vendió su vehículo hace dos meses a través de Kavak. El seguimiento de su proceso fue mínimo, con confirmación de recepción y pago, pero sin comunicación posterior ni evaluaciones de satisfacción. Hay tareas pendientes en el CRM para contactar y solicitar feedback, lo cual no se ha completado.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak, Mariana necesitaría una comunicación clara, seguimiento personalizado y garantías que aseguren que está recibiendo un valor justo, además de atención contingente a sus circunstancias actuales.",
+  "prompt_conversacional": "Mariana es reservada y cuidadosa al hablar de sus preocupaciones. No ha expresado directamente sus dudas a Kavak y está esperando señales de compromiso y comprensión antes de abrirse. Ella quiere sentir que Kavak le ofrece atención humana, transparente y justa para superar su incertidumbre."
+}

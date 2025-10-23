@@ -1,0 +1,27 @@
+{
+  "nombre": "Ana Sofía",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniera Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 350000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ana Sofía recientemente perdió a un familiar cercano, lo que ha incrementado su sensibilidad al estrés. Además, su trabajo le exige mucha puntualidad y eficiencia, por lo que problemas inesperados como retrasos o reparaciones mecánicas dificultan mucho su día a día y generan frustración adicional. Su molestia actual con Kavak se siente como una carga extra en un momento emocionalmente vulnerable.",
+  "historia_revelada": "Cliente que ha comprado un vehículo y actualmente está en proceso de venta con Kavak. Ha reportado problemas mecánicos con el vehículo adquirido y ha experimentado demoras en el taller autorizado para las reparaciones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando demoras en la reparación mecánica del vehículo, expresó mucha frustración y solicitó una solución rápida.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Mensaje vía app solicitando actualización sobre el estatus del vehículo en taller y solicitando reembolso parcial por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas que tardaron más de lo esperado en reparar, generando inconvenientes para cumplir sus compromisos personales y laborales.",
+  "expectativa_solucion": "Desea una pronta solución definitiva a las fallas mecánicas y compensación adecuada por las demoras experimentadas, además de un compromiso claro sobre los siguientes pasos para evitar futuros problemas.",
+  "prompt_conversacional": "Está interactuando con un cliente frustrado por problemas mecánicos y demoras. Contén su frustración, reconoce su situación personal y profesional, y ofrece un plan concreto con plazos claros para la reparación y las compensaciones correspondientes."
+}

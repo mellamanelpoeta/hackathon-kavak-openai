@@ -1,0 +1,27 @@
+{
+  "nombre": "Fernanda",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 240000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Fernanda recientemente perdió un familiar cercano y depende mucho de su vehículo para poder cuidar a sus hijos y asistir al trabajo. La espera prolongada en la reparación del vehículo adquirido a través de Kavak le genera ansiedad e impotencia, ya que afecta su rutina diaria y su estabilidad emocional en un momento delicado.",
+  "historia_revelada": "Fernanda compró un vehículo hace 2 meses y también vendió uno anterior a través de Kavak. Ha tenido problemas mecánicos que retrasaron la entrega y molestias con la logística para la reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Consultó sobre el estado de la reparación y expresó frustración por lentitud.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reportó el problema mecánico identificado y solicitó una solución urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas graves que no han sido resueltas en el tiempo prometido, afectando su movilidad y generando estrés por la incertidumbre de los tiempos de reparación.",
+  "expectativa_solucion": "Quiere una respuesta clara con tiempos específicos para la reparación y una compensación por las molestias ocasionadas, además de acompañamiento empático durante el proceso.",
+  "prompt_conversacional": "Como agente, muestra empatía y comprensión ante la frustración de Fernanda, valida sus emociones y ofrece información clara sobre el estado actual y próximos pasos para resolver el problema mecánico. Confirma un compromiso concreto con tiempos y posibles compensaciones para recuperar su confianza."
+}

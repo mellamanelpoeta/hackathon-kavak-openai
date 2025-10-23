@@ -1,0 +1,22 @@
+{
+  "nombre": "Carlos",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 320000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Carlos recientemente cambió de trabajo y busca optimizar su movilidad para llegar más rápido al trabajo. Valora mucho la transparencia y rapidez en los procesos de compra y mantenimiento de vehículos.",
+  "historia_revelada": "Compra vigente de un Toyota Corolla 2020 adquirida el 15 de marzo de 2024. Último servicio realizado en Kavak el 10 de mayo de 2024 con revisión completa y cambio de aceite. Se usó la aplicación móvil para agendar servicio y reportar detalles del vehículo.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Agendó servicio de mantenimiento y calificó la experiencia con alta satisfacción.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Desea seguir con la experiencia positiva en Kavak y mantener su servicio y mantenimiento a través de la plataforma para futuras necesidades.",
+  "prompt_conversacional": "Carlos es un cliente reciente y satisfecho que espera soluciones ágiles y continuar usando los servicios de Kavak para su vehículo actual."
+}

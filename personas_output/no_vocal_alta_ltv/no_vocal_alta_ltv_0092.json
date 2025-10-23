@@ -1,0 +1,16 @@
+{
+  "nombre": "Ana",
+  "edad": 34,
+  "ciudad": "Ciudad de México",
+  "ocupacion": "Arquitecta",
+  "relacion_kavak": "compra",
+  "ltv": 480000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Ana es una profesional con altos ingresos que busca siempre calidad y confianza en sus compras. Ha adquirido vehículos anteriormente y prefiere que la comunicación sea eficiente y puntual, ya que su agenda es muy apretada. Actualmente busca renovar su auto y está abierta a opciones que le ofrezcan valor agregado y asesoría experta.",
+  "historia_revelada": "Ana ha realizado dos compras exitosas de autos con Kavak en los últimos cinco años, ambas sin inconvenientes. Prefiere recibir información y promociones vía correo electrónico, valorando la comunicación clara y oportuna.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valoraría un contacto proactivo que le presente ofertas exclusivas y asesoría personalizada para actualizar su auto, con opciones flexibles y beneficios claros que respalden su inversión.",
+  "prompt_conversacional": "Persona profesional y ocupada con historial de compras exitosas en Kavak que no ha interactuado recientemente. Está abierta a recibir propuestas que justifiquen su tiempo y aporten valor para renovar su vehículo."
+}

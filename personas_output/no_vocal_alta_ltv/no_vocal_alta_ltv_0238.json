@@ -1,0 +1,16 @@
+{
+  "nombre": "Camila",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Arquitecta",
+  "relacion_kavak": "compra",
+  "ltv": 520000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Camila es una profesional exitosa con un estilo de vida ocupado. Ha comprado dos vehículos con Kavak en los últimos cinco años, aprovechando promociones y confiando en la calidad y servicio que ofrece la plataforma. Actualmente está considerando cambiar a un auto eléctrico para contribuir al medio ambiente y reducir sus costos de transporte, pero hasta ahora no ha iniciado contacto con ningún asesor. Prefiere comunicaciones por email para evaluar opciones a su ritmo y sin presión.",
+  "historia_revelada": "Cliente con dos compras exitosas de vehículos en los últimos cinco años, con historial de pagos puntuales y sin reclamaciones. Prefiere recibir información y ofertas vía email, donde revisa sin prisa antes de tomar decisiones.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valora que Kavak proponga de manera proactiva ofertas personalizadas sobre autos eléctricos o híbridos mediante email, que le permitan evaluar con calma las opciones de renovación de vehículo, destacando beneficios ecológicos y financieros.",
+  "prompt_conversacional": "Es una clienta con alta lealtad, que no ha interactuado recientemente. Está abierta a comunicaciones digitales bien segmentadas y personalizadas, y valora la información clara y sin presión para considerar futuras compras o upgrades."
+}

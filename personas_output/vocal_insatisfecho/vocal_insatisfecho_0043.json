@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis vive en Monterrey y trabaja como ingeniero industrial. Recientemente recibió el auto que vendió a través de Kavak con varios problemas mecánicos que generaron un gasto inesperado. Además, la entrega de su nuevo vehículo que compró se ha retrasado varias veces sin información clara, lo que le genera ansiedad y frustración porque depende del auto para su trabajo. Su molestia también se debe a que siente que la comunicación con el equipo de soporte es lenta y poco efectiva, afectando su confianza en la marca.",
+  "historia_revelada": "Compra y venta reciente de vehículo a través de Kavak con reportes de fallas mecánicas en el auto vendido y demoras en la entrega del auto comprado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos con el auto vendido y solicitó explicación sobre posibles soluciones.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Consultó el estado de entrega del auto comprado y expresó inconformidad con la comunicación.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que vendí presenta fallas mecánicas que no se habían mencionado y el vehículo que compré tiene entregas retrasadas sin información clara, lo que ha afectado mi día a día y genera desconfianza.",
+  "expectativa_solucion": "Quiero que revisen y solucionen los problemas mecánicos con el auto vendido y que me aseguren una fecha concreta y confiable para la entrega de mi nuevo auto, además de mejorar la comunicación.",
+  "prompt_conversacional": "Contén la frustración de Luis, reconociendo su molestia y mostrando empatía. Explícale claramente los pasos que vamos a seguir para revisar los problemas mecánicos y confirmar la entrega del auto nuevo. Acuerda con él próximos pasos concretos y fechas estimadas para reducir su incertidumbre."
+}

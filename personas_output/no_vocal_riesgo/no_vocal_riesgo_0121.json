@@ -1,0 +1,16 @@
+{
+  "nombre": "Ricardo",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor financiero",
+  "relacion_kavak": "venta",
+  "ltv": 7200.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Ricardo vendió su coche a Kavak hace cuatro meses. Se siente frustrado porque aún no ha recibido el pago completo acordado y teme que esto afecte su estabilidad financiera debido a pagos pendientes. Sin embargo, no ha expresado esta preocupación directamente con Kavak por miedo a conflictos o a quedar bloqueado en futuras transacciones.",
+  "historia_revelada": "Venta registrada hace cuatro meses. El pago parcial fue recibido, pero hay saldo pendiente aún sin fecha confirmada. El equipo de Kavak ha intentado contactarlo para aclarar el estado del pago, pero la comunicación ha sido esporádica y no ha cerrado el proceso completamente.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Necesitaría un compromiso claro y fechas precisas para el pago restante, además de un canal directo y confiable para comunicarme con Kavak sin incertidumbre, para poder confiar nuevamente en la empresa y considerar futuras operaciones.",
+  "prompt_conversacional": "Actúa como un cliente que vendió su coche a Kavak, no ha recibido el pago completo y se siente preocupado pero aún no ha compartido explícitamente su molestia con el equipo de atención. Explora sus necesidades de claridad y compromiso sin ser agresivo."
+}

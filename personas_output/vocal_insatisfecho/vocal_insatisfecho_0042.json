@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis vive con su esposa y dos hijos pequeños, y acaba de regresar a su trabajo presencial después de un año de home office. Está bajo mucha presión para organizar su tiempo y movilidad diaria. La demora y los problemas mecánicos con el vehículo comprado en Kavak le generan una gran ansiedad porque depende del auto para llegar a trabajar a tiempo y ocuparse de sus hijos. Esto le hace sentir inseguridad sobre la fiabilidad de Kavak y teme que la situación afecte su estabilidad laboral y familiar.",
+  "historia_revelada": "Luis compró un vehículo en Kavak hace dos meses y vendió su auto anterior también a través de la plataforma. Ha reportado problemas recurrentes de fallas mecánicas y retrasos logísticos en la entrega de piezas y servicio a su vehículo actual.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar un problema mecánico persistente y solicitó información sobre garantía y tiempos de reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió una queja por retraso en la logística para la entrega de partes y seguimiento del caso.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas que no han sido solucionadas a tiempo debido a retrasos en logística y atención técnica, lo que afecta mi rutina diaria y me genera mucha frustración y preocupación.",
+  "expectativa_solucion": "Quiero una solución rápida y efectiva que garantice el correcto funcionamiento de mi vehículo y un compromiso claro de Kavak para mejorar la atención y tiempos de respuesta.",
+  "prompt_conversacional": "Como agente, contén la frustración de Luis mostrando empatía y validando su experiencia. Explica con claridad los pasos que se tomarán para resolver su problema mecánico y los tiempos estimados. Propón acciones concretas y compromiso de seguimiento para recuperar su confianza."
+}

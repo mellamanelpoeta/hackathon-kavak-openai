@@ -1,0 +1,27 @@
+{
+  "nombre": "Sofía",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 12500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Sofía recientemente perdió un empleo y ve la compra y venta de autos como su única opción para equilibrar sus finanzas. Tiene alta ansiedad por la estabilidad económica y el tiempo invertido. Su molestia aumenta porque siente que Kavak no está cumpliendo con los tiempos prometidos para entrega y revisión mecánica, lo que agrava su estrés ya que depende del vehículo para ofertas de trabajo.",
+  "historia_revelada": "Compró un automóvil y vendió otro a través de Kavak hace 2 meses. Ha experimentado retrasos en la entrega de su nuevo vehículo y problemas mecánicos que no han sido solucionados oportunamente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó al centro de atención para reportar retraso en la entrega del vehículo nuevo.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reportó problema mecánico después de recibir el auto, solicitó asistencia urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos continuos en la entrega del vehículo que compró y falta de respuesta eficiente para solucionar los problemas mecánicos presentados, lo que le genera estrés y desconfianza hacia Kavak.",
+  "expectativa_solucion": "Desea una solución rápida y concreta que incluya la entrega inmediata del vehículo en condiciones óptimas o un reembolso claro, además de una comunicación transparente durante todo el proceso.",
+  "prompt_conversacional": "El agente debe mostrar empatía por la frustración de Sofía, contener su molestia con atención activa y prometer seguir con pasos claros y medibles para resolver su problema. Es importante acordar con ella próximos pasos específicos y tiempos para informar avances, brindando tranquilidad y confianza."
+}

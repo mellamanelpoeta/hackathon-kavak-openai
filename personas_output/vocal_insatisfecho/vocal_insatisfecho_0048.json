@@ -1,0 +1,27 @@
+{
+  "nombre": "Arturo",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 12000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Arturo recientemente tuvo un problema grave con el vehículo que compró y que está intentando vender a través de Kavak. Debido a sus obligaciones familiares y laborales, la confiabilidad y rapidez en la atención son fundamentales para no afectar su rutina ni sus ingresos. La demora y falta de claridad en la logística para la entrega y revisión mecánica le generan ansiedad y frustración, siente que su tiempo no es valorado y teme perder oportunidades económicas.",
+  "historia_revelada": "Cliente con historial de compra y venta de vehículos en Kavak. Actualmente reporta retrasos en la entrega de revisión mecánica y problemas con la logística que impiden concretar la venta. Se han registrado interacciones recientes en canales telefónico y app reportando insatisfacción.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada expresando frustración por retraso en revisión del vehículo y falta de actualizaciones claras.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Mensaje solicitando información urgente sobre estado del vehículo y próximos pasos para la venta.",
+      "nps": 7
+    }
+  ],
+  "problema": "Retraso prolongado en la revisión mecánica y coordinación logística para entrega del vehículo, causando incertidumbre y afectando su disponibilidad para cerrar la venta en tiempo esperado.",
+  "expectativa_solucion": "Desea que Kavak agilice la revisión mecánica y coordine una entrega clara y puntual, con comunicación transparente que le permita organizar su agenda y concretar la venta sin más contratiempos.",
+  "prompt_conversacional": "Actúa con empatía conteniendo la frustración del cliente. Reconoce su molestia por los retrasos y la falta de información. Ofrece pasos concretos para agilizar la revisión y logística, asegurando claridad en los próximos tiempos y compromisos de seguimiento. Busca que el cliente sienta que su tiempo y situación son valorados."
+}

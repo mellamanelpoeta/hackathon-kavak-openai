@@ -1,0 +1,27 @@
+{
+  "nombre": "Andrea",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 13500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Andrea recientemente perdió un proyecto importante debido a retrasos inesperados en la entrega del vehículo que compró con Kavak. Además, el auto que vendió a través de la plataforma reportó problemas mecánicos que no estaban claros inicialmente, lo que ha causado una gran frustración pues depende del auto para su trabajo y tiempo con su familia es muy limitado. Esta combinación de factores ha afectado su confianza y tranquilidad.",
+  "historia_revelada": "Compra de vehículo realizada hace 3 semanas. Venta de vehículo anterior gestionada hace 2 meses. Reporte de retrasos en entrega y reclamo por fallas mecánicas en el vehículo vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Andrea llamó para reportar retraso en la entrega del vehículo comprado y expresar molestia.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo detallando fallas mecánicas inesperadas del auto vendido y solicitando solución.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré llegó con un retraso significativo y el auto que vendí tiene fallas mecánicas inesperadas, lo que me ha generado inconvenientes graves para cumplir con mi trabajo y una gran frustración personal.",
+  "expectativa_solucion": "Quiero que Kavak gestione una revisión mecánica inmediata y me garantice un cronograma realista para la entrega del vehículo comprado, además de una solución justa para el auto vendido, para recuperar mi confianza y estabilidad.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Andrea, reconociendo el impacto emocional y profesional que esta situación le genera. Asegura una escucha activa, valida sus preocupaciones y acuerda pasos concretos claros para resolver la logística y las fallas mecánicas, incluyendo tiempos realistas y seguimiento detallado."
+}

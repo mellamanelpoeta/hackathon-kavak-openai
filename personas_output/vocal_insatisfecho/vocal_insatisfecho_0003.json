@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Consultor IT",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente se mudó con su familia y depende mucho de su auto para el traslado diario de sus hijos a la escuela y su trabajo. La demora en la entrega y los repetidos problemas mecánicos le han generado mucha ansiedad y frustración, afectando su confianza en Kavak y su bienestar general. Además, su apretada agenda limita su disponibilidad para múltiples visitas al taller, lo que agrava su molestia.",
+  "historia_revelada": "Compró un vehículo usado por Kavak hace 3 meses y vendió otro. Ha reportado problemas recurrentes de motor y retrasos en el servicio de mantenimiento pactado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó un problema mecánico con el motor que no fue resuelto en la primera visita al taller.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó reprogramación de mantenimiento y expresó insatisfacción por falta de comunicación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas recurrentes y los servicios de mantenimiento han sido tardados y poco transparentes, impidiendo su uso confiable diario.",
+  "expectativa_solucion": "Desea una solución rápida y efectiva al problema mecánico con garantías claras, además de un seguimiento personalizado para no tener más inconvenientes.",
+  "prompt_conversacional": "Contén la frustración de Alejandro reconociendo su situación difícil y la importancia del vehículo para su familia. Propón pasos concretos y claros para solucionar el problema a la brevedad y ofrece seguimiento personalizado para recuperar su confianza."
+}

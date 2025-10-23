@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente vendió su auto a través de Kavak esperando un proceso ágil porque necesita el dinero para el pago inicial de una casa. Además, él compró un vehículo nuevo a través de la plataforma, que era esencial para ir al trabajo debido a problemas recientes con el transporte público. La demora en la entrega y las fallas mecánicas del auto nuevo le han generado mucha frustración y ansiedad por el impacto en su vida diaria y financiera.",
+  "historia_revelada": "Luis realizó venta y compra de vehículo con Kavak. Reportó retrasos en la entrega y fallas mecánicas en el vehículo recibido. Ha interactuado recientemente vía teléfono y whatsapp para solicitar atención sobre estos temas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar demora en entrega y solicitar actualización del estado de su vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensajes solicitando solución urgente a fallas mecánicas presentadas en el auto nuevo.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presentó fallas mecánicas desde la entrega, y la logística para la entrega fue muy tardada, lo que lo ha dejado sin transporte justo cuando más lo necesita y afecta su economía.",
+  "expectativa_solucion": "Que Kavak agilice la solución inmediata del problema mecánico y compense las molestias ocasionadas, estableciendo un plan claro y rápido para resolver la entrega y los daños.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Luis, reconociendo la urgencia de su situación. Propón pasos claros y concretos para solucionar el problema mecánico y la logística, asegurando transparencia y seguimiento frecuente para recuperar su confianza."
+}

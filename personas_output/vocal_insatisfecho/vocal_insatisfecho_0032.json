@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis acaba de regresar a Monterrey tras un año trabajando en otra ciudad. Tiene un hijo pequeño y necesita un auto confiable para los desplazamientos diarios. La demora en la entrega de su vehículo reacondicionado le ha generado ansiedad porque depende de ese medio para llevar a su pequeño a la escuela. Además, la incertidumbre acerca de las reparaciones que deben hacerse le ha causado frustración porque se siente desinformado y preocupado por gastar más de lo previsto.",
+  "historia_revelada": "Luis compró un auto usado a través de Kavak y también vendió su vehículo anterior al mismo tiempo. Actualmente está esperando la entrega del nuevo vehículo que presenta problemas mecánicos que deben ser reparados antes de la entrega final.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Luis llamó para reportar que el vehículo comprado aún no ha sido entregado y manifiesta preocupación por la demora prolongada.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Intercambio de mensajes con Luis para actualizar estado de la reparación y coordinar logística de entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "La entrega del vehículo se ha retrasado varias semanas debido a problemas mecánicos no anticipados, lo que afecta su movilidad y genera gastos adicionales. Luis siente que la comunicación no ha sido clara ni oportuna.",
+  "expectativa_solucion": "Luis espera una solución rápida y transparente que incluya un cronograma claro de reparaciones y entrega, además de algún tipo de compensación por las molestias y gastos extras ocasionados.",
+  "prompt_conversacional": "Actúa con empatía y reconocimiento de la frustración de Luis. Contén su molestia verbalizando comprensión genuina. Proporciona información clara y concreta sobre los próximos pasos, tiempos estimados y opciones de compensación, confirmando acuerdos concretos para recuperar la confianza."
+}

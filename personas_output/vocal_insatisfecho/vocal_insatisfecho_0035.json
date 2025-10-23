@@ -1,0 +1,27 @@
+{
+  "nombre": "Laura",
+  "edad": 32,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Laura recientemente perdió a un familiar y depende mucho de su automóvil para poder cumplir con sus responsabilidades laborales y personales en este periodo complicado. La demora en la entrega de su vehículo ha aumentado su estrés y ansiedad, afectando su ánimo y productividad.",
+  "historia_revelada": "Laura compró un auto seminuevo en Kavak hace dos meses y vendió otro con ellos. Previó una entrega rápida para reemplazar su vehículo anterior que tuvo detalles mecánicos. Sin embargo, la entrega se ha retrasado por problemas mecánicos y falta de coordinación logística.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en entrega del vehículo comprado y expresar frustración por la falta de información clara.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviada solicitud formal de actualización sobre estado de su auto, mencionando inconvenientes para cumplir con su trabajo.",
+      "nps": null
+    }
+  ],
+  "problema": "El retraso en la entrega del vehículo comprado, debido a complicaciones mecánicas y deficiencias en la logística, ha generado un gran impacto negativo en mi movilidad y bienestar emocional.",
+  "expectativa_solucion": "Quiero que Kavak agilice la resolución y entrega del auto con actualizaciones puntuales, además de una compensación que reconozca los inconvenientes causados.",
+  "prompt_conversacional": "La persona está visiblemente frustrada por la demora y problemas en la entrega del vehículo. Es fundamental contener su molestia mostrando empatía sincera, validar su frustración y explicar con claridad los pasos que Kavak tomará a partir de ahora. Acordar un plan concreto con fechas y responsables para recuperar su confianza."
+}

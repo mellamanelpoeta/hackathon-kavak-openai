@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es un hombre con responsabilidades familiares que vive en Guadalajara. Compró un auto con Kavak y también planea vender uno de sus vehículos actuales para mejorar su movilidad. Está frustrado debido a problemas recurrentes con la entrega y el estado mecánico del auto comprado. Siente que la logística de entrega ha sido lenta y poco transparente, lo que afecta su rutina diaria y genera estrés adicional en un momento en que necesita todo con máxima eficiencia.",
+  "historia_revelada": "Luis adquirió un vehículo hace 15 días y está en proceso de vender otro por medio de Kavak. Ha reportado problemas mecánicos tras la compra y retrasos en la recolección del vehículo para la venta.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega y solicitar actualización. Expresó molestia por falta de información clara.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envío de mensajes preguntando sobre el estado de la revisión mecánica del auto y fechas estimadas de recogida.",
+      "nps": null
+    }
+  ],
+  "problema": "Ha experimentado fallas mecánicas inesperadas en el auto recién comprado y retrasos significativos en la logística para la entrega y recolección del vehículo que está vendiendo, lo que afecta su confianza en el proceso y su planificación diaria.",
+  "expectativa_solucion": "Desea una solución rápida y concreta que garantice la reparación adecuada del vehículo, con comunicación clara y puntual sobre los tiempos de entrega y recogida, para poder continuar con sus actividades sin inconvenientes.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Luis, reconociendo su molestia y validando su situación. Ofrece disculpas sinceras por los inconvenientes recientes y comprométete a proporcionar información específica y seguimiento constante. Asegura acordar próximos pasos claros, incluyendo fechas y responsables, para resolver tanto la parte mecánica como la logística con firmeza y rapidez."
+}

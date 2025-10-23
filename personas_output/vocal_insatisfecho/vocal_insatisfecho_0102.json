@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Empleado de oficina",
+  "relacion_kavak": "compra_venta",
+  "ltv": 95000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es padre de dos niños pequeños y trabaja muchas horas para sostener a su familia. Tiene una fuerte necesidad de confiabilidad en sus medios de transporte, pues depende del auto para llevar a sus hijos a la escuela y llegar a su trabajo. La demora en la entrega del vehículo que compró y los problemas mecánicos que ha enfrentado lo han generado un estrés considerable, pues siente que perdió tiempo valioso y teme afectar su rutina familiar y laboral. Además, la falta de comunicación clara de Kavak ha incrementado su frustración emocional.",
+  "historia_revelada": "Luis compró un auto en Kavak y vendió otro, iniciando la transacción hace un mes. Ha tenido retrasos en la entrega y reportado fallas mecánicas. Ha contactado soporte en varias ocasiones pero no ha recibido soluciones satisfactorias aún.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en entrega y solicitar actualización urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envío de correo con fotos de fallas mecánicas y solicitud de asesoría técnica.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos prolongados en la entrega del vehículo adquirido y problemas mecánicos recurrentes que afectan la confiabilidad del auto, sumados a la falta de respuesta clara y oportuna por parte del equipo de Kavak.",
+  "expectativa_solucion": "Que Kavak proporcione una solución rápida y concreta, ya sea entrega inmediata de un vehículo en óptimas condiciones o reparación garantizada, junto con un canal de comunicación transparente para evitar futuras incertidumbres.",
+  "prompt_conversacional": "Contén la frustración del cliente reconociendo lo complicado que es depender de un vehículo para su familia y trabajo. Asegura que escuchas su molestia y ofrece disculpas sinceras. Propón próximos pasos concretos para resolver los problemas mecánicos y agilizar la entrega o el servicio, incluyendo tiempos claros y quién será responsable de dar seguimiento."
+}

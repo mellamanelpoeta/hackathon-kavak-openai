@@ -1,0 +1,27 @@
+{
+  "nombre": "Renata",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Renata ha confiado en Kavak para comprar y vender autos, pero su experiencia reciente ha sido frustrante debido a problemas mecánicos no informados y retrasos en la logística que le han generado estrés, pues depende de su automóvil para su trabajo y cuidar a sus hijos. Se siente decepcionada y preocupada por la falta de transparencia y la afectación a su rutina diaria.",
+  "historia_revelada": "Renata adquirió un vehículo usado hace tres meses y vendió uno antiguo recientemente. Reportó problemas mecánicos que no fueron detectados antes de la compra y ha experimentado demoras en la entrega de documentos y servicios postventa.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar un problema en el motor del vehículo comprado, expresó molestia y solicitó solución inmediata.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando información sobre el estado de la garantía y seguimiento de la reparación, expresó insatisfacción por falta de respuesta rápida.",
+      "nps": null
+    }
+  ],
+  "problema": "El automóvil presenta problemas mecánicos serios que afectaron su uso desde la compra y la gestión logística para solucionar la garantía ha sido lenta y poco clara, lo que genera mucha frustración y desconfianza.",
+  "expectativa_solucion": "Desea que Kavak reconozca el problema, agilice las reparaciones o proporcione un vehículo sustituto, y mejore la comunicación para evitar más inconvenientes.",
+  "prompt_conversacional": "Contén la frustración de Renata con empatía. Reconoce su molestia por los problemas mecánicos y los retrasos logísticos. Asegura que Kavak está comprometido a solucionarlo rápidamente y acordar pasos concretos: revisión inmediata del vehículo, actualización constante del estado y opciones claras para compensarla durante el proceso."
+}

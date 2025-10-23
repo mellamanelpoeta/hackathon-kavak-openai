@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 12500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tiene una agenda muy apretada debido a sus responsabilidades familiares y laborales. Él esperaba que la compra y venta de su vehículo a través de Kavak fuera un proceso ágil y eficiente para no afectar su rutina. El retraso en la entrega del auto comprado y la falta de comunicación efectiva le han generado mucha frustración y estrés, ya que depende de su vehículo para su día a día y para cumplir con sus compromisos.",
+  "historia_revelada": "Luis compró un auto y vendió otro a través de Kavak hace un mes. Ha reportado problemas con la logística de entrega del vehículo comprado, además de una falla mecánica detectada que esperaba no tener que enfrentar. Ha solicitado soporte técnico y seguimiento varias veces.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del vehículo y solicitar información urgente con baja satisfacción.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Envi&oacute; correo solicitando soporte para falla mecánica en el auto adquirido y seguimiento de su caso.",
+      "nps": null
+    }
+  ],
+  "problema": "La entrega del vehículo comprado se ha retrasado considerablemente sin comunicación clara, y el auto presenta una falla mecánica que afecta su uso diario, generando impacto en su movilidad y estrés.",
+  "expectativa_solucion": "Quiere que Kavak gestione una solución rápida que incluya la entrega inmediata y la reparación o reemplazo del vehículo para poder confiar nuevamente en el servicio.",
+  "prompt_conversacional": "Luis está visiblemente frustrado y preocupado por la demora y problemas mecánicos. Contén su molestia mostrando empatía genuina, valida su experiencia, y acuerda junto con él pasos concretos y fechas claras para resolver el problema, asegurándole seguimiento continuo."
+}

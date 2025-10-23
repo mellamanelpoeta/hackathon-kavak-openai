@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 80000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió un proyecto importante en el trabajo por problemas de transporte y la demora en la entrega del vehículo que compró a través de Kavak ha aumentado significativamente su estrés. Se siente frustrado porque confiaba en la logística y en el estado mecánico prometido, y la interrupción le genera preocupación por cumplir compromisos profesionales y familiares. Además, su experiencia anterior con servicios similares no había sido mala, por lo que esta situación le resulta inesperada y especialmente irritante.",
+  "historia_revelada": "Cliente adquirió un vehículo y vendió otro a través de Kavak. Tiene registros recientes de quejas por retrasos en el proceso de entrega y problemas mecánicos detectados en el vehículo vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en entrega del vehículo comprado, mostró insatisfacción y solicitud urgente de solución.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje detallando problemas mecánicos que detectó en el vehículo vendido; pidió revisión y reembolso parcial.",
+      "nps": null
+    }
+  ],
+  "problema": "Demoras significativas en la entrega del vehículo comprado y problemas mecánicos inesperados con el vehículo que vendió, lo que afecta su movilidad y genera incertidumbre financiera y profesional.",
+  "expectativa_solucion": "Que Kavak resuelva rápidamente las fallas mecánicas y agilice la entrega, ofreciéndole apoyo o compensación para minimizar el impacto en sus responsabilidades laborales y personales.",
+  "prompt_conversacional": "Contener la frustración de Luis reconociendo su molestia y el impacto que ha tenido en su vida personal y profesional. Mostrar empatía sincera y luego enfocar la conversación en acordar pasos claros y concretos para solucionar los problemas mecánicos y logísticos, incluyendo tiempos estimados y opciones de compensación o soporte mientras se gestiona la resolución."
+}

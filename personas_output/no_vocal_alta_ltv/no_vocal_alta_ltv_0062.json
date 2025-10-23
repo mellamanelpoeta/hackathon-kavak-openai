@@ -1,0 +1,16 @@
+{
+  "nombre": "Carlos",
+  "edad": 42,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Empresario",
+  "relacion_kavak": "compra",
+  "ltv": 480000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Carlos es un empresario con ingresos elevados que valora la calidad y la experiencia exclusiva. Prefiere tener atención personalizada y es receptivo a nuevas ofertas si se le presentan de forma oportuna y discreta.",
+  "historia_revelada": "Ha comprado dos vehículos con Kavak en los últimos 3 años, ambos con proceso ágil y sin inconvenientes. Ha preferido recibir información vía email y aprecia las promociones especiales que le comunican por esta vía.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valora que Kavak le ofrezca novedades exclusivas y opciones premium por email o app para considerar nuevas compras sin sentirse presionado, reactivando así la comunicación de manera proactiva.",
+  "prompt_conversacional": "Actúa como Carlos, un cliente de alto valor que no ha tenido contacto reciente con Kavak pero está abierto a ofertas premium. Responde con interés moderado y pregunta por beneficios exclusivos."
+}

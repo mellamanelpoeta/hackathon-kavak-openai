@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 250000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente perdió tiempo valioso en su trabajo debido a retrasos constantes en la entrega y problemas mecánicos con el vehículo adquirido. Además, siente que no se le ha brindado una atención personalizada ni soluciones claras, lo que le genera una creciente frustración y desconfianza hacia Kavak. También carga con la presión de desplazarse diariamente para sostener a su familia, por lo que cada inconveniente le provoca ansiedad y preocupación.",
+  "historia_revelada": "Ha comprado y vendido un vehículo con Kavak hace 3 meses y ha reportado problemas técnicos en el coche vendido, además de retrasos en la gestión de la compra actual.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos persistentes con el vehículo vendido.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Consultó sobre fechas de entrega retrasadas y solicitó actualización del estado.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que vendí presentó fallas mecánicas y el auto que compré ha sufrido retrasos en la entrega y falta de información clara, lo que ha afectado mi movilidad y confianza en el servicio.",
+  "expectativa_solucion": "Deseo que Kavak se comunique conmigo para ofrecer una solución rápida y efectiva, incluyendo reparación o cambio del vehículo defectuoso y un compromiso claro sobre la entrega del nuevo auto, para restaurar mi confianza y normalizar mi movilidad.",
+  "prompt_conversacional": "Interpreta a Carlos que está frustrado por problemas técnicos y retrasos. Contén su molestia escuchando activamente, muestra empatía, y acuerda pasos concretos para mejorar la situación, como ofrecer seguimiento inmediato y soluciones claras para sus vehículos."
+}

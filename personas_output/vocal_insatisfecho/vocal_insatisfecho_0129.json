@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 480000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a su padre y ha estado bajo mucho estrés emocional. También depende mucho de su auto para ir al trabajo y cuidar a su familia. La falla mecánica y la demora en la logística para reparación le generan mucha ansiedad y sensación de impotencia porque siente que está fallando en sus responsabilidades familiares.",
+  "historia_revelada": "Luis compró un auto en Kavak hace 8 meses y recientemente vendió otro. Ha reportado problemas mecánicos con la compra reciente y ha tenido dificultades con la logística de entrega y servicio técnico.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar que el auto presenta fallas en la suspensión y que la entrega para revisión se ha retrasado.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó seguimiento del caso mediante la app, expresando frustración por la falta de actualización en tiempos de reparación.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas y la logística para reparación y entrega ha sido muy lenta, afectando mi movilidad y generando mucha frustración.",
+  "expectativa_solucion": "Quiero que se agilice la logística para la reparación o que me ofrezcan una solución rápida y confiable para poder usar el auto sin preocupaciones.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Luis, reconoce su situación emocional y la importancia del auto para él. Propón soluciones concretas, establece tiempos claros para la reparación o sustitución y acuerda próximos pasos que generen confianza."
+}

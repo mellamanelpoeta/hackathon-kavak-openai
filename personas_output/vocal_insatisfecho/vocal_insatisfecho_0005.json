@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1500000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego recientemente perdió un empleo estable y la incertidumbre económica lo tiene muy preocupado. La compra y venta del auto con Kavak era una esperanza para estabilizar su situación financiera, pero los retrasos logísticos y problemas con la mecánica del auto comprado le generan ansiedad y frustración. Se siente desatendido y con falta de apoyo en un momento vulnerable emocionalmente.",
+  "historia_revelada": "Diego compró un vehículo a través de Kavak y posteriormente puso a la venta otro auto. Ha reportado problemas frecuentes con la entrega y que el auto comprado presenta fallas mecánicas que afectaron su uso.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la entrega del vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando solución urgente para problema mecánico detectado en el auto.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presentó fallas mecánicas inesperadas pocos días después de la entrega y la logística para recolección y solución ha sido lenta y poco clara, incrementando su frustración y desconfianza.",
+  "expectativa_solucion": "Que Kavak responda con rapidez para solucionar las fallas mecánicas y agilizar la logística, aportando claridad y confianza para recuperar su tranquilidad.",
+  "prompt_conversacional": "Eres un agente que debe contener la frustración de Diego mostrando empatía, escuchando activamente sus preocupaciones y ofreciéndole pasos concretos y realistas para resolver la situación, coordinando acciones de logística y mecánica para restaurar su confianza."
+}

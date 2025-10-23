@@ -1,0 +1,27 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 36000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "María Fernanda compró un auto usado y vendió otro a través de Kavak esperando procesos rápidos y confiables. Sin embargo, ha enfrentado retrasos en la logística y problemas mecánicos tras la compra, lo cual la ha generado estrés y frustración pues depende del vehículo para desplazarse a su trabajo y cuidar a su familia. Se siente decepcionada porque esperaba que Kavak facilitara todo el proceso sin contratiempos.",
+  "historia_revelada": "Cliente con operación reciente de compra y venta de vehículo. Reporta inconvenientes en la entrega del auto comprado y fallas mecánicas tempranas. Ha interactuado con soporte en múltiples ocasiones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en entrega del vehículo comprado.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Chat para informar sobre problema mecánico después de 3 días de uso.",
+      "nps": null
+    }
+  ],
+  "problema": "La entrega del auto comprado fue tardía y al recibirlo presentó fallas mecánicas que no esperaba, lo cual ha afectado mi movilidad diaria y ha generado mucha molestia y estrés.",
+  "expectativa_solucion": "Quiero que Kavak se haga responsable y solucione la falla mecánica rápidamente, además que mejoren la logística para evitar retrasos en la entrega.",
+  "prompt_conversacional": "Contén la frustración de María Fernanda reconociendo la molestia causada por los retrasos y problemas mecánicos. Muestra empatía y ofrece pasos concretos para resolver el problema, como agendar revisión mecánica urgente y confirmar nuevas fechas de entrega o solución, asegurando su tranquilidad."
+}

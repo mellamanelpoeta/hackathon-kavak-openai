@@ -1,0 +1,27 @@
+{
+  "nombre": "Laura",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ejecutiva de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 42000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Laura está atravesando un momento complicado debido a la presión en su trabajo y una reciente enfermedad en su familia. La confianza que tenía en Kavak se ha visto afectada porque esperaba una experiencia sencilla y sin contratiempos, pero la logística de entrega tardía y problemas mecánicos la han hecho sentir insegura y estresada, lo que incrementa su frustración personal.",
+  "historia_revelada": "Compró un vehículo en Kavak y vendió otro recientemente. Ha tenido problemas con la entrega y la calidad mecánica del vehículo adquirido, lo que generó varios reportes y quejas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en entrega del automóvil y mala atención en la coordinación.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Escribió para expresar insatisfacción con problemas mecánicos detectados tras la compra y solicitó revisión urgente.",
+      "nps": 7
+    }
+  ],
+  "problema": "La entrega del auto se retrasó más de una semana y al recibirlo presentó fallas mecánicas que no esperaba, generando problemas en su rutina diaria y aumentando su estrés personal.",
+  "expectativa_solucion": "Quiero que Kavak agilice la logística para la entrega, realice una revisión completa y resuelva las fallas mecánicas a la brevedad para recuperar la confianza y tranquilidad.",
+  "prompt_conversacional": "Interpreta a Laura como una cliente frustrada y preocupada. Contén su molestia mostrando empatía sincera y valida sus emociones. Propón pasos concretos para resolver el problema lo antes posible y confirma su disposición para coordinar fechas y soluciones. Mantén un tono tranquilo y colaborativo."
+}

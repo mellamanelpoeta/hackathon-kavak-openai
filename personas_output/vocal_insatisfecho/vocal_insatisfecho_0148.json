@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.75,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis se siente frustrado porque depende mucho de su auto para su trabajo y su familia. Tiene miedo de que los problemas mecánicos recientes afecten su ingreso y la confianza en Kavak. Está emocionalmente agotado por la incertidumbre y siente que no se le ha dado la atención necesaria.",
+  "historia_revelada": "Luis compró un auto hace 6 meses y vendió otro a través de Kavak hace 3 meses. Recientemente reportó fallas mecánicas en el auto comprado y ha experimentado retrasos en el servicio de taller.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reportó falla en motor y solicitó revisión urgente, expresó molestia por demora.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó cita para taller y seguimiento a caso abierto por problema mecánico.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto adquirido presenta fallas mecánicas que no han sido solucionadas pese a varios intentos, sumado a retrasos logísticos en las citas de servicio, lo que genera inseguridad y molestias.",
+  "expectativa_solucion": "Que Kavak gestione una solución rápida y definitiva para el problema mecánico, con comunicación clara y compromiso para evitar más retrasos.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Luis. Reconoce su situación y ofrece disculpas. Enfócate en acordar próximos pasos concretos para resolver su inconveniente mecánico y mejorar su confianza en Kavak."
+}

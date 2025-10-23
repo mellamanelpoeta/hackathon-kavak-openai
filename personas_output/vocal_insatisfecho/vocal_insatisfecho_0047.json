@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos compró y vendió un vehículo con Kavak buscando una solución rápida para su traslado diario y aprovechando una oferta. Sin embargo, el auto presentado con fallas mecánicas le ha generado ansiedad y frustración porque depende del vehículo para el trabajo y la educación de sus hijos. La logística para la recogida y entrega del carro ha sido poco clara y tardada, lo que agrava su estrés y le hizo sentir que no se está valorando su tiempo ni sus necesidades como cliente.",
+  "historia_revelada": "Carlos realizó una compra y venta de auto con Kavak hace un mes. Ha reportado problemas mecánicos con el vehículo adquirido y ha solicitado soporte para resolverlo. Ha mostrado insatisfacción en encuestas recientes y contacto con atención al cliente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar que el auto presenta un problema en la suspensión poco después de la compra.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó actualización del estado de la recogida del vehículo para revisión mecánica.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado tiene fallas en la suspensión que afectan su uso diario y la logística para la inspección y reparación ha sido confusa y retrasada, generando pérdida de tiempo y frustración.",
+  "expectativa_solucion": "Desea que Kavak gestione rápida y claramente la revisión y reparación del vehículo, con comunicación frecuente y concrete una solución práctica que le permita usar el auto sin problemas lo antes posible.",
+  "prompt_conversacional": "El agente debe contener la frustración de Carlos mostrando empatía y comprensión por las dificultades mecánicas y los inconvenientes logísticos. Se recomienda acordar pasos concretos para la inspección y reparación del vehículo, ofreciendo tiempos claros y un contacto directo de seguimiento para mantenerlo informado y recuperar su confianza."
+}

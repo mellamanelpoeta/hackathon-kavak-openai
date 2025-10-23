@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 35000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente perdió tiempo valioso y dinero debido a fallas mecánicas en el vehículo que compró a través de Kavak. Esto le ha provocado estrés porque confió en la plataforma para evitar problemas, especialmente considerando que debe desplazarse diariamente a un trabajo exigente y tiene responsabilidades familiares que dependen de su movilidad. La frustración crece porque esperaba un servicio eficaz y respuestas claras, pero se siente ignorado.",
+  "historia_revelada": "Compró un auto usado hace 2 meses, vendió su vehículo anterior a través de Kavak. Ha reportado incidencias mecánicas y retrasos en la respuesta del taller autorizado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial de problemas mecánicos y solicitud de soporte.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Consulta sobre estado de la reparación y seguimiento a caso abierto.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presentó fallas mecánicas graves pocos días después de la compra, y el proceso de reparación ha sido lento y poco transparente, afectando su movilidad y generando mucha frustración.",
+  "expectativa_solucion": "Desea que Kavak agilice la reparación o facilite un vehículo alternativo mientras se resuelve el problema, con comunicación clara y compromiso de seguimiento hasta la solución definitiva.",
+  "prompt_conversacional": "Eres un agente empático que debe contener la frustración de Carlos, un cliente con fallas mecánicas en su auto. Valida sus sentimientos, disculpa las molestias, y acuerda pasos concretos y tiempos claros para la solución, asegurando que se sienta respaldado y escuchado durante todo el proceso."
+}

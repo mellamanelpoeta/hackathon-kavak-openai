@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis vive con su esposa y dos hijos pequeños. Últimamente ha estado bajo mucha presión por el trabajo y cuidar a su familia, lo que aumenta su frustración al enfrentar retrasos y problemas mecánicos en el vehículo que acaba de comprar en Kavak. Siente que la logística lenta afecta su rutina diaria y provoca más estrés en su vida familiar.",
+  "historia_revelada": "Cliente que ha realizado una compra y planea vender un vehículo próximamente. Tiene reportes de retrasos en la entrega y problemas mecánicos no resueltos en su auto reciente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar problemas con el motor y solicitar apoyo urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió mensaje para reclamar por retraso en la entrega del vehículo de cambio.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas y la logística para resolver el problema y la entrega del vehículo de intercambio ha sido lenta, afectando mi movilidad diaria y generando mucha frustración.",
+  "expectativa_solucion": "Quiero que se agilice la atención mecánica y la entrega del vehículo de reemplazo, y que me mantengan informado con tiempos claros para evitar más contratiempos.",
+  "prompt_conversacional": "El cliente está visiblemente frustrado por problemas mecánicos y retrasos logísticos. Contén su molestia con empatía, ofrece disculpas sinceras y confirma los próximos pasos concretos y tiempos estimados para resolver su situación. Busca mostrar compromiso en la solución y en mantenerlo informado."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Miguel",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 78000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Miguel está frustrado porque depende mucho de su vehículo para desplazarse a su trabajo y para cuidar a su familia; ha tenido problemas de mantenimiento desde que compró el coche con Kavak, y siente que la logística para repararlo está fallando, afectando su rutina diaria y generando estrés constante.",
+  "historia_revelada": "Miguel compró un vehículo con Kavak hace 8 meses y vendió otro hace 2 meses. Actualmente ha reportado problemas mecánicos graves en el vehículo reciente y ha experimentado demoras en agendar citas para taller.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte de problema mecánico y solicitud de cita en taller, con respuesta tardía.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta sobre estado de reparación y seguimiento a la cita agendada, sin respuesta clara.",
+      "nps": null
+    }
+  ],
+  "problema": "Demoras prolongadas en la logística para reparaciones mecánicas, generando parálisis en su movilidad y estrés por la falta de soluciones oportunas.",
+  "expectativa_solucion": "Que Kavak agilice la atención en taller, facilite costos y repuestos, y mantenga comunicación clara para recuperar la movilidad sin más inconvenientes.",
+  "prompt_conversacional": "Contén la frustración de Miguel mostrando empatía hacia su situación y el impacto en su vida diaria. Confirma claramente los pasos concretos para resolver la situación mecánica, incluyendo tiempos estimados para revisión y reparación, y ofrece canales directos de comunicación para seguimiento continuo."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Laura",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ejecutiva de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Laura depende de su auto para transportar a sus hijos y llegar puntual a su trabajo. Ha tenido experiencias previas donde retrasos y problemas mecánicos le generaron estrés y pérdidas económicas. Actualmente, una falla mecánica inesperada y la lentitud para obtener soporte de Kavak ha incrementado su ansiedad y frustración, pues siente que su vida cotidiana se ve afectada y teme que su inversión no esté protegida.",
+  "historia_revelada": "Cliente compró y vendió dos autos a través de Kavak en los últimos dos años. Recientemente reportó una falla mecánica importante en el vehículo comprado hace 6 meses, solicitando asistencia técnica y logística para movilidad y reparación. Respuestas iniciales tardías causaron queja formal.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reclamando demora en la respuesta para asistencia mecánica; expresó descontento severo.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando actualización sobre logística para la reparación del vehículo.",
+      "nps": null
+    }
+  ],
+  "problema": "Demora en la atención a la falla mecánica del auto adquirido, afectando su movilidad y generando complicaciones familiares y laborales.",
+  "expectativa_solucion": "Quiere una atención rápida y efectiva que incluya solución mecánica inmediata y apoyo logístico para minimizar el impacto en su rutina.",
+  "prompt_conversacional": "Contén la frustración de Laura mostrando empatía por el impacto que su problema ha tenido en su vida diaria. Confirma que entiendes su situación y comprométete a coordinar un plan concreto con tiempos claros para la reparación y soporte logístico, asegurando comunicación constante."
+}

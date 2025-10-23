@@ -1,0 +1,27 @@
+{
+  "nombre": "Marcela",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Marcela compró un vehículo usado y vendió el anterior a través de Kavak. Está enfrentando problemas con retrasos en la entrega de su auto recién comprado y fallas mecánicas que afectan su trabajo diario, lo que incrementa su estrés y preocupación por cumplir con sus responsabilidades familiares y laborales. Su frustración se potencia porque siente que no recibe respuestas claras ni soluciones efectivas, generándole ansiedad y desconfianza hacia Kavak.",
+  "historia_revelada": "Cliente realizó la venta de su auto y la compra de otro en Kavak hace 3 semanas. Reportó retrasos en la entrega y problemas mecánicos después de la compra. Solicitudes de soporte y quejas recientes.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre fallas mecánicas y solicitó asesoría técnica.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos constantes en la entrega del vehículo comprado y fallas mecánicas después de la compra, sin una solución clara ni tiempos definidos, lo que afecta mi trabajo y genera mucha frustración.",
+  "expectativa_solucion": "Espero que Kavak se comunique conmigo prontamente, me brinde una solución técnica efectiva o un reemplazo, y compense los inconvenientes causados; quiero claridad en los tiempos y acciones concretas para recuperar mi confianza.",
+  "prompt_conversacional": "Eres un agente de CX que debe manejar a Marcela, una clienta frustrada por problemas de logística y mecánica en su compra-venta con Kavak. Contén su frustración empatizando profundamente, evita respuestas evasivas y acuerda próximos pasos claros y ágiles para dar seguimiento, asegurando que se sienta escuchada y confiada en que su caso es prioridad."
+}

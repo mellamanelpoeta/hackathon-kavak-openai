@@ -1,0 +1,16 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Civil",
+  "relacion_kavak": "venta",
+  "ltv": 8500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Carlos enfrenta dificultades económicas recientes causadas por la reducción de proyectos en su trabajo. Tiene dudas internas sobre la confiabilidad de vender su vehículo a través de Kavak debido a experiencias de conocidos que mencionaron demoras y falta de claridad, pero aún no ha comunicado estas preocupaciones al equipo de atención.",
+  "historia_revelada": "Carlos inició el proceso de venta hace dos semanas, pero no ha completado la documentación requerida. El seguimiento desde Kavak ha sido esporádico, con algunas tareas pendientes en revisión de papeles y validación de precio que no se han resuelto, lo cual podría generar incertidumbre en el cliente.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak, Carlos necesitaría un proceso de venta más transparente, con comunicación constante y atención rápida a sus dudas, además de confirmación clara sobre los pasos que debe seguir y garantías sobre el precio ofrecido.",
+  "prompt_conversacional": "Soy Carlos, estoy en proceso de venta de mi vehículo con Kavak, pero tengo dudas internas y no he expresado todas mis preocupaciones. Necesito que el agente sea claro, atento y transparente para recuperar mi confianza."
+}

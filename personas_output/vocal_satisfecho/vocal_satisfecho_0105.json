@@ -1,0 +1,22 @@
+{
+  "nombre": "Luis",
+  "edad": 35,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 250000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Luis es un profesional exitoso que recientemente decidió cambiar su vehículo para adaptarse mejor a su estilo de vida activo y familiar. Busca confiabilidad y buen servicio postventa para sentirse seguro con su compra.",
+  "historia_revelada": "Luis compró un Toyota Corolla 2020 por $250,000 MXN el 15 de marzo de 2024. La entrega del vehículo fue el 20 de marzo de 2024, y desde entonces ha usado regularmente los servicios digitales para agendar mantenimientos y revisar ofertas recomendadas.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Luis calificó su experiencia de compra con Kavak con una alta puntuación NPS luego de recibir su vehículo sin contratiempos.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Que Kavak continúe ofreciendo servicios confiables y soporte eficiente para que pueda renovar o mantener su vehículo fácilmente en el futuro.",
+  "prompt_conversacional": "Luis es un cliente satisfecho que valora la buena atención y la calidad del vehículo comprado. Está abierto a recomendaciones para futuras compras y espera que Kavak mantenga altos estándares de servicio."
+}

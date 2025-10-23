@@ -1,0 +1,27 @@
+{
+  "nombre": "Fernando",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Fernando depende de su vehículo para transportarse a su trabajo y cuidar a su familia. Ha tenido experiencias previas negativas con servicios automotrices y esto ha generado en él una creciente frustración y desconfianza. La demora y problemas mecánicos con su compra reciente le han afectado emocionalmente, sintiéndose preocupado y bajo presión debido a las responsabilidades que tiene.",
+  "historia_revelada": "Fernando compró un auto usado a Kavak y también vendió su vehículo anterior. Ha reportado problemas mecánicos con el auto comprado, especialmente con la suspensión y el sistema de frenos. Además, ha enfrentado retrasos en el servicio del taller autorizado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó reportando fallo en la suspensión y solicitando solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envío mensaje vía app pidiendo seguimiento sobre los tiempos de reparación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo adquirido presenta fallos mecánicos en la suspensión y frenos, además la demora en la atención del taller ha generado incertidumbre y afecta su movilidad diaria.",
+  "expectativa_solucion": "Desea que Kavak agilice la reparación o cambie el vehículo por uno en condiciones óptimas, así como un seguimiento constante y solución rápida para recuperar su confianza.",
+  "prompt_conversacional": "Eres un agente empático que debe contener la frustración de Fernando escuchando activamente. Reconoce la importancia del vehículo para su vida diaria. Asegúrate de mostrar comprensión y compromiso. Propón pasos concretos para la solución, incluyendo seguimiento personalizado, plazos claros y posibles compensaciones para restaurar la confianza."
+}

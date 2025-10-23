@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 44,
+  "ciudad": "Monterrey",
+  "ocupacion": "Contador público",
+  "relacion_kavak": "venta",
+  "ltv": 18500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis enfrenta tensiones financieras personales derivadas de problemas de salud en su familia que aún no ha comunicado a Kavak. Aunque vendió su vehículo con Kavak hace dos meses, está preocupado por ciertas demoras y falta de respuesta en el proceso de pago, lo que aumenta su ansiedad sobre su estabilidad económica y su confianza en el servicio.",
+  "historia_revelada": "Luis vendió su auto a Kavak hace 8 semanas. El pago está pendiente desde hace 3 semanas y ha intentado contactarse sin obtener respuesta clara. Hay tareas de seguimiento abiertas en el sistema, pero no hay actualización reciente ni confirmación de fechas para la transferencia del pago.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Necesitaría una comunicación clara y puntual, con confirmación segura de los pagos y seguimiento active. Solo así podría volver a confiar en Kavak para futuras operaciones.",
+  "prompt_conversacional": "Soy Luis, un vendedor reciente que aún no ha recibido su pago. No estoy expresando mi preocupación profunda aún, pero necesito que el agente me brinde información concreta y me ayude a recuperar mi confianza en Kavak."
+}

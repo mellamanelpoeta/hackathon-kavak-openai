@@ -1,0 +1,27 @@
+{
+  "nombre": "Raúl",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Raúl reciente vendió su auto por Kavak y compró otro, pero ha tenido varios problemas mecánicos que le han causado estrés y pérdida de tiempo en su trabajo. Además, la logística para recoger su vehículo nuevo no ha sido clara, lo que aumenta su frustración dado que depende mucho de su auto para cumplir con sus responsabilidades familiares y laborales. Se siente decepcionado por la falta de apoyo y la lentitud en la resolución de sus problemas.",
+  "historia_revelada": "Cliente vendió un sedan 2015 y compró un SUV 2020. Reportó problemas mecánicos en el vehículo nuevo y retrasos en la entrega. Ha levantado tickets de soporte en las últimas dos semanas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente llamó para reportar una falla mecánica y solicitó que revisaran el vehículo con urgencia.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Registró una queja sobre el retraso en la entrega y la falta de actualización clara del estado.",
+      "nps": 7
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que no han sido atendidas oportunamente, y además, la logística para la entrega final ha sido confusa y tardada, generando mucha frustración y pérdida de tiempo.",
+  "expectativa_solucion": "Desea que se le proporcione una solución rápida y definitiva al problema mecánico, así como una logística clara y eficiente para la entrega del vehículo, con comunicación proactiva y compromisos concretos para evitar más inconvenientes.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Raúl, reconocé el problema mecánico y la deficiencia en la logística. Propone pasos concretos para resolver la situación, asegurando seguimiento continuo y compromisos claros. Evita promesas vagas y busca calmar la ansiedad con acciones concretas y realistas."
+}

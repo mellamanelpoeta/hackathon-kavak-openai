@@ -1,0 +1,27 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Arquitecta",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "María Fernanda recientemente compró un automóvil a través de Kavak con muchas expectativas, ya que requiere movilidad confiable para su trabajo y familia. Sin embargo, ha enfrentado varias fallas mecánicas y retrasos inesperados en la entrega de servicios que la han generado gran frustración, aumentando su ansiedad debido a compromisos laborales y personales apremiantes. Esto ha afectado su confianza en la marca y le genera un estrés emocional significativo.",
+  "historia_revelada": "Cliente compró un vehículo y vendió otro a través de Kavak hace 3 semanas. Reportó problemas mecánicos al segundo día y retrasos en servicio de logística para la devolución. Ha contactado soporte y taller en varias ocasiones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problemas mecánicos con el vehículo comprado y solicitando solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Mandó mensaje por la app consultando estado del taller y queja por demora excesiva.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas desde poco después de la compra y la logística para la revisión y reparación se ha retrasado reiteradamente, generando molestias y pérdida de confianza.",
+  "expectativa_solucion": "Desea que Kavak agilice la reparación y logística, le brinden información clara y garantías que le permitan recuperar su confianza y estabilidad con el vehículo.",
+  "prompt_conversacional": "Actúa con empatía, reconociendo la frustración de María Fernanda por los problemas mecánicos y la demora en la atención. Contén su molestia validando su experiencia, ofrece una disculpa genuina y acuerda pasos concretos y tiempos claros para la revisión y solución, asegurando seguimiento cercano."
+}

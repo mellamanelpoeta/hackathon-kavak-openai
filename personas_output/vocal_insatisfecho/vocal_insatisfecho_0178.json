@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis está pasando por un momento complicado en su trabajo, con muchos proyectos y estrés acumulado. Compra y vende autos con Kavak para manejar su movilidad y economía, pero la reciente falla mecánica en el auto que compró le afectó mucho, generándole inseguridad y frustración. Además, siente que la logística para resolver su problema ha sido lenta y poco clara, lo que aumenta su ansiedad y desconfianza hacia Kavak.",
+  "historia_revelada": "Luis compró un vehículo usado hace 3 meses y recientemente reportó una falla mecánica. También vendió un auto a través de Kavak hace 6 meses. Ha comunicado incidencias sobre ambos vehículos con el área de servicio y logística.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó la falla mecánica y expresó su frustración por la lentitud en la respuesta.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización del estado del envío del auto de venta y reiteró su malestar.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta una falla mecánica que no ha sido reparada a tiempo. Además, la logística para recoger el auto vendido es confusa y retrasada, lo que le genera incertidumbre y malestar.",
+  "expectativa_solucion": "Luis desea que Kavak atienda con rapidez la reparación del vehículo y clarifique los tiempos exactos para la recogida del auto vendido, con comunicación constante y soluciones concretas que generen confianza.",
+  "prompt_conversacional": "Eres un agente de CX que debe manejar la frustración de Luis con empatía y paciencia. Debes validar sus molestias, contener su enojo y explicarle claramente los próximos pasos con tiempos definidos para la solución de la falla mecánica y la logística de su vehículo vendido. Asegura que se sienta escuchado y que Kavak está comprometido en resolver su situación."
+}

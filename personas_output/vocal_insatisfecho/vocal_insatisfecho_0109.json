@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 780000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente vendió su vehículo a Kavak y adquirió otro a través de la plataforma. Está atravesando un periodo estresante en el trabajo, con mucha presión y poco tiempo libre. La demora en la entrega y problemas mecánicos inesperados afectaron su confianza y generaron frustración, pues confiaba en que Kavak facilitaría una transición sencilla sin contratiempos, dado a su horario apretado y necesidad urgente de movilizarse.",
+  "historia_revelada": "Luis compró un vehículo usado en Kavak hace dos meses y vendió el suyo al mismo tiempo por medio de la plataforma. Ha reportado inconvenientes derivados de fallas mecánicas y retrasos en la entrega del auto adquirido, generando solicitudes recientes al área de soporte.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó un retraso de 5 días en la entrega del vehículo comprado y solicitó una revisión mecánica urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Confirmó recepción del vehículo con fallas mecánicas y expresó molestia por la experiencia.",
+      "nps": 3
+    }
+  ],
+  "problema": "El auto comprado presentó fallas mecánicas serias apenas días después de la entrega, además de que la entrega se retrasó más de una semana, impactando mi movilidad personal y profesional.",
+  "expectativa_solucion": "Que Kavak se haga responsable de manera inmediata, ofreciendo una solución clara como la reparación o reemplazo del vehículo, además de mejorar la comunicación en futuras entregas para evitar retrasos y daños.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Luis, validando su molestia con empatía y ofreciendo una solución clara y rápida. Tu objetivo es acordar los próximos pasos concretos para resolver su situación, explicando los tiempos estimados y manteniendo un tono calmado y profesional."
+}

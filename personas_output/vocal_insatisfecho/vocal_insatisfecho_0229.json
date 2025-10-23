@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente tuvo un accidente menor y depende mucho de su vehículo para ir al trabajo y cuidar a su familia. La demora y fallas mecánicas recurrentes le generan mucha frustración y ansiedad, ya que siente que Kavak no cumple con su compromiso y teme repetir un problema similar que lo dejó varado.",
+  "historia_revelada": "Compró un vehículo seminuevo hace 3 meses y vendió otro a través de Kavak. Ha reportado problemas mecánicos con el vehículo comprado y retrasos en el servicio de postventa y logística para reparaciones.",
+  "historial_vocalidad": [
+    {
+      "canal": "whatsapp",
+      "resumen": "Reporte inicial de fallo mecánico y solicitud de soporte.",
+      "nps": 4
+    },
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para escalar la queja por retraso en reparación.",
+      "nps": 2
+    }
+  ],
+  "problema": "El vehículo adquirido presenta fallas mecánicas que no han sido resueltas a pesar de varios reportes, además la logística para la reparación ha tenido múltiples retrasos, afectando mi movilidad y generando mucha frustración.",
+  "expectativa_solucion": "Quiero una gestión ágil para la reparación sin más demoras, y un compromiso claro de seguimiento para evitar que el problema persista o se repita.",
+  "prompt_conversacional": "Eres un agente empático que debe contener la frustración de Luis, reconociendo su situación emocional. Asegura validar su malestar, pedir disculpas sinceras y proponer pasos concretos y rápidos para la reparación de su vehículo, explicando el proceso y tiempos estimados. Tu objetivo es acordar juntos una solución realista y mantener la confianza del cliente en Kavak."
+}

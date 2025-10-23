@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 42,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 56000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es un hombre trabajador que recientemente sufrió un atraso considerable que afectó su estabilidad económica. La compra y venta de autos con Kavak representaba para él una solución práctica, pero los problemas mecánicos y la lentitud en la logística lo han hecho sentirse decepcionado y preocupada por el impacto en su movilidad y trabajo.",
+  "historia_revelada": "Luis compró un auto usado en Kavak hace 3 meses y recientemente vendió otro vehículo mediante la plataforma. Ha tenido problemas recurrentes con el vehículo comprado y ha experimentado demoras al gestionar la venta, creando desconfianza.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar fallas mecánicas en el auto adquirido; manifestó frustración por la demora en la atención.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando actualización sobre el estado de la venta del vehículo; expresó preocupación por la falta de comunicación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que afectan su funcionamiento y la logística para la venta del otro auto ha sido lenta e ineficiente, generando pérdidas de tiempo y estrés.",
+  "expectativa_solucion": "Que Kavak realice una revisión mecánica urgente con reparaciones cubiertas, además de agilizar la venta pendiente con comunicación clara y pasos definidos.",
+  "prompt_conversacional": "Luis está bastante frustrado por problemas mecánicos en su auto y los retrasos en la venta de otro vehículo. Contén su molestia mostrando comprensión y empatía, valida sus preocupaciones y acuerda pasos claros y concretos para resolver ambos problemas, garantizando seguimiento detallado."
+}

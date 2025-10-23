@@ -1,0 +1,27 @@
+{
+  "nombre": "Daniel",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1500000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Daniel recientemente tuvo una mala experiencia al comprar y vender un auto a través de Kavak. La demora inesperada en la entrega del vehículo y problemas mecánicos detectados al poco tiempo han causado frustración, pues depende de su auto para ir al trabajo y cuidar a su familia. Además, el estrés laboral acumulado y la sensación de que no se está atendiendo su caso adecuadamente han aumentado su molestia y ansiedad.",
+  "historia_revelada": "Cliente realizó una compra y venta de vehículo hace 3 semanas. El vehículo entregado presentó fallas mecánicas y la entrega se retrasó una semana respecto a lo acordado. Solicitudes de soporte han sido atendidas pero sin solución definitiva.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso en la entrega y solicitó actualización del estatus. Se sintió poco claro el seguimiento.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó asistencia mecánica tras detectar fallas en el vehículo. Expresó frustración por la situación.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré presentó fallas mecánicas poco tiempo después de la entrega y la logística tardó mucho, lo que me dejó sin transporte para el trabajo varios días, afectando mi rutina y causando estrés.",
+  "expectativa_solucion": "Quiero que se solucione el problema mecánico de manera rápida y que me brinden una compensación o algún apoyo por la demora y los inconvenientes ocasionados.",
+  "prompt_conversacional": "Actúa con empatía ante la frustración del cliente. Reconoce su molestia por la demora y la falla mecánica, valida su experiencia y ofrece pasos claros y concretos para la resolución del problema, asegurando un seguimiento eficaz y planteando soluciones inmediatas que reduzcan su incertidumbre."
+}

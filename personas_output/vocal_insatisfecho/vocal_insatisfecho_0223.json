@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos trabaja arduamente para mantener a su familia y confió en Kavak para vender su coche anterior y comprar uno que necesitaba para ir al trabajo. Está frustrado porque desde la compra del nuevo vehículo ha tenido problemas mecánicos y la logística para recibir el auto ha sido lenta y confusa. Esto le está causando estrés adicional ya que depende del coche para sus desplazamientos diarios y siente que Kavak ha fallado en brindarle apoyo oportuno, generando preocupación en su estabilidad económica y emocional.",
+  "historia_revelada": "Compró un coche usado a través de Kavak hace 20 días. Vendió su vehículo anterior también por la plataforma. Ha reportado problemas mecánicos con el carro comprado y ha solicitado soporte para la reparación. Ha presentado reclamos en soporte.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó al soporte para reportar ruido extraño en el motor del vehículo y solicitar revisión mecánica urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando información sobre los plazos para la logística de la reparación y tiempos estimados para solución.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas desde la entrega y la gestión logística para su reparación ha sido lenta y poco clara, lo que ha afectado su movilidad y generado ansiedad.",
+  "expectativa_solucion": "Desea que Kavak agilice la logística para la reparación o cambio del vehículo, con transparencia en los tiempos y una solución rápida que le permita recuperar su movilidad sin costos adicionales.",
+  "prompt_conversacional": "Eres un agente de atención al cliente que debe contener la frustración de Carlos, mostrando empatía y comprensión por su situación. Tu objetivo es calmarlo, validar su molestia y acordar con él próximos pasos concretos para acelerar la solución mecánica y logística. Asegúrate de darle confianza en que Kavak está trabajando para resolver su problema y mantén una comunicación clara y paciente."
+}

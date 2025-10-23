@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 280000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos dependía mucho de su auto para transportar a su familia y cumplir responsabilidades laborales. La espera prolongada por reparaciones y problemas en la logística le han generado estrés y frustración, afectando la confianza y su bienestar emocional. Siente que sus necesidades y tiempos no han sido respetados, lo que ha elevado su nivel de molestia.",
+  "historia_revelada": "Cliente realizó venta y compra de vehículo con Kavak hace 3 meses. Ha reportado problemas mecánicos con el nuevo vehículo y retrasos en el servicio de mantenimiento. Historial de comunicación frecuente con el equipo de soporte.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial de problema mecánico detectado en el vehículo comprado y solicitud de revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Seguimiento sobre retrasos en la cita para mantenimiento y molestia expresada por falta de respuesta clara.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas que no han sido resueltas tras varias solicitudes; además, el servicio de mantenimiento tiene retrasos reiterados, lo que afecta su movilidad y genera mucha frustración.",
+  "expectativa_solucion": "Quiere una respuesta rápida y clara que garantice la reparación del vehículo sin más demoras, y un compromiso real de mejora en los tiempos y calidad del servicio para poder confiar nuevamente en Kavak.",
+  "prompt_conversacional": "Contiene la frustración del cliente, valida su molestia mostrando empatía genuina, y propone pasos concretos y realistas para resolver el problema mecánico y mejorar la logística. Busca acordar con el cliente un plan de acción claro y tiempos definidos para recuperar su confianza."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 250000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego recientemente enfrentó problemas de tiempo debido a compromisos laborales y familiares. Confió en Kavak para una venta rápida y compra sin complicaciones, pero las demoras en la logística y problemas mecánicos con el auto adquirido le han generado estrés adicional, sintiéndose decepcionado y frustrado por no poder cumplir con sus planes de movilidad que afectan su vida diaria y trabajo.",
+  "historia_revelada": "Cliente realizó una venta y una compra con Kavak en los últimos 3 meses. Reportó fallas mecánicas iniciales en el vehículo adquirido y retraso en la entrega pactada. Contactó servicio al cliente dos veces en el último mes.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retrasos en la entrega del vehículo y solicitó actualización sobre el estado de la compra.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre la solución a un problema mecánico que surgió tras la compra.",
+      "nps": 7
+    }
+  ],
+  "problema": "El vehículo que compré presenta problemas mecánicos que no fueron informados antes de la compra, y además he sufrido retrasos considerables en la entrega, lo que afecta directamente mis compromisos y confianza en el servicio.",
+  "expectativa_solucion": "Que Kavak ofrezca una solución rápida y efectiva a los problemas mecánicos y logísticos, recuperando mi confianza con una comunicación clara y compromisos concretos para resolver mi situación.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Diego. Reconoce el impacto de los problemas en su vida y trabaja con él para acordar próximos pasos claros y realistas, asegurando seguimiento y soluciones precisas."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis Miguel",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis Miguel recientemente perdió a su padre, quien le dejó un auto que quería vender para poder apoyar a su familia. La presión económica actual además de la importancia sentimental del vehículo le genera mucha ansiedad, y cualquier retraso o problema agrava su frustración y desconfianza.",
+  "historia_revelada": "Luis compró un vehículo usado en Kavak hace 10 meses y también puso en venta un automóvil a través de la plataforma hace 2 meses. Últimamente ha reportado problemas mecánicos menores que han sido atendidos, y demora en la logística para la entrega de su coche vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso en la entrega del vehículo vendido y expresó molestia por falta de comunicación clara.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó asistencia para problema mecánico detectado en su reciente compra; pidió solución urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos reiterados en la logística para la entrega del auto que vendió a través de Kavak y la percepción de poca empatía al reportar un problema mecánico en la compra reciente generan estrés y desconfianza.",
+  "expectativa_solucion": "Que Kavak gestione y acelere la logística de entrega, brinde una solución técnica puntual para el problema mecánico y mejore la comunicación para recuperar la confianza.",
+  "prompt_conversacional": "Contén la frustración de Luis con empatía, reconoce su situación emocional única, ofrece explicaciones claras sobre los procesos logísticos y técnicos, y acuerda pasos concretos para resolver la entrega y el problema mecánico con tiempos específicos."
+}

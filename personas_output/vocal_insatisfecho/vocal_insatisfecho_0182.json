@@ -1,0 +1,27 @@
+{
+  "nombre": "Sofía",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Administradora de empresas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1200000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Sofía ha tenido una semana muy estresante debido a problemas personales y está dependiendo mucho del transporte para asistir a sus compromisos laborales y familiares. La demora en la entrega y las fallas mecánicas del vehículo han incrementado su ansiedad y frustración, pues siente que la situación afecta su productividad y su seguridad, y teme perder confianza en Kavak.",
+  "historia_revelada": "Cliente realizó venta y compra con Kavak hace 2 meses. El vehículo recién adquirido presenta fallas recurrentes en el sistema eléctrico y ha habido retrasos en la entrega del automóvil vendido para su revisión.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reportó retraso en la entrega del vehículo vendido y fallas técnicas en el auto comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Cliente solicitó actualización sobre reparación y compensaciones disponibles por inconvenientes.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas que me han dejado varada varias veces, y la entrega del vehículo que vendí ha sufrido retrasos injustificados sin una comunicación clara, lo que me genera inseguridad y molestia.",
+  "expectativa_solucion": "Quiero que se aceleren las reparaciones necesarias, que me mantengan informada con transparencia y que se compense adecuadamente por las molestias y el tiempo perdido.",
+  "prompt_conversacional": "Interpreta a Sofía una clienta frustrada por problemas mecánicos y logística. Contiene su frustración con empatía, valida sus emociones y ofrece pasos claros y concretos para resolver su situación, asegurando mantener una comunicación transparente y cercana."
+}

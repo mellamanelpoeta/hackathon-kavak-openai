@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 24500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente tuvo problemas con la entrega y mecánica de su vehículo comprado y vendido a través de Kavak. Está atravesando estrés laboral y personal, por lo que los retrasos y fallas le generan frustración profunda, afectando su confianza en la plataforma y su tranquilidad general.",
+  "historia_revelada": "Alejandro compró un automóvil seminuevo y vendió otro con Kavak en los últimos 6 meses. Ha reportado demoras en la entrega y recientes fallas mecánicas sin solución rápida.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar problema mecánico después de 2 semanas de compra; expresó insatisfacción y pidió solución urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Mensajes registrados donde pide actualización sobre el estatus de la entrega del vehículo vendido.",
+      "nps": null
+    }
+  ],
+  "problema": "Retraso en la entrega del vehículo vendido y problemas mecánicos persistentes en el automóvil comprado, lo que afecta su movilidad y genera altas preocupaciones.",
+  "expectativa_solucion": "Que Kavak gestione rápidamente una revisión técnica y entregue un vehículo en condiciones óptimas, además de acelerar la recuperación del auto vendido para evitar pérdidas adicionales.",
+  "prompt_conversacional": "Mantén una actitud empática y calmada para aliviar la frustración de Alejandro. Reconoce su molestia causada por la logística y fallas mecánicas. Ofrece un plan de acción claro, incluyendo posibles visitas al taller y seguimiento puntual, y acuerda juntos los próximos pasos para restaurar su confianza."
+}
