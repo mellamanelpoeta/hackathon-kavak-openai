@@ -1,0 +1,16 @@
+{
+  "nombre": "Alejandro",
+  "edad": 42,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Empresario",
+  "relacion_kavak": "compra",
+  "ltv": 620000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Alejandro es un empresario exitoso que valora la eficiencia y la calidad en sus compras. Prefiere mantener un bajo contacto, pero está abierto a propuestas que le ahorren tiempo y le ofrezcan valor agregado. Busca vehículos para sus ejecutivos y para uso personal con características premium y buena relación costo-beneficio.",
+  "historia_revelada": "Ha realizado tres compras exitosas en Kavak en los últimos cuatro años, demostrando lealtad y satisfacción implícita. Prefiere ser contactado vía email y app para ofertas y novedades. Historial de pago impecable y no ha reportado problemas.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valoraría recibir propuestas personalizadas y discretas sobre vehículos premium o nuevos modelos con beneficios exclusivos, sin sentirse presionado. Que Kavak active contacto proactivo solo con información relevante y que le agregue valor, facilitando la toma de decisiones según su agenda ocupada.",
+  "prompt_conversacional": "Simula una conversación donde Alejandro responde a un agente proactivo de Kavak que intenta ofrecerle opciones exclusivas de vehículos. Alejandro está abierto, pero prefiere que la comunicación sea respetuosa y enfocada en valor concreto."
+}

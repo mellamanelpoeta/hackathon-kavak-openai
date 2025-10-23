@@ -1,0 +1,22 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñador gráfico",
+  "relacion_kavak": "compra",
+  "ltv": 320000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Luis es un joven profesional que valora la transparencia y la rapidez en las transacciones. Prefiere comprar autos usados en buen estado y con garantía debido a su estilo de vida activo y sus desplazamientos diarios por la ciudad.",
+  "historia_revelada": "Luis compró un Volkswagen Jetta 2018 a través de Kavak el 12 de abril de 2024. La compra se cerró tras una inspección detallada y la entrega se realizó el 18 de abril. Actualmente tiene cobertura de garantía extendida y ha utilizado la app para seguimiento.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Calificó positivamente su experiencia de compra y uso de la app de Kavak con un NPS de 9.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Luis espera mantener una relación fluida con Kavak para futuras compras y servicios, valorando la confianza y el buen servicio que ha recibido hasta ahora.",
+  "prompt_conversacional": "Luis es un comprador satisfecho y entusiasta que valora la calidad del servicio y la eficiencia en Kavak. Durante la conversación, refleja confianza en la plataforma y está dispuesto a recomendar Kavak a otros."
+}

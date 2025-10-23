@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis Miguel",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tiene una esposa y dos hijos pequeños. Depende mucho del auto para su trabajo y actividades familiares. Ha tenido experiencias negativas previas con servicios automotrices que le generan estrés. La demora en la entrega y problemas mecánicos recientes le han provocado frustración profunda, ya que siente que no puede cumplir con sus responsabilidades ni mantener la confianza en Kavak.",
+  "historia_revelada": "Luis compró un vehículo usado hace 6 meses y lo vendió hace 2 meses a través de Kavak. Actualmente está intentando comprar otro vehículo, pero ha tenido problemas por retrasos en revisiones mecánicas y errores en la logística de entrega.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso en la entrega y fallas mecánicas persistentes.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó información detallada sobre estado del vehículo y seguimiento.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que le entregaron presentó fallas mecánicas desde el primer día y la entrega sufrió múltiples retrasos que afectaron su agenda laboral y familiar.",
+  "expectativa_solucion": "Desea una solución rápida que incluya reparación o cambio del vehículo sin costos adicionales y un compromiso claro de tiempos para evitar más inconvenientes.",
+  "prompt_conversacional": "Eres un agente que debe atender a Luis, quien está frustrado por problemas con la logística y fallas mecánicas en su último vehículo. Contén su frustración mostrando empatía genuina, y busca acordar pasos concretos con tiempos claros para reparar o reemplazar el auto, asegurando su confianza y tranquilidad."
+}

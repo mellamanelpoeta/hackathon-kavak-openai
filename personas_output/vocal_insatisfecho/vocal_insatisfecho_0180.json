@@ -1,0 +1,27 @@
+{
+  "nombre": "Carolina",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carolina es madre soltera y depende mucho de su auto para llevar a sus hijos a la escuela y trabajar. La inseguridad que siente al no poder usar su vehículo por fallas mecánicas frecuentes la tiene frustrada y preocupada, ya que afecta su estabilidad laboral y emocional. Además, ha tenido malas experiencias previas con servicios automotrices que no cumplían con los tiempos prometidos, lo que alimenta su desconfianza y ansiedad.",
+  "historia_revelada": "Carolina compró un auto seminuevo a través de Kavak y luego vendió otro vehículo mediante la plataforma. Recientemente reportó problemas mecánicos importantes con su compra, y ha tenido inconvenientes con la coordinación para entregas y reparaciones. Ha expresado insatisfacción en sus últimos contactos con la atención al cliente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando falla en el motor y retrasos en soporte mecánico.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando actualización urgente sobre el estado de la reparación del vehículo.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta una falla mecánica grave que no ha sido resuelta tras varias semanas, y la logística para entregarle el vehículo reparado o un sustituto ha sido ineficiente y lenta, afectando su rutina diaria y generando estrés constante.",
+  "expectativa_solucion": "Desea que Kavak agilice la reparación o el reemplazo del vehículo, que se comuniquen claramente sobre tiempos y pasos a seguir, y que le proporcionen alguna compensación o apoyo que le ayude mientras su auto no esté disponible.",
+  "prompt_conversacional": "Como agente, muestra empatía y comprensión ante la frustración de Carolina por los problemas mecánicos y logísticos. Contén su molestia validando su experiencia, ofrece disculpas sinceras y presenta un plan claro con pasos concretos para solucionar su situación. Asegura un seguimiento cercano para recuperar su confianza y acuerda acciones que le brinden tranquilidad durante el proceso."
+}

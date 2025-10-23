@@ -1,0 +1,27 @@
+{
+  "nombre": "Ricardo",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ricardo ha estado atravesando un periodo de estrés laboral elevado y recientemente cambió de casa, lo que ha complicado su rutina diaria. La falla mecánica en el auto que compró en Kavak y los retrasos en la entrega del auto que vendió lo han generado una frustración profunda, pues depende de ambos vehículos para ir al trabajo y manejar sus tiempos con su familia. Siente que Kavak no está respondiendo a sus urgencias y le preocupa el impacto en su desempeño y vida personal.",
+  "historia_revelada": "Ricardo compró un vehículo hace dos meses y vendió otro a Kavak hace un mes. Ha reportado problemas mecánicos en el vehículo comprado y retrasos en el proceso de venta de su vehículo anterior sin actualizaciones claras.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del pago por la venta de su vehículo y expresar inconvenientes con el auto comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviando fotos y detalles técnicos del problema mecánico para solicitar soporte técnico urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré tiene problemas mecánicos que me afectan el trabajo, y la venta de mi auto anterior tiene retrasos en el pago. No recibo respuestas claras y esto afecta mi día a día.",
+  "expectativa_solucion": "Quiero que se solucionen los problemas mecánicos rápidamente y que aceleren el proceso de venta con un pago inmediato para poder confiar nuevamente en Kavak.",
+  "prompt_conversacional": "Contén la frustración de Ricardo mostrándole empatía por su situación personal y dificultades actuales. Valida su molestia por los retrasos y problemas mecánicos. Asegura compromisos claros y próximos pasos específicos para resolver los problemas de ambos autos, explicando tiempos y acciones concretas para restaurar su confianza."
+}

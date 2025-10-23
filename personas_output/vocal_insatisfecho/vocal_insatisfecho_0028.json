@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 12500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis depende mucho del vehículo para su trabajo y sus actividades familiares, últimamente ha estado bajo estrés porque necesita el auto en óptimas condiciones, pero ha tenido problemas constantes con la logística de entrega de refacciones y fallas mecánicas recurrentes que le han generado ausencias laborales y discusiones en casa. Esto lo hace sentir frustrado y decepcionado, pues esperaba una solución rápida al comprar y vender con Kavak.",
+  "historia_revelada": "Luis realizó la compra de un vehículo hace 4 meses y recientemente vendió otro a través de Kavak. Ha reportado inconvenientes mecánicos en el auto comprado y demoras en el servicio de taller para repararlo.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Luis llamó preocupado reportando que el vehículo presenta ruido en el motor desde hace una semana y el taller no ha dado fecha clara para la reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envió mensajes solicitando información sobre el estado del servicio y pidió que se agilice la logística de refacción.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que afectan su uso diario, y la logística para conseguir refacciones y agendar el servicio de reparación ha sido lenta e imprecisa, causando pérdida de tiempo y estrés.",
+  "expectativa_solucion": "Desea que Kavak asuma el compromiso de agilizar la reparación del auto, con seguimiento claro y fechas concretas para recuperar la confianza en el servicio.",
+  "prompt_conversacional": "Luis está frustrado y preocupado por el mal funcionamiento del vehículo y la lentitud en la atención. Debes contener su molestia con empatía, validar su situación y acordar pasos concretos que incluyan fechas específicas y soporte durante el proceso."
+}

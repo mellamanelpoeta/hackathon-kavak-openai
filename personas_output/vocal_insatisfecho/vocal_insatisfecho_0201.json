@@ -1,0 +1,27 @@
+{
+  "nombre": "Verónica",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Verónica recientemente perdió a su padre y está bajo mucho estrés; la demora y fallas mecánicas en su nuevo auto la hacen sentir insegura y desamparada, pues dependía del vehículo para su trabajo y para cuidar a sus hijos, lo que agrava su frustración.",
+  "historia_revelada": "Compró un auto usado y vendió uno anterior con Kavak hace 4 meses. Ha tenido problemas con el sistema de frenos y reportó demoras en la entrega del vehículo de reemplazo mientras lo reparaban.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar problemas en el sistema de frenos y expresar su molestia por la demora en el servicio.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Registró una queja formal sobre falta de comunicación y retrasos en la solución mecánica.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compró tuvo fallas mecánicas graves en el sistema de frenos y el proceso de reparación fue lento, dejándola sin vehículo varios días. La falta de comunicación clara y retrasos generaron gran estrés debido a su situación personal y profesional.",
+  "expectativa_solucion": "Quiere que revisen cuidadosamente su auto para asegurar que esté en perfecto estado, una mayor agilidad y transparencia en los procesos de reparación, y una solución que le permita recuperar confianza y tranquilidad.",
+  "prompt_conversacional": "Actúa con empatía y comprensión ante la frustración de Verónica. Reconoce el impacto emocional de su situación, ofrece disculpas sinceras, y comprométete a definir juntos pasos concretos y tiempos claros para resolver su problema mecánico lo antes posible."
+}

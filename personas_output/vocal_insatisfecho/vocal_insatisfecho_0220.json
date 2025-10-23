@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a su padre y ha estado lidiando con mucha presión laboral. La compra y venta de su vehículo con Kavak representaba un paso para estabilizar su situación financiera y emocional. La reciente demora en la entrega y problemas mecánicos inesperados le han causado una frustración profunda porque siente que no puede contar con el servicio en un momento donde necesita confianza y tranquilidad.",
+  "historia_revelada": "Luis compró un auto usado con Kavak y posteriormente puso su anterior vehículo en venta a través de la plataforma. Ha experimentado retrasos en la entrega del auto comprado y reportó fallas mecánicas que no estaban indicadas. En venta, el coche anterior tuvo un proceso prolongado y sin respuestas claras.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reclamando demora en entrega del vehículo comprado y explicando problemas mecánicos detectados.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando actualización sobre la venta de su auto anterior y expresando insatisfacción con el seguimiento.",
+      "nps": 6
+    }
+  ],
+  "problema": "Retrasos en la entrega del auto adquirido y fallas mecánicas no informadas que generan desconfianza y problemas económicos en un momento delicado.",
+  "expectativa_solucion": "Desea una solución rápida que incluya la reparación o cambio del vehículo defectuoso, un compromiso claro con tiempos de entrega y un buen seguimiento en la venta de su auto anterior para recuperar confianza en Kavak.",
+  "prompt_conversacional": "Tu prioridad es contener la frustración de Luis con empatía, validar su malestar y ofrecer pasos concretos y claros para resolver los problemas logísticos y mecánicos. Acuerda con él un plan de seguimiento detallado y plazos específicos para cumplir, demostrando compromiso y apoyo en esta situación delicada."
+}

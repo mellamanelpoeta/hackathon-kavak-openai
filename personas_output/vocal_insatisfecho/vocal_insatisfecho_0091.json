@@ -1,0 +1,27 @@
+{
+  "nombre": "Ana Sofía",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ana Sofía vive sola con su hija pequeña y recientemente perdió a su madre, quien la ayudaba con las responsabilidades domésticas. Depende mucho de su vehículo para llevar a su hija a la escuela y manejar sus actividades laborales. La falla mecánica inesperada y los retrasos en la entrega del auto han aumentado su estrés y preocupación, afectando su estado emocional debido a la presión de cumplir con sus obligaciones y la falta de apoyo cercano.",
+  "historia_revelada": "Cliente con historial de compra y venta en Kavak, vendió un auto hace 3 meses y compró otro hace 1 mes. Ha reportado problemas técnicos en el auto adquirido y demoras superiores a lo prometido en el servicio de entrega y revisión.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problemas mecánicos persistentes en el auto adquirido y solicitando solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envío de reclamo formal a través de la app sobre retrasos en la entrega y falta de respuesta oportuna del equipo de soporte.",
+      "nps": null
+    }
+  ],
+  "problema": "Mi auto presenta fallas mecánicas recurrentes y la entrega ha sufrido múltiples retrasos; me ha generado mucha preocupación y dificultades para cumplir con mis responsabilidades diarias.",
+  "expectativa_solucion": "Espero que Kavak me garantice una solución rápida y efectiva a los problemas de mi auto, y que mejore la comunicación y los tiempos de entrega para recuperar la confianza y poder seguir utilizando sus servicios.",
+  "prompt_conversacional": "Eres un agente de atención al cliente que debe contener la frustración de Ana Sofía, validar su molestia y mostrar empatía. Asegura acordar con ella próximos pasos claros y concretos para resolver la falla mecánica y mejorar los tiempos de entrega, brindando tranquilidad y confianza."
+}

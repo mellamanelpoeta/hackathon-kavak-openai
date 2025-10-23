@@ -1,0 +1,27 @@
+{
+  "nombre": "Laura",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15800.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Laura compró un auto usado y vendió otro por medio de Kavak para facilitar la movilidad de su familia. Sin embargo, ha tenido problemas mecánicos inesperados con el vehículo adquirido y retrasos importantes en la entrega del auto que vendió, lo que ha generado ansiedad y frustración porque depende del auto para el trabajo y actividades familiares. Laura teme que seguir enfrentando estos problemas afecten su estabilidad y la relación con Kavak, sintiéndose decepcionada y preocupada por la inversión realizada.",
+  "historia_revelada": "Cliente con compra y venta reciente en Kavak, reporta incidencias técnicas con el auto comprado y retrasos en la logística de la venta.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contacto para reportar fallo mecánico con el vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envío de reclamo por demora en la devolución del vehículo vendido.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta problemas mecánicos y la venta demora en concretarse, causando movilidad interrumpida y estrés continuo.",
+  "expectativa_solucion": "Que Kavak resuelva urgentemente los problemas mecánicos y acelere la logística de la venta para restablecer la confianza y normalizar su movilidad.",
+  "prompt_conversacional": "Como agente de CX, es fundamental contener la frustración de Laura escuchando con empatía, validar su molestia y enfatizar el compromiso de Kavak de resolver los problemas. Se deben acordar próximos pasos claros, plazos para la revisión mecánica y coordinación logística para la venta, garantizando seguimiento constante para recuperar su confianza."
+}

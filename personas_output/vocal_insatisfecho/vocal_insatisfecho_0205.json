@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Consultor de negocios",
+  "relacion_kavak": "compra_venta",
+  "ltv": 35000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente vendió su auto por medio de Kavak y compró otro vehículo usado. Tiene presiones laborales fuertes y necesita el vehículo para transportarse diariamente. Debido a problemas mecánicos inesperados que surgieron justo después de la compra y retrasos en la logística para resolverlos, ha sentido frustración e inseguridad, sintiendo que Kavak no ha respetado los tiempos prometidos. La situación afecta su confianza y su estabilidad emocional, genera estrés porque depende del auto para cumplir con su trabajo y responsabilidades familiares.",
+  "historia_revelada": "Compró un vehículo usado a través de Kavak hace dos semanas y vendió su anterior vehículo con ellos también. Ha reportado problemas mecánicos con el nuevo auto y ha experimentado demoras en los servicios de mantenimiento autorizados por Kavak.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas persistentes con el motor y solicitó atención urgente. Expresó descontento por la demora en la respuesta.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó actualización del estatus del servicio técnico y reevaluación del vehículo. Indicó que considera la experiencia insatisfactoria.",
+      "nps": null
+    }
+  ],
+  "problema": "Sufre constantes retrasos en la atención mecánica del vehículo adquirido y falta de claridad en la comunicación sobre tiempos y soluciones, lo que le genera inseguridad y afecta su movilidad diaria.",
+  "expectativa_solucion": "Quiere una atención rápida y efectiva que solucione los problemas mecánicos, con comunicación clara y un plan de acción concreto para recuperar la confianza en Kavak.",
+  "prompt_conversacional": "Actúa con empatía y contención frente a la frustración de Alejandro. Valida su experiencia, pide disculpas por los inconvenientes y propone pasos claros y concretos para solucionar el problema mecánico a la brevedad, asegurando seguimiento constante y comunicación transparente."
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Guillermo",
+  "edad": 45,
+  "ciudad": "Monterrey",
+  "ocupacion": "Empresario",
+  "relacion_kavak": "compra",
+  "ltv": 480000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Guillermo es un empresario exitoso que valora la eficiencia y la calidad en sus compras. Posee un estilo de vida activo y prefiere mantener su tiempo libre sin estar saturado de llamadas o correos innecesarios. Tiene interés en vehículos premium y establecimientos de relaciones comerciales a largo plazo que respeten su privacidad y le ofrezcan propuestas de valor claras y personalizadas.",
+  "historia_revelada": "Guillermo ha comprado dos vehículos con Kavak en los últimos años, ambos sin inconvenientes y con completas garantías. Prefiere comunicarse a través de correo electrónico y apps para revisar ofertas y novedades. Actualmente no responde ni participa activamente en llamadas de seguimiento por parte del equipo.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valoraría que Kavak definiera un contacto proactivo solo cuando haya ofertas exclusivas y relevantes para su perfil, con información clara y puntual vía sus canales preferidos, para no sentirse invadido y poder considerar nuevas opciones sin esfuerzo.",
+  "prompt_conversacional": "Actúa como un cliente que ha comprado varios autos con Kavak, se siente satisfecho pero no está en contacto frecuente. Muestra interés en información selectiva y de calidad para posibles upgrades o compra de vehículos premium, pero solo si la comunicación es no invasiva y respetuosa de su tiempo."
+}

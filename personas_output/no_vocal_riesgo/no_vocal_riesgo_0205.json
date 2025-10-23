@@ -1,0 +1,16 @@
+{
+  "nombre": "Lucía",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "venta",
+  "ltv": 45000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Lucía ha pasado por una situación difícil recientemente con su auto: sufrió un accidente menor justo antes de ponerlo a la venta, lo cual generó daños que aún no ha reportado ni reparado por temor a perder la confianza de potenciales compradores y complicar la venta con Kavak. Esto le genera ansiedad y dudas sobre si reportar el incidente, ya que teme afectar negativamente la transacción y que Kavak la rechace, aunque en el fondo quiere ser transparente.",
+  "historia_revelada": "Lucía inició la intención de venta de su vehículo hace dos semanas, pero aún no ha completado el registro de daños y ha ignorado algunos mensajes de seguimiento del equipo de Kavak sobre la documentación requerida para culminar el proceso. No ha programado la inspección técnica necesaria, lo que genera tareas pendientes en el sistema y un seguimiento inconcluso por parte de la plataforma.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Lucía necesitaría una comunicación más empática y transparente, con garantías claras de que cualquier problema declarado no imposibilitará la venta, así como un acompañamiento confiable y sin juicios para poder confiar en Kavak nuevamente y cerrar la venta sin temor a ser penalizada.",
+  "prompt_conversacional": "Actúa como una clienta que demuestra dudas y temor interno por informar un daño oculto en su vehículo durante la venta; no se ha comunicado con atención al cliente y quiere aclarar suspicacias antes de retomar contacto con Kavak."
+}

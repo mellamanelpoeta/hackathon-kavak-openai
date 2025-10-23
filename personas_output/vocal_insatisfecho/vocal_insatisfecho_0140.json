@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 33,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana recientemente perdió tiempo y dinero debido a retrasos en la entrega de su nuevo vehículo, además de presentar problemas mecánicos que complican su movilidad diaria. Esto ha causado estrés adicional porque depende mucho del auto para cuidar a sus hijos y asistir a su trabajo. Siente que no ha recibido la atención ni la solución rápida que esperaba, lo que incrementa su frustración y desconfianza hacia Kavak.",
+  "historia_revelada": "Cliente con historial de compra y venta de vehículos, última transacción hace 2 meses. Reporta incidencias mecánicas y retrasos en procesos logísticos relacionados con su última compra. Solicita solución urgente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial por inconvenientes en la entrega y problemas mecánicos detectados.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Reclamo formal expresando insatisfacción por falta de respuesta y solución.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrazo de entrega del vehículo y fallas mecánicas recurrentes que dificultan el uso diario. Falta de comunicación clara y resolución oportuna por parte del soporte Kavak.",
+  "expectativa_solucion": "Desea una respuesta rápida con reparación garantizada o cambio efectivo del vehículo, así como un seguimiento claro y humano que reduzca su incertidumbre.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Mariana mostrando empatía genuina. Tu objetivo es escuchar activamente su queja por problemas de logística y mecánica, validar su experiencia, y acordar con ella próximos pasos concretos y plazos realistas para resolver la situación."
+}

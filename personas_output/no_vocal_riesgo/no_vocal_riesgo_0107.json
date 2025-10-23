@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "venta",
+  "ltv": 350000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis se está comenzando a sentir decepcionado y preocupado porque aún no ha recibido la transferencia completa por la venta de su auto, lo que le ha generado estrés financiero silencioso. Aunque aún no ha informado a Kavak, sospecha que puede haber irregularidades en el proceso de pago y teme que esto afecte su confianza y futuras operaciones.",
+  "historia_revelada": "El vehículo fue vendido hace tres semanas, pero el pago se ha depositado parcialmente. Existen recordatorios internos no cerrados y falta de actualización clara sobre el estatus final del pago a Luis. No hay contacto reciente con Luis para esclarecer la situación.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Luis necesitaría una comunicación transparente y una confirmación clara y rápida del pago completo para poder confiar en Kavak nuevamente y sentirse seguro al usar sus servicios otra vez.",
+  "prompt_conversacional": "Luis es un vendedor reciente que aún no ha expresado directamente su inquietud, pero está preocupado por la demora y falta de claridad en la transferencia. Responde con cautela, mostrando interés en explicaciones concretas y garantías para recuperar su confianza."
+}

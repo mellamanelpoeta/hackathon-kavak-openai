@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a su padre y está atravesando un periodo difícil emocionalmente. Depende mucho de su auto para poder manejar sus responsabilidades familiares y laborales. La demora en tener su vehículo listo le está generando mucha ansiedad y tensión, ya que teme no poder cumplir con sus compromisos y sus seres queridos no pueden depender de él como antes.",
+  "historia_revelada": "Luis realizó la compra de un vehículo usado y vendió su auto anterior a través de Kavak. Presentó problemas mecánicos que han retrasado la entrega definitiva. Ha estado en contacto con atención al cliente reportando la situación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó falla mecánica después de la compra y solicitó una pronta solución.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización sobre el estado de la reparación y expresó frustración por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas que han retrasado su entrega definitiva, lo que afecta su movilidad diaria y genera preocupación debido a sus compromisos urgentes y personales.",
+  "expectativa_solucion": "Que Kavak agilice la reparación o sustituya el vehículo cuanto antes y mantenga comunicación clara con plazos específicos, para poder reorganizar su vida y cumplir con sus responsabilidades.",
+  "prompt_conversacional": "El cliente está frustrado y emocionalmente cargado por la demora y el problema con su vehículo. Escuchar activamente, validar sus sentimientos con empatía y asegurarle que entendemos la urgencia. Acordar pasos concretos y plazos claros para la solución. Mantener un tono calmado y constructivo para contener su frustración."
+}

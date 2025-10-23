@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió un proyecto laboral importante y tenía muchas expectativas puestas en la compra de un automóvil para facilitar sus traslados diarios. Además, su familia depende de que su vehículo esté en óptimas condiciones para poder movilizarse. La logística fallida y los problemas mecánicos han generado incertidumbre y frustración, ya que teme que estos retrasos afecten tanto su trabajo como su vida diaria.",
+  "historia_revelada": "Luis compró un vehículo usado a través de Kavak y también tiene en venta un automóvil con ellos. Actualmente enfrenta retrasos en la entrega del vehículo y ha reportado fallas mecánicas que aún no han sido resueltas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos persistentes y expresó su frustración por la falta de solución rápida.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre el estatus de la logística para entrega del vehículo comprado y solicitó información detallada.",
+      "nps": null
+    }
+  ],
+  "problema": "La entrega del vehículo comprado se ha retrasado considerablemente y presenta fallas mecánicas que no han sido atendidas oportunamente, lo que le genera incertidumbre y afecta su rutina diaria.",
+  "expectativa_solucion": "Luis desea una atención rápida y efectiva que solucione los problemas mecánicos y una reprogramación clara de la entrega para recuperar la confianza en el servicio de Kavak.",
+  "prompt_conversacional": "Actúa con empatía y paciencia ante la frustración de Luis. Contén su molestia validando su situación y ofrece pasos concretos y claros para la solución, acordando tiempos específicos para la atención mecánica y la entrega del vehículo para restaurar su confianza."
+}

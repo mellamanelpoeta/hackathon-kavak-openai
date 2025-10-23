@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 185000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana recientemente perdió a un ser querido y ha estado bajo mucho estrés. La demora y problemas con la logística de entrega y la mecánica de su vehículo han afectado profundamente su bienestar emocional, generándole ansiedad y frustración por la percepción de falta de apoyo y compromiso de Kavak.",
+  "historia_revelada": "Ha vendido y comprado dos vehículos con Kavak en los últimos 3 años. La última compra tuvo problemas técnicos reportados, y la última venta sufrió retrasos en la recolección del auto.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reclamo por falta de actualización sobre la entrega del coche comprado, solicitando una solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reportó problema mecánico en el vehículo adquirido y pidió revisión inmediata.",
+      "nps": 7
+    }
+  ],
+  "problema": "Ha experimentado retrasos en la entrega del vehículo comprado y problemas mecánicos que no han sido resueltos prontamente, lo que ha generado una gran frustración y estrés debido a la urgencia de contar con un coche funcional para sus actividades diarias.",
+  "expectativa_solucion": "Que Kavak tome responsabilidad inmediata en resolver los problemas mecánicos, agilice la logística de entrega y le brinde un seguimiento personalizado para recuperar su confianza.",
+  "prompt_conversacional": "Actúa con empatía y reconoce la frustración de Mariana. Contén su molestia escuchando atentamente y valida sus emociones. Propón pasos claros y concretos para resolver sus problemas mecánicos y logística, incluyendo tiempos definidos y contacto directo. Asegura un seguimiento proactivo para restaurar su confianza en Kavak."
+}

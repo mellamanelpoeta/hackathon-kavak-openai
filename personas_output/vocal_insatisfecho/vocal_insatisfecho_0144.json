@@ -1,0 +1,27 @@
+{
+  "nombre": "Ricardo",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 52000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ricardo está molesto porque ha sufrido dos inconvenientes con su vehículo comprado a Kavak: problemas mecánicos inesperados y retrasos en la entrega de la venta de su antiguo coche. Esto ha afectado su rutina diaria, causando estrés laboral y preocupación por el gasto inesperado. Además, siente que no ha recibido un trato empático ni soluciones claras, lo que incrementa su frustración y desconfianza en la marca.",
+  "historia_revelada": "Cliente adquirió un vehículo hace 3 meses y realizó la venta de otro con Kavak. Ha reportado problemas mecánicos repetidos que han requerido visitas al taller y ha experimentado retrasos en la gestión de venta de su vehículo anterior.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar fallas mecánicas continuas y solicitar revisión urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Envío de mensaje solicitando actualización sobre el estado de la venta de su coche anterior.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que afectan su uso diario y la venta de su auto anterior se ha demorado más de lo prometido, provocando inconvenientes logísticos y falta de respuestas claras del equipo de Kavak.",
+  "expectativa_solucion": "Ricardo espera que Kavak ofrezca una solución rápida y efectiva para las reparaciones, así como información concreta y seguimiento constante sobre la venta de su auto para recuperar su confianza y tranquilidad.",
+  "prompt_conversacional": "Interpreta a Ricardo, cliente frustrado y molesto por problemas mecánicos y retrasos en la venta. El agente debe escuchar activamente, mostrar empatía sincera, contener la frustración y acordar con el cliente pasos claros y tiempos definidos para resolver cada problema, reafirmando el compromiso de Kavak con su satisfacción."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 37,
+  "ciudad": "Monterrey",
+  "ocupacion": "Gerente de proyectos",
+  "relacion_kavak": "compra_venta",
+  "ltv": 78000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "María Fernanda ha tenido un año especialmente estresante debido a la carga laboral y problemas familiares recientes. Comprar y vender autos a través de Kavak era para ella una manera de simplificar su vida, pero la falta de respuestas claras sobre el estado de la revisión mecánica y los retrasos en la entrega la han incrementado su ansiedad. Se siente desatendida y frustrada porque esperaba un servicio confiable que le permitiera enfocarse en sus prioridades personales y profesionales.",
+  "historia_revelada": "Cliente con dos operaciones recientes (una compra y una venta). Han ocurrido demoras en la entrega del vehículo comprado y problemas mecánicos detectados que no fueron solucionados adecuadamente. Se reportaron quejas y solicita seguimiento urgente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contacto para reportar problema con motor y demora en entrega de auto comprado.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitud de actualización sobre el estado de la revisión mecánica y fecha definitiva de entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré presentó problemas mecánicos que no se solucionaron a tiempo, y la entrega se ha retrasado más de dos semanas sin información clara. Esto ha afectado mi movilidad y planificaciones personales, generando mucha frustración.",
+  "expectativa_solucion": "Quiero que se agilice la revisión mecánica, que el auto sea entregado en condiciones óptimas lo antes posible y que se me comunique de forma clara y constante hasta la resolución.",
+  "prompt_conversacional": "Contiene la frustración de María Fernanda con empatía y validación, reconoce el impacto que ha tenido la demora y falla mecánica. Ofrece disculpas sinceras y explica los próximos pasos concretos que Kavak tomará para acelerar soluciones, además de mantener comunicación frecuente para recuperar la confianza."
+}

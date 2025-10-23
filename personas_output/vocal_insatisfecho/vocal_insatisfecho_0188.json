@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro compró su vehículo usado con alta expectativa, pero ha tenido repetidos problemas mecánicos y retrasos en el taller. Esto le genera estrés porque depende del auto para llevar a sus hijos a la escuela y su trabajo. Su frustración crece porque siente que no se atienden sus urgencias y teme perder confianza en Kavak.",
+  "historia_revelada": "Cliente compró un vehículo hace 3 meses y lo vendió recientemente. Se reportaron quejas por problemas mecánicos y que la atención en taller ha sido lenta.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada expresando molestia por retraso en la reparación del vehículo y falta de comunicación clara.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando actualización urgente y reclamando la situación de la logística para entrega del auto revisado.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos constantes en la reparación mecánica con falta de comunicación clara, lo que afecta la movilidad diaria y genera alta frustración personal.",
+  "expectativa_solucion": "Busca una respuesta rápida y concreta con un plan claro para terminar la reparación y una compensación que reconozca su inconveniente.",
+  "prompt_conversacional": "Interpreta a Alejandro, un cliente insatisfecho y frustrado por demoras y problemas mecánicos. Tu objetivo como agente es contener su frustración empatizando, reconocer la molestia, demostrar compromiso y acordar próximos pasos claros para resolver la situación de forma urgente."
+}

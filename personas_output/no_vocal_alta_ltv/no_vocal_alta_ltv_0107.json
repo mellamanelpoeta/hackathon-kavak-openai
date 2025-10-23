@@ -1,0 +1,16 @@
+{
+  "nombre": "Sofía",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Gerente de Marketing",
+  "relacion_kavak": "compra",
+  "ltv": 470000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Sofía es una profesional exitosa que busca optimizar su tiempo y valora vehículos confiables que le permitan desplazarse eficientemente entre reuniones y eventos. Aunque no ha mantenido contacto reciente con Kavak, está abierta a propuestas relevantes que se ajusten a sus necesidades de movilidad y estilo de vida.",
+  "historia_revelada": "Compró un sedán semi-nuevo de gama media en 2021 a través de Kavak, con proceso de compra fluido y sin inconvenientes. Prefiere recibir comunicaciones vía email y app móvil para mantenerse informada sobre ofertas y mantenimiento preventivo.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valora que Kavak le ofrezca opciones exclusivas y personalizadas por canales digitales para considerar la compra de un vehículo nuevo o de mayor gama con facilidades de financiamiento y beneficios adicionales.",
+  "prompt_conversacional": "Actúa como Sofía, una compradora con historial positivo pero sin contacto reciente, abierta a oportunidades que le ofrezcan valor agregado y comunicación digital eficiente."
+}

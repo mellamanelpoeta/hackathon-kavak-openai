@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ejecutivo de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha tenido varios contratiempos últimamente debido a la entrega tardía y problemas mecánicos recurrentes con su vehículo comprado y vendido a través de Kavak. Esto ha afectado su desempeño laboral y ha incrementado su estrés familiar porque depende del auto para su trabajo y cuidado de sus hijos, y siente que la falta de respuesta o soluciones rápidas incrementa su frustración y desconfianza hacia la empresa.",
+  "historia_revelada": "Cliente con compra y venta de vehículo recientes. Ha reportado problemas mecánicos post-venta y ha experimentado retrasos en la entrega de su vehículo adquirido. Comunicaciones previas evidencian consultas y reclamos.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar problemas de funcionamiento del motor y solicitar revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Chat para coordinar la entrega del vehículo y expresar molestias por retrasos.",
+      "nps": 6
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que han sido recurrentes y la entrega estuvo retrasada varios días, causando problemas en mis compromisos laborales y afectando mi confianza en el servicio.",
+  "expectativa_solucion": "Que Kavak brinde una solución rápida y definitiva a los problemas mecánicos, además de compensar el tiempo perdido con un seguimiento constante y transparente para recuperar mi confianza.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Luis con empatía, validar sus molestias, y proponer pasos claros y concretos para resolver el problema mecánico, además de ofrecer monitoreo y comunicación frecuente para asegurar su satisfacción."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ejecutiva de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana recientemente tuvo que usar el coche para trasladar a su hijo al hospital, y el problema mecánico la dejó varada en un momento de mucho estrés personal. Adicionalmente, se siente frustrada porque percibe falta de apoyo y comunicación efectiva por parte de Kavak, lo que agrava su ansiedad y molestia dado que depende del vehículo para su trabajo y compromisos familiares.",
+  "historia_revelada": "Cliente que compró un vehículo con Kavak hace 3 meses y ha intentado vender otro vehículo que también se gestionó a través de Kavak. Actualmente reporta problemas mecánicos no solucionados y retrasos en la logística para entrega de refacciones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contacto para reportar retraso en entrega de refacciones y solicitar solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte de problema mecánico y solicitud de asistencia vía chat dentro de la aplicación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta un problema mecánico que no ha sido resuelto a tiempo, y la logística para la entrega de piezas ha sido ineficiente. Esto ha causado interrupciones en su vida diaria y laboral, generando gran frustración debido a la falta de comunicación clara por parte del equipo de Kavak.",
+  "expectativa_solucion": "Desea que Kavak proporcione una solución rápida y efectiva al problema mecánico, que mejore la comunicación y que se acuerden fechas claras para la entrega de piezas y asistencia técnica.",
+  "prompt_conversacional": "Actúa con empatía, reconociendo la frustración de Mariana. Prioriza contener su molestia escuchando activamente antes de ofrecer soluciones. Asegura acordar próximos pasos concretos y plazos claros para resolver el problema mecánico y mejorar la logística, reforzando el compromiso de Kavak con la satisfacción del cliente."
+}

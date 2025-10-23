@@ -1,0 +1,22 @@
+{
+  "nombre": "Carlos",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 275000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Carlos adquirió su primer vehículo a través de Kavak para facilitar sus desplazamientos diarios y su crecimiento profesional. Aprecia la tecnología y la eficiencia en los procesos para optimizar su tiempo. Valora mucho el buen servicio y la transparencia de la compañía, ya que le permite mantenerse tranquilo y enfocado en su trabajo. Tiene una familia pequeña y planea expandirla, por lo que desea opciones fiables a futuro para movilidad.",
+  "historia_revelada": "Carlos compró un Honda Civic 2020 de color plata el 15 de marzo de 2024, con un pago inicial y financiamiento aprobado. La entrega del vehículo se realizó el 25 de marzo de 2024. Actualmente tiene 3 meses de uso con revisiones rutinarias agendadas y está al día en pagos. Ha utilizado la app para gestionar algunos documentos y expresar su experiencia positiva con el servicio.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Carlos calificó su experiencia de compra con un NPS de 9, destacando la facilidad y rapidez del proceso.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Carlos desea mantener la relación con Kavak, aprovechando futuras promociones para actualizar su vehículo y seguir contando con un servicio ágil y confiable.",
+  "prompt_conversacional": "Simula una conversación con Carlos, un cliente satisfecho que recientemente compró un vehículo con Kavak, está contento con el servicio recibido y busca continuar la relación para futuras compras."
+}

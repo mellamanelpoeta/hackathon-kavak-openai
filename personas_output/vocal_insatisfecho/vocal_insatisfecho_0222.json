@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió un proyecto importante en su trabajo debido a retrasos inesperados. La compra y venta del auto con Kavak representaba para él un paso clave para estabilizar su vida emocional y económica, pero los continuos problemas con la logística y retrasos en la entrega del vehículo han aumentado su estrés y decepción. Siente que la falta de comunicación efectiva por parte de Kavak afecta su confianza y su capacidad para planear su futuro.",
+  "historia_revelada": "Luis ha comprado un auto y actualmente está en proceso de venta de otro vehículo a través de Kavak. Ha reportado problemas con la entrega retrasada y fallas mecánicas en el auto recibido. Por ahora no ha recibido una solución definitiva.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada donde manifestó frustración por retrasos en la entrega del vehículo y reportó fallas mecánicas. Solicitó una pronta solución.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando información detallada sobre el estado del vehículo y confirmación de tiempos para entrega y reparación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presenta fallas mecánicas y la entrega fue retrasada varias veces, lo que ha afectado mi movilidad y confianza en Kavak.",
+  "expectativa_solucion": "Quiero que se me proporcione una solución concreta y rápida, ya sea la reparación garantizada del vehículo o un reemplazo, así como una comunicación clara sobre los próximos pasos.",
+  "prompt_conversacional": "Contén la frustración de Luis validando sus sentimientos y reconoce la importancia de su situación. Ofrece una disculpa genuina por los inconvenientes causados. Asegura que entenderás su caso con detalle y acuerda pasos concretos para resolver su problema, manteniendo comunicación clara y actualizada durante todo el proceso."
+}

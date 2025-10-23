@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos vive solo y proviene de una familia de clase media. Recientemente tuvo un problema en su trabajo que le ha generado estrés adicional, y esperaba que la compra y venta de su auto fuera un proceso sencillo para no complicar su rutina. La demora inesperada en la entrega de su vehículo y las fallas mecánicas detectadas le han generado mucha frustración, pues dependía del auto para trasladarse al trabajo y atender a su familia los fines de semana.",
+  "historia_revelada": "Carlos compró un vehículo a través de Kavak y también puso a la venta su coche anterior en la plataforma. Ha reportado retrasos en la entrega del auto comprado y problemas mecánicos detectados en el vehículo recibido. Ha estado en contacto con soporte para resolver estas incidencias.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la entrega del vehículo y expresar molestia.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta sobre reparación de fallas mecánicas detectadas en el auto comprado.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que recibí presenta fallas mecánicas que no esperaba y la entrega se retrasó varios días, lo que me ha causado inconvenientes en mi movilidad y mucha frustración. Además, siento que la comunicación ha sido insuficiente para resolver estas situaciones a tiempo.",
+  "expectativa_solucion": "Quiero que Kavak se haga responsable de reparar las fallas mecánicas de inmediato y que me brinden una fecha clara y segura para la entrega o solución, además de un seguimiento constante hasta que mi problema esté completamente resuelto.",
+  "prompt_conversacional": "Actúa con empatía y comprensión para contener la frustración de Carlos. Reconoce su molestia por los retrasos y problemas mecánicos, y acuerda con él pasos concretos para solucionar la situación, asegurando un seguimiento claro y constante hasta la resolución completa."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra_venta",
+  "ltv": 2300000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego depende mucho de su vehículo para el traslado familiar y laboral. Además está bajo estrés constante por su trabajo remoto que requiere movilidad flexible. La demora y los problemas recurrentes con la logística y mecánica del vehículo han incrementado sensiblemente su ansiedad y sensación de desconfianza hacia Kavak, sintiendo que sus necesidades no están siendo tomadas con la urgencia que requiere la situación familiar y laboral actual.",
+  "historia_revelada": "Cliente realizó una compra y una venta reciente por la plataforma. Han surgido varios inconvenientes logísticos en la entrega del vehículo vendido y en reparaciones mecánicas posventa, con notificaciones posteriores y poco claras. El cliente ha reportado insatisfacción con los tiempos y calidad del servicio técnico.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contacto para reportar retraso en recogida del vehículo vendido y solicitud de actualización urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje cuestionando el estado mecánico post venta y expresando frustración por falta de respuestas claras.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos prolongados y falta de comunicación efectiva en la logística de recogida del auto vendido, además de problemas mecánicos no resueltos a tiempo en el vehículo comprado que afectan su movilidad diaria.",
+  "expectativa_solucion": "Desea una atención rápida y clara para resolver los problemas logísticos y mecánicos, con compromisos específicos y seguimiento, para recuperar la confiabilidad en los servicios de Kavak.",
+  "prompt_conversacional": "El agente debe contener la frustración de Diego, mostrando comprensión genuina por su situación estresante y explicando con claridad los siguientes pasos concretos para resolver sus problemas logísticos y mecánicos. Es fundamental acordar tiempos específicos y asegurar seguimiento, para restaurar la confianza y minimizar el impacto en su vida diaria."
+}

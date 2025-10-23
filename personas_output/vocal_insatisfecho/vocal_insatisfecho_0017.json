@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor de tecnología",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro experimenta frustración creciente porque dependía de vender su auto usado para financiar la compra de otro vehículo a través de Kavak. Las demoras logísticas y problemas mecánicos inesperados lo han afectado emocionalmente debido a su apretada agenda laboral y la importancia que da a la movilidad para sostener su trabajo y responsabilidades familiares.",
+  "historia_revelada": "Compró un vehículo usado en Kavak y vendió otro mediante la plataforma hace 3 semanas. Ha reportado problemas con la entrega del auto comprado y la inspección mecánica del vehículo vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió mensaje indicando inconformidad con el estado mecánico del vehículo vendido.",
+      "nps": 7
+    }
+  ],
+  "problema": "El auto comprado sufrió un retraso considerable en la entrega, y el vehículo que vendí presenta fallas mecánicas que no fueron detectadas en la inspección inicial, generando gastos inesperados y estrés por la falta de transporte adecuado.",
+  "expectativa_solucion": "Quisiera que se agilicen las gestiones para la entrega inmediata del vehículo comprado y que se revise con prioridad y compensación adecuada el tema mecánico del auto que vendí, además de una comunicación clara y pronta para recuperar mi confianza.",
+  "prompt_conversacional": "Contén la frustración de Alejandro reconociendo su situación complicada. Muestra empatía por el impacto que la demora y problemas mecánicos le causan. Ofrece pasos claros y concretos para resolver ambos asuntos: agilizar la entrega, programar una revisión mecánica sin costo, y mantener comunicación frecuente. Asegura compromisos y próximas acciones para reconstruir la confianza."
+}

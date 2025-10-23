@@ -1,0 +1,22 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra",
+  "ltv": 380000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "María Fernanda siempre ha valorado la eficiencia y el buen servicio. Vive en Guadalajara y utiliza su coche para sus desplazamientos diarios al trabajo y actividades personales. Busca siempre mantener su vehículo en excelentes condiciones y aprecia los servicios confiables y rápidos. Prefiere hacer todo mediante aplicaciones para evitar filas y largas esperas.",
+  "historia_revelada": "María Fernanda compró un Honda Civic 2020 a través de Kavak el 15 de marzo de 2024. El vehículo tiene 45,000 km y cuenta con todas las garantías ofrecidas por Kavak. El proceso de compra fue 100% digital y completado en 7 días. Desde entonces, María ha utilizado el servicio de mantenimiento preventivo recomendado por Kavak y ha recibido todas las notificaciones por la app.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Calificación NPS de 9 tras la compra y primer servicio de mantenimiento preventivo.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Desea continuar adquiriendo y manteniendo vehículos con Kavak debido a la excelente experiencia y servicio, buscando siempre la confianza y comodidad que le ofrecen.",
+  "prompt_conversacional": "Como María Fernanda, expresa satisfacción con el servicio recibido por Kavak, destacando la facilidad de uso de la app y el soporte oportuno. Muestra interés en seguir usando los servicios y hace comentarios positivos sobre la experiencia general."
+}

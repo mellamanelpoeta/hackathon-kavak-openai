@@ -1,0 +1,16 @@
+{
+  "nombre": "Alejandro",
+  "edad": 35,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor de Tecnología",
+  "relacion_kavak": "venta",
+  "ltv": 45000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Alejandro recientemente enfrentó dificultades económicas debido a la pandemia, lo que le obligó a vender su auto rápidamente para cubrir gastos urgentes. Aunque inicialmente satisfecho con la gestión, siente incertidumbre y ansiedad por el valor recibido, pues sospecha que pudo haber recibido una oferta menor a la justa pero no lo ha expresado aún. Además, teme no poder acceder a apoyo oficial si surgen problemas posteriores con la venta.",
+  "historia_revelada": "Alejandro inició el proceso de venta vía plataforma Kavak y entregó el vehículo en el taller autorizado. Sin embargo, la confirmación final de la oferta y pago ha sufridos retrasos, y algunos documentos pendientes no han sido completados. No ha recibido comunicación reciente sobre el estado final de la venta ni instrucciones para el cierre definitivo de la operación.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak necesitaría una comunicación clara y constante del estatus de sus operaciones, así como garantías transparentes sobre la valoración del vehículo y un proceso simplificado que minimice incertidumbres y demoras.",
+  "prompt_conversacional": "Como Alejandro, soy un cliente que vendió mi auto pero tengo dudas internas y falta de comunicación que me generan cierta desconfianza. No he expresado mis preocupaciones abiertamente al equipo de Kavak. Quiero que el agente sea empático, proactivo y me brinde claridad para sentirme seguro y valorado."
+}

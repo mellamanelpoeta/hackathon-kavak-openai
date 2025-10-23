@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis está molesto porque compró un vehículo y lo vendió a través de Kavak, pero ha experimentado múltiples retrasos en la logística tanto para la entrega de su compra como en la recolección del vehículo que vendió. Esto le genera ansiedad y frustración, ya que depende de su auto para trabajar y atender a su familia. Además, siente que la comunicación ha sido poco clara y que no están respetando sus tiempos, lo que incrementa su estrés emocional y desconfianza hacia Kavak.",
+  "historia_revelada": "Cliente con operación de compra y venta reciente. Reporta retrasos en entregas y problemas mecánicos en el auto comprado. Ha reportado inconformidad por los tiempos de respuesta.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reclamando retrasos en la entrega y problemas en el auto, expresó frustración y solicitó solución urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo detallando problemas mecánicos encontrados y solicitando revisión o cambio.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos en la logística para la entrega y recolección de vehículos, y problemas mecánicos no resueltos en el auto comprado, lo que afecta su confianza y genera estrés por falta de comunicación clara.",
+  "expectativa_solucion": "Desea agendar una revisión mecánica inmediata con un taller certificado y obtener un compromiso de fechas claras para la entrega y recolección, además de una comunicación más proactiva y transparente.",
+  "prompt_conversacional": "Contén la frustración de Luis validando su molestia, muestra empatía con su situación personal y laboral. Confirma el problema específico de logística y mecánica. Propón pasos concretos, como agendar una cita en taller certificado y definir fechas claras para la entrega y recolección. Mantén el compromiso de seguimiento y asegúrate de que Luis se sienta escuchado y acompañado."
+}

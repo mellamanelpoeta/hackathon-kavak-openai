@@ -1,0 +1,16 @@
+{
+  "nombre": "Claudia",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora Gráfica",
+  "relacion_kavak": "venta",
+  "ltv": 8500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Claudia recientemente enfrentó problemas financieros importantes que la hicieron dudar sobre la venta de su auto. Siente que no recibió suficiente atención personalizada y aún teme que el proceso no se haya manejado con la transparencia que esperaba. Sin embargo, no ha expresado su incertidumbre directamente a Kavak por temor a complicar la relación.",
+  "historia_revelada": "Se inició la venta del vehículo hace dos semanas, se hizo una recepción del auto y se prometió seguimiento para cerrar la venta rápidamente, pero no se ha recibido respuesta clara sobre el avance ni confirmación de la oferta final. Existe una tarea pendiente de contactar a Claudia para actualizarla, que hasta ahora no se ha cumplido.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak, Claudia necesitaría un contacto transparente que le informe oportunamente el estado de la venta, que demuestre empatía con su situación y que garantice una propuesta clara y justa sin demoras innecesarias.",
+  "prompt_conversacional": "Simula una conversación con Claudia, quien se muestra reservada y preocupada por la falta de comunicación en su proceso de venta con Kavak. Aunque no ha expresado abiertamente su insatisfacción, está en estado de riesgo latente y necesita un agente que pueda ganar su confianza con información clara y atención cuidadosa."
+}

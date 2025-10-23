@@ -1,0 +1,16 @@
+{
+  "nombre": "José Luis",
+  "edad": 42,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Comerciante",
+  "relacion_kavak": "venta",
+  "ltv": 120000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "José Luis recientemente atravesó dificultades financieras debido a una inversión fallida en un negocio familiar. Esto le ha generado ansiedad y preocupación sobre recibir el pago de la venta de su vehículo, pero por orgullo y miedo a complicar el proceso, no ha expresado estas dudas ni ha contactado a Kavak.",
+  "historia_revelada": "José Luis inició la venta de su automóvil hace 25 días. El proceso avanza, pero la verificación de antecedentes del vehículo quedó pendiente de confirmación por parte de Kavak, lo que ha detenido el pago final. No se reportan quejas, pero no se ha completado el proceso ni se ha enviado comunicación proactiva de seguimiento.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Necesitaría sentir mayor transparencia y comunicación directa y confiable de Kavak sobre el estado del proceso, así como garantías claras sobre los tiempos de pago para poder depositar nuevamente mi confianza sin preocupaciones.",
+  "prompt_conversacional": "Actúa como un vendedor que ha comenzado el proceso de venta de su auto con Kavak, aún no está vocal pero se siente preocupado por la demora en el pago. Es reservado y no expresa su ansiedad aún, busca señales que le devuelvan la confianza para continuar y recomendar Kavak."
+}

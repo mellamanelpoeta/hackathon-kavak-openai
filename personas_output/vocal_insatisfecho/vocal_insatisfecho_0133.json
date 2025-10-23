@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 42000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha tenido recientemente problemas personales que le generan estrés, incluido el cuidado de un familiar enfermo. Estos factores han aumentado su frustración ante cualquier inconveniente. La mala experiencia con Kavak le hace sentir que le están complicando aún más las cosas, lo que afecta principalmente su tranquilidad y confianza en el servicio.",
+  "historia_revelada": "Luis compró un automóvil y vendió otro a través de Kavak en los últimos 6 meses. Ha reportado problemas mecánicos no resueltos y retrasos en la logística para la entrega del vehículo comprado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del auto comprado.",
+      "nps": 5
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Reportó problemas mecánicos encontrados después de la compra.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré tiene un problema mecánico que no me han resuelto, y además la entrega se retrasó mucho tiempo sin una respuesta clara, lo que me ha generado mucha molestia y desconfianza.",
+  "expectativa_solucion": "Quiero que revisen y reparen el auto rápidamente y que mejoren la comunicación para tener fechas claras de entrega y solución.",
+  "prompt_conversacional": "Como agente de CX, debes empatizar con Luis, contener su frustración y validar su preocupación. Propón pasos concretos y tiempos claros para la revisión y reparación del auto y para resolver el retraso de entrega. Asegura un seguimiento activo para restaurar su confianza en Kavak."
+}

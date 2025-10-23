@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 48000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió una promoción laboral debido a problemas de movilidad y confiabilidad con su vehículo, lo que le generó mucho estrés y ansiedad. Además, confía mucho en el vehículo para desplazamientos familiares, por lo cual la situación le genera frustración y preocupación por la seguridad de su familia y el impacto en su trabajo.",
+  "historia_revelada": "Cliente con historial de compra y venta de 2 vehículos con Kavak en los últimos 3 años. Actualmente reportó fallas mecánicas que le impiden usar el vehículo normalmente. Ha realizado reclamaciones previas a través del call center y correo electrónico.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar falla en motor y solicitó reparación urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviado correo expresando frustración por retraso en la entrega del vehículo reparado.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta una falla mecánica grave que no ha sido atendida a tiempo, lo que ha afectado mis desplazamientos laborales y personales, generando inseguridad y pérdida de confianza en el servicio de Kavak.",
+  "expectativa_solucion": "Quiero una solución rápida y confiable que garantice la reparación completa del vehículo, con seguimiento constante y compromisos claros para evitar más retrasos o complicaciones.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Luis ofreciendo escucha empática. Debes reconocer el impacto personal de la situación, asegurar un plan de acción claro y acordar próximos pasos concretos y tiempos de respuesta para recuperar la confianza."
+}

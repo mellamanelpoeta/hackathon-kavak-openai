@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió tiempo valioso y dinero debido a la tardanza en la entrega y problemas mecánicos continuos con el vehículo que compró y vendió a través de Kavak. Se siente frustrado porque depende del automóvil para desplazarse a su trabajo y cuidar a su familia. Además, la falta de respuestas claras y rápidas de atención al cliente le ha provocado estrés y desconfianza.",
+  "historia_revelada": "Luis realizó una venta y compra de automóvil con Kavak hace tres semanas. Ha reportado problemas recurrentes en la caja de cambios y retrasos en la logística de entrega. Ha interactuado con soporte vía telefónica y whatsapp en los últimos días con reportes sobre la situación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar demora en la entrega y problemas mecánicos; solicitó una solución rápida.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Conversación sobre estado del vehículo y petición de reporte técnico; mostró inconformidad con las respuestas.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré presenta fallas graves en la caja de cambios y la entrega se retrasó varios días, lo que afecta mi movilidad y actividades diarias. Además, siento que la comunicación con soporte es lenta y poco efectiva.",
+  "expectativa_solucion": "Deseo que Kavak coordine una reparación efectiva y pronta o una solución alternativa justa, con información clara y un compromiso concreto para evitar esta situación en el futuro.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Luis, reconociendo su situación y molestias. Escucha atentamente, valida sus sentimientos y ofrece pasos claros y factibles para resolver su problema de logística y mecánica, asegurando seguimiento y compromiso para restaurar su confianza en Kavak."
+}

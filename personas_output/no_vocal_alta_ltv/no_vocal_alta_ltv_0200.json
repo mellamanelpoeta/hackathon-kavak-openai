@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 475000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis es un profesional con buen ingreso estable que normalmente busca autos de alta gama y está interesado en novedades tecnológicas. A pesar de no haber tenido problemas, tiende a esperar ofertas y propuestas bien justificadas antes de entablar conversaciones comerciales.",
+  "historia_revelada": "Luis ha comprado dos vehículos en Kavak en los últimos cuatro años, ambos entregados sin incidencias. Prefiere que la comunicación sea por email debido a su agenda ocupada, y suele investigar bastante antes de decidir. No se han registrado interacciones recientes, pero su historial muestra gasto significativo y perfil para upsell.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "A Luis le gustaría recibir información relevante y personalizada sobre nuevas opciones de vehículos que se ajusten a sus gustos y necesidades, preferiblemente a través de correo electrónico, para valorar y considerar un posible contacto proactivo sin sentirse presionado.",
+  "prompt_conversacional": "Representa a Luis, un cliente con historial de compras exitosas que no ha tenido contacto reciente pero es un candidato ideal para un contacto proactivo, priorizando la comunicación por email y valorando ofertas personalizadas sin presiones."
+}

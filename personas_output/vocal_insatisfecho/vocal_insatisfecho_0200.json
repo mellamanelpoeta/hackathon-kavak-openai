@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor de tecnologías",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro está atravesando una etapa estresante con altos niveles de trabajo y responsabilidades familiares. La dificultad en la entrega y las reparaciones del vehículo que compró y pretende vender en Kavak le genera una gran frustración porque depende del auto para trasladarse a reuniones importantes y cumplir con sus compromisos. Se siente decepcionado pues esperaba una experiencia fluida y ahora percibe incompetencia en la logística y mecánica que afecta su rutina diaria y tranquilidad emocional.",
+  "historia_revelada": "Compró un vehículo usado a través de Kavak hace dos meses y ahora quiere vender otro con ellos. Ha tenido retrasos importantes en la reparación del vehículo que quiere vender y la logística de recogida del auto nuevo está demorando más de lo estimado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retrasos en la entrega y expresar molestias sobre la reparación incompleta del vehículo.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando actualización urgente sobre los tiempos y estados de la logística y reparación.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos prolongados en la reparación del vehículo y la logística de entrega que afectan su movilidad y generan estrés.",
+  "expectativa_solucion": "Desea una solución rápida con atención prioritaria, actualización clara de tiempos y garantías que le permitan retomar sus actividades normales sin más contratiempos.",
+  "prompt_conversacional": "El agente debe mostrar empatía ante la frustración de Alejandro, contener su molestia validando sus sentimientos, disculparse sinceramente por las demoras y comprometerse a ofrecer un plan de acción claro y detallado con plazos específicos para resolver los problemas de logística y mecánica."
+}

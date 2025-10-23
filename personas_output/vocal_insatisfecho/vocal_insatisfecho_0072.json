@@ -1,0 +1,27 @@
+{
+  "nombre": "Ernesto",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ernesto está pasando por una etapa estresante debido a problemas familiares y laborales, lo que lo hace muy sensible a cualquier inconveniente con servicios que dependen de su tiempo y confianza. Ha confiado en Kavak tanto para la compra como para la venta de sus autos, pero recientes problemas con la logística y fallas mecánicas le generan ansiedad y desconfianza, agravando su frustración emocional.",
+  "historia_revelada": "Ernesto compró un vehículo hace 3 meses y vendió otro a través de Kavak. Ha reportado retrasos en la entrega y problemas mecánicos no detectados previamente. Actualmente está en proceso de devolución y queja formal.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del vehículo comprado y expresar insatisfacción.",
+      "nps": 5
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envió mensaje detallando problemas mecánicos encontrados y solicitando solución urgente.",
+      "nps": 3
+    }
+  ],
+  "problema": "Ha experimentado retrasos en la entrega del vehículo comprado y problemas mecánicos graves que comprometieron su seguridad y tiempo. Además, siente que la comunicación ha sido insuficiente y poco clara respecto a soluciones y tiempos de reparación.",
+  "expectativa_solucion": "Desea una solución rápida y clara, con reparación o reemplazo adecuado del vehículo, una compensación por las molestias y que Kavak mejore la comunicación y seguimiento para evitar que situaciones similares ocurran en el futuro.",
+  "prompt_conversacional": "Contiene la frustración de Ernesto mostrando empatía, valida su molestia y asegura compromiso. Propón pasos concretos y claros para resolver el problema, acordando plazos y responsables, para restablecer la confianza y satisfacción."
+}

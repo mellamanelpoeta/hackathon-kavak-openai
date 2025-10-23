@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 42,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ejecutivo de Ventas",
+  "relacion_kavak": "compra",
+  "ltv": 470000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis es un ejecutivo de ventas con un estilo de vida activo que valora eficiencias en movilidad. Ha adquirido dos autos usados con Kavak recientemente y está considerando opciones para adquirir un vehículo adicional para uso familiar.",
+  "historia_revelada": "Luis ha comprado dos vehículos exitosamente en Kavak, ambos sin problemas reportados. Prefiere ser contactado por email y solo valora comunicaciones con ofertas relevantes y personalizadas.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Luis valoraría que Kavak reactivara el contacto de forma proactiva sólo con opciones personalizadas para compra de un tercer vehículo, destacando beneficios y financiamiento especial para clientes frecuentes.",
+  "prompt_conversacional": "Actúa como Luis, un cliente con alta inversión en compra de vehículos usados pero que no ha manifestado interés reciente. Responde mostrando interés en comunicaciones relevantes y personalizadas para posibles nuevas compras."
+}

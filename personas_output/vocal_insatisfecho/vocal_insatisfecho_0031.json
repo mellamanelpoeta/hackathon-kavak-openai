@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero civil",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente atravesó una situación personal complicada, con estrés laboral y preocupaciones familiares, lo que hace que cualquier inconveniente externo le genere ansiedad y frustración. La reciente falla mecánica en el auto que compró y la demora en la entrega del vehículo que vendió han agravado su estado emocional, sintiéndose desatendido y preocupado por su movilidad diaria, que es crucial para su trabajo y apoyar a su familia.",
+  "historia_revelada": "Cliente compró un vehículo usado hace tres meses y vendió otro mediante Kavak hace un mes. Ha experimentado problemas mecánicos con el vehículo comprado y retrasos en la entrega de la venta. Se han registrado reclamos previos por estos temas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problemas mecánicos y solicitando soporte urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo explicando la frustración por el retraso en la entrega del vehículo vendido.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado tiene fallas mecánicas frecuentes que limitan su uso diario y la entrega del vehículo que vendió ha sufrido retrasos sin información clara, generando incertidumbre y estrés.",
+  "expectativa_solucion": "Busca una solución rápida y eficiente que incluya la reparación o cambio del vehículo defectuoso y certeza sobre la fecha exacta de entrega del vehículo vendido, para recuperar su confianza y tranquilidad.",
+  "prompt_conversacional": "Contén la frustración del cliente empatizando con su situación. Valida su molestia y confírmale que entendemos el impacto que tiene en su vida diaria. Ofrece pasos claros y concretos para resolver sus problemas mecánicos y el retraso de entrega, comprometiéndote a dar seguimiento frecuente y fechas específicas."
+}

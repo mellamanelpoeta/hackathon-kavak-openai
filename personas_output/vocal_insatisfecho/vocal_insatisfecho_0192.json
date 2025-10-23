@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente perdió un proyecto importante en su trabajo y depende mucho de su auto para transporte diario. Él está frustrado porque los retrasos en la entrega y las fallas mecánicas están afectando no solo su movilidad sino también su estabilidad emocional, ya que siente que cada problema con Kavak agrava su estrés personal y profesional.",
+  "historia_revelada": "Compró un vehículo en Kavak hace 6 meses y ya vendió otro hace 2 meses. Ha reportado problemas recientes con la entrega y fallas mecánicas que han requerido varias visitas al taller.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar una falla mecánica persistente en su auto comprado recientemente; expresó gran molestia.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviado correo solicitando actualización sobre la entrega de su vehículo para venta; aún sin respuesta.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos en los tiempos de entrega y problemas mecánicos en el auto nuevo están ocasionando que Carlos pierda días laborales y se sienta inseguro con el servicio de Kavak.",
+  "expectativa_solucion": "Que Kavak agilice la atención técnica y logística, otorgándole un plan claro para resolver el problema y evitar que esto afecte más su vida personal y profesional.",
+  "prompt_conversacional": "Mantén una actitud empática y paciente. Reconoce la frustración de Carlos por los impactos en su trabajo y vida diaria. Contén su molestia y acuerda con él próximos pasos concretos para acelerar la solución, confirmando fechas y responsables."
+}

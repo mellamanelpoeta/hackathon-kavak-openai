@@ -1,0 +1,27 @@
+{
+  "nombre": "José Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "José Luis es un padre de familia con dos hijos pequeños y un trabajo demandante que requiere movilidad constante. La inseguridad que le genera confiar en un vehículo usado aumenta su ansiedad, y los problemas recientes con la mecánica de su auto han afectado su economía y su tranquilidad, generándole estrés extra que se refleja en su impaciencia con el servicio.",
+  "historia_revelada": "José Luis compró y vendió autos a través de Kavak en los últimos dos años. Actualmente tiene un vehículo que presentó problemas mecánicos antes de lo esperado y ha experimentado demoras en la logística para la reparación y el servicio posventa.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar un problema mecánico urgente y se quejó por la demora en la gestión del taller.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió mensajes solicitando actualización sobre el estado de la reparación y mostró frustración por falta de comunicación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas recurrentes poco después de la compra y el proceso de reparación ha sido lento y poco claro, lo que ha provocado inconvenientes logísticos para su movilidad diaria y ha aumentado su frustración.",
+  "expectativa_solucion": "Que Kavak agilice el taller y la reparación, le brinde información transparente y compense el tiempo perdido para recuperar confianza en el servicio.",
+  "prompt_conversacional": "Mantén la calma y empatiza con la frustración de José Luis. Reconoce su molestia por los problemas mecánicos y demoras. Propón pasos concretos para agilizar la reparación, ofrecer seguimiento continuo y evalúa posibles compensaciones para resolver la situación y recuperar su confianza."
+}

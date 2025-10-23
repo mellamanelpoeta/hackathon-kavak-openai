@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 420000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tiene una alta carga laboral y depende mucho de su vehículo para trasladarse con su familia. La reciente falla mecánica después de la compra y la demora en la solución le generan estrés y frustración, pues teme que esto afecte su estabilidad económica y su rutina diaria.",
+  "historia_revelada": "Luis compró un vehículo usado en Kavak hace 3 meses y también vendió otro. Reportó problemas mecánicos desde hace dos semanas y solicitó atención en el taller, experimentando retrasos en la reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó falla en el motor y expresó molestia por la demora en la reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitó actualización del estatus de reparación y planteó la urgencia del vehículo para su trabajo.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta una falla mecánica grave que no ha sido reparada oportunamente; la demora y la falta de información clara generan inseguridad y afectan mi movilidad diaria.",
+  "expectativa_solucion": "Deseo que el taller priorice la reparación con seguimiento transparente y que se me ofrezca una alternativa de transporte mientras se soluciona el problema.",
+  "prompt_conversacional": "Luis está molesto y preocupado debido a la falla y los retrasos en el servicio. Contén su frustración mostrando empatía, reconoce el impacto que tiene en su día a día y acuerda próximos pasos claros y concretos para darle seguridad y solución rápida."
+}

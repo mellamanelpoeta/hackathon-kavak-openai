@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 37,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "venta",
+  "ltv": 9500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis recientemente vivió una experiencia financiera complicada por un retraso inesperado en la venta de su vehículo a través de Kavak, lo cual le generó estrés y dudas internas sobre el proceso. Aunque no ha expresado sus preocupaciones a la empresa, teme perder confianza y evitar futuras transacciones con ellos.",
+  "historia_revelada": "El seguimiento a la venta del vehículo inició hace más de un mes, pero la documentación no fue completada ni actualizada en el sistema. Luis no recibió confirmación ni información clara sobre el estado final de la venta, y las tareas pendientes incluyen una validación final que no ha sido realizada.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak, Luis necesita una comunicación transparente y un proceso claro, con confirmaciones puntuales que le garanticen el cierre efectivo y sin complicaciones de las operaciones.",
+  "prompt_conversacional": "Eres un vendedor que quiere ayudar a Luis, quien vendió un auto por Kavak pero no ha recibido información clara y aún se siente inseguro. Luis no ha expresado sus preocupaciones directamente, pero necesita sentirse seguro y valorado para confiar nuevamente."
+}

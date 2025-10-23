@@ -1,0 +1,27 @@
+{
+  "nombre": "Lorena",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 780000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Tras perder su trabajo durante la pandemia, Lorena compró un auto por Kavak para reubicarse y buscar mejor oportunidades. Ahora que depende de ese vehículo para su estabilidad y brindar apoyo a sus dos hijos, los constantes retrasos y problemas mecánicos generan una ansiedad creciente que pone en riesgo su tranquilidad emocional y económica.",
+  "historia_revelada": "Lorena realizó una compra de auto y posteriormente vendió otro a través de Kavak en los últimos 18 meses. Ha reportado problemas técnicos recurrentes con el vehículo comprado y demoras en la entrega del vehículo vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar que el auto comenzó a fallar y solicitó revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Chat para preguntar por el estado de la entrega del vehículo que vendió, expresó frustración por la tardanza.",
+      "nps": 7
+    }
+  ],
+  "problema": "El auto que compré presentó fallas mecánicas graves a las pocas semanas y el proceso para que me lo revisen ha sido muy lento y poco claro. Además, la venta de mi vehículo anterior se ha demorado más de lo pactado, afectando mi estabilidad financiera.",
+  "expectativa_solucion": "Quiero que revisen y arreglen el auto urgentemente, me brinden transparencia en los tiempos de reparación y agilicen la venta de mi vehículo para no seguir perdiendo dinero ni tranquilidad.",
+  "prompt_conversacional": "Actúa con empatía y paciencia, reconociendo la frustración de Lorena por los problemas mecánicos y logísticos. Busca contener su malestar y ofrece una explicación clara. Propón próximos pasos concretos, como agendar revisión inmediata, ofrecer vehículo sustituto o compensaciones, y seguimiento personalizado para la venta. Asegura compromisos y confirma que será acompañada durante todo el proceso."
+}

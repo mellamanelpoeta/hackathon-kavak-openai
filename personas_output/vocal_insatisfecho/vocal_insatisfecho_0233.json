@@ -1,0 +1,27 @@
+{
+  "nombre": "Ana Sofía",
+  "edad": 32,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 13500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Ana Sofía recientemente perdió varias horas esperando que su auto comprado en Kavak fuera reparado. Su trabajo creativo depende de movilidad constante y esta demora afecta su creatividad y plazos de entrega, generando alta frustración y sensación de falta de respeto por parte de la empresa, lo cual disminuye su confianza y disposición futura a usar sus servicios.",
+  "historia_revelada": "Ana Sofía compró un vehículo seminuevo hace tres meses y luego vendió otro a través de Kavak hace seis meses. Ha reportado inconvenientes mecánicos inesperados en su compra reciente y ha buscado soporte para reparaciones con retrasos más largos de lo esperado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en reparación del vehículo y expresar insatisfacción con el tiempo de respuesta.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envió mensaje solicitando actualización sobre status del taller y reconsideración del proceso logística.",
+      "nps": null
+    }
+  ],
+  "problema": "Actualmente enfrenta demora prolongada en la reparación mecánica de su vehículo adquirido, lo que le genera pérdida de productividad y una profunda frustración con el manejo del servicio postventa.",
+  "expectativa_solucion": "Desea que Kavak brinde una solución rápida y transparente, mejorar la comunicación constante y pueda garantizar la reparación efectiva sin más retrasos, restaurando su confianza en la marca.",
+  "prompt_conversacional": "Contén la frustración de Ana Sofía mostrando comprensión activa. Valida su molestia frente a las demoras mecánicas y logísticas. Propón pasos concretos para acelerar la reparación y mejora en la comunicación, acordando fechas claras y compromisos para dar seguimiento personalizado."
+}

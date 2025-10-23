@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 80000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es un ingeniero que valoraba mucho la eficiencia y puntualidad en sus procesos. Tras comprar un auto usado y vender el suyo a través de Kavak, ha experimentado demoras continuas en la entrega y fallas mecánicas inesperadas que han afectado su rutina laboral y familiar. Se siente frustrado y decepcionado porque confiaba en que Kavak le daría una experiencia segura y sin complicaciones, pero esto le ha generado estrés y preocupación adicionales, ya que necesita un transporte confiable para su trabajo y su familia.",
+  "historia_revelada": "Cliente realizó la compra de un vehículo usado hace un mes y también vendió su auto previo a esa compra a través de Kavak. Actualmente reporta problemas logísticos con la entrega del vehículo comprado y problemas mecánicos detectados a poco tiempo de uso.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó para expresar inconformidad por retraso en entrega y fallas mecánicas iniciales.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando solución inmediata y comunicación clara sobre estado de su caso.",
+      "nps": null
+    }
+  ],
+  "problema": "Retraso en la entrega del vehículo y problemas mecánicos que requieren reparación urgente, lo que afecta su movilidad y compromisos laborales y familiares.",
+  "expectativa_solucion": "Quiere una solución rápida y efectiva que incluya reparación sin costo, compensación por retrasos y una comunicación clara y constante.",
+  "prompt_conversacional": "Como agente de CX, muestra empatía ante la frustración de Luis, valida su molestia expresando comprensión por el impacto en su vida diaria. Ofrece disculpas sinceras y comprométete a presentar un plan concreto para resolver los problemas mecánicos y mejorar la logística de entrega. Asegura acordar con Luis próximos pasos claros y tiempos específicos para su seguimiento, manteniendo comunicación constante para restaurar su confianza en Kavak."
+}

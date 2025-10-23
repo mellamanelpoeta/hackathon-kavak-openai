@@ -1,0 +1,27 @@
+{
+  "nombre": "Andrés",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 21500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Andrés está atravesando una etapa estresante en su vida laboral y personal. La compra y venta de autos con Kavak representaba para él una esperanza para reorganizar su movilidad, ya que depende de su coche para sus desplazamientos laborales. El problema mecánico que presenta el vehículo le ha generado ansiedad y frustración, sintiéndose poco apoyado por la atención recibida. Además, la demora y falta de claridad en la logística para la reparación ha aumentado su molestia, afectando su confianza en la marca.",
+  "historia_revelada": "Andrés compró un auto compacto usado hace tres meses y vendió su anterior vehículo a través de Kavak. Actualmente reportó un problema mecánico relevante en el motor del auto comprado. Ha intentado gestionar la logística para revisión y reparación, la cual ha presentado demoras.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar problema mecánico y expresar molestia por demoras en el taller.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización sobre el estado de su vehículo en reparación.",
+      "nps": 7
+    }
+  ],
+  "problema": "El auto comprado presenta una falla mecánica significativa que impide su uso cotidiano; la logística para revisión y reparación ha sido lenta y poco clara generando frustración y pérdidas de tiempo importantes.",
+  "expectativa_solucion": "Desea una solución rápida y transparente que incluya una pronta revisión y reparación del vehículo, con comunicación constante y opciones claras para minimizar el impacto en su movilidad diaria.",
+  "prompt_conversacional": "El agente debe contener la frustración de Andrés mostrando empatía, validar su molestia y asegurar que entiende la importancia del vehículo para su vida diaria. Se debe acordar un plan claro con fechas específicas para la revisión y reparación, ofreciendo alternativas temporales si están disponibles, y comprometiéndose a mantener comunicación frecuente."
+}

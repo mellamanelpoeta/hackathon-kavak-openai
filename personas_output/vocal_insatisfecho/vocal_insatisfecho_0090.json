@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra_venta",
+  "ltv": 42000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente sufrió la cancelación inesperada de la entrega de su vehículo, lo que le imposibilitó asistir a una reunión crucial en su trabajo. Además, su auto actual tiene problemas mecánicos que aún no se han resuelto. Esto le genera mucha ansiedad porque depende del auto para su trabajo y siente que Kavak no está cumpliendo con lo prometido, lo que le causa desconfianza y frustración.",
+  "historia_revelada": "Compró un auto usado a través de Kavak hace 4 meses y ha realizado una venta posterior con ellos. Ha reportado problemas logísticos con la entrega y problemas mecánicos aún pendientes de solución.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó para reportar retraso en la entrega y pidió explicación.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo detallando fallas mecánicas presentadas y solicitando soporte técnico urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El retraso en la entrega del vehículo y la falta de solución oportuna a los problemas mecánicos están afectando mi vida laboral y generan mucha incertidumbre sobre la confiabilidad del servicio.",
+  "expectativa_solucion": "Quiero que se agilice la entrega y que otorguen un soporte técnico rápido y efectivo para resolver los problemas mecánicos, con seguimiento claro y fechas concretas.",
+  "prompt_conversacional": "Intercambiar con Carlos mostrando empatía hacia su frustración por los retrasos y fallas mecánicas. Contener su molestia validando su situación. Proponer pasos concretos para acelerar la entrega y coordinar soporte técnico urgente. Confirmar fecha y responsable del seguimiento para recuperar su confianza."
+}

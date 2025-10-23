@@ -1,0 +1,22 @@
+{
+  "nombre": "Carlos",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra",
+  "ltv": 380000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Carlos recientemente logró una mejora en su situación económica tras un ascenso en su trabajo, y buscaba un vehículo confiable para sus traslados diarios y viajes a familia. Valora la transparencia y rapidez en procesos digitales.",
+  "historia_revelada": "Carlos compró un Nissan Altima 2018 a través de Kavak el 15 de abril de 2024. El vehículo tiene 75,000 km y se entregó con garantía extendida y revisiones incluidas. Desde entonces, ha recibido seguimiento proactivo y actualizaciones sobre servicios y promociones.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Carlos calificó su experiencia de compra con NPS de 9 tras la entrega del vehículo, destacando la atención y el proceso ágil.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Desea mantener la relación con Kavak para futuros servicios y posibles actualizaciones, confiando en su atención y condiciones actuales.",
+  "prompt_conversacional": "Actúa como Carlos, quien está satisfecho y valora la comunicación clara y rápida. Muestra disposición a escuchar nuevas ofertas para mantenerse como cliente fiel y continuar su relación con Kavak."
+}

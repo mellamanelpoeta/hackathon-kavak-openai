@@ -1,0 +1,27 @@
+{
+  "nombre": "Gabriela",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Gabriela valoraba la compra de su auto como un símbolo de independencia y esfuerzo personal, pero las fallas constantes y retrasos en la entrega de servicios mecánicos le han generado mucha frustración y estrés. Tiene una agenda apretada, y estos problemas afectan su movilidad laboral y personal, además siente que la falta de comunicación agrava su molestia.",
+  "historia_revelada": "Compró un vehículo seminuevo en Kavak, realizó la venta de otro vehículo unos meses atrás. Actualmente presenta quejas sobre retrasos en mantenimiento preventivo y problemas mecánicos no resueltos a tiempo.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso y falta de información sobre la reparación mecánica de su vehículo.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envió mensajes solicitando actualización sobre el estado de servicio, mostró molestia por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "El taller ha tardado más de lo prometido en reparar fallas mecánicas críticas, lo que ha afectado mi movilidad y genera incertidumbre sobre cuándo podré contar con el vehículo en condiciones óptimas.",
+  "expectativa_solucion": "Quiero un compromiso claro de tiempos y seguimiento constante para resolver el problema mecánico rápidamente, además de una compensación por las molestias ocasionadas.",
+  "prompt_conversacional": "El cliente está frustrado por retrasos y problemas mecánicos no resueltos, es importante contener su ánimo reconociendo su molestia, mostrar empatía y acordar pasos claros y concretos para la reparación y seguimiento, reforzando la comunicación constante."
+}

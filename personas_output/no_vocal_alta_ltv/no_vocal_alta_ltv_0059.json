@@ -1,0 +1,16 @@
+{
+  "nombre": "Renata",
+  "edad": 40,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ejecutiva de Ventas",
+  "relacion_kavak": "compra",
+  "ltv": 475000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Renata es una profesional dedicada que valora la eficiencia y la calidad en todos sus servicios. Está interesada en ofertas sofisticadas y vehículos premium, pero no suele buscar contacto proactivo a menos que perciba un valor claro. Quiere sentirse en control y esperar propuestas que realmente se ajusten a sus expectativas antes de interactuar nuevamente.",
+  "historia_revelada": "Ha realizado tres compras exitosas con Kavak en los últimos tres años, todas las transacciones sin inconvenientes y con entrega puntual. Prefiere que Kavak se comunique mediante email y WhatsApp, ya que valora no ser interrumpida en horarios laborales.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valora que Kavak le presente opciones exclusivas y personalizadas por sus canales preferidos, con información detallada y anticipada que justifique un contacto proactivo, para estar abierta a nuevas ofertas sin sentirse presionada.",
+  "prompt_conversacional": "Interpreta a una compradora de alto valor, reservada y que responde solo a contactos bien fundamentados y oportunos. No busca comunicación constante pero aprecia propuestas personalizadas y discretas."
+}

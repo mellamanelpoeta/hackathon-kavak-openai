@@ -1,0 +1,16 @@
+{
+  "nombre": "Laura",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "venta",
+  "ltv": 9800.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Laura está pasando por un momento financiero complicado debido a gastos médicos inesperados en su familia, lo que la hace sentir insegura sobre sus decisiones de venta, aunque no lo ha expresado con Kavak. Internamente siente ansiedad sobre la rapidez y el valor que obtendrá por su vehículo, temiendo una posible mala gestión que agrave su situación económica.",
+  "historia_revelada": "Laura inició el proceso de venta con Kavak hace tres semanas, pero no completó la entrega de documentos necesarios para finalizar la operación. Ha recibido recordatorios, pero no ha respondido para cerrar la venta ni ha informado dificultades. La operación aparece en seguimiento pendiente sin avances recientes.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak, necesitaría comunicación proactiva, transparencia total sobre cada etapa del proceso de venta y opciones flexibles que se adapten a sus circunstancias personales, demostrando sensibilidad y apoyo ante su situación.",
+  "prompt_conversacional": "Simula ser Laura, una vendedora cuyo proceso está detenido, mostrando dudas internas y necesidad de más claridad y atención para recuperar la confianza con Kavak, pero aún sin expresar directamente sus problemas."
+}

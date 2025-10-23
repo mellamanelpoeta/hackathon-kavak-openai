@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 82000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es un padre de familia que confiaba en Kavak para comprar un vehículo que fuera seguro y confiable para transportar a sus hijos y acudir a su trabajo. Debido a que depende del coche para su sustento diario y la seguridad de su familia, está emocionalmente frustrado y preocupado; especialmente por problemas mecánicos inesperados y retrasos logísticos que le impiden contar con su vehículo en el momento que más lo necesita.",
+  "historia_revelada": "Luis compró un automóvil seminuevo a través de Kavak hace 3 meses y recientemente lo vendió, pero ha tenido problemas con el taller por retrasos en la entrega de servicios y problemas mecánicos persistentes que afectan la operación de su vehículo.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "El cliente llamó para reportar retrasos reiterados en el taller y solicitó una solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando explicación sobre fallas mecánicas y fechas claras para la entrega del vehículo.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas recurrentes que han causado que el taller demore más de dos semanas en entregar el auto, generando afectaciones a mis actividades diarias y preocupación por la seguridad de mi familia.",
+  "expectativa_solucion": "Espero que Kavak pueda acelerar la reparación, ofrecer una solución clara y compensación adecuada por las molestias, y asegurar la entrega rápida del vehículo reparado o un vehículo sustituto mientras tanto.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Luis. Reconoce su preocupación por la seguridad y el tiempo perdido. Explica claramente los pasos que se tomarán para resolver el problema, ofrece alternativas tangibles y acuerda próximos pasos concretos para acelerar una solución efectiva."
+}

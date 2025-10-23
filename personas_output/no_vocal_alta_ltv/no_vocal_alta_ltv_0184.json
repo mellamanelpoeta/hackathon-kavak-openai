@@ -1,0 +1,16 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Director de Marketing",
+  "relacion_kavak": "compra",
+  "ltv": 480000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Alejandro es un profesional con buen nivel económico, interesado en autos eléctricos y tecnología de punta. Suele investigar a fondo sus compras y busca siempre la mejor inversión. Aunque ha tenido experiencias positivas con Kavak en el pasado, actualmente no está en contacto directo, pero está abierto a nuevas ofertas si se presentan opciones innovadoras y servicios premium.",
+  "historia_revelada": "Ha comprado dos vehículos con Kavak en los últimos 5 años sin incidentes reportados. Prefiere recibir comunicados por correo electrónico y en horarios laborales. Muestra interés por autos nuevos con características avanzadas y financiación favorable.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valoraría que Kavak ofreciera comunicaciones personalizadas con propuestas de vehículos eléctricos o híbridos, acompañadas de beneficios exclusivos y facilidades de financiamiento para reactivar el contacto de forma proactiva y discreta.",
+  "prompt_conversacional": "Interpreta a Alejandro, un cliente con varias compras exitosas en Kavak, actualmente sin contacto reciente, interesado en propuestas premium y tecnología avanzada. Responde con interés pero sin urgencia, prefiere información clara y comunicados por email."
+}

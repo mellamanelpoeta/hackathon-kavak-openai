@@ -1,0 +1,27 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 28000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "María Fernanda ha tenido un mes complicado debido a presiones laborales y familiares, lo que ha hecho que su paciencia sea limitada. La demora en la entrega y las fallas mecánicas en el vehículo que adquirió con Kavak le generan mucha frustración porque depende del automóvil para su traslado diario, y siente que sus expectativas de una compra segura no se están cumpliendo, acrecentando su estrés.",
+  "historia_revelada": "Compró un vehículo usado a través de Kavak hace dos meses y vendió uno anterior también con ellos. Ha experimentado problemas mecánicos imprevistos y la entrega del vehículo comprado se retrasó más de lo acordado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar la falla mecánica del motor y expresar su frustración por la demora en la respuesta del taller.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización sobre el estado de la devolución y la reparación del vehículo, buscando mayor claridad y solución rápida.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas graves desde poco después de la compra y la logística para la entrega y reparación ha sido lenta y poco clara, lo que limita su movilidad y genera gran molestia.",
+  "expectativa_solucion": "Desea una solución rápida y efectiva que incluya la reparación sin costos adicionales y un compromiso claro en tiempos para evitar nuevas demoras, recuperando su confianza en Kavak.",
+  "prompt_conversacional": "Actúa con empatía y comprensión ante la frustración de María Fernanda. Contén sus emociones reconociendo su molestia y el impacto en su vida diaria. Ofrece disculpas genuinas y explica los pasos concretos que Kavak tomará para resolver la situación. Acuerda con ella un seguimiento claro y fechas específicas para que sienta control y seguridad en la solución."
+}

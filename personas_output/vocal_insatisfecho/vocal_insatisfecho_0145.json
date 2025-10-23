@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 580000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis compró un auto con altas expectativas porque necesitaba un vehículo confiable para su familia y el trabajo. Sufre ansiedad porque depende mucho del carro y la demora en la entrega del servicio mecánico lo ha dejado sin transporte, afectando su rutina diaria y generándole estrés y frustración profunda. Se siente desatendido y teme que la situación afecte su confianza en Kavak.",
+  "historia_revelada": "Cliente con compra y venta reciente de vehículo. Presenta reportes continuos por problemas mecánicos que no se han resuelto en tiempos prometidos. Última comunicación fue hace 3 días reportando demora y falta de solución definitiva.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del vehículo tras servicio mecánico. Manifestó insatisfacción por falta de respuesta concreta.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo solicitando actualización del estatus del vehículo, expresó preocupación por impactos en su movilidad diaria.",
+      "nps": null
+    }
+  ],
+  "problema": "Se ha enfrentado a demoras y falta de información clara respecto al servicio mecánico de su vehículo, lo que lo ha dejado sin movilidad y afectando su rutina familiar y laboral.",
+  "expectativa_solucion": "Desea una solución rápida y transparente, que se le informe constantemente y que se le dé una fecha concreta para la entrega o solución definitiva de su vehículo.",
+  "prompt_conversacional": "Contén la frustración de Luis escuchando atentamente sus preocupaciones. Reconoce el impacto que esta situación genera en su día a día. Propón pasos concretos con fechas claras para resolver el problema mecánico de manera rápida y asegurale el compromiso de seguimiento cercano. Busca acordar una solución tangible que recupere su confianza en Kavak."
+}

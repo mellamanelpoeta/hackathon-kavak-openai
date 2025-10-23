@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 48000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tiene una vida laboral muy demandante que lo estresa diariamente, y también está atravesando un momento personal difícil porque su esposa está embarazada. La demora en la entrega y problemas mecánicos en el vehículo que compró por Kavak le generan frustración adicional, pues depende mucho del vehículo para sus desplazamientos al trabajo y su familia. Además, siente que la situación le quita tiempo valioso que podría dedicar a su familia y descanso, aumentando su molestia.",
+  "historia_revelada": "Luis adquirió un vehículo a través de Kavak hace 2 meses y ha vendido uno también mediante la plataforma. Actualmente reporta problemas logísticos con la entrega de un auto de reemplazo y fallas mecánicas detectadas en el vehículo adquirido. Ha tenido contacto con atención al cliente en distintos canales debido a estas incidencias.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en entrega del auto de reemplazo y solicitó información sobre el estado de la reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envío correo expresando inconformidad por la falta de respuesta o solución clara a problemas mecánicos presentados en el vehículo adquirido.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré tiene fallas mecánicas que no han sido solucionadas oportunamente, además la entrega del auto de reemplazo se ha retrasado y eso me complica mucho mi rutina diaria y obligaciones familiares.",
+  "expectativa_solucion": "Quiero que se acelere la gestión para la entrega inmediata del auto de reemplazo y una revisión mecánica definitiva del vehículo adquirido, con una comunicación clara y compromiso real para evitar más inconvenientes.",
+  "prompt_conversacional": "El agente debe contener la frustración de Luis mostrando empatía por su situación personal y laboral, validar sus preocupaciones y buscar acordar próximos pasos concretos relacionados con tiempos específicos para la entrega y revisión técnica del vehículo para recuperar su confianza."
+}

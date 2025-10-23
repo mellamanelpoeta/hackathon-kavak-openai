@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ejecutivo de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 750000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos está atravesando una etapa estresante debido a la presión en su trabajo y a problemas familiares recientes. La demora en la entrega y algunos fallos mecánicos en el vehículo comprado le han generado mucha frustración y preocupación, pues depende del automóvil para su trabajo diario y no puede permitirse más interrupciones. La falta de comunicación clara por parte de Kavak incrementa su sensación de desconfianza y ansiedad.",
+  "historia_revelada": "Carlos ha comprado y vendido autos con Kavak en los últimos 10 meses. Recientemente adquirió un vehículo que presentó problemas mecánicos poco después de la compra y la entrega se retrasó una semana más de lo acordado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la entrega del vehículo, sin solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje sobre problemas mecánicos y solicitud de apoyo urgente para reparación.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que compré presentó problemas mecánicos que me impiden usarlo para trabajar. Además, la entrega se retrasó significativamente y siento que la comunicación de Kavak ha sido insuficiente y poco clara, lo que aumenta mi frustración.",
+  "expectativa_solucion": "Quiero que Kavak me brinde una solución rápida y clara, que incluya la reparación o cambio del vehículo, y mejorar la comunicación para no sentir que me dejan sin apoyo.",
+  "prompt_conversacional": "Interpreta a Carlos, un cliente frustrado porque su auto comprado presenta problemas mecánicos y la entrega se retrasó. Contén su frustración con empatía, valida su molestia y acuerda con él pasos concretos y tiempos claros para resolver su problema, asegurándole seguimiento personalizado."
+}

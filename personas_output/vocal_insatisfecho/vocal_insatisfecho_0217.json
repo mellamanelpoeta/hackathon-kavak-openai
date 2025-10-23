@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 75000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis se siente frustrado porque confió en la revisión mecánica de Kavak para vender su auto, pero el comprador detectó fallas que ahora lo ponen en riesgo de perder la venta. Como ingeniero mecánico, esperaba mayor profesionalismo y cuidado, y esto le genera estrés por su situación financiera actual y presión familiar.",
+  "historia_revelada": "Luis compró y vendió dos vehículos con Kavak en los últimos 18 meses. Actualmente tiene un proceso abierto para la venta de su auto, que presenta reportes de fallas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar que el comprador encontró problemas mecánicos no detectados y expresó insatisfacción.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó información sobre el procedimiento para reclamar una revisión adicional o solución por daño mecánico detectado.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que vende con Kavak tiene fallas mecánicas graves que no fueron detectadas inicialmente, lo que amenaza la venta y deteriora su confianza en el servicio.",
+  "expectativa_solucion": "Luis espera que Kavak asuma responsabilidad, revise a fondo el vehículo y acuerde una solución concreta para cerrar la venta sin mayores pérdidas.",
+  "prompt_conversacional": "Eres un agente empático y paciente. Debes contener la frustración de Luis, mostrar comprensión por la situación mecánica y la pérdida de confianza, y guiarle para acordar un plan claro con fechas y acciones específicas que le devuelvan la seguridad."
+}

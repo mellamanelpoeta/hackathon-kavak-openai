@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos compró un auto usado de Kavak para su movilidad diaria y recientemente decidió vender otro vehículo a través de la plataforma. Tiene una agenda apretada y depende mucho del auto para sus actividades laborales y familiares. La demora en la logística de entrega y fallas mecánicas han generado frustración porque siente que no sólo pierde tiempo sino que afecta la confianza que tiene en el servicio. Además, la falta de comunicación clara ha aumentado su ansiedad y preocupación por no recibir soluciones rápidas.",
+  "historia_revelada": "Cliente con historial reciente de compra y venta de vehículos por Kavak. Ha reportado problemas mecánicos con el vehículo comprado y retrasos en la recogida del vehículo vendido. Contactó a soporte en varias ocasiones solicitando atención urgente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar demora en la recogida del vehículo vendido.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte de problema mecánico detectado en el auto comprado.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presentó fallas mecánicas poco después de la entrega y la recogida del vehículo vendido ha sufrido retrasos sin una comunicación clara del estado, lo que afecta su movilidad y genera incertidumbre.",
+  "expectativa_solucion": "Desea que Kavak resuelva urgentemente las fallas mecánicas, agilice la logística de recogida y mantenga comunicación proactiva para recuperar la confianza.",
+  "prompt_conversacional": "El agente debe reconocer la frustración del cliente y validar sus preocupaciones con empatía, ofreciendo soluciones claras y tiempos concretos. Es importante contener la molestia, acordar pasos específicos para resolver la mecánica y logística, y asegurar seguimiento continuo."
+}

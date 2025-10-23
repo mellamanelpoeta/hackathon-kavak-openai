@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 78000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos ha tenido malas experiencias previas con vehículos usados y siente una responsabilidad especial porque su familia depende del auto para actividades diarias. Se siente frustrado porque esperaba que Kavak le brindara un servicio confiable y se siente despreciado ante las demoras y la falta de soluciones claras, lo que le genera ansiedad y desconfianza.",
+  "historia_revelada": "Carlos ha realizado una compra y venta de vehículo con Kavak en los últimos tres meses. Ha reportado problemas mecánicos recurrentes en el auto vendido y ha tenido demoras en la gestión de logística para la entrega de su nuevo vehículo. El equipo de soporte ha recibido reportes varias veces, pero aún no se ha resuelto definitivamente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Carlos llamó para reportar que el vehículo comprado presentaba fallas en el motor y expresó gran molestia por la mala experiencia.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Ingresó una queja por la demora en la entrega y falta de actualización por parte del equipo de logística.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas recurrentes que no han sido resueltas, además la entrega se ha retrasado más de lo prometido, generando incapacidad para cumplir con sus compromisos familiares y laborales.",
+  "expectativa_solucion": "Desea que Kavak gestione de forma rápida y eficaz la reparación o sustitución del vehículo, y que la logística de entrega se cumpla en fecha concreta, con comunicación clara y constante para recuperar su confianza.",
+  "prompt_conversacional": "Interpreta a Carlos, un cliente frustrado por problemas mecánicos y retrasos en la logística de su compra y venta. Contén su frustración mostrando empatía genuina, valida su experiencia y acuerda pasos concretos y fechas precisas para resolver la situación, asegurando mantener comunicación clara y seguimiento puntual."
+}

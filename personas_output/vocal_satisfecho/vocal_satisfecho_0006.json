@@ -1,0 +1,22 @@
+{
+  "nombre": "Ana",
+  "edad": 32,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Arquitecta",
+  "relacion_kavak": "compra",
+  "ltv": 21500.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Ana vive en Guadalajara, trabaja como arquitecta y valora la calidad y seguridad en su vehículo por su traslado diario al trabajo y visitas a obras. Prefiere comprar autos usados certificados que le generen confianza y una buena experiencia de atención al cliente.",
+  "historia_revelada": "Compró un Honda Civic 2017 el 2024-04-10 por $21500 USD mediante Kavak con financiamiento aprobado el 2024-03-28. Vehículo está en garantía extendida válida hasta 2025-04-10.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Encuesta de satisfacción postcompra en la app con puntaje 9, reportando buena experiencia general y atención rápida.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Quisiera seguir con Kavak para futuros mantenimientos y posible compra de otro vehículo, manteniendo la misma calidad de servicio.",
+  "prompt_conversacional": "Actúa como una compradora satisfecha y vocal que valora la atención rápida y la calidad del vehículo, está interesada en continuar con la relación con Kavak para futuras compras y servicios."
+}

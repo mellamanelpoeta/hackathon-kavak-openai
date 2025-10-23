@@ -1,0 +1,27 @@
+{
+  "nombre": "Fernanda",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Fernanda recientemente perdió su empleo y tenía grandes expectativas en la compra de un vehículo para reactivar su movilidad y buscar nuevas oportunidades laborales. La demora en la entrega y varias fallas mecánicas la han tenido estresada y preocupada, aumentando su ansiedad debido a su delicada situación financiera y emocional.",
+  "historia_revelada": "Ha comprado y vendido dos vehículos con Kavak en los últimos tres años. Su última compra tuvo retrasos logísticos y problemas mecánicos recurrentes que han sido reportados varias veces.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó quejándose por fallas mecánicas reiteradas tras la última compra y pidió solución urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Reportó retraso en la entrega del vehículo comprado y solicitó actualización de estado.",
+      "nps": 7
+    }
+  ],
+  "problema": "La entrega del vehículo se retrasó más de dos semanas y, tras recibirlo, ha tenido problemas constantes con el motor que no han sido resueltos adecuadamente, afectando su movilidad y generando estrés financiero y personal.",
+  "expectativa_solucion": "Que Kavak gestione una reparación rápida y confiable o, en su defecto, un cambio de vehículo para recobrar su confianza y estabilidad.",
+  "prompt_conversacional": "Entiende que Fernanda está frustrada y ansiosa por sus recientes inconvenientes. Sé empático, valida sus sentimientos y evita culpar. Propón pasos claros y concretos para atender sus problemas mecánicos, como agendar una revisión inmediata o gestionar un reemplazo, y confirma con ella las acciones a seguir para reconstruir su confianza."
+}

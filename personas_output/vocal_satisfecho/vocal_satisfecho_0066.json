@@ -1,0 +1,22 @@
+{
+  "nombre": "Daniela",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Arquitecta",
+  "relacion_kavak": "compra",
+  "ltv": 420000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Daniela es una profesional dedicada que valora la eficiencia y la confianza en sus compras. Prefiere un proceso transparente y sin complicaciones, y se siente respaldada cuando el servicio al cliente es ágil. Ha tenido experiencias previas complicadas comprando autos usados, por eso valora haber encontrado a Kavak, que le ha facilitado mucho el proceso.",
+  "historia_revelada": "Daniela compró un Honda Civic 2020 blanco el 15 de marzo de 2024 a través de la plataforma Kavak. La transacción fue completada en Monterrey con revisión técnica y entrega en 7 días. Ha usado la app para seguimiento de garantía y tiene la póliza activa hasta marzo 2026.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Daniela calificó su experiencia de compra con un NPS 9, expresando satisfacción con la rapidez y transparencia del proceso.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Mantener el nivel de comunicación y soporte que ha recibido para futuras compras o servicios relacionados, confirmando su confianza en Kavak a largo plazo.",
+  "prompt_conversacional": "Daniela es una clienta satisfecha que aprecia la eficiencia y claridad en la atención. Se muestra abierta a recomendaciones para futuros servicios o vehículos, y valora que Kavak mantenga su oferta confiable y de calidad."
+}

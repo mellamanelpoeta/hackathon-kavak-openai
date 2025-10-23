@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego confió en Kavak para vender su auto y comprar uno nuevo debido a la confianza en la marca, pero ha experimentado retrasos y problemas mecánicos con su nueva compra. Esto ha generado estrés porque necesita un vehículo confiable para sus desplazamientos diarios y siente que sus preocupaciones no han sido atendidas con la urgencia adecuada, afectando su rendimiento laboral y su tranquilidad personal.",
+  "historia_revelada": "Cliente vendió su auto previo a través de Kavak y adquirió uno nuevo hace un mes. Reporta fallas mecánicas y retrasos en la entrega de servicios preventivos. Contactó soporte por teléfono y mail sin solución satisfactoria aún.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando fallas mecánicas recurrentes y solicitud de revisión urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Mensaje exponiendo inconformidad por falta de respuesta rápida ante su caso.",
+      "nps": null
+    }
+  ],
+  "problema": "El coche que compré en Kavak presenta fallas mecánicas que afectan su funcionamiento diario, y la logística para revisión y reparación ha sido lenta e ineficiente, causando gran frustración y afectando mi movilidad diaria.",
+  "expectativa_solucion": "Quiero que Kavak atienda con urgencia la revisión mecánica de mi vehículo y que se agilice la logística de servicio, para recuperar la confianza y asegurar un vehículo confiable sin más inconvenientes.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración del cliente Diego, mostrando empatía frente a su problema mecánico y fallas en la logística. Tu meta es acordar juntos próximos pasos concretos para la revisión y solución urgente del vehículo, dejando claro el compromiso de seguimiento continuo."
+}

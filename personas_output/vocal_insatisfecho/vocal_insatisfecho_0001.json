@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro depende de su auto para trasladarse diariamente a su trabajo y cuidar de su familia. Está frustrado porque la reciente compra de un auto usado a través de Kavak le ha causado problemas mecánicos inesperados, afectando su rutina y generando estrés económico y emocional.",
+  "historia_revelada": "Compró un vehículo usado hace dos semanas y vendió otro vehículo previo. Actualmente reportó fallas mecánicas y retrasos en el taller autorizado para reparaciones bajo la garantía Kavak.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos y solicitó información sobre garantías y taller autorizado.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Confirmó cita para revisión del vehículo en taller y manifestó molestia por los retrasos.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas que dificultan el uso diario y el taller autorizado está demorando más de lo esperado en repararlo, generando estrés y desconfianza.",
+  "expectativa_solucion": "Que Kavak facilite y agilice la reparación del vehículo o considere una solución alternativa pronta y respetuosa para mitigar la afectación.",
+  "prompt_conversacional": "Contén la frustración de Alejandro mostrando empatía por las dificultades que enfrenta. Otorga seguridad explicando los procesos claros y ofrece acuerdos de próximos pasos concretos para agilizar la reparación o soluciones alternativas, garantizando seguimiento y comunicación constante."
+}

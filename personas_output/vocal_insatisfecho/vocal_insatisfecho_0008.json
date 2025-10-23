@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 22000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es un ingeniero industrial que adquirió su coche con muchas expectativas, pero ha atravesado dificultades con el vehículo que afectan su día a día y trabajo. La demora en las reparaciones y la falta de claridad sobre la logística le generan ansiedad y desconfianza, lo que afecta su estado emocional pues depende del coche para movilizarse y cumplir responsabilidades. Se siente frustrado y decepcionado por no recibir respuestas oportunas.",
+  "historia_revelada": "Luis compró un auto con Kavak y también lo puso en venta. Ha tenido que hacer uso del taller porque el auto presentó fallas mecánicas tempranas. La gestión de la logística para la reparación ha presentado retrasos. Ha reportado estas incidencias a través de distintos canales de atención.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando retraso en el repuesto para la reparación del auto, explicó la urgencia del problema.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre el estado del procedimiento para la venta del vehículo, expresó molestia por falta de información.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos prolongados en la reparación del vehículo debido a problemas logísticos y falta de comunicación, lo que afecta su movilidad diaria y su confianza en Kavak.",
+  "expectativa_solucion": "Que Kavak agilice la logística de reparación y proporcione información clara y constante hasta completar el servicio; también busca garantías para que la venta del vehículo se realice sin contratiempos.",
+  "prompt_conversacional": "Como agente, mantén un tono empático y paciente para contener la frustración manifiesta de Luis. Reconoce su molestia por los retrasos y falta de información. Propón pasos concretos y claros para acelerar la solución logística y comprométete a mantenerlo informado periódicamente. Busca acordar fechas específicas para avances y seguimientos, asegurando que se sienta acompañado y escuchado."
+}

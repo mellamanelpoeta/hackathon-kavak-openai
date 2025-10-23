@@ -1,0 +1,27 @@
+{
+  "nombre": "Gabriela",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Consultora de marketing digital",
+  "relacion_kavak": "compra_venta",
+  "ltv": 56000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Gabriela ha tenido una semana especialmente estresante debido a problemas en su trabajo que requieren mucha atención y dedicación. Ella confiaba en Kavak para la venta y la compra de su auto, pero la reciente demora en la entrega y fallas mecánicas inesperadas le han generado ansiedad, ya que depende del vehículo para su movilidad diaria y para cumplir con responsabilidades familiares. Esta situación le ha provocado frustración y preocupación, porque necesita un proceso ágil y seguro para organizar su vida, y siente que Kavak no ha estado a la altura de sus expectativas.",
+  "historia_revelada": "Gabriela compró un auto mediante Kavak hace 6 meses y recientemente inició la venta de otro vehículo a través de la plataforma. Ha reportado demoras en las citas de inspección y la entrega del vehículo nuevo, además de problemas mecánicos detectados en el auto comprado que no habían sido evidentes inicialmente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retrasos en la revisión mecánica del auto para la venta.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta sobre garantía y cobertura tras detectar un problema en el motor del auto comprado.",
+      "nps": null
+    }
+  ],
+  "problema": "Actualmente, estoy enfrentando retrasos prolongados en la logística de la venta de mi auto y, por si fuera poco, el vehículo que compré presenta fallas mecánicas que dificultan mi movilidad y generan gastos extras inesperados. Esto afecta mi trabajo y vida familiar, y siento que no estoy recibiendo el soporte necesario.",
+  "expectativa_solucion": "Quiero que me ofrezcan una solución clara y rápida para que el auto que compré sea revisado y reparado sin costo o se me haga un reembolso, además de agilizar la venta del otro vehículo con atención puntual y seguimiento frecuente para evitar más retrasos.",
+  "prompt_conversacional": "Contén la frustración de Gabriela con empatía, reconociendo las molestias ocasionadas por la logística deficiente y problemas mecánicos. Asegúrate de validar su molestia, ofrecer disculpas sinceras y comprometerte a acciones concretas y específicas con tiempos claros. Trabaja en acordar un plan con pasos inmediatos para revisión, reparación o compensación, así como seguimiento personalizado para acelerar el proceso de venta. Mantén la conversación clara y orientada a soluciones para restaurar su confianza."
+}

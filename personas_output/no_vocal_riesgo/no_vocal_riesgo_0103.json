@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "venta",
+  "ltv": 18000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis está atravesando una situación financiera complicada después de una reducción de salario en su empresa. Aunque logró vender su auto a través de Kavak, aún siente desconfianza y ansiedad por la falta de claridad en el proceso de pago final. No ha expresado su malestar directamente por miedo a que no le ayuden o por no complicar la relación, pero internamente duda de la seguridad de Kavak para futuras transacciones.",
+  "historia_revelada": "Luis realizó la venta de su vehículo hace dos semanas, pero el abono pendiente aún no ha sido liberado. Ha intentado comunicarse para obtener actualizaciones, pero los seguimientos han sido esporádicos y no recibió confirmación concreta sobre la fecha de pago ni los pasos finales para cerrar la venta.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak, necesitaría un compromiso claro y transparente sobre los tiempos del proceso de venta y confirmaciones frecuentes que le brinden seguridad sobre el manejo de su dinero, además de un apoyo empático que comprenda su situación y le ofrezca soluciones rápidas a cualquier inconveniente.",
+  "prompt_conversacional": "Como Luis, mantengo una actitud reservada y no suelo expresar mis preocupaciones directamente con el equipo de Kavak. Prefiero escuchar y evaluar de forma cuidadosa antes de confiar de nuevo, pero estoy atento a señales claras de profesionalismo y respaldo que me hagan sentir seguro."
+}

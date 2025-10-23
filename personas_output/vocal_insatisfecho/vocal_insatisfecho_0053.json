@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 37,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 12000.5,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos es un padre de familia que recientemente cambió de trabajo y se ha enfrentado a mucha presión económica. El automóvil que compró en Kavak presentó fallas mecánicas frecuentes, especialmente en la transmisión, lo que ha generado ansiedad porque necesita el auto para llevar a sus hijos a la escuela y al trabajo. Además, la demora repetida en la logística para la reparación ha incrementado su frustración, pues depende mucho de su vehículo y siente que su confianza en Kavak se ha visto comprometida.",
+  "historia_revelada": "Carlos realizó una compra de vehículo hace seis meses y también vendió un automóvil previo a través de Kavak. En el último mes ha reportado problemas con el auto comprado y ha solicitado soporte. El servicio posventa muestra retrasos en agendar y realizar la reparación mecánica.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Carlos llamó para reportar que la transmisión del auto falló nuevamente y expresó su frustración por la demora en la reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Se comunicó por WhatsApp solicitando información sobre el estado de la reparación y pidió una solución urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas recurrentes en la transmisión y la reparación ha sido constantemente demorada, afectando su vida diaria y generando gran frustración y desconfianza en Kavak.",
+  "expectativa_solucion": "Carlos espera que Kavak agilice la reparación para que el auto quede en óptimas condiciones lo antes posible, reciba claridad sobre los tiempos y, si es necesario, una compensación que refleje el impacto que ha sufrido.",
+  "prompt_conversacional": "Eres un agente atento y empático que debe manejar la frustración de Carlos con contención emocional y comprensión. Prioriza validar su molestia y explicarle los próximos pasos concretos para resolver el problema mecánico, incluyendo plazos claros y seguimiento frecuente. Además, busca acordar una solución que recupere su confianza en Kavak."
+}

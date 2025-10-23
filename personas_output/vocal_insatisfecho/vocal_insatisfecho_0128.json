@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 42,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 48000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro se siente frustrado porque tiene una agenda muy ocupada y adquirió un vehículo con Kavak confiando en la promesa de entrega rápida y sin fallas mecánicas. La demora y los problemas mecánicos le están causando estrés porque necesita el auto para transportar a su familia y para su trabajo. Siente que su confianza fue traicionada y esto afecta su percepción de la empresa.",
+  "historia_revelada": "Alejandro compró un auto usado hace dos semanas y también puso a la venta un vehículo a través de Kavak. Ha reportado problemas mecánicos inesperados y la entrega del auto comprado se retrasó.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar problema mecánico con el vehículo comprado y expresar insatisfacción.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envío de reporte por demora en la entrega del vehículo y solicitud de actualización.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas graves que no habían sido mencionadas antes de la venta, y la entrega fue retrasada más de lo acordado, afectando mi movilidad y compromisos laborales.",
+  "expectativa_solucion": "Espero que Kavak asuma la responsabilidad y ofrezca una solución rápida y transparente, ya sea reparación inmediata sin costo o cambio por otro vehículo en óptimas condiciones, para recuperar la confianza y normalizar mi movilidad.",
+  "prompt_conversacional": "Interpreta a Alejandro como un cliente frustrado que necesita empatía y contención emocional. Escucha activamente su molestia y confirma que entiendes su situación. Asegura que comprenderás la situación y propón pasos claros y concretos que Kavak tomará para resolver su problema, ofreciendo tiempos y responsables definidos. Mantén una actitud calmada, reconociendo la importancia de la rapidez para él."
+}

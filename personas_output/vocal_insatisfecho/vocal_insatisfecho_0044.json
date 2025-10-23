@@ -1,0 +1,27 @@
+{
+  "nombre": "Adriana",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 78000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Adriana recientemente perdió tiempo valioso debido a retrasos en la entrega y problemas mecánicos recurrentes en el auto que compró por Kavak. Esto le ha generado alta frustración porque depende del vehículo para su trabajo y actividades familiares. Además, está preocupada por la inversión que hizo y siente que no ha recibido el soporte adecuado para resolver los inconvenientes, lo cual afecta su confianza en la empresa.",
+  "historia_revelada": "Adriana compró un vehículo hace un mes y vendió otro a través de Kavak. Ha reportado problemas mecánicos y demoras en la logística de entrega. Ha tenido interacciones con el equipo de soporte donde expresó su descontento.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando demora en entrega y problemas mecánicos detectados.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando pronta solución y explicaciones por las fallas y retrasos.",
+      "nps": null
+    }
+  ],
+  "problema": "Su vehículo presenta fallas mecánicas continuas desde la entrega y ha sufrido retrasos logísticos que le han impedido usar el auto para sus actividades diarias, generándole pérdidas de tiempo y confianza en el servicio.",
+  "expectativa_solucion": "Desea una solución rápida y confiable para reparar las fallas de su vehículo y una mejora en la logística que garantice entregas oportunas, además de un acompañamiento claro y transparente por parte de Kavak.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Adriana, reconoce genuinamente sus molestias y acuerda próximos pasos específicos y realistas para resolver tanto los problemas mecánicos como los retrasos logísticos. Prioriza ofrecer una solución clara y tiempo estimado de resolución para recuperar la confianza."
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente sufrió una urgencia familiar que requirió desplazarse rápidamente. La demora y fallas mecánicas del auto comprado y vendido con Kavak le causaron gran estrés y preocupación, intensificando su frustración y desconfianza hacia el servicio.",
+  "historia_revelada": "Cliente que ha realizado compra y venta de vehículos a través de Kavak. Ha reportado problemas recientes relacionados con la logística de entrega y fallas mecánicas en el vehículo adquirido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la entrega del vehículo comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo detallando problemas mecánicos presentados en el auto reportado desde la entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que adquirí presentó fallas mecánicas pocos días después de la compra y, además, la entrega tardó más de lo prometido, lo que complicó una situación personal urgente. Me siento decepcionado y preocupado por la falta de respuesta rápida.",
+  "expectativa_solucion": "Quiero que Kavak atienda urgentemente las fallas mecánicas, brinde una solución clara con tiempos definidos y mejore la comunicación, para recuperar confianza y que la situación no se repita.",
+  "prompt_conversacional": "Contén la frustración de Luis demostrándole empatía genuina. Reconoce la gravedad de sus problemas y el impacto personal que han tenido. Establece y acuerda con él próximos pasos concretos y plazos claros para resolver el tema mecánico y logístico. Asegúrate de que se sienta escuchado y confiado en la solución propuesta."
+}

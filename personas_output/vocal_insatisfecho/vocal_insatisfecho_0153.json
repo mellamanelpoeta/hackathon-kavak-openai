@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandra",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 12000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandra, madre soltera que trabaja desde casa para cuidar a su hijo pequeño, ha estado muy estresada por la reciente falla mecánica de su auto comprado en Kavak, lo que ha afectado su movilidad y obligaciones laborales. Siente que no le han dado solución rápida ni clara, lo que incrementa su frustración al depender mucho del vehículo para todo.",
+  "historia_revelada": "Cliente adquirió un vehículo seminuevo hace tres meses y también vendió otro mediante Kavak hace un mes. Recientemente reportó fallas mecánicas y dificultades con la logística para la reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problemas con la entrega de repuestos y demoras en la reparación.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Mensaje solicitando actualización urgente sobre el estado del servicio mecánico.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas que limitan su uso diario. Además, la logística para la reparación está lenta y poco clara, lo que la tiene preocupada y afectando su rutina.",
+  "expectativa_solucion": "Alejandra espera que Kavak gestione de forma rápida y clara la reparación o reemplazo adecuado del vehículo, y que la mantengan informada puntualmente para recuperar la confianza.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Alejandra, mostrando empatía sincera por sus dificultades. Propón pasos concretos y claros para resolver su problema mecánico y comprométete a darle seguimiento personalizado y constante hasta la solución."
+}

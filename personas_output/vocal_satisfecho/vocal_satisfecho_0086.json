@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 320000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Alejandro trabaja en una empresa tecnológica y usa su coche para desplazarse al trabajo y viajes de fin de semana. Valora la transparencia y la facilidad en la compra de vehículos. Prefiere soluciones rápidas y confiables. Entre sus hobbies está el ciclismo y salir con su familia los fines de semana.",
+  "historia_revelada": "Compró un automóvil Hyundai Tucson 2020 a través de Kavak el 15 de marzo de 2024. Recibió el vehículo el 20 de marzo de 2024 en Monterrey. La compra fue financiada en 36 meses con pagos puntuales. Ha utilizado la app para seguimiento y renovación de póliza de seguro desde entonces.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": "Registro de NPS tras finalización de compra y entrega del vehículo con puntaje 9.",
+      "nps": 9
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consulta sobre estado del envío de póliza de seguro en abril 2024, con respuesta rápida y completa.",
+      "nps": null
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Espero poder seguir renovando mis servicios con Kavak sin inconvenientes y recibir ofertas exclusivas para clientes frecuentes. Me gustaría que la experiencia siga siendo tan sencilla y confiable como hasta ahora.",
+  "prompt_conversacional": "Como cliente satisfecho y vocal, Alejandro busca confirmar que todo está en orden con su compra y manifiesta interés en mantener una buena relación con Kavak basada en confianza y continuidad."
+}

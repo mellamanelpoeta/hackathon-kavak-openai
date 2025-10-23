@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos ha tenido una experiencia frustrante debido a retrasos constantes en la entrega y problemas mecánicos no resueltos en su vehículo comprado recientemente en Kavak. Además, su trabajo requiere movilidad diaria, lo que agrava su estrés y sensación de inseguridad. Emocionalmente se siente decepcionado y preocupado porque depende mucho de su auto para sustentar a su familia y cumplir con sus compromisos laborales.",
+  "historia_revelada": "Cliente compró un vehículo usado hace 2 meses, luego vendió otro hace 1 mes. Ha reportado inconvenientes con el mantenimiento y entregas demoradas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar falla mecánica y solicitar soporte urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Solicitud de revisión por retraso en la entrega del vehículo vendido.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que adquirí presenta fallas mecánicas que no han sido solucionadas a pesar de varios reportes. Además, la devolución del vehículo que vendí ha tenido retrasos en la logística que afectan mi movilidad y actividades diarias.",
+  "expectativa_solucion": "Espero que me brinden una solución rápida y efectiva para reparar el vehículo y que agilicen los procesos logísticos para recuperar mi movilidad cuanto antes.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración del cliente, reconociendo su inconveniente mecánico y la demora logística. Prioriza acordar próximos pasos claros y tiempos definidos para resolver los problemas, asegurando que se sienta escuchado y apoyado."
+}

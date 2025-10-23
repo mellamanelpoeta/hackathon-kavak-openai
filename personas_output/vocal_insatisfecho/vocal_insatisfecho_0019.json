@@ -1,0 +1,27 @@
+{
+  "nombre": "Marcela",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Marcela ha tenido una experiencia frustrante últimamente debido a repetidos retrasos en la entrega del vehículo que compró y problemas mecánicos persistentes que le han generado dificultades para cumplir con sus compromisos laborales. Además, se siente abandonada por la falta de comunicación clara, lo que ha afectado su confianza en la marca. Su situación emocional se agrava porque depende mucho de su coche para movilizarse y mantener su estabilidad laboral y familiar.",
+  "historia_revelada": "Cliente con compra y venta activa, reporta problemas recurrentes en la logística de entrega y fallas mecánicas después de la compra.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando retraso en la entrega del vehículo y malestar por falta de información.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte de problemas mecánicos presentados desde la compra, solicita soporte urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos constantes en la entrega del auto y fallas mecánicas que afectan su uso diario, sumado a una comunicación deficiente con el equipo de soporte.",
+  "expectativa_solucion": "Que se agilice la entrega y se realice una revisión exhaustiva y reparación inmediata de las fallas mecánicas con garantía, además de mejorar la comunicación para estar informada en cada paso.",
+  "prompt_conversacional": "Contener la frustración de Marcela mostrando empatía genuina, validar su molestia, ofrecer disculpas formales y asegurarle que se tomarán acciones claras. Acordar con ella próximos pasos específicos como revisión mecánica prioritaria, plazos concretos para la entrega y canales directos de comunicación para mantenerla informada."
+}

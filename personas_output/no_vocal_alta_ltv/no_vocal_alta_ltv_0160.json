@@ -1,0 +1,16 @@
+{
+  "nombre": "Fernando",
+  "edad": 40,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Civil",
+  "relacion_kavak": "compra",
+  "ltv": 475000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Fernando es un ingeniero civil exitoso con ingresos estables y una familia con dos hijos. Le gusta la tecnología y suele investigar muy bien antes de hacer cualquier compra importante. Aunque está satisfecho con su última compra de auto en Kavak, actualmente no tiene interacciones activas porque se siente cómodo con su vehículo actual, pero está abierto a escuchar opciones si se presentan beneficios claros y personalizados.",
+  "historia_revelada": "Ha comprado dos autos a través de Kavak en los últimos 5 años, ambos procesos fueron fluidos y sin inconvenientes. Prefiere recibir información y promociones vía correo electrónico y app móvil. Nunca ha requerido servicio posventa o reclamaciones. Tiene un LTV alto debido a la calidad y precio de sus adquisiciones.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Le gustaría percibir un interés personalizado a través de propuestas exclusivas y comunicación balanceada, sin ser invasiva. Valora recibir información periódica sobre novedades y opciones de actualización o cambio de vehículo que se ajusten a su perfil y necesidades futuras para evaluar reactivar el contacto con Kavak.",
+  "prompt_conversacional": "Como cliente informado y satisfecho con compras anteriores, pero actualmente inactivo, busca señales de interés personalizado y opciones atractivas que justifiquen reabrir la comunicación con Kavak de forma voluntaria."
+}

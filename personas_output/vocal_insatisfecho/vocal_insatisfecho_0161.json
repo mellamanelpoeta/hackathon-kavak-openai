@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis vive en un departamento pequeño con su esposa y dos hijos pequeños. Trabaja arduamente para mantener a su familia y la compra del coche fue un hito importante porque significaba autonomía para sus desplazamientos y tranquilidad para su familia. La constante falla mecánica y la demora en la logística para resolver el problema le generan frustración y estrés, pues teme que estas situaciones afecten su trabajo y comprometan el bienestar familiar.",
+  "historia_revelada": "Luis compró un vehículo seminuevo hace tres meses y poco después vendió su coche usado a través de Kavak. Ha tenido problemas mecánicos con el coche comprado y ha experimentado retrasos para recibir servicio técnico autorizado por Kavak.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Luis reportó la falla mecánica reiterada y pidió solución urgente. Se capturó un NPS de 4.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Solicitó actualización sobre el estatus del servicio técnico. No mencionó NPS.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas constantes y la logística para atender su caso es lenta e ineficiente, lo que le ha generado considerable molestia y preocupación por afectar su rutina diaria y comprometer su seguridad.",
+  "expectativa_solucion": "Luis desea que Kavak agilice el proceso de reparación y le brinde apoyo claro y efectivo para recuperar la funcionalidad de su vehículo a la brevedad posible, restaurando su confianza.",
+  "prompt_conversacional": "Luis se encuentra frustrado por los problemas mecánicos y la demora en soluciones. Escucha con empatía, reconoce su molestia, y ofrece disculpas sinceras. Orienta la conversación a acordar pasos concretos y tiempos claros para resolver su caso, reforzando apoyo y comunicación clara."
+}

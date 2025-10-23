@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 850000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente atravesó por una mudanza complicada que afectó su rutina y estados emocionales. Está frustrado porque su vehículo, que usa para desplazarse al trabajo y llevar a sus hijos, ha presentado fallas mecánicas inesperadas justo después de la compra. El estrés acumulado de la mudanza junto a la sensación de falta de apoyo le generaron un gran malestar.",
+  "historia_revelada": "Luis compró un auto usado y vendió otro usando Kavak. Reportó problemas mecánicos en la unidad recién adquirida, ha solicitado soporte logístico para trasladar su vehículo y ha estado esperando respuestas concretas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando falla mecánica y solicitando solución urgente. Cliente mostró frustración evidente.",
+      "nps": 3
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando información sobre estado del caso y actualización de logística para revisión mecánica.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presenta fallas mecánicas que dificultan su uso diario, y la gestión logística para llevarlo al taller ha sido lenta y poco clara, generando frustración y pérdida de confianza.",
+  "expectativa_solucion": "Desea que Kavak agilice la logística para el taller, brinde una solución mecánica definitiva sin costos adicionales y reciba un acompañamiento claro y empático durante todo el proceso.",
+  "prompt_conversacional": "Contén la frustración de Luis mostrando empatía por su situación emocional y los inconvenientes mecánicos. Confirma que entiendes la urgencia y ofrece pasos claros y concretos para agilizar la logística y reparación del vehículo. Acuerda un seguimiento puntual para mantenerlo informado y recuperar su confianza en Kavak."
+}

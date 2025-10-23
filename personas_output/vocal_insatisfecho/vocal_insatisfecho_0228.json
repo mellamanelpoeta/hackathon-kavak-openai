@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha tenido problemas recientes con la logística y estado mecánico del vehículo adquirido y vendido a través de Kavak. Está frustrado porque depende de su auto para sus desplazamientos laborales y los fallos le están causando ansiedad y pérdida de confianza en el servicio. Además, siente que no ha recibido suficiente empatía por parte del servicio al cliente, lo que afecta su estado emocional y su percepción de la empresa.",
+  "historia_revelada": "Luis compró un vehículo y recientemente intentó vender otro por la plataforma. Ha reportado inconvenientes mecánicos post-venta y retrasos en la recolección del vehículo vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas con el estado mecánico del vehículo comprado y expresó su inconformidad.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Consultó por el retraso en la recolección del auto vendido y solicitó información detallada.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presentó fallos mecánicos que no fueron detectados antes de la entrega y además hay un retraso considerable en la recolección del auto que vendí, lo que me genera grandes inconvenientes y desconfianza en los procesos de Kavak.",
+  "expectativa_solucion": "Que Kavak agilice la solución mecánica del vehículo con garantía, coordine rápidamente la recolección del auto vendido, y me brinde explicaciones claras y apoyo constante para recuperar mi confianza.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Luis, valida sus emociones y su situación. Propón pasos claros y concretos para atender su problema, asegurando seguimiento y coordinación con áreas técnicas y logísticas para resolver su caso a la brevedad."
+}

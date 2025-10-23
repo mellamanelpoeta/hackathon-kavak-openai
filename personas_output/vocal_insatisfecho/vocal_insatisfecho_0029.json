@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1200000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tiene una gran pasión por los autos y esperaba que la compra y venta de vehículos con Kavak fuera un proceso sencillo y confiable, pero la acumulación de problemas logísticos y mecánicos ha generado en él una profunda frustración y decepción debido a que siente que no se valora su tiempo ni su confianza, aumentando su ansiedad y desconfianza hacia la empresa.",
+  "historia_revelada": "Luis compró un auto con Kavak hace 8 meses y recientemente intentó vender otro vehículo a través de la plataforma. Ha tenido retrasos importantes en la entrega y ha reportado fallas mecánicas que no fueron atendidas oportunamente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso en la entrega del vehículo comprado y pidió información urgente.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre estado de evaluación para venta de su auto y expresó molestia por falta de respuesta.",
+      "nps": 5
+    }
+  ],
+  "problema": "He sufrido retrasos excesivos en la entrega de mi auto comprado y, además, el vehículo presenta fallas mecánicas que no han sido atendidas pese a múltiples reportes, lo que ha generado un gran malestar y pérdida de confianza.",
+  "expectativa_solucion": "Quiero que Kavak se haga responsable de resolver de manera inmediata los problemas mecánicos, me informe de forma clara y puntual sobre los plazos de entrega y proponga una compensación por los inconvenientes ocasionados.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Luis, reconociendo su molestia por los problemas logísticos y mecánicos. Busca acordar junto con él próximos pasos concretos para solucionar sus reclamos y mejorar su experiencia, asegurando comunicación clara y seguimiento puntual."
+}

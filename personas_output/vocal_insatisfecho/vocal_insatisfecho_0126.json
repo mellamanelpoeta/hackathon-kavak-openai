@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis está atravesando un momento complicado en su vida personal, está estresado por la reciente pérdida temporal de su empleo y su auto es fundamental para sus traslados diarios. La demora en la entrega del vehículo y los problemas mecánicos han incrementado su frustración, generándole ansiedad y desconfianza hacia Kavak.",
+  "historia_revelada": "Luis compró un auto usado en Kavak y también vendió su anterior vehículo a través de la plataforma. Actualmente reporta retrasos en la entrega del vehículo comprado y fallas mecánicas reportadas desde la entrega.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar fallas mecánicas y pedir solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo reclamando por la demora en la entrega y solicitando actualización urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré tiene fallas mecánicas serias poco tiempo después de la entrega, además he tenido atrasos importantes en la recepción que me han generado grandes molestias y pérdida de confianza.",
+  "expectativa_solucion": "Quiero que Kavak agilice la reparación o cambio del vehículo y me garantice mayor transparencia en los tiempos de entrega para recuperar la confianza.",
+  "prompt_conversacional": "Eres un agente de CX que recibe a Luis, un cliente frustrado y molesto por los problemas mecánicos y logísticos con su compra-venta. Debes contener su frustración mostrando comprensión empática, evitar respuestas evasivas, y comprometerte a dar pasos claros y concretos sobre el seguimiento y solución del problema, asegurando mantener comunicación constante."
+}

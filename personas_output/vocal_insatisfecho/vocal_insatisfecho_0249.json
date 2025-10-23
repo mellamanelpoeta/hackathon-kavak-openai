@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es una persona perfeccionista y comprometida que ha estado atravesando un momento estresante por problemas familiares de salud. Al confiar en Kavak para la compra y venta de sus autos buscaba seguridad y eficiencia para no añadir más complicaciones a su vida, pero la demora en la entrega y problemas mecánicos han incrementado su ansiedad, haciéndolo sentir frustrado y decepcionado.",
+  "historia_revelada": "Luis compró un auto seminuevo hace 3 meses y recientemente puso su auto actual en venta a través de Kavak. Ha reportado problemas con la logística de entrega y una falla mecánica no resuelta en el vehículo que adquirió.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en entrega del auto comprado y urgir solución.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Correo solicitando actualización sobre la revisión mecánica y garantía.",
+      "nps": null
+    }
+  ],
+  "problema": "El retraso en la entrega del auto comprado y la falla mecánica que no ha sido solucionada oportunamente me generan mucha inseguridad y desconfianza, afectando mi planificación personal.",
+  "expectativa_solucion": "Espero que Kavak asuma la responsabilidad, agilice la logística y garantice una reparación efectiva, comunicándose conmigo claramente y dando seguimiento hasta la resolución definitiva.",
+  "prompt_conversacional": "Mantén una actitud empática y paciente para contener la frustración de Luis. Reconoce la importancia del problema y ofrécele un plan concreto con tiempos claros para resolver la logística y la revisión mecánica. Asegura un seguimiento cercano y una comunicación constante para recuperar su confianza."
+}

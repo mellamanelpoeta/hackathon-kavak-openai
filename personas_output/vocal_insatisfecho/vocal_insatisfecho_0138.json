@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 42000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis ha tenido experiencias previas frustrantes al comprar vehículos usados debido a problemas mecánicos inesperados. Está preocupado porque depende del coche para su trabajo y las demoras le generan estrés económico y familiar. Está emocionalmente agotado por sentir que no recibe apoyo adecuado de la empresa y teme que sus problemas no se solucionen.",
+  "historia_revelada": "Luis compró un vehículo en Kavak hace seis meses y también vendió otro el año pasado. Actualmente tiene problemas técnicos con el coche comprado y ha reportado varios reclamos sin resolver.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problema mecánico en el motor, solicitó revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Solicitó información sobre seguimiento de reparación y tiempos estimados.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta fallas mecánicas constantes y las citas para reparación se han pospuesto varias veces, causando que Luis pierda días de trabajo y se sienta ignorado por el equipo de soporte.",
+  "expectativa_solucion": "Que su problema mecánico sea atendido con prioridad, ofreciéndole soluciones concretas y apoyo durante el proceso para recuperar su confianza en Kavak.",
+  "prompt_conversacional": "Luis está frustrado debido a problemas mecánicos sin resolver en su vehículo y retrasos en las reparaciones. Debes mostrar empatía, validar su malestar, contener su frustración y acordar próximos pasos claros y concretos para solucionar su caso, asegurando seguimiento personalizado."
+}

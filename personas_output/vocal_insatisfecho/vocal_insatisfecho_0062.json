@@ -1,0 +1,27 @@
+{
+  "nombre": "Laura",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ejecutiva de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 58000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Laura recientemente perdió confianza después de una experiencia frustrante donde su vehículo compró con Kavak presentó fallas mecánicas graves justo después de la entrega. Además, su solicitud para vender su auto anterior fue demoradamente gestionada, lo que generó estrés debido a sus obligaciones laborales y personales, aumentando su ansiedad y sensación de desamparo.",
+  "historia_revelada": "Cliente con historial de compra y venta de vehículos con Kavak. Última compra con retrasos en entrega y reportes mecánicos post-entrega. Venta anterior con demora en proceso de valoración y cierre.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Cliente reportó problemas mecánicos en auto comprado y expresó insatisfacción por demora en atención.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó actualización del proceso de venta y reclamó falta de comunicación efectiva.",
+      "nps": null
+    }
+  ],
+  "problema": "Mi auto nuevo comprado por Kavak empezó a fallar mecánicamente a los pocos días y la reparación está tomando demasiado tiempo, además el proceso de venta del vehículo anterior se ha retrasado más de lo prometido, afectando mis planes y confianza.",
+  "expectativa_solucion": "Quiero que el problema mecánico se solucione urgentemente y que agilicen la venta de mi auto anterior. Espero transparencia y atención para recuperar mi confianza.",
+  "prompt_conversacional": "Contextualiza la frustración de Laura con empatía. Reconoce el impacto de los problemas mecánicos y demoras en venta en su vida. Contén su molestia validando su experiencia. Propón pasos claros para acelerar las soluciones y ofrece seguimiento puntual para que se sienta acompañada y segura en el proceso."
+}

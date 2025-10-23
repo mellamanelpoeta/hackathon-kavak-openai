@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente perdió confianza tras un problema con la entrega y condiciones del auto comprado, lo que afecta su rutina laboral y genera estrés adicional. Esto le provoca frustración porque depende mucho del vehículo para su trabajo y siente que no está recibiendo el servicio prometido. Además, teme que el problema mecánico afecte la seguridad de su familia.",
+  "historia_revelada": "Compra y venta activa de vehículos con Kavak. Última compra tuvo retrasos en la entrega y el auto presentó fallas mecánicas que aún no se resuelven. Solicitudes de soporte abiertas en atención al cliente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando retraso en la entrega del vehículo y falla mecánica al recibirlo.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte y seguimiento de caso desde la app, solicitando solución rápida.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado tuvo un retraso significativo en la entrega y al recibirlo presentó fallas mecánicas que aún no han sido atendidas de forma efectiva, lo cual impacta mi movilidad diaria y genera mucha incertidumbre.",
+  "expectativa_solucion": "Deseo que se agilice la revisión y reparación de la unidad, además de recibir una comunicación clara y constante sobre el estado del servicio para recuperar la confianza en Kavak.",
+  "prompt_conversacional": "Mantén un tono empático y contenedor ante la frustración evidente del cliente. Confirma comprensión de su situación y pacta pasos concretos y realistas para solucionar el problema, asegurando seguimiento puntual para restaurar la confianza."
+}

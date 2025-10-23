@@ -1,0 +1,27 @@
+{
+  "nombre": "Lucía",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Lucía recientemente perdió a un familiar cercano y está atravesando un periodo delicado emocionalmente. Además, su trabajo depende de la movilidad rápida y confiable que esperaba del auto que compró con Kavak. Los retrasos mecánicos y falta de claridad en la logística la están afectando profundamente, elevando su frustración porque siente que la compañía no está cumpliendo con lo prometido en un momento en que más lo necesita.",
+  "historia_revelada": "Cliente que compró un auto y puso en venta otro a través de la plataforma. Ha tenido dos reportes recientes por problemas mecánicos y retrasos en entregas/logística. Comunicaciones por email y teléfono sin resolución final hasta ahora.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial de falla mecánica en el vehículo comprado, pidió pronta solución.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Solicitó actualización sobre el estado de la reparación y logística de entrega del vehículo en venta.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que adquirí presenta fallas mecánicas y el proceso de reparación y logística de entrega está siendo lento y poco claro. Esto afecta mis actividades diarias y me genera mucha frustración y desconfianza.",
+  "expectativa_solucion": "Que Kavak agilice la reparación o provea un vehículo sustituto mientras tanto, y que me den información clara y puntual sobre el proceso para recuperar mi confianza.",
+  "prompt_conversacional": "Como agente, mantén una actitud empática y contenedora ante la frustración de Lucía. Reconoce el impacto emocional y logístico que está viviendo, muestra comprensión por su situación y ofrece pasos claros y concretos para resolver el problema, incluyendo plazos y posibles alternativas inmediatas."
+}

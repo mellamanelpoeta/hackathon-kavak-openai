@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis atraviesa un momento emocional difícil debido a presiones laborales y familiares que aumentan su sensibilidad ante incumplimientos y demoras. Además, siente frustración profunda porque confió en Kavak para una compra y venta rápida y sin inconvenientes, pero las complicaciones actuales le generan inseguridad y ansiedad sobre su inversión.",
+  "historia_revelada": "Luis compró un vehículo semi-nuevo y está en proceso de vender otro a través de Kavak. Ha reportado problemas mecánicos que surgieron poco tiempo después de la compra y demoras en la logística para la revisión y entrega de su vehículo vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos y solicitó una solución inmediata con alta frustración.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Consultó estado de la venta de su vehículo y expresó molestia por retrasos en la logística.",
+      "nps": 6
+    }
+  ],
+  "problema": "El vehículo comprado presentó fallas mecánicas que no fueron detectadas antes de la entrega, además la logística para la venta de mi vehículo actual ha sufrido múltiples retrasos sin información clara, lo que me genera incertidumbre y pérdida de confianza en Kavak.",
+  "expectativa_solucion": "Espero una respuesta clara y rápida para resolver los problemas mecánicos, además coordinación efectiva de la logística para concluir la venta, con compensaciones o soluciones que recuperen mi confianza.",
+  "prompt_conversacional": "Interpreta a Luis mostrando comprensión y empatía clara frente a su frustración mecánica y logística. Contén sus emociones con tono calmado, valida su molestia y comprométete a seguir pasos específicos y concretos para resolver su caso. Asegura claridad en próximos tiempos y da seguimiento personalizado."
+}

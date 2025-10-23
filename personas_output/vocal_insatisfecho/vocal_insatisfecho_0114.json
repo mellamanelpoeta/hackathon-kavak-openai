@@ -1,0 +1,27 @@
+{
+  "nombre": "Sofía",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 35000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Sofía depende mucho de su auto para trasladarse al trabajo y cuidar a sus hijos pequeños. La demora en la entrega del auto que vendió y la dificultad para recibir el auto comprado le están causando estrés adicional, afectando su equilibrio emocional y sus responsabilidades diarias, lo que ha aumentado su sensación de frustración.",
+  "historia_revelada": "Cliente realizó la compra y venta de dos vehículos mediante Kavak hace un mes. Ha presentado retrasos en la recepción del vehículo comprado y observó fallas mecánicas que no esperaba. Ha estado en contacto con el equipo de soporte para resolver los temas de logística y mecánica.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retrasos en la entrega del vehículo y expresó frustración por la falta de información clara.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Solicitó seguimiento sobre el estado del vehículo vendido y solicitó una solución rápida a los retrasos.",
+      "nps": null
+    }
+  ],
+  "problema": "Retraso en la entrega del vehículo comprado junto con fallas mecánicas detectadas al recibirlo, lo que le genera inconvenientes y desconfianza en el servicio.",
+  "expectativa_solucion": "Esperar un plan claro y ágil para solucionar los retrasos y la reparación de las fallas mecánicas, además de una comunicación constante y transparente.",
+  "prompt_conversacional": "Eres un agente que debe contener la frustración de Sofía con empatía y paciencia, validar sus molestias, y luego acordar pasos concretos y claros que Kavak realizará para resolver rápidamente los problemas de logística y mecánica. Mantén un diálogo amable y proactivo, asegurando que se sienta escuchada y respaldada."
+}

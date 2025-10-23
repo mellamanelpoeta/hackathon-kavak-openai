@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Arquitecta",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana confía mucho en Kavak por sus anteriores experiencias, pero la reciente demora en la entrega y problemas mecánicos le generan estrés porque necesita el vehículo para su traslados diarios al trabajo y para llevar a sus hijos a la escuela. Además, se siente decepcionada y preocupada, pues las respuestas poco claras agravan su frustración, afectando su percepción de la marca como confiable.",
+  "historia_revelada": "Cliente adquirió un vehículo usado hace 2 meses y recientemente vendió su auto anterior a través de Kavak. Ha reportado problemas mecánicos con el vehículo comprado y retrasos en la entrega de documentos relacionados a la venta de su auto anterior.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar falla mecánica persistente en el auto recientemente comprado.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultas sobre retraso en la entrega de documentos de venta de su vehículo anterior.",
+      "nps": null
+    }
+  ],
+  "problema": "Mariana está insatisfecha debido a problemas mecánicos no resueltos en el vehículo comprado y la lentitud y falta de claridad en la gestión de documentos tras la venta de su auto, lo que le causa una gran incomodidad y afecta sus actividades cotidianas.",
+  "expectativa_solucion": "Desea una solución rápida y concreta que incluya reparación efectiva del vehículo, entrega pronta de documentos y comunicación clara y empática para recuperar la confianza en Kavak.",
+  "prompt_conversacional": "Contener la frustración del cliente mostrando empatía sincera, validar sus molestias y explicar con transparencia las acciones que se tomarán. Asegurar acuerdos claros sobre próximos pasos, tiempos estimados de solución y mantener comunicación constante para recuperar la confianza de Mariana."
+}

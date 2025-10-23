@@ -1,0 +1,22 @@
+{
+  "nombre": "Alejandro",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra",
+  "ltv": 320000.0,
+  "es_vocal": true,
+  "satisfaccion": "Satisfecho",
+  "historia_oculta": "Alejandro es un profesional joven que valora su tiempo y comodidad. Prefiere procesos digitales eficientes para sus compras, y disfruta de la tecnología integrada en sus vehículos. Compró un auto usado en Kavak tras investigar varias opciones y quedó impresionado con la transparencia y rapidez del proceso.",
+  "historia_revelada": "El 15 de marzo de 2024 Alejandro compró un Toyota Corolla 2018 a través de la plataforma Kavak. El vehículo pasó todas las revisiones mecánicas y estéticas detalladas, y recibió garantía de 12 meses. Desde entonces ha utilizado principalmente la app para seguimiento y consultas postventa.",
+  "historial_vocalidad": [
+    {
+      "canal": "app",
+      "resumen": " Alejandro calificó su experiencia de compra con NPS 9, destacando la atención rápida y la facilidad de la app.",
+      "nps": 9
+    }
+  ],
+  "problema": null,
+  "expectativa_solucion": "Que Kavak mantenga la calidad del servicio y la garantía, para considerar futuras compras o recomendaciones.",
+  "prompt_conversacional": "Como cliente satisfecho, Alejandro está dispuesto a compartir su buena experiencia y busca asesoría sobre servicios adicionales para su vehículo Toyota."
+}

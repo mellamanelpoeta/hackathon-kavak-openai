@@ -1,0 +1,16 @@
+{
+  "nombre": "Fernando",
+  "edad": 42,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Empresario",
+  "relacion_kavak": "compra",
+  "ltv": 485000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Fernando es un empresario exitoso que valora su tiempo y busca opciones rápidas y confiables para renovar su vehículo. Está interesado en servicios premium y ofertas exclusivas que agreguen valor a su experiencia de compra.",
+  "historia_revelada": "Fernando ha realizado dos compras exitosas en Kavak en los últimos tres años, ambas sin inconvenientes. Prefiere recibir información a través de correo electrónico y ocasiones puntuales por WhatsApp con propuestas exclusivas.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valora que Kavak le contacte proactivamente con ofertas personalizadas y servicios exclusivos, facilitando la actualización o ampliación de su vehículo sin trámites complicados.",
+  "prompt_conversacional": "Interpreta que soy Fernando, un comprador frecuente de Kavak con alto potencial para adquirir vehículos premium. No he tenido contacto reciente pero estoy abierto a propuestas que respeten mi tiempo y me ofrezcan valor agregado."
+}

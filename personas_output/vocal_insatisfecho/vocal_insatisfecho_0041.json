@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 75000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tiene una rutina muy exigente y utiliza su vehículo tanto para el trabajo como para el transporte familiar. Debido a problemas recientes con la logística de entrega y fallas mecánicas inesperadas, se ha sentido reelevadamente frustrado porque depende del auto para desplazarse y teme afectar su empleo y el bienestar de su familia. La incertidumbre y la falta de comunicación clara han aumentado su estrés y desconfianza.",
+  "historia_revelada": "Luis compró un auto seminuevo hace 3 meses y vendió su vehículo antiguo con Kavak. Ha reportado retrasos en la entrega del auto que compró y una reciente avería mecánica que no fue resuelta a tiempo por el taller asociado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó quejándose por retraso en la entrega y solicitando una pronta actualización.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reportó desde la aplicación una falla mecánica urgente y pidió asistencia inmediata.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado tuvo un retraso considerable en la entrega y poco tiempo después presentó una falla mecánica que afectó su movilidad. La lentitud en la atención y la falta de comunicación clara con el taller han generado gran molestia y preocupación por la confiabilidad del servicio.",
+  "expectativa_solucion": "Luis espera una solución rápida y efectiva que incluya la reparación inmediata de la falla sin costo adicional y una mejora en la comunicación para evitar futuros retrasos o incertidumbres.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Luis. Reconoce su molestia por los problemas de logística y mecánica, ofrece disculpas sinceras y acuerda con él próximos pasos concretos y tiempos claros para la solución de su problema. Prioriza brindarle seguridad y acompañamiento."
+}

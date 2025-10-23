@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 48000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos recientemente perdió a su padre, con quien compartía la pasión por los autos. La compra y venta de vehículos con Kavak era una actividad que lo mantenía conectado emocionalmente con su padre. La demora en la entrega de su auto recién adquirido y los problemas mecánicos le han generado ansiedad y frustración profunda, pues siente que está perdiendo la última conexión con su padre a través de esta experiencia automotriz.",
+  "historia_revelada": "Cliente con dos operaciones recientes, una compra y una venta. Reporta problemas logísticos en la entrega del automóvil comprado y fallas mecánicas en el vehículo vendido. Últimos contactos atendidos por canales telefónico y WhatsApp.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó retraso prolongado en la entrega de su auto, expresó inconformidad con la comunicación.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Notificó fallas mecánicas en el motor del auto vendido y solicitó solución urgente.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compró no le fue entregado en el tiempo acordado y el vehículo que vendió presenta fallas mecánicas que no fueron detectadas previamente, generándole un gasto inesperado y mucha preocupación.",
+  "expectativa_solucion": "Que Kavak agilice la entrega del vehículo comprado, se haga responsable por las fallas mecánicas del auto vendido, y que le brinden soporte claro y oportuno para resolver ambas situaciones sin más contratiempos.",
+  "prompt_conversacional": "Interpreta a Carlos, un cliente frustrado y emocionalmente afectado por problemas simultáneos en compra y venta. El agente debe contener su molestia con empatía, validar sus sentimientos, y proponer pasos concretos y realistas para resolver las fallas mecánicas y el retraso logístico, asegurando seguimiento personalizado."
+}

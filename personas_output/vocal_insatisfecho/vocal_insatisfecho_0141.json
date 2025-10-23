@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 37,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero de software",
+  "relacion_kavak": "compra_venta",
+  "ltv": 48000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente tuvo que vender su auto Kavak y comprar otro debido a un ascenso laboral que requiere mayor movilidad. Está frustrado y preocupado porque la logística para la entrega del vehículo comprado ha sufrido retrasos y el carro que vendió tuvo problemas mecánicos no resueltos. Esto le genera ansiedad pues depende mucho de su auto para cumplir con sus obligaciones familiares y laborales, aumentando su estrés y sensación de desconfianza hacia el proceso.",
+  "historia_revelada": "Luis compró un auto sedan y vendió un SUV a través de Kavak hace un mes. Se informó de un retraso en la entrega del nuevo auto que debería haber sido entregado hace 3 días. El vehículo vendido presentó un problema mecánico luego de la compra por parte del siguiente dueño, generando reclamos.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó para reportar retraso en la entrega y expresar su molestia.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo detallando problemas mecánicos con el auto vendido y solicitando solución.",
+      "nps": null
+    }
+  ],
+  "problema": "Retraso en la entrega de su vehículo comprado y problemas mecánicos posteriores a la venta, generando frustración y preocupación por afectar sus actividades diarias.",
+  "expectativa_solucion": "Desea que Kavak agilice la entrega del vehículo y se haga responsable por el problema mecánico del auto vendido, con soluciones claras y rápidas.",
+  "prompt_conversacional": "Contén la frustración de Luis reconociendo su molestia por las demoras y problemas. Muestra empatía por la situación emocional que vive. Confirma los hechos y ofrece pasos concretos con tiempos estimados para resolver la entrega y la mecánica. Asegura seguimiento continuo para recuperar su confianza."
+}

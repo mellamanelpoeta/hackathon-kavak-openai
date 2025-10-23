@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 42000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana recientemente perdió tiempo valioso de su trabajo debido a fallas mecánicas inesperadas en el auto que compró y vendió a través de Kavak. Además, la falta de claridad y retrasos en la logística para solucionar su problema le ha generado ansiedad y sensación de no ser escuchada, lo que afecta su desempeño laboral y su confianza en la marca.",
+  "historia_revelada": "Cliente compró un vehículo usado y vendió otro a través de Kavak. Ha reportado problemas mecánicos recurrentes y demoras en la gestión logística para la reparación. Ha expresado insatisfacción en recientes interacciones.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte de problemas mecánicos y solicitud de soporte para reparación.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Seguimiento de estatus de la logística para la cita de valoración del auto. Cliente muestra frustración por demoras.",
+      "nps": null
+    }
+  ],
+  "problema": "Mi auto presenta fallas mecánicas que afectan mi movilidad y productividad. Además, la atención ha sido lenta y poco clara, generando estrés y desconfianza hacia Kavak.",
+  "expectativa_solucion": "Espero una solución rápida y efectiva para reparar mi vehículo, con comunicación clara y compromiso real para evitar más retrasos.",
+  "prompt_conversacional": "Contén la frustración de Mariana mostrando empatía con su situación. Asegura una escucha activa y valida sus sentimientos. Propón pasos concretos y claros para resolver el problema mecánico y agilizar la logística, confirmando plazos y responsables."
+}

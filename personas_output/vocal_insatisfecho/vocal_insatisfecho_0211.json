@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a su padre y se siente abrumado por responsabilidades familiares. Confió en Kavak para facilitar un proceso sin complicaciones, pero los retrasos y problemas mecánicos le han aumentado el estrés y la sensación de falta de apoyo.",
+  "historia_revelada": "Compró un vehículo y lo puso a la venta a través de Kavak hace tres meses. Ha tenido retrasos en la entrega del vehículo comprado y reportó fallas mecánicas detectadas pocos días después de la entrega.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar demora en entrega y expresar preocupación por la calidad mecánica del vehículo.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte de incidencia mecánica y solicitud de solución inmediata",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que adquirí tramite Kavak llegó con defectos mecánicos y, además, la entrega se retrasó sin información clara. Esto ha complicado mis planes y generado gastos imprevistos.",
+  "expectativa_solucion": "Espero que Kavak tome responsabilidad, agilice la reparación o sustitución del vehículo y mejore la comunicación para evitar futuros inconvenientes.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Luis. Reconoce su molestia por los problemas mecánicos y retrasos. Propón pasos concretos a seguir, incluyendo diagnósticos técnicos, tiempos estimados y opciones de compensación o soluciones alternativas para restaurar su confianza."
+}

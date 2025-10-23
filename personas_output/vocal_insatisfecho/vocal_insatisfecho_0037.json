@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tuvo una experiencia negativa que generó mucha frustración por problemas con el despacho y varias fallas mecánicas en su compra reciente. Depende mucho de su vehículo para trabajar y en su familia confían en él como el principal sostén económico, lo que aumenta la presión emocional. Ante retrasos y falta de respuesta clara, se siente decepcionado y preocupado por la seguridad y el dinero invertido.",
+  "historia_revelada": "Luis compró un vehículo usado a través de Kavak hace dos semanas y también puso su auto anterior a la venta con ellos. El vehículo comprado presentó problemas mecánicos que no estaban especificados y tuvo retrasos en la entrega. Ha tenido contacto con el equipo de soporte y taller para resolver el tema.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar problemas mecánicos y solicitar revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envío de mensajes preguntando por estado de reparación y fechas de entrega actualizadas.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto comprado presentó fallas mecánicas graves y hubo un retraso significativo en la entrega, lo que afecta su movilidad y genera desconfianza sobre la calidad del servicio.",
+  "expectativa_solucion": "Quiere una resolución rápida que incluya la reparación o cambio del vehículo, una comunicación clara sobre los tiempos y apoyo para que el proceso no afecte su trabajo ni economía.",
+  "prompt_conversacional": "Actúa con empatía y contención ante la frustración de Luis. Valida su molestia por los problemas mecánicos y retrasos, ofrece disculpas sinceras. Explica los pasos concretos que se tomarán para resolver su caso y acuerda un plan claro con fechas y responsables para recuperar su confianza."
+}

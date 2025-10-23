@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 15200.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis vive con su esposa y dos hijos pequeños, y su trabajo como ingeniero mecánico le demandó vender su auto anterior rápidamente para comprar otro confiable para su familia. La reciente espera prolongada y falta de seguimiento sobre la reparación mecánica del vehículo ha afectado su confianza en Kavak, generando frustración pues depende del auto para llevar a sus hijos a la escuela y para su trabajo diario. Siente que no le han dado información clara ni tiempos precisos, lo cual afecta su estabilidad familiar y laboral.",
+  "historia_revelada": "Compró un auto usado a través de Kavak y vendió otro automóvil con ellos. Actualmente tiene un reporte de problema mecánico que requiere seguimiento urgente y una demora logística para la entrega tras la reparación.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en entrega del vehículo tras reparación y solicitar actualización de estado.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió mensaje mediante app preguntando por el estado del taller y tiempo estimado de entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "Retraso prolongado e incertidumbre sobre la reparación mecánica del vehículo, lo que afecta su movilidad diaria y obligaciones familiares.",
+  "expectativa_solucion": "Esperar una comunicación clara, actualización concreta sobre la reparación y un compromiso de entrega rápida para recuperar la confianza y solucionar el inconveniente sin más demoras.",
+  "prompt_conversacional": "El cliente está frustrado y preocupado por el retraso y la incertidumbre en la reparación de su vehículo. Debes contener su enojo con empatía, validar sus molestias y proponer pasos concretos y próximos plazos claros para la resolución del problema, asegurando mantenerlo informado regularmente."
+}

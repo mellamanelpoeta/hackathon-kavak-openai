@@ -1,0 +1,16 @@
+{
+  "nombre": "Arturo",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "venta",
+  "ltv": 8500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Arturo recientemente tuvo una mala experiencia pasada con una venta de auto que terminó con problemas legales no resueltos. Aunque aún no ha comunicado esto a Kavak, siente desconfianza profunda que afecta su percepción actual antes de cerrar cualquier operación.",
+  "historia_revelada": "Arturo inició la venta de su vehículo mediante la plataforma Kavak, pero no ha completado la documentación requerida. El equipo de seguimiento intentó contactarlo para concluir el proceso, pero la comunicación ha sido irregular y las tareas de cierre están pendientes desde hace tres semanas.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para confiar nuevamente en Kavak necesitaría un acompañamiento claro, con asesoría puntual y acceso a información transparente que le permita sentirse seguro de que su operación está protegida y sin riesgos ocultos.",
+  "prompt_conversacional": "Arturo es reservado y cauteloso, responde con reserva a los agentes y no revela sus preocupaciones reales a menos que confíe en la interlocución. Busca seguridad y claridad antes de comprometerse."
+}

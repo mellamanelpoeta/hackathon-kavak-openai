@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1200000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis depende mucho de su auto para el desplazamiento diario y ha tenido experiencias previas estresantes con talleres. Su molestia actual no solo viene del problema mecánico que le afecta en su rutina, sino también del sentimiento de desatención y falta de comunicación clara de Kavak, lo que le genera ansiedad y frustración, pues siente que esto afecta su trabajo y responsabilidades familiares.",
+  "historia_revelada": "Luis compró un vehículo en Kavak y ha intentado vender otro. Actualmente, reporta un problema mecánico persistente que no ha sido solucionado satisfactoriamente y ha tenido que comunicarse varias veces con el servicio al cliente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la reparación del vehículo, con un NPS de 4 por frustración ante la falta de actualizaciones.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Conversación para solicitar información precisa sobre el estado de la logística de entrega y solución técnica.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta una falla mecánica que ha tardado mucho en ser reparada y la comunicación sobre los avances ha sido insuficiente, generando retrasos que afectan mis actividades diarias y laborales.",
+  "expectativa_solucion": "Que Kavak me proporcione un diagnóstico claro y una solución rápida y definitiva, además de una comunicación constante y transparente hasta resolver completamente el problema.",
+  "prompt_conversacional": "Interpreta la frustración de Luis con empatía y paciencia, reconociendo su situación estresante y emocional. Contenlo y asegúrate de acordar próximos pasos claros con tiempos definidos, para darle confianza y seguridad en la resolución del problema."
+}

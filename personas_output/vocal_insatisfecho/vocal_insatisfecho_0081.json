@@ -1,0 +1,27 @@
+{
+  "nombre": "Gabriela",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Gabriela recientemente cambió de empleo por una mejor oportunidad que implicaba mayores responsabilidades y un horario ajustado. Depende mucho de su auto para trasladarse al trabajo y a cuidar a su hijo pequeño. La demora y problemas mecánicos con el vehículo que compró y vendió a través de Kavak le generan estrés constante y la incertidumbre la hace sentir frustrada y con falta de control sobre su día a día.",
+  "historia_revelada": "Gabriela compró un auto seminuevo mediante Kavak hace 3 meses y a las 2 semanas decidió vender otro vehículo. Ha tenido problemas mecánicos con el vehículo comprado y dificultades con la logística de recolección del auto vendido, causando retrasos.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas mecánicos persistentes con el auto comprado.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre la logística para la entrega de su auto a vender.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré presenta fallas mecánicas desde hace semanas, y además la logística para recoger el auto que vendí ha sido lenta y confusa, lo que me está causando muchos problemas para organizar mi rutina.",
+  "expectativa_solucion": "Quiero una solución rápida y efectiva para las fallas mecánicas del vehículo y claridad con la logística de recogida para evitar más retrasos y estrés.",
+  "prompt_conversacional": "El cliente está visiblemente frustrado por problemas mecánicos y logística. Contén su frustración escuchando y validando su situación, muestra empatía y explica claramente los próximos pasos que Kavak tomará para atender ambas problemáticas de forma urgente y transparente."
+}

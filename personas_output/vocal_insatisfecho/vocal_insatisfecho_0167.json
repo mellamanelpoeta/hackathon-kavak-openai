@@ -1,0 +1,27 @@
+{
+  "nombre": "Arturo",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 48000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Arturo es un padre de familia que depende mucho de su vehículo para movilizarse con sus hijos y llegar puntual a su trabajo. La demora y complicaciones mecánicas han generado estrés y frustración, ya que siente que Kavak no le está dando la atención que esperaba, afectando su rutina diaria y su tranquilidad emocional.",
+  "historia_revelada": "Compró un vehículo usado hace 8 meses y vendió otro con Kavak hace 3 meses. Ha tenido problemas frecuentes con el motor del auto comprado y molestias en la entrega del vehículo vendido.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contactó para reportar fallas mecánicas inesperadas y solicitud de revisión urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Enviado mensaje para consultar el estatus de la reparación y expresar molestia por tiempos prolongados.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas recurrentes en el motor que afectan su uso diario, y además ha experimentado retrasos frecuentes y poca comunicación en el proceso de entrega del vehículo que vendió a Kavak.",
+  "expectativa_solucion": "Quiere que Kavak le dé una solución técnica definitiva y rápida a las fallas del auto comprado, así como mejorar la logística y comunicación en la compra-venta para evitar retrasos y estrés.",
+  "prompt_conversacional": "Contén la frustración de Arturo mostrando empatía y comprensión por su situación delicada. Asegura pasos concretos para la revisión y solución mecánica del vehículo, y comprométete a mejorar la comunicación y tiempos en la parte logística de la compra-venta, acordando un seguimiento cercano y tiempos claros."
+}

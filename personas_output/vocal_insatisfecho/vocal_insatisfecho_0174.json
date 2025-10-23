@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 750000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tuvo problemas personales recientemente que le generan estrés, y su coche es esencial para llevar a sus hijos a la escuela y su trabajo. La demora y fallas mecánicas en la entrega del vehículo comprado y el retraso en la recogida del que desea vender han aumentado su ansiedad y frustración. Se siente decepcionado porque confiaba en Kavak para una gestión ágil, pero la logística le ha generado inconvenientes diarios que afectan también a su familia.",
+  "historia_revelada": "Luis realizó una compra y una venta simultánea con Kavak, el auto comprado presentó fallas mecánicas poco después de la entrega y la logística para recoger el vehículo que vende ha tenido varios retrasos en Monterrey.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reporte inicial de problemas mecánicos en el vehículo comprado y solicitud de solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Consulta y seguimiento sobre el estado de la recogida del vehículo a vender.",
+      "nps": null
+    }
+  ],
+  "problema": "El coche nuevo que compré presenta fallas mecánicas desde la entrega y no he recibido una solución eficaz. Además, la logística para recoger mi vehículo a vender ha sufrido varios retrasos, lo que me genera inconvenientes diarios importantes.",
+  "expectativa_solucion": "Deseo que Kavak gestione de inmediato una revisión mecánica confiable para el auto y coordine la recogida de mi vehículo sin más demoras, además de mantenerme informado puntualmente.",
+  "prompt_conversacional": "Actúa con comprensión y empatía frente a la frustración de Luis. Reconoce su molestia, valida su situación emocional y ofrece una respuesta clara con los próximos pasos concretos para resolver el problema de manera eficiente. Asegura un compromiso de seguimiento puntual para recuperar su confianza."
+}

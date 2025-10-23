@@ -1,0 +1,27 @@
+{
+  "nombre": "Sofía",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 45000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Sofía recientemente tuvo que usar un auto para trabajo y cuidado familiar. Por la situación de pandemia, ha estado bajo presión económica y emocional, y esperaba que el servicio de Kavak fuera confiable para no complicar su día a día. La demora en la entrega de su vehículo y los problemas mecánicos han aumentado su estrés, causándole frustración y preocupación por su movilidad.",
+  "historia_revelada": "Cliente realizó compra y venta de dos autos con Kavak en los últimos 6 meses. Última compra presentó retraso en entrega y su vehículo tuvo fallas mecánicas básicas a los pocos días de uso.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reclamando sobre retraso en la entrega del vehículo, solicitando actualización clara.",
+      "nps": 3
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Contacto para reportar fallas mecánicas después de recibir el auto y solicitar asistencia inmediata.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo entregado presentó fallas mecánicas menores que afectan su uso diario, junto con falta de información precisa sobre la entrega y el proceso de solución, lo que genera desconfianza y estrés.",
+  "expectativa_solucion": "Quiere una respuesta rápida y clara con acciones concretas para resolver las fallas mecánicas y compensar el retraso, además de un compromiso de acompañamiento hasta que el problema se solucione.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración de Sofía ofreciendo empatía genuina, validando su molestia, explicando claramente los pasos que se seguirán y acordando fechas específicas para la solución. Debes asegurarte de que Sofía sienta que está siendo escuchada y respaldada."
+}

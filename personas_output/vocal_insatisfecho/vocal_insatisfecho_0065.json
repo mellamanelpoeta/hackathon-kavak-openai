@@ -1,0 +1,27 @@
+{
+  "nombre": "Diego",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor de tecnología",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Diego siempre ha valorado la confiabilidad y certeza en sus compras debido a experiencias pasadas donde errores y retrasos le han generado pérdidas económicas importantes y estrés profundo. Además, su trabajo requiere que se mueva constantemente y dependa de un vehículo confiable, por lo que la logística deficiente y problemas mecánicos recientes le han generado ansiedad y frustración constante.",
+  "historia_revelada": "Compró un automóvil usado a través de Kavak hace seis meses y vendió su vehículo anterior por medio de la plataforma. En la compra, ha experimentado demoras en el soporte mecánico incluido y en la entrega de piezas para mantenimiento. Ha comunicado sus quejas en atención telefónica y por whatsapp.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retrasos en la entrega de refacciones y solicitó información sobre solución inmediata.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Envió mensajes consultando sobre los tiempos actualizados de servicio mecánico y seguimiento a incidencias anteriores.",
+      "nps": 7
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas recurrentes y la logística para repararlo ha sido muy lenta, lo que limita mi movilidad y genera estrés enorme debido a la incertidumbre y afectación laboral.",
+  "expectativa_solucion": "Quiero que Kavak agilice el soporte mecánico, me brinde actualizaciones claras y rápidas, y coordine un plan concreto para resolver las fallas lo antes posible, recuperando mi confianza en el servicio.",
+  "prompt_conversacional": "Eres un agente de CX que atiende a un cliente frustrado por problemas mecánicos y demoras logísticas. Tu objetivo es contener su frustración con empatía, validar su experiencia y acordar con claridad próximos pasos concretos para resolver la situación que le genere confianza y tranquilidad."
+}

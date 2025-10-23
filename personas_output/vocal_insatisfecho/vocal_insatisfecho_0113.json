@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Administrador de ventas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 950000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es padre de dos hijos pequeños y se siente presionado por la necesidad de un vehículo confiable para sus traslados diarios y familiares. La demora en la entrega del auto que compró y los problemas mecánicos que ha enfrentado generan una alta frustración dada la dependencia que tiene en su coche para sostener su rutina laboral y personal.",
+  "historia_revelada": "Luis compró un vehículo usado a través de Kavak hace dos meses y vendió uno de sus autos anteriores simultáneamente. Ha reportado problemas con la entrega tardía y fallas mecánicas posteriores en uno de sus autos. Ha intentado comunicarse en varias ocasiones para resolver estos inconvenientes.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar retraso en la entrega del vehículo comprado. Luis se mostró muy molesto y expresó una baja satisfacción.",
+      "nps": 3
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte de falla mecánica detectada tras la entrega del auto. Solicitud de solución inmediata.",
+      "nps": 7
+    }
+  ],
+  "problema": "Retrasos en la entrega del vehículo y fallas mecánicas que no han sido atendidas a tiempo, afectando su movilidad y generando gran estrés personal y profesional.",
+  "expectativa_solucion": "Que Kavak coordine una revisión mecánica urgente y brinde una solución rápida y clara, ya sea reparación o reemplazo, además de mantenerlo informado de cada paso para recuperar su confianza.",
+  "prompt_conversacional": "Eres un agente de CX que debe contener la frustración del cliente Luis, mostrando empatía ante sus inconvenientes logísticos y mecánicos. Asegura escuchar activamente y comprometerte a coordinar pasos concretos y rápidos para resolver su situación, dejando claro cada acción y tiempo estimado de solución."
+}

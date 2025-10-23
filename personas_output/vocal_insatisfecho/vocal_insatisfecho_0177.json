@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 1850000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos compró su primer auto con Kavak hace 2 años y recientemente vendió otro vehículo para comprar uno nuevo a través de ellos. Trabaja en ingeniería y tiene muy poco tiempo libre, por lo que la falla mecánica que experimentó le generó estrés y frustración adicionales, afectando su ritmo laboral y compromisos familiares. Se siente decepcionado porque esperaba que Kavak diera un servicio eficiente en la logística y mecánica, ya que confió plenamente en la calidad y respaldo de la empresa. Esta situación le ha generado sentimientos de impaciencia y preocupación, pues depende mucho de su auto para su trabajo diario.",
+  "historia_revelada": "Cliente con dos operaciones recientes: compra de vehículo hace 2 años y venta reciente que derivó en compra de auto nuevo. Reporta problemas mecánicos no resueltos y retrasos en servicios de logística.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar falla mecánica continua en su vehículo que aún está en garantía, solicitando solución urgente.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió mensaje vía chat para pedir actualización sobre el estado del servicio de reparación y entrega del vehículo.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presenta problemas mecánicos desde la compra reciente y la reparación ha sido demorada varias semanas, sin información clara ni soluciones concretas. Además, la logística para la entrega del auto está retrasada, afectando su movilidad diaria y generando mucha frustración.",
+  "expectativa_solucion": "Desea que Kavak agilice la reparación mecánica con calidad garantizada y coordine una entrega rápida y confiable del vehículo, además de recibir un seguimiento y comunicación clara para recuperar su confianza.",
+  "prompt_conversacional": "Actúa con empatía para contener la frustración de Carlos, reconociendo su molestia por los problemas mecánicos y retrasos. Asegúrate de validar su experiencia, pedir disculpas por las molestias y comprometerte con próximos pasos claros para solucionar lo antes posible, incluyendo timelines específicos y seguimiento directo. Mantén un tono calmado y orientado a restablecer la confianza."
+}

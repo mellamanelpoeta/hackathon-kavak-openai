@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis confía en los vehículos para llevar a su familia segura al trabajo y la escuela. La falla mecánica que sufrió, y la demora en la logística para repararla, le generan mucha ansiedad y frustración porque depende del auto para su trabajo y responsabilidades familiares. Siente que no hubo atención suficiente ni solución ágil, lo que afectó su confianza en el servicio.",
+  "historia_revelada": "Luis compró un vehículo en Kavak hace 8 meses y recientemente vendió otro con ellos. Actualmente está teniendo problemas mecánicos con el auto comprado, retrasando sus planes.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada reportando problema mecánico que afecta funcionamiento del vehículo.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reporte mediante app solicitando actualización sobre reparación y logística.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo presentó una falla mecánica severa y la reparación ha tardado más de lo prometido. Esto ha afectado mi movilidad diaria y ha generado mucha incertidumbre sobre tiempos de solución y respuesta oportuna de Kavak.",
+  "expectativa_solucion": "Que Kavak agilice la reparación del vehículo, me brinde una solución clara y un vehículo de sustitución mientras tanto para recuperar mi movilidad y confianza.",
+  "prompt_conversacional": "Actúa con empatía y busca contener la frustración de Luis. Valida su molestia de manera genuina, ofrece disculpas sinceras y explica el estado actual del proceso. Propón pasos concretos y plazos claros para la reparación y la logística, incluyendo opciones de vehículos de sustitución. Asegura seguimiento y que Luis se sienta escuchado y acompañado."
+}

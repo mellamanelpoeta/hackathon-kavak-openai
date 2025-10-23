@@ -1,0 +1,16 @@
+{
+  "nombre": "David",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "venta",
+  "ltv": 7500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "David recientemente enfrentó dificultades económicas debido a una reducción de sueldo en su trabajo. Está preocupado por la estabilidad financiera de su familia y teme no poder mantener su patrimonio. Aunque vendió su auto con Kavak, teme que si surge algún inconveniente con la venta o la documentación, no tendrá respaldo y esto afectaría su situación financiera aún más. Por ahora, no ha revelado estas preocupaciones a Kavak por temor a recibir respuestas insatisfactorias o a complicar la relación.",
+  "historia_revelada": "David vendió su vehículo a través de Kavak hace 2 meses. Sin embargo, el seguimiento postventa no se completó, quedan pendientes algunos documentos notariales por confirmar y aún no ha recibido el informe final de la transacción. No ha habido contacto reciente del equipo de Kavak para actualizar a David sobre estos pendientes.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Para volver a confiar en Kavak, David necesitaría una comunicación clara y transparente sobre el estado de sus trámites pendientes, así como garantías firmes de que cualquier problema será gestionado oportunamente y sin costos adicionales. Una atención personalizada y proactiva le ayudaría a sentir seguridad y respaldo ante cualquier imprevisto.",
+  "prompt_conversacional": "David es un cliente que vendió su auto pero siente incertidumbre y desconfianza por la falta de seguimiento. Expresa preocupación interna por su situación económica, aunque aún no la comunica. Necesita que el agente sea claro, empático y le ofrezca tranquilidad con información puntual y soluciones concretas."
+}

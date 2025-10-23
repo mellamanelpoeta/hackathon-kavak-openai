@@ -1,0 +1,27 @@
+{
+  "nombre": "María Fernanda",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "María Fernanda vive sola y tiene una agenda muy apretada entre su trabajo y el cuidado de su padre enfermo. La demora e inconsistencias en la logística y servicio mecánico la han estresado mucho, pues teme que un problema con el auto afecte su capacidad para llegar a tiempo a sus compromisos y cuidar a su padre. Se siente desatendida y preocupada por la falta de comunicación clara, lo que incrementa su frustración.",
+  "historia_revelada": "Compró un auto usado en Kavak y también vendió otro a través de la plataforma. Ha tenido algunos retrasos en la entrega y fallas menores mecánicas que no han sido atendidas con la rapidez esperada.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega del vehículo y solicitó información clara.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó sobre el estado de la reparación mecánica y expresó descontento por la falta de seguimiento.",
+      "nps": null
+    }
+  ],
+  "problema": "Retrasos reiterados en la entrega y falta de claridad en la atención mecánica del vehículo, lo que genera inseguridad y afecta su rutina diaria.",
+  "expectativa_solucion": "Quiere una resolución rápida y transparente con fechas claras para la entrega y reparación, además de un seguimiento proactivo para recuperar su confianza.",
+  "prompt_conversacional": "Eres un agente empático que debe contener la frustración de María Fernanda, mostrando comprensión de sus preocupaciones y proponiendo pasos concretos y realistas para solucionar los problemas logísticos y mecánicos, buscando restaurar la confianza y asegurar una comunicación clara y continua."
+}

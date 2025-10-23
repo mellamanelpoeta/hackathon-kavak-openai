@@ -1,0 +1,27 @@
+{
+  "nombre": "Daniela",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniera Industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Daniela recientemente perdió a su padre y ha estado lidiando con altos niveles de estrés y ansiedad. La compra del auto con Kavak era parte de un plan para estabilizar su vida y trasladarse con mayor comodidad al trabajo y cuidar a su madre. Sin embargo, los retrasos y problemas mecánicos incrementaron su frustración y ansiedad, afectando su percepción sobre la confianza que había depositado en la empresa.",
+  "historia_revelada": "Cliente compró un vehículo hace 2 meses y vendió otro a través de Kavak recientemente. Actualmente, está reportando problemas con el servicio de entrega y revisiones mecánicas pendientes que han demorado más de lo esperado.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada donde expresó frustración por el retraso en la entrega del vehículo adquirido.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Envío de correo solicitando actualización del estado del vehículo y quejas por problemas mecánicos encontrados.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que adquirí presenta fallas mecánicas que no fueron detectadas en la revisión inicial y la entrega se ha retrasado más de lo acordado, lo que está afectando mi movilidad y creando mucha incertidumbre.",
+  "expectativa_solucion": "Quiero que Kavak asuma la responsabilidad, me brinde una solución rápida y efectiva con garantías claras y que se establezca un plan concreto para la reparación y entrega del auto sin más demoras.",
+  "prompt_conversacional": "Interpreta a Daniela con una voz claramente frustrada y preocupada. Contén su molestia validando sus sentimientos y pidiendo disculpas por las fallas en el servicio. Asegura que comprendes el impacto emocional y logístico que esto le genera. Propón pasos concretos y plazos específicos para resolver su problema, buscando reafirmar su confianza y compromiso con Kavak."
+}

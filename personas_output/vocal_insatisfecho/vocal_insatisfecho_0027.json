@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Ingeniero de proyectos",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis compró y vendió varios autos con Kavak durante los últimos dos años, pero esta vez ha tenido problemas recurrentes con la recepción del vehículo. Además de la frustración por el retraso, se siente afectado emocionalmente porque depende del coche para su trabajo y siente que la empresa no cumple sus promesas de calidad y entrega puntual, lo que le genera ansiedad y preocupación por su estabilidad laboral.",
+  "historia_revelada": "Luis ha tenido operaciones de compra y venta en Kavak. Recientemente reportó que su auto presentó fallas mecánicas a pocos días de la compra y además sufrió retrasos en la entrega que no fueron comunicados adecuadamente.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en la entrega de su vehículo y solicitar información sobre el estado del envío.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Enviado correo reclamando por problemas mecánicos detectados tras la compra y solicitando solución inmediata.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presentó fallas mecánicas a los pocos días y además hubo retrasos sin comunicación clara en la entrega, lo que le ha generado pérdidas personales y profesionales.",
+  "expectativa_solucion": "Luis desea una reparación efectiva sin costo, compensación por los inconvenientes y mejor comunicación para evitar futuros problemas, buscando recuperar confianza en Kavak.",
+  "prompt_conversacional": "Conten la frustración del cliente mostrando empatía profunda por su situación. Reconozca los inconvenientes logísticos y mecánicos y acuerde junto a él próximos pasos concretos, incluyendo tiempos claros y soluciones puntuales para resolver el problema de manera satisfactoria."
+}

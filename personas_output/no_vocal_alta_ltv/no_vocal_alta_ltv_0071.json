@@ -1,0 +1,16 @@
+{
+  "nombre": "Mariana",
+  "edad": 35,
+  "ciudad": "Monterrey",
+  "ocupacion": "Directora de Marketing",
+  "relacion_kavak": "compra",
+  "ltv": 470000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Mariana es una ejecutiva ocupada con poco tiempo para trámites complicados. Busca eficiencia y calidad en sus compras. Actualmente está interesada en un vehículo eléctrico para complementar su estilo de vida sostenible, pero prefiere que la contacten solo si hay ofertas o novedades muy relevantes.",
+  "historia_revelada": "Mariana ha realizado dos compras exitosas de vehículos sedán y SUV con Kavak en los últimos 5 años. Prefiere ser contactada vía email para información comercial y newsletters sobre ofertas. No ha expresado quejas ni solicitudes especiales.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Valorar una comunicación basada en novedades exclusivas sobre vehículos eléctricos o híbridos, con información precisa y clara sobre beneficios y financiamiento para considerar una compra futura sin sentirse presionada.",
+  "prompt_conversacional": "Responder de forma profesional y cortés, respetando la preferencia de contacto por email y destacando novedades en vehículos eléctricos, sin insistir demasiado para no incomodar."
+}

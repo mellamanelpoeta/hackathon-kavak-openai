@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable, Iterable
 
+from dotenv import load_dotenv
 from openai import APIError, AsyncOpenAI
 from pydantic import ValidationError
 
@@ -18,11 +19,13 @@ from .schemas import Persona
 
 
 DEFAULT_MODEL = "gpt-4.1-mini"
-PERSONA_SCHEMA = Persona.model_json_schema()
+PERSONA_SCHEMA = Persona
 
 BASE_SYSTEM_PROMPT = """Eres un generador de datos sintéticos para simulaciones de atención al cliente de Kavak.
 Devuelves exclusivamente un JSON válido que cumpla exactamente con el esquema Persona documentado.
 Asegúrate de que todos los campos requeridos están presentes, que los datos sean plausibles para México y respeten las reglas de validación."""
+
+load_dotenv()
 
 
 @dataclass(frozen=True)
@@ -34,8 +37,14 @@ class PersonaPrompt:
 
     def build_messages(self) -> list[dict[str, object]]:
         return [
-            {"role": "system", "content": [{"type": "text", "text": BASE_SYSTEM_PROMPT}]},
-            {"role": "user", "content": [{"type": "text", "text": self.instructions}]},
+            {
+                "role": "system",
+                "content": [{"type": "input_text", "text": BASE_SYSTEM_PROMPT}],
+            },
+            {
+                "role": "user",
+                "content": [{"type": "input_text", "text": self.instructions}],
+            },
         ]
 
 
@@ -106,21 +115,19 @@ class PersonaGenerator:
             try:
                 async with self.semaphore:
                     client = self._client()
-                    response = await client.responses.create(
+                    response = await client.responses.parse(
                         model=self.model,
                         input=prompt.build_messages(),
-                        response_format={
-                            "type": "json_schema",
-                            "json_schema": {
-                                "name": "persona",
-                                "schema": PERSONA_SCHEMA,
-                                "strict": True,
-                            },
-                        },
+                        text_format=Persona
                     )
-                content = response.output_text
-                data = json.loads(content)
-                persona = Persona.model_validate(data)
+                parsed = response.output_parsed
+                if isinstance(parsed, Persona):
+                    persona = parsed
+                elif isinstance(parsed, str):
+                    data = json.loads(parsed)
+                    persona = Persona.model_validate(data)
+                else:
+                    persona = Persona.model_validate(parsed)
                 return persona
             except (APIError, ValidationError, json.JSONDecodeError, KeyError, IndexError) as exc:
                 if attempt == retry:
@@ -158,7 +165,7 @@ async def generate_all(
         for idx, persona in enumerate(personas, start=1):
             payload = persona.model_dump(mode="json")
             with (folder / f"{prompt_key}_{idx:04d}.json").open("w", encoding="utf-8") as handle:
-                json.dump(payload, handle, ensure_ascii=True, indent=2)
+                json.dump(payload, handle, ensure_ascii=False, indent=2)
 
 
 def main() -> None:

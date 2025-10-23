@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor de TI",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis recientemente perdió a su padre, lo que le ha generado estrés y presión adicional. Además, depende del auto para llevar a sus hijos a la escuela y a actividades extracurriculares, por lo que cualquier problema con el vehículo le afecta emocionalmente más allá del costo o tiempo perdido.",
+  "historia_revelada": "Compró un auto en Kavak hace 8 meses y vendió otro hace 3 meses. Ha tenido problemas recurrentes con el sistema eléctrico del auto comprado y la entrega del auto vendido se retrasó dos semanas, lo que generó inconvenientes logísticos y financieros.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Reportó problemas con el sistema eléctrico del auto comprado y solicitó urgencia en la revisión.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Hizo seguimiento al retraso en la entrega del auto vendido, expresando molestia por la falta de comunicación clara.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas eléctricas constantes que afectan su uso diario y la entrega del vehículo que vendió tuvo un retraso considerable sin una solución clara ni comunicación efectiva.",
+  "expectativa_solucion": "Luis espera una revisión mecánica urgente sin costos adicionales, una solución definitiva a las fallas eléctricas y compensación o solución clara por el retraso y falta de comunicación en la venta; además desea un plan de comunicación transparente y seguimiento puntual.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Luis. Valida su molestia por las fallas del vehículo y la entrega retrasada. Asegura próximos pasos concretos como agendar revisión inmediata, proporcionar un contacto directo y establecer compromisos claros de seguimiento con fechas precisas."
+}

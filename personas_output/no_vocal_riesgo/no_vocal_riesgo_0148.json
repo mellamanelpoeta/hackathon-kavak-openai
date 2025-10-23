@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 34,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero Industrial",
+  "relacion_kavak": "venta",
+  "ltv": 4200.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis está preocupado por asuntos financieros personales derivados de una reducción inesperada en sus ingresos el último año, lo que no ha comunicado a Kavak. Esto le genera incertidumbre sobre su capacidad para concretar la venta de su vehículo y cumplir con las condiciones acordadas, aunque no ha expresado esta situación por temor a perder la oportunidad.",
+  "historia_revelada": "Luis inició la venta de su automóvil con Kavak hace dos meses y ha tenido comunicación esporádica con el equipo; sin embargo, no ha completado el proceso de entrega ni ha enviado la documentación faltante, lo que ha dejado la operación en un estado pendiente y sin seguimiento activo por parte del equipo.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Luis necesitaría un acompañamiento claro y flexible en el proceso que le brinde confianza y transparencia para retomar el trámite sin presiones, además de un canal abierto para comunicar cualquier dificultad financiera que pueda tener en el futuro.",
+  "prompt_conversacional": "Luis es reservado pero preocupado. No ha expresado directamente sus dificultades, pero se siente inseguro respecto a la continuidad de la venta. Necesita una atención empática que le ofrezca claridad y respaldo para recuperar su confianza con Kavak."
+}

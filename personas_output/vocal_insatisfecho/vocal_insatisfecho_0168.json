@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero mecánico",
+  "relacion_kavak": "compra_venta",
+  "ltv": 85000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis tuvo una experiencia difícil recientemente porque esperaba usar su vehículo para un viaje familiar importante y se ha encontrado con retrasos y problemas mecánicos tras la compra con Kavak. Esto le genera mucha frustración y estrés, ya que valora la puntualidad y la seguridad para proteger a su familia, además de sentirse decepcionado ante la expectativa no cumplida de un proceso rápido y sin complicaciones.",
+  "historia_revelada": "Luis compró un vehículo usado y también está en proceso de vender otro coche a través de Kavak. Ha reportado problemas mecánicos tras la compra y siente que la logística para revisión y reparación ha sido lenta. Ha contactado servicio al cliente para expresar su inconformidad.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Contacto reclamando demora en la revisión mecánica, expresó alta frustración y preocupación por el impacto en sus planes personales.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Reportó la falla mecánica y solicitó actualización sobre el proceso de reparación con fecha estimada.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo comprado presenta fallas mecánicas y el proceso logístico para reparación ha sido ineficiente y demora más tiempo del prometido, afectando mis planes y generando molestia.",
+  "expectativa_solucion": "Deseo que Kavak agilice la solución al problema mecánico y me brinde una comunicación clara y fechas concretas para minimizar las molestias.",
+  "prompt_conversacional": "El agente debe mostrar empatía y contener la frustración de Luis, reconociendo su molestia. Debe ofrecer un plan claro con pasos concretos y tiempos definidos para resolver el problema mecánico, procurando restablecer la confianza."
+}

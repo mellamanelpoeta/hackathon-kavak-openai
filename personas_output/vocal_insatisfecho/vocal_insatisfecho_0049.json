@@ -1,0 +1,27 @@
+{
+  "nombre": "Mariana",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 450000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Mariana ha tenido experiencias frustrantes recientemente debido a retrasos en la entrega de su vehículo comprado, lo que le ha generado problemas para manejar sus compromisos laborales y familiares. Se siente ignorada y poco valorada, lo que aumenta su estrés y molestia hacia Kavak porque dependía del coche para llevar a sus hijos a la escuela y cumplir con sus proyectos de trabajo.",
+  "historia_revelada": "Compró un coche sedán en noviembre pasado y vendió su unidad anterior a través de Kavak. Ha reportado varios retrasos en la entregada del coche nuevo y problemas mecánicos detectados que no fueron solucionados a tiempo en los talleres asociados.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar retraso en entrega y mecánica fallida, expresó molestia y recibió disculpas; ofrecieron revisión adicional y seguimiento.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Consultó estatus de la entrega y pidió actualización urgente. Recibió respuesta con fecha tentativa y promesa de contacto del taller.",
+      "nps": null
+    }
+  ],
+  "problema": "El principal dolor es la demora en la entrega del vehículo nuevo y fallas mecánicas que han afectado su movilidad diaria, incrementando sus responsabilidades y estrés sin solución clara a corto plazo.",
+  "expectativa_solucion": "Desea una solución rápida y efectiva que incluya entrega inmediata del vehículo en óptimas condiciones o un plan claro con tiempos precisos, además de una atención empática que reconozca su situación.",
+  "prompt_conversacional": "Actúa con empatía y paciencia para contener la frustración de Mariana. Reconoce su molestia por la demora y los problemas mecánicos. Propón un plan de acción concreto que incluya una revisión prioritaria, fechas claras y seguimiento personalizado. Asegura acordar los próximos pasos específicos para reconstruir confianza."
+}

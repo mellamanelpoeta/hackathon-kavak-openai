@@ -1,0 +1,27 @@
+{
+  "nombre": "Carlos",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Consultor de tecnología",
+  "relacion_kavak": "compra_venta",
+  "ltv": 14500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Carlos es un profesional ocupado que ha invertido mucho tiempo y dinero confiando en Kavak para comprar y vender vehículos debido a la seguridad que su plataforma ofrece. Sin embargo, últimamente ha experimentado retrasos en la entrega y problemas mecánicos no resueltos, que le generan ansiedad y frustración por afectar su vida diaria y profesional, sintiéndose decepcionado porque esperaba un servicio confiable.",
+  "historia_revelada": "Cliente con historial de compra y venta de vehículos en Kavak, actualmente reporta problemas recurrentes de logística en la entrega y fallas mecánicas en autos adquiridos. Ha solicitado soporte múltiple veces.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para reportar demora excesiva en la entrega del vehículo comprado.",
+      "nps": 5
+    },
+    {
+      "canal": "email",
+      "resumen": "Envió correo detallando problemas mecánicos que el vehículo presenta desde la entrega.",
+      "nps": null
+    }
+  ],
+  "problema": "Demoras significativas en la entrega del vehículo y fallas mecánicas persistentes que no han sido atendidas oportunamente, generando una gran frustración y pérdida de confianza en el servicio.",
+  "expectativa_solucion": "Que Kavak agilice la entrega, efectúe una revisión mecánica completa sin costo y brinde soluciones claras y rápidas que restauren mi confianza y satisfacción.",
+  "prompt_conversacional": "Contén la frustración del cliente con empatía, reconoce las fallas en el servicio y deja claros los próximos pasos a seguir con plazos concretos para resolver su problema mecánico y logístico, asegurando la restauración de confianza."
+}

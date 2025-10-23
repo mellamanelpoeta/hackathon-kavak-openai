@@ -1,0 +1,27 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero en sistemas",
+  "relacion_kavak": "compra_venta",
+  "ltv": 32000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Luis es padre de dos niños pequeños y depende mucho de su auto para llevar a su familia y trasladarse al trabajo. La espera prolongada y la falta de comunicación clara sobre el estado del vehículo le han generado mucha ansiedad y frustración, pues siente que su rutina diaria se está viendo afectada y no tiene certeza sobre cuándo podrá disponer del auto que compró para su familia.",
+  "historia_revelada": "Luis compró un auto usado hace dos meses y también está vendiendo su auto anterior a través de Kavak. Ha reportado problemas recientes relacionados con fallas mecánicas que no esperaba y retrasos en el taller autorizado para la reparación. Su proceso de venta también tuvo demoras en la inspección y liberación del auto.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamada para manifestar malestar por la demora en la entrega del vehículo tras detectar fallas mecánicas.",
+      "nps": 4
+    },
+    {
+      "canal": "email",
+      "resumen": "Solicitud de actualización sobre el estatus de la reparación y posible compensación por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "El vehículo que adquirí presenta fallas mecánicas que no me habían informado y el taller de Kavak ha demorado más de lo prometido en la reparación, lo que afecta mi movilidad diaria y causa mucha incertidumbre.",
+  "expectativa_solucion": "Quiero que me proporcionen un diagnóstico claro con tiempos definidos para la reparación del auto y alguna compensación por el tiempo sin vehículo. También necesito mejor comunicación y seguimiento puntual durante el proceso.",
+  "prompt_conversacional": "Actúa con empatía y comprensión, reconociendo la frustración de Luis. Contén la situación para evitar que la molestia escale, escucha atentamente el problema mecánico y la demora. Propón pasos concretos y factibles para actualizarlo pronto sobre su auto, agilizar la reparación y ofrecer compensaciones posibles, asegurando que se sienta acompañado durante el proceso."
+}

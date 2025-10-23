@@ -1,0 +1,16 @@
+{
+  "nombre": "Luis",
+  "edad": 38,
+  "ciudad": "Monterrey",
+  "ocupacion": "Supervisor de logística",
+  "relacion_kavak": "venta",
+  "ltv": 18500.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Luis enfrenta presiones financieras debido a gastos médicos inesperados en su familia. Aunque su vehículo vendido a Kavak ya no está disponible, teme quedar sin respaldo económico pronto y no ha compartido esta preocupación con ninguna parte de Kavak, manteniendo el seguimiento de su venta en segundo plano.",
+  "historia_revelada": "Luis inició la venta de su vehículo hace dos meses y realizó la inspección inicial, pero no completó el proceso de entrega debido a la falta de disponibilidad. Hay seguimientos pendientes de documentación y cobro que no han sido actualizados en el sistema.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Necesitaría que Kavak proporcione comunicación clara y proactiva sobre el estado de la venta y opciones flexibles, para poder confiar nuevamente en que manejarán sus operaciones con transparencia y apoyo en momentos difíciles.",
+  "prompt_conversacional": "Representa a un cliente que ha vendido un vehículo a Kavak pero ha dejado pendientes trámites y no ha expresado sus preocupaciones financieras internas. Está indeciso respecto a continuar la relación con Kavak y valora la transparencia y el apoyo para reconstruir confianza."
+}

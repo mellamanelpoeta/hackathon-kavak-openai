@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandra",
+  "edad": 34,
+  "ciudad": "Monterrey",
+  "ocupacion": "Diseñadora gráfica",
+  "relacion_kavak": "compra_venta",
+  "ltv": 18500.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandra se siente muy frustrada porque depende del automóvil para ir a su trabajo y cuidar a su hijo pequeño. La demora en la entrega de un vehículo que vendió y problemas recurrentes con la mecánica del auto que compró le generan estrés y sensación de falta de apoyo, ya que necesita soluciones rápidas para mantener su rutina familiar y laboral sin contratiempos.",
+  "historia_revelada": "Alejandra vendió su auto usado en Kavak hace dos meses y compró otro vehículo seminuevo. Ha reportado retraso en la devolución del dinero por la venta y ha tenido que llevar el auto comprado dos veces al taller por fallas mecánicas.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Alejandra llamó para reportar que su auto presentó una falla mecánica importante y solicitó información sobre el taller autorizado.",
+      "nps": 4
+    },
+    {
+      "canal": "whatsapp",
+      "resumen": "Se contactó para pedir actualización sobre la devolución del pago pendiente por la venta de su vehículo, manifestó molestia por la demora.",
+      "nps": null
+    }
+  ],
+  "problema": "La demora en la devolución del dinero por la venta de su carro junto con las repetidas fallas mecánicas del vehículo comprado están afectando su movilidad y causando estrés familiar.",
+  "expectativa_solucion": "Quiere que Kavak agilice la devolución del dinero de la venta y garantice una reparación definitiva de su auto, con comunicación clara y rápida para recuperar su confianza.",
+  "prompt_conversacional": "Tienes que contener la frustración de Alejandra mostrando empatía y comprensión por su situación de dependencia del vehículo. Asegura validar su malestar por los retrasos y fallas mecánicas, luego explica con claridad los siguientes pasos que Kavak tomará para resolver cada problema, comprometiéndote a mantenerla informada en todo momento y lograr así restaurar su confianza."
+}

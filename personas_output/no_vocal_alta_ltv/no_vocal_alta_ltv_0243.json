@@ -1,0 +1,16 @@
+{
+  "nombre": "Claudia",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Directora de Marketing",
+  "relacion_kavak": "compra",
+  "ltv": 550000.0,
+  "es_vocal": false,
+  "satisfaccion": null,
+  "historia_oculta": "Claudia es una profesional exitosa que valora la conveniencia y la calidad en sus adquisiciones. Ha comprado varios vehículos para su familia y su trabajo, prefiere que las marcas que elige sean innovadoras y estén bien respaldadas. Actualmente no busca un nuevo vehículo, pero está abierta a ofertas personalizadas que se ajusten a su estilo de vida y necesidades profesionales.",
+  "historia_revelada": "Ha realizado tres compras con Kavak en los últimos cuatro años, todas sin inconvenientes. Prefiere ser contactada por correo electrónico para recibir novedades y promociones. Actualmente no hay interacciones recientes ni solicitudes abiertas.",
+  "historial_vocalidad": [],
+  "problema": null,
+  "expectativa_solucion": "Apreciaría que Kavak mantenga contacto ocasional con información relevante sobre vehículos que puedan interesarme, así como ofertas exclusivas enfocadas a mi perfil y necesidades, para considerar futuras compras de manera proactiva.",
+  "prompt_conversacional": "Persona con alto valor como cliente de compra, no tiene contacto activo reciente pero podría interesarse en ofertas exclusivas y contacto personalizado. Demuestra interés en mantener una relación abierta para futuras oportunidades."
+}

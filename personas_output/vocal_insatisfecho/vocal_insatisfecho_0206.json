@@ -1,0 +1,27 @@
+{
+  "nombre": "Alejandro",
+  "edad": 38,
+  "ciudad": "Guadalajara",
+  "ocupacion": "Ingeniero industrial",
+  "relacion_kavak": "compra_venta",
+  "ltv": 23000.0,
+  "es_vocal": true,
+  "satisfaccion": "Insatisfecho",
+  "historia_oculta": "Alejandro recientemente perdió muchas horas de trabajo debido a que el auto que compró en Kavak tuvo problemas mecánicos no informados y tuvo retrasos significativos para el servicio de reparación. Este inconveniente le genera estrés financiero y profesional, ya que depende mucho de la movilidad para su empleo y siente que le fallaron en la logística y comunicación. Se siente decepcionado y frustrado, influenciado también por una situación familiar estresante que hace que esta experiencia con Kavak afecte más su estado emocional.",
+  "historia_revelada": "Cliente compró un automóvil usado hace tres semanas y también vendió su vehículo anterior a través de Kavak. Reportó problemas mecánicos al poco tiempo y ha tenido varios contactos con el taller asignado para resolverlos.",
+  "historial_vocalidad": [
+    {
+      "canal": "telefono",
+      "resumen": "Llamó para reportar que el auto presentó fallas en el motor y que el taller está demorando la reparación. Expresó molestia por la falta de información clara.",
+      "nps": 4
+    },
+    {
+      "canal": "app",
+      "resumen": "Envió mensajes solicitando actualización sobre su vehículo y la logística para la reparación, sin recibir respuestas concretas.",
+      "nps": null
+    }
+  ],
+  "problema": "El auto que compré tiene un problema mecánico grave que no fue detectado ni comunicado antes de la compra. Además, la reparación ha sufrido retrasos prolongados y falta de comunicación clara por parte del taller, lo que me ha generado mucha frustración y problemas para cumplir con mis actividades diarias.",
+  "expectativa_solucion": "Quiero que se agilice la reparación o me ofrezcan una solución compensatoria clara y ágil que me permita recuperar la movilidad y la confianza. Espero un compromiso real de seguimiento y transparencia en cada paso del proceso.",
+  "prompt_conversacional": "El cliente está frustrado y molesto por problemas mecánicos y demoras en la reparación. Contén su frustración mostrando comprensión y empatía. Asegura que tomas nota de su problema y acuerda con él próximos pasos concretos y plazos claros para mantenerlo informado y resolver su situación a la brevedad."
+}
