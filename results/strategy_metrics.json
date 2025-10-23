@@ -1,0 +1,77 @@
+{
+  "generated_at": "2025-10-23T17:22:20.338128",
+  "overall": {
+    "strategy": 4,
+    "metrics": {
+      "strategy_name": "Upsell_Personalizado",
+      "ltv_gain_avg": 1006.2323529411714,
+      "reward_avg": 0.6295588235294117,
+      "cost_avg": -1000.0,
+      "samples": 68
+    }
+  },
+  "best_by_cohort": {
+    "no_vocal_satisfecho": {
+      "strategy": "Upsell_Personalizado",
+      "metrics": {
+        "strategy_name": "Upsell_Personalizado",
+        "ltv_gain_avg": 1006.0997777777724,
+        "reward_avg": 0.5963333333333333,
+        "cost_avg": -1000.0,
+        "samples": 45
+      }
+    },
+    "vocal_insatisfecho": {
+      "strategy": "Escalar_Mecanico",
+      "metrics": {
+        "strategy_name": "Escalar_Mecanico",
+        "ltv_gain_avg": -1196.908666666658,
+        "reward_avg": 0.07699999999999997,
+        "cost_avg": 1200.0,
+        "samples": 30
+      }
+    },
+    "vocal_satisfecho": {
+      "strategy": "Upsell_Personalizado",
+      "metrics": {
+        "strategy_name": "Upsell_Personalizado",
+        "ltv_gain_avg": 1006.4917391304301,
+        "reward_avg": 0.6945652173913043,
+        "cost_avg": -1000.0,
+        "samples": 23
+      }
+    }
+  },
+  "strategy_stats": {
+    "Compensacion_Devolucion": {
+      "ltv_gain_avg": -2497.140000000014,
+      "reward_avg": 0.05999999999999996,
+      "cost_avg": 2500.0,
+      "samples": 1
+    },
+    "Cupon_Descuento": {
+      "ltv_gain_avg": -793.4974999999977,
+      "reward_avg": 0.705,
+      "cost_avg": 800.0,
+      "samples": 2
+    },
+    "Escalar_Mecanico": {
+      "ltv_gain_avg": -1196.908666666658,
+      "reward_avg": 0.07699999999999997,
+      "cost_avg": 1200.0,
+      "samples": 30
+    },
+    "Seguimiento_Concreto": {
+      "ltv_gain_avg": -295.54210526315757,
+      "reward_avg": 0.34184210526315784,
+      "cost_avg": 300.0,
+      "samples": 19
+    },
+    "Upsell_Personalizado": {
+      "ltv_gain_avg": 1006.2323529411714,
+      "reward_avg": 0.6295588235294117,
+      "cost_avg": -1000.0,
+      "samples": 68
+    }
+  }
+}

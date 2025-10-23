@@ -3,7 +3,9 @@ Helpers to translate profile JSON structures into shared models.
 """
 from __future__ import annotations
 
-from typing import Dict, Optional
+from typing import Any, Dict, List, Optional
+
+from app.HumanSimulacra.schemas import Persona
 
 from app.models import Context
 
@@ -106,4 +108,95 @@ def profile_to_context(profile: Dict) -> Context:
     )
 
 
-__all__ = ["profile_to_context"]
+def persona_to_profile(persona_payload: Dict[str, Any], *, customer_id: Optional[str] = None) -> Dict:
+    """
+    Convert a persona JSON (as generated in personas_output) into the profile
+    structure expected by the context-engineering pipeline.
+    """
+    persona = Persona.model_validate(persona_payload)
+
+    segment_map = {
+        True: {True: "VF", False: "VE"},
+        False: {True: "NVF", False: "NVE"},
+    }
+    satisfied_known = persona.satisfaccion == "Satisfecho" if persona.es_vocal else True
+    segment = segment_map[persona.es_vocal][satisfied_known]
+
+    cohort = {
+        "vocal": persona.es_vocal,
+        "satisfied": satisfied_known,
+    }
+
+    persona_section = {
+        "name": persona.nombre,
+        "age": persona.edad,
+        "location": persona.ciudad,
+        "bio": persona.historia_revelada,
+    }
+
+    price_anchor = float(persona.ltv)
+    purchase = {
+        "vehicle": persona.relacion_kavak,
+        "price": max(10000.0, round(price_anchor, 2)),
+        "last_purchase_days": 30 if persona.es_vocal else 90,
+        "channel": "whatsapp",
+    }
+
+    past_nps = None
+    tickets: List[Dict[str, Any]] = []
+    for record in persona.historial_vocalidad:
+        if record.nps is not None:
+            past_nps = record.nps
+        tickets.append(
+            {
+                "issue": record.resumen,
+                "sentiment": (record.nps - 5) / 5 if record.nps is not None else 0.0,
+                "last_touch_days": 7 if persona.es_vocal else 45,
+            }
+        )
+
+    if past_nps is None:
+        past_nps = 9 if satisfied_known else 4
+
+    history_messages: List[Dict[str, Any]] = []
+    if persona.es_vocal and persona.problema:
+        history_messages.append({"role": "customer", "content": persona.problema})
+    if persona.es_vocal and persona.expectativa_solucion:
+        history_messages.append({"role": "customer", "content": persona.expectativa_solucion})
+
+    history = {
+        "past_nps": past_nps,
+        "tickets": tickets,
+        "messages": history_messages,
+    }
+
+    risk_signals = {
+        "churn_est": 0.65 if not satisfied_known else 0.25,
+        "value_segment": segment,
+        "ltv_apriori": float(persona.ltv),
+    }
+
+    profile = {
+        "customer_id": customer_id or persona_payload.get("customer_id") or persona.nombre,
+        "cohort": cohort,
+        "persona": persona_section,
+        "purchase": purchase,
+        "history": history,
+        "risk_signals": risk_signals,
+        "human_simulacra": persona.model_dump(mode="python"),
+    }
+
+    profile["cohort_label"] = infer_cohort_label(profile)
+
+    return profile
+
+
+def infer_cohort_label(profile: Dict) -> str:
+    cohort = profile.get("cohort", {}) or {}
+    vocal = "vocal" if cohort.get("vocal", False) else "no_vocal"
+    satisfied = cohort.get("satisfied", True)
+    satisf_label = "satisfecho" if satisfied else "insatisfecho"
+    return f"{vocal}_{satisf_label}"
+
+
+__all__ = ["profile_to_context", "persona_to_profile", "infer_cohort_label"]

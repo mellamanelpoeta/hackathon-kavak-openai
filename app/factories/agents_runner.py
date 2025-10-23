@@ -6,11 +6,12 @@ textual and JSON outputs used by demo agents.
 from __future__ import annotations
 
 import json
+import logging
 import os
 import time
-from typing import Any, Dict, List, Optional
+from typing import Any, Callable, Dict, List, Optional
 
-from openai import OpenAI
+from openai import OpenAI, APIError
 
 DEFAULT_RETRIES = 3
 DEFAULT_BACKOFF = 1.5
@@ -39,6 +40,9 @@ def _build_content_block(text: str) -> Dict[str, Any]:
     return {"type": "input_text", "text": text}
 
 
+logger = logging.getLogger(__name__)
+
+
 class AgentsRunner:
     """
     Wrapper to interact with OpenAI Agents (Responses API).
@@ -63,6 +67,11 @@ class AgentsRunner:
             raise ValueError("OpenAI API key required (set OPENAI_API_KEY or pass api_key).")
 
         self.client = OpenAI(api_key=self.api_key)
+        if not hasattr(self.client, "responses"):
+            raise AttributeError(
+                "OpenAI client is missing `responses`. "
+                "Upgrade to openai>=1.3.0 to use the Responses API."
+            )
         self.model = model
         self.temperature = temperature
         self.max_output_tokens = max_output_tokens
@@ -101,7 +110,7 @@ class AgentsRunner:
             system_prompt=system_prompt,
             user_content=user_content,
             extra_input=extra_input,
-            response_format={"type": "json_object"},
+            response_format=None,
         )
         try:
             return json.loads(_extract_text_from_response(response))
@@ -140,18 +149,40 @@ class AgentsRunner:
                 if self.max_output_tokens:
                     kwargs["max_output_tokens"] = self.max_output_tokens
 
-                # Convert response_format to text parameter format
+                # Attach structured response directives when requested
                 if response_format:
-                    kwargs["text"] = {"format": response_format}
+                    kwargs["response_format"] = response_format
 
                 return self.client.responses.create(**kwargs)
             except Exception as exc:  # broad catch: SDK raises various subclasses
                 last_exc = exc
+
+                status_code = getattr(exc, "status_code", None)
+                request_id = getattr(exc, "request_id", None)
+                error_payload = None
+                response_obj = getattr(exc, "response", None)
+                if response_obj is not None:
+                    try:
+                        error_payload = response_obj.json()
+                    except Exception:  # pragma: no cover - best effort
+                        error_payload = str(response_obj)
+
+                logger.warning(
+                    "Agents API call failed (attempt %d/%d, model=%s, status=%s, request_id=%s, error=%s)",
+                    attempt,
+                    self.max_retries,
+                    self.model,
+                    status_code,
+                    request_id,
+                    error_payload or exc,
+                )
                 if attempt == self.max_retries:
                     break
                 time.sleep(self.backoff ** attempt)
 
-        raise RuntimeError(f"Agents API call failed after {self.max_retries} attempts") from last_exc
+        raise RuntimeError(
+            f"Agents API call failed after {self.max_retries} attempts: {last_exc}"
+        ) from last_exc
 
 
 __all__ = ["AgentsRunner"]

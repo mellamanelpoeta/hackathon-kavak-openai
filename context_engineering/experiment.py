@@ -6,12 +6,14 @@ aggregate results, and persist them for analytics/visualization.
 """
 from __future__ import annotations
 
+import random
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 
 from .example_runner import load_profiles, run_iteration
+from .persistence import append_history_records, update_strategy_metrics
 
 
 def run_experiment(
@@ -30,6 +32,8 @@ def run_experiment(
     api_key: Optional[str] = None,
     concurrency: int = 10,
     verbose: bool = True,
+    seed: Optional[int] = None,
+    shuffle: bool = True,
 ) -> Tuple[pd.DataFrame, Dict]:
     """
     Execute conversations for all profiles in the directory and return results as DataFrame.
@@ -52,6 +56,9 @@ def run_experiment(
         Tuple of (results DataFrame, summary dict)
     """
     profiles = load_profiles(Path(profiles_dir))
+    if shuffle:
+        rng = random.Random(seed)
+        rng.shuffle(profiles)
     if max_profiles:
         profiles = profiles[:max_profiles]
 
@@ -68,6 +75,7 @@ def run_experiment(
         concurrency=concurrency,
         planner_model=planner_model,
         verbose=verbose,
+        include_logs=verbose,
     )
 
     if not records:
@@ -81,6 +89,8 @@ def run_experiment(
             "estrategia_intentada",
             "mensaje_intentado",
             "NPS_final",
+            "nps_score_reported",
+            "NPS_comment",
             "LTV_og",
             "LTV_final",
             "engagement",
@@ -94,13 +104,28 @@ def run_experiment(
             "mini_story",
             "channel_pref",
             "timestamp",
+            "transcript",
         ])
-        summary = {"n_conversations": 0, "ltv_gain_avg": 0.0, "best_strategy": None}
+        summary = {
+            "n_conversations": 0,
+            "ltv_gain_avg": 0.0,
+            "reward_avg": 0.0,
+            "best_strategy": None,
+            "cohort_ltv_gain": {},
+            "best_strategy_by_cohort": {},
+            "best_strategy_history": {},
+            "best_strategy_by_cohort_history": {},
+        }
         return df, summary
 
     df = pd.DataFrame(records)
 
     summary = _summarize_results(df)
+
+    append_history_records(df, source_path=str(output_path) if output_path else None)
+    insights = update_strategy_metrics()
+    summary["best_strategy_history"] = insights.get("overall", {})
+    summary["best_strategy_by_cohort_history"] = insights.get("best_by_cohort", {})
 
     if output_path:
         output_path = Path(output_path)
@@ -115,11 +140,11 @@ def run_experiment(
 
 def _summarize_results(df: pd.DataFrame) -> Dict:
     """Compute high-level summary metrics from experiment DataFrame."""
-    avg_ltv_gain = float(df["ganancia_LTV"].mean())
-    avg_reward = float(df["reward"].mean())
+    avg_ltv_gain = float(df["ganancia_LTV"].mean()) if "ganancia_LTV" in df.columns else 0.0
+    avg_reward = float(df["reward"].mean()) if "reward" in df.columns else 0.0
     best_strategy_name = None
 
-    if "strategy_name" in df.columns and not df.empty:
+    if {"strategy_name", "ganancia_LTV"}.issubset(df.columns) and not df.empty:
         strategy_performance = df.groupby("strategy_name")["ganancia_LTV"].mean()
         if not strategy_performance.empty:
             best_strategy_name = strategy_performance.idxmax()
@@ -132,12 +157,20 @@ def _summarize_results(df: pd.DataFrame) -> Dict:
             .to_dict()
         )
 
+    best_strategy_by_cohort = {}
+    if {"cohort_label", "strategy_name", "ganancia_LTV"}.issubset(df.columns):
+        for cohort, cohort_df in df.groupby("cohort_label"):
+            perf = cohort_df.groupby("strategy_name")["ganancia_LTV"].mean()
+            if not perf.empty:
+                best_strategy_by_cohort[cohort] = perf.idxmax()
+
     summary = {
         "n_conversations": int(len(df)),
         "ltv_gain_avg": avg_ltv_gain,
         "reward_avg": avg_reward,
         "best_strategy": best_strategy_name,
         "cohort_ltv_gain": cohort_perf,
+        "best_strategy_by_cohort": best_strategy_by_cohort,
     }
 
     return summary

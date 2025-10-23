@@ -1,0 +1,51 @@
+{
+  "notes": "Escalar_Mecanico pierde LTV y no mejora NPS en insatisfechos; urge priorizar seguimiento concreto y fechas claras en prompts.",
+  "planner": {
+    "global": [
+      "Para la cohorte 'vocal_insatisfecho', enfatizar en el prompt la entrega de fechas concretas y actualizaciones diarias automáticas vía WhatsApp, sin esperar a que el cliente insista.",
+      "En 'no_vocal_satisfecho', personalizar aún más las ofertas por email/app, resaltando beneficios exclusivos y segmentando por historial de compra y preferencia de canal.",
+      "Para 'no_vocal_satisfecho' con NPS<8, incluir en el prompt un resumen claro de próximos pasos, fechas y responsable asignado, evitando mensajes genéricos de seguimiento."
+    ],
+    "cohorts": {
+      "vocal_insatisfecho": [
+        "Decrementar la estrategia Escalar_Mecanico",
+        "Incrementar la estrategia Seguimiento_Concreto"
+      ],
+      "no_vocal_satisfecho": [
+        "Mantener la estrategia Upsell_Personalizado",
+        "Incrementar la estrategia Seguimiento_Concreto"
+      ]
+    }
+  },
+  "initiative": {
+    "global": [
+      "Para la cohorte 'vocal_insatisfecho', enfatizar en el prompt la entrega de fechas concretas y actualizaciones diarias automáticas vía WhatsApp, sin esperar a que el cliente insista.",
+      "En 'no_vocal_satisfecho', personalizar aún más las ofertas por email/app, resaltando beneficios exclusivos y segmentando por historial de compra y preferencia de canal.",
+      "Para 'no_vocal_satisfecho' con NPS<8, incluir en el prompt un resumen claro de próximos pasos, fechas y responsable asignado, evitando mensajes genéricos de seguimiento."
+    ],
+    "cohorts": {
+      "vocal_insatisfecho": [
+        "Decrementar la estrategia Escalar_Mecanico",
+        "Incrementar la estrategia Seguimiento_Concreto"
+      ],
+      "no_vocal_satisfecho": [
+        "Mantener la estrategia Upsell_Personalizado",
+        "Incrementar la estrategia Seguimiento_Concreto"
+      ]
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2025-10-23T17:22:47.752185",
+      "notes": "Escalar_Mecanico pierde LTV y no mejora NPS en insatisfechos; urge priorizar seguimiento concreto y fechas claras en prompts."
+    },
+    {
+      "timestamp": "2025-10-23T17:22:47.752185",
+      "experiments": [
+        "Probar Seguimiento_Concreto en 'vocal_insatisfecho' solo si NPS_final<=5 y el issue_bucket es logistica o mecanica.",
+        "En 'no_vocal_satisfecho', enviar resumen personalizado de avance y fechas por email/app antes de cualquier Upsell_Personalizado si NPS_final<8.",
+        "Testear mensajes de compensación simbólica solo en 'vocal_insatisfecho' con engagement bajo y pérdida de LTV > $1,000."
+      ]
+    }
+  ]
+}

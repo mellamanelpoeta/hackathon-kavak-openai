@@ -1,0 +1,1988 @@
+{
+  "run_number": 1,
+  "summary": {
+    "n_conversations": 40,
+    "ltv_gain_avg": -22.501499999998053,
+    "reward_avg": 0.44437499999999996,
+    "best_strategy": "Upsell_Personalizado",
+    "cohort_ltv_gain": {
+      "no_vocal_satisfecho": 133.23640000000054,
+      "vocal_insatisfecho": -1084.5562499999996,
+      "vocal_satisfecho": 635.0685714285802
+    }
+  },
+  "records": [
+    {
+      "client_id": "no_vocal_riesgo_0101",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". El servicio es bueno, pero falta más empatía y opciones flexibles para casos como el mío.",
+      "initial_customer_message": null,
+      "LTV_og": 12000.0,
+      "LTV_final": 11704.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.3,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Luis inició la venta de su vehículo hace dos meses, pero no ha completado la entrega del auto ni la documentación final. Kavak ha enviado recordatorios, sin recibir respuesta definitiva por parte de Luis, dejando procesos pendientes abiertos.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:58.959014+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Luis, espero que estés muy bien. Queremos apoyarte para finalizar la venta de tu auto de forma segura y rápida, asegurando el pago inmediato y sin complicaciones. Si tienes alguna duda o necesitas ayuda con la entrega o documentación, estoy disponible para resolverlo contigo. ¿Podemos agendar una llamada o mensaje en las próximas 48 horas para avanzar? Al finalizar, agradeceríamos tu calificación del servicio de 0 a 10. ¿Te parece bien este plan?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "Hola, gracias por el mensaje. La verdad es que me siento un poco presionado con todo el proceso, y me gustaría que hubiera más flexibilidad y un acompañamiento más cercano, porque no siempre es fácil cumplir con todo rápido. Necesito sentir que puedo expresar mis dificultades sin temor a consecuencias. Aprecio que estén atentos, pero me cuesta confiar completamente aún. \n\nNPS: 6. El servicio es bueno, pero falta más empatía y opciones flexibles para casos como el mío.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0089",
+      "nps_og": 4,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 4,
+      "NPS_comment": ". La compra me generó mucha expectativa, pero las fallas y la lentitud en la atención han sido muy frustrantes. Espero que realmente puedan mejorar la comunicación y acelerar la reparación, porque necesito el auto para mi trabajo y mi familia. No puedo permitirme más retrasos ni incertidumbre. Quiero sentirme respaldado y que mi caso sea prioridad, no solo palabras. Por favor, manténganme informado con claridad y tiempos concretos.",
+      "initial_customer_message": null,
+      "LTV_og": 35000.0,
+      "LTV_final": 33802.86,
+      "engagement": 0.2,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -1197.1399999999994,
+      "costo_estrategia": 1200.0,
+      "reward": 0.04500000000000002,
+      "strategy_name": "Escalar_Mecanico",
+      "strategy_rationale": "Brindar atención técnica o revisión en taller; útil para quejas de desempeño o garantía.",
+      "issue_bucket": "mecanica",
+      "mini_story": "Compró un auto usado hace 2 meses, vendió su vehículo anterior a través de Kavak. Ha reportado incidencias mecánicas y retrasos en la respuesta del taller autorizado.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:59.389582+00:00",
+      "nps_score_reported": 4.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Carlos, entiendo perfectamente tu molestia y lamento los inconvenientes que has enfrentado. Escalaré tu caso de inmediato al área mecánica especializada para que tu vehículo reciba atención prioritaria en nuestro taller certificado. Te mantendré informado personalmente sobre cada avance y puedes contactarme directamente por WhatsApp para cualquier actualización. ¿Podrías confirmarme tu disponibilidad para agendar la cita? Antes de finalizar, ¿cómo calificarías tu experiencia con Kavak hasta ahora en una escala de 0 a 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 4. La compra me generó mucha expectativa, pero las fallas y la lentitud en la atención han sido muy frustrantes. Espero que realmente puedan mejorar la comunicación y acelerar la reparación, porque necesito el auto para mi trabajo y mi familia. No puedo permitirme más retrasos ni incertidumbre. Quiero sentirme respaldado y que mi caso sea prioridad, no solo palabras. Por favor, manténganme informado con claridad y tiempos concretos.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0145",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 8,
+      "NPS_comment": ". Mi experiencia con Kavak ha sido muy buena, especialmente en la entrega y postventa. Me gustaría recibir propuestas personalizadas por email que realmente se ajusten a mis necesidades actuales y que aporten valor a mi inversión. Estoy abierto a explorar opciones, pero prefiero que sean ofertas exclusivas y bien pensadas antes de considerar una nueva compra o upgrade.",
+      "initial_customer_message": null,
+      "LTV_og": 520000.0,
+      "LTV_final": 521005.78,
+      "engagement": 0.6,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1005.7800000000279,
+      "costo_estrategia": -1000.0,
+      "reward": 0.615,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Alejandro ha realizado dos compras exitosas de autos usados en Kavak hace 4 y 2 años respectivamente, con buena experiencia de entrega y postventa. Prefiere comunicación vía email y notificaciones en la app para novedades o promociones.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:55.103657+00:00",
+      "nps_score_reported": 8.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Alejandro, agradecemos tu preferencia y confianza en Kavak. Como cliente frecuente, tienes acceso a opciones exclusivas para renovar o mejorar tu vehículo, incluyendo condiciones de crédito personalizadas. Si te interesa conocer propuestas alineadas a tus necesidades actuales, podemos agendar una llamada o enviarte detalles por email. ¿Te gustaría explorar estas alternativas? Además, tu opinión es muy valiosa para nosotros: ¿cómo calificarías tu experiencia reciente con Kavak en una escala del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 8. Mi experiencia con Kavak ha sido muy buena, especialmente en la entrega y postventa. Me gustaría recibir propuestas personalizadas por email que realmente se ajusten a mis necesidades actuales y que aporten valor a mi inversión. Estoy abierto a explorar opciones, pero prefiero que sean ofertas exclusivas y bien pensadas antes de considerar una nueva compra o upgrade.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_satisfecho_0079",
+      "nps_og": 9,
+      "vocal": true,
+      "satisfecho": true,
+      "cohort_label": "vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": "Me ha gustado mucho la rapidez y claridad en la atención, especialmente para el mantenimiento preventivo. Me interesa saber más sobre el paquete de mantenimiento premium, ya que quiero mantener mi Civic en óptimas condiciones sin complicaciones. También me gustaría que los procesos para futuras compras sean igual de sencillos y eficientes.",
+      "initial_customer_message": null,
+      "LTV_og": 48000.0,
+      "LTV_final": 49006.51,
+      "engagement": 0.7,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.510000000002,
+      "costo_estrategia": -1000.0,
+      "reward": 0.72,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Alejandro compró un Honda Civic 2018 a través de Kavak el 10 de abril de 2024. Recientemente, el 5 de mayo de 2024, realizó una consulta por la app sobre mantenimiento preventivo y recibió asistencia inmediata y clara. El vehículo está en buen estado y Alejandro no ha reportado problemas.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:59.368710+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Alejandro, gracias por confiar en nosotros y por tu reciente interacción positiva. Como cliente destacado, queremos ofrecerte acceso exclusivo a nuestro paquete de mantenimiento premium y garantía extendida, ideales para proteger y potenciar el valor de tu Honda Civic. Además, contamos con accesorios seleccionados que pueden personalizar tu experiencia. ¿Te gustaría conocer más detalles o tienes alguna necesidad específica en mente? Aprovecha estos beneficios exclusivos para clientes satisfechos. \n\nAntes de finalizar, ¿podrías calificar nuestro servicio del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9 Me ha gustado mucho la rapidez y claridad en la atención, especialmente para el mantenimiento preventivo. Me interesa saber más sobre el paquete de mantenimiento premium, ya que quiero mantener mi Civic en óptimas condiciones sin complicaciones. También me gustaría que los procesos para futuras compras sean igual de sencillos y eficientes.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0067",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". He tenido muy buenas experiencias con Kavak, especialmente por la puntualidad y calidad de los vehículos. Valoro mucho la atención personalizada y que respeten mi tiempo. Me gustaría que las ofertas sean realmente exclusivas y que me contacten solo cuando tengan algo que se ajuste a mi perfil, preferiblemente por email. Así puedo revisarlo con calma sin interrupciones.",
+      "initial_customer_message": null,
+      "LTV_og": 480000.0,
+      "LTV_final": 481006.42,
+      "engagement": 0.4,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": 1006.4199999999837,
+      "costo_estrategia": -1000.0,
+      "reward": 0.6,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Eduardo ha comprado tres vehículos con Kavak, todos entregados a tiempo y en excelentes condiciones. Prefiere ser contactado vía email o en horarios específicos para evitar interrupciones. Ha mostrado interés en vehículos de lujo y eléctricoss.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:56.911775+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Eduardo, gracias por confiar en nosotros en cada una de tus compras. Tenemos opciones exclusivas de vehículos premium y eléctricos que podrían interesarte, con condiciones preferenciales y asesoría personalizada por ser cliente frecuente. ¿Te gustaría agendar una llamada o recibir información detallada por email en el horario que prefieras? Aprovecha beneficios únicos en tu próxima recompra. \n\nAntes de continuar, ¿cómo calificarías tu experiencia reciente con Kavak en una escala del 0 al 10? Esto nos ayuda a seguir mejorando para ti.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. He tenido muy buenas experiencias con Kavak, especialmente por la puntualidad y calidad de los vehículos. Valoro mucho la atención personalizada y que respeten mi tiempo. Me gustaría que las ofertas sean realmente exclusivas y que me contacten solo cuando tengan algo que se ajuste a mi perfil, preferiblemente por email. Así puedo revisarlo con calma sin interrupciones.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0144",
+      "nps_og": 3,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 4,
+      "NPS_comment": ". Estoy frustrado porque estos problemas me han afectado mucho y aún no veo soluciones claras ni rápidas. Espero que realmente cumplan con lo que prometen para recuperar mi confianza.",
+      "initial_customer_message": null,
+      "LTV_og": 52000.0,
+      "LTV_final": 51702.86,
+      "engagement": 0.2,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -297.1399999999994,
+      "costo_estrategia": 300.0,
+      "reward": 0.05999999999999996,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "logistica",
+      "mini_story": "Cliente adquirió un vehículo hace 3 meses y realizó la venta de otro con Kavak. Ha reportado problemas mecánicos repetidos que han requerido visitas al taller y ha experimentado retrasos en la gestión de venta de su vehículo anterior.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:01.529655+00:00",
+      "nps_score_reported": 4.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Ricardo, entiendo lo importante que es para usted resolver ambos temas con urgencia. Le confirmo que en las próximas 48 horas recibirá una actualización detallada sobre la venta de su auto y la cita prioritaria para la revisión mecánica ya está siendo gestionada. ¿Podría indicarme su disponibilidad para una llamada de seguimiento? Su experiencia es fundamental para nosotros. Si tiene otra inquietud, quedo atento. Al finalizar el proceso, agradeceré su calificación del servicio recibido (0-10). ¿Le parece bien este plan?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 4. Estoy frustrado porque estos problemas me han afectado mucho y aún no veo soluciones claras ni rápidas. Espero que realmente cumplan con lo que prometen para recuperar mi confianza.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0158",
+      "nps_og": 3,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 4,
+      "NPS_comment": ". La atención es amable, pero la demora y las fallas me han generado mucho estrés.",
+      "initial_customer_message": null,
+      "LTV_og": 28000.0,
+      "LTV_final": 26802.89,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -1197.1100000000006,
+      "costo_estrategia": 1200.0,
+      "reward": 0.08999999999999994,
+      "strategy_name": "Escalar_Mecanico",
+      "strategy_rationale": "Brindar atención técnica o revisión en taller; útil para quejas de desempeño o garantía.",
+      "issue_bucket": "mecanica",
+      "mini_story": "Compró un vehículo usado a través de Kavak hace dos meses y vendió uno anterior también con ellos. Ha experimentado problemas mecánicos imprevistos y la entrega del vehículo comprado se retrasó más de lo acordado.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:58.876477+00:00",
+      "nps_score_reported": 4.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "María Fernanda, entiendo perfectamente su molestia por las fallas y los retrasos que ha vivido; lamento sinceramente el impacto en su movilidad y confianza. Su caso ya fue escalado al área técnica especializada para que su vehículo reciba atención prioritaria en nuestro taller certificado. En breve le contactaremos para agendar la cita y mantenerla informada en cada paso. ¿Hay algún horario que prefiera para la revisión? Su experiencia es muy valiosa para nosotros; antes de cerrar, ¿cómo calificaría nuestro servicio del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "La verdad estoy bastante frustrada porque esperaba que todo fuera más ágil y claro desde el principio. Necesito que la cita para la revisión sea en la mañana, ya que por la tarde tengo compromisos laborales que no puedo mover. Espero que esta vez sí cumplan con los tiempos que me prometan, porque mi movilidad depende mucho del vehículo. \n\nNPS: 4. La atención es amable, pero la demora y las fallas me han generado mucho estrés.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0013",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". Espero seguir viendo novedades interesantes.",
+      "initial_customer_message": null,
+      "LTV_og": 470000.0,
+      "LTV_final": 471006.525,
+      "engagement": 0.75,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.5250000000233,
+      "costo_estrategia": -1000.0,
+      "reward": 0.735,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Ha comprado 3 autos con Kavak de manera exitosa en los últimos 5 años, todos con buen historial y sin inconvenientes. Prefiere recibir comunicaciones principalmente por email y app móvil para estar informado de promociones y novedades.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:59.388854+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Alejandro, gracias por tu confianza en Kavak a lo largo de estos años. Queremos ofrecerte acceso prioritario a modelos premium y servicios exclusivos pensados para ti, con condiciones preferenciales y atención personalizada. ¿Te gustaría conocer opciones de upgrade o agregar beneficios especiales a tu experiencia actual? Responde este mensaje y uno de nuestros asesores te contactará para brindarte una propuesta a tu medida. Antes de cerrar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10?",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Hola, gracias por pensar en mí para estas opciones. Me interesa mucho conocer esas propuestas de upgrade y beneficios, sobre todo si son para autos premium, que es lo que busco. Eso sí, prefiero que toda la información me llegue por email o a través de la app, para revisarla con calma y sin interrupciones. Mi experiencia con Kavak ha sido muy buena hasta ahora, siempre ha sido eficiente y confiable. NPS: 9. Espero seguir viendo novedades interesantes.",
+          "metadata": {
+            "outcome": "customer_signaled_end:END"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0179",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". Aprecio que estén gestionando los pendientes, pero la falta de seguimiento claro me ha generado mucha incertidumbre. Espero que esta vez sí se cumplan los tiempos y pueda cerrar este proceso sin más complicaciones. Me gustaría sentir más confianza y transparencia en la comunicación.",
+      "initial_customer_message": null,
+      "LTV_og": 15000.0,
+      "LTV_final": 14704.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.32999999999999996,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Venta de un vehículo hace 3 meses. El proceso quedó con tareas pendientes de confirmación de pago y entrega de documentos oficiales que aún no se han completado en su totalidad, generando cierta inquietud.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:58.641032+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "María Fernanda, he revisado tu caso y confirmo que estamos gestionando la confirmación de pago y la entrega de tus documentos oficiales. Te contactaré por WhatsApp en máximo 48 horas con una actualización concreta sobre ambos pendientes. Entiendo la importancia de que este proceso sea claro y ágil para ti; cuentas con mi acompañamiento directo. ¿Hay alguna inquietud adicional que quieras compartir? Al finalizar, agradeceré mucho tu calificación del servicio recibido del 0 al 10.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 6. Aprecio que estén gestionando los pendientes, pero la falta de seguimiento claro me ha generado mucha incertidumbre. Espero que esta vez sí se cumplan los tiempos y pueda cerrar este proceso sin más complicaciones. Me gustaría sentir más confianza y transparencia en la comunicación.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0205",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": "Me ha gustado la experiencia, solo me gustaría más personalización en las ofertas.",
+      "initial_customer_message": null,
+      "LTV_og": 480000.0,
+      "LTV_final": 479206.54,
+      "engagement": 0.8,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": -793.460000000021,
+      "costo_estrategia": 800.0,
+      "reward": 0.75,
+      "strategy_name": "Cupon_Descuento",
+      "strategy_rationale": "Incentivar recompra o mantenimiento con un cupón de $500–$1,000 MXN (1–2% del ticket promedio).",
+      "issue_bucket": "atencion",
+      "mini_story": "Ha comprado dos vehículos con Kavak en los últimos cuatro años, ambos con procesos simples y sin inconvenientes. Prefiere que cualquier comunicación sea vía correo electrónico y aprecia ofertas exclusivas y claras que respalden su decisión de compra.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:59.559599+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Estimada Fernanda,\n\nGracias por confiar en nosotros para tus vehículos. Como muestra de nuestro aprecio, te otorgamos un cupón exclusivo de $1,000 MXN para tu próxima compra o servicio en Kavak, válido por 30 días. Esta ventaja es solo para clientes frecuentes como tú. Si deseas conocer opciones de autos o servicios adicionales, estoy a tu disposición para enviarte más información.\n\nAntes de cerrar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10? Tu opinión es muy valiosa para nosotros.",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Gracias por el cupón, lo valoro mucho porque siempre busco aprovechar beneficios claros y exclusivos. Me gustaría recibir información por correo sobre modelos nuevos que ofrezcan buen desempeño y facilidades, sin presiones. Prefiero seguir comunicándome por email para revisar con calma las opciones que se ajusten a mis necesidades. Aprecio que consideren a clientes frecuentes como yo, eso genera confianza y me hace sentir valorada.\n\nNPS: 9 Me ha gustado la experiencia, solo me gustaría más personalización en las ofertas.",
+          "metadata": {}
+        },
+        {
+          "role": "agent",
+          "content": "Estimada Fernanda,\n\nAgradecemos tu preferencia y comentarios, los cuales nos ayudan a mejorar. Te enviaré un catálogo personalizado con modelos recientes que destacan por su rendimiento y opciones flexibles, todo sin compromiso y por este mismo canal. Si tienes algún interés específico, házmelo saber para afinar aún más las sugerencias.\n\nAntes de concluir, ¿cómo calificarías tu experiencia con Kavak del 0 al 10? Tu opinión es fundamental para seguir ofreciéndote beneficios exclusivos.\n\nQuedo atenta a tus comentarios.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0100",
+      "nps_og": 4,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 5,
+      "NPS_comment": ". Aprecio que estén intentando mejorar la comunicación, pero la falta de información clara y los retrasos han generado mucha incertidumbre y estrés. Espero que realmente cumplan con las actualizaciones y que mi coche se repare pronto sin más contratiempos. También necesito que la venta de mi coche anterior avance rápido, porque esto está afectando mi trabajo y mi tranquilidad. Ojalá vean esto como una oportunidad para mejorar.",
+      "initial_customer_message": null,
+      "LTV_og": 84000.0,
+      "LTV_final": 82803.56,
+      "engagement": 0.2,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -1196.4400000000023,
+      "costo_estrategia": 1200.0,
+      "reward": 0.11999999999999997,
+      "strategy_name": "Escalar_Mecanico",
+      "strategy_rationale": "Brindar atención técnica o revisión en taller; útil para quejas de desempeño o garantía.",
+      "issue_bucket": "mecanica",
+      "mini_story": "Mariana adquirió un vehículo usado a través de Kavak hace dos meses y ha publicado su coche anterior para la venta con ellos. Reportó fallas mecánicas en su nuevo coche y retrasos en la entrega del servicio de mantenimiento pactado.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:59.108870+00:00",
+      "nps_score_reported": 5.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Mariana, lamento sinceramente los inconvenientes y la falta de información clara. Tu caso ya fue escalado al área mecánica especializada para priorizar la reparación de tu vehículo; recibirás actualizaciones personalizadas cada 24 horas por este canal. Si tienes dudas adicionales, estoy disponible para apoyarte directamente. Esta atención prioritaria busca evitar más afectaciones a tu rutina laboral y restaurar tu confianza. ¿Hay algún horario específico en el que prefieras recibir las actualizaciones? Al finalizar el proceso, agradeceré tu calificación del servicio (0-10).",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Gracias por la atención, pero honestamente sigo muy preocupada. Mi trabajo depende mucho de tener el coche en buen estado y estos retrasos me están afectando más de lo que esperaba. Prefiero recibir las actualizaciones en la mañana, antes de salir a mis citas. También quiero saber cómo va la venta de mi coche anterior, porque necesito que ese proceso sea rápido y transparente. Espero que esta vez sí haya un cambio real en la comunicación.",
+          "metadata": {
+            "outcome": "customer_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 5. Aprecio que estén intentando mejorar la comunicación, pero la falta de información clara y los retrasos han generado mucha incertidumbre y estrés. Espero que realmente cumplan con las actualizaciones y que mi coche se repare pronto sin más contratiempos. También necesito que la venta de mi coche anterior avance rápido, porque esto está afectando mi trabajo y mi tranquilidad. Ojalá vean esto como una oportunidad para mejorar.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0019",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". La experiencia ha sido aceptable, pero falta más acompañamiento y claridad para sentir confianza total.",
+      "initial_customer_message": null,
+      "LTV_og": 8500.0,
+      "LTV_final": 8204.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.32999999999999996,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Se inició el proceso de venta del vehículo con Kavak hace dos semanas, pero la documentación pendiente y la falta de comunicación clara han dejado el asunto sin cerrar. Kavak ha enviado recordatorios, pero María Fernanda no ha respondido a todas las solicitudes para completar la evaluación del vehículo, y no se ha concretado ninguna oferta definitiva.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:58.488076+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola María Fernanda, queremos apoyarte para que puedas cerrar la venta de tu auto sin complicaciones. Si tienes alguna duda sobre los documentos pendientes o necesitas ayuda para avanzar, estoy disponible para orientarte. ¿Prefieres que te llame o te escriba por WhatsApp en las próximas 48 horas? Así podremos resolver cualquier detalle juntos. Al finalizar, agradecería mucho tu calificación del 0 al 10 sobre tu experiencia con Kavak. ¿Cómo prefieres continuar?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "Prefiero que me escribas por WhatsApp, así puedo responder cuando tenga un momento tranquilo. La verdad, me siento un poco abrumada con todo el papeleo y la falta de claridad me genera incertidumbre. Necesito que la comunicación sea más clara y constante para sentirme segura y avanzar sin tanto estrés. Espero que puedan entender eso. \n\nNPS: 6. La experiencia ha sido aceptable, pero falta más acompañamiento y claridad para sentir confianza total.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0217",
+      "nps_og": 3,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 4,
+      "NPS_comment": ". Estoy frustrado porque confié en la revisión mecánica de Kavak y ahora tengo un problema serio que pone en riesgo la venta. Necesito que esta revisión sea realmente exhaustiva y que me den fechas claras para resolverlo, porque mi situación financiera y familiar está muy tensa. Espero que esta vez se tomen en serio el problema y me mantengan informado sin más sorpresas.",
+      "initial_customer_message": null,
+      "LTV_og": 75000.0,
+      "LTV_final": 73802.83,
+      "engagement": 0.1,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -1197.1699999999983,
+      "costo_estrategia": 1200.0,
+      "reward": 0.015000000000000036,
+      "strategy_name": "Escalar_Mecanico",
+      "strategy_rationale": "Brindar atención técnica o revisión en taller; útil para quejas de desempeño o garantía.",
+      "issue_bucket": "mecanica",
+      "mini_story": "Luis compró y vendió dos vehículos con Kavak en los últimos 18 meses. Actualmente tiene un proceso abierto para la venta de su auto, que presenta reportes de fallas.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:56.419595+00:00",
+      "nps_score_reported": 4.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Luis, lamento sinceramente el impacto que esta situación ha tenido en tu experiencia. Para atenderlo de inmediato, escalaremos tu caso al área mecánica especializada y agendaremos una revisión exhaustiva en nuestro taller certificado de Guadalajara. Te acompañaré personalmente durante todo el proceso y te mantendré informado sobre cada avance. ¿Podrías confirmarme tu disponibilidad para agendar la cita esta semana? Al finalizar, agradecería tu calificación del servicio recibido en una escala del 0 al 10.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 4. Estoy frustrado porque confié en la revisión mecánica de Kavak y ahora tengo un problema serio que pone en riesgo la venta. Necesito que esta revisión sea realmente exhaustiva y que me den fechas claras para resolverlo, porque mi situación financiera y familiar está muy tensa. Espero que esta vez se tomen en serio el problema y me mantengan informado sin más sorpresas.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0140",
+      "nps_og": 4,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 4,
+      "NPS_comment": ". Estoy muy frustrada por los retrasos y los problemas mecánicos que he tenido. Espero que esta vez sí puedan darme una solución rápida y clara, porque hasta ahora la comunicación ha sido muy deficiente y eso me genera mucha incertidumbre. Necesito que realmente me escuchen y me ayuden a resolver esto pronto, ya que dependo mucho del auto para mi trabajo y mis hijos.",
+      "initial_customer_message": null,
+      "LTV_og": 450000.0,
+      "LTV_final": 448802.86,
+      "engagement": 0.2,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -1197.140000000014,
+      "costo_estrategia": 1200.0,
+      "reward": 0.05999999999999996,
+      "strategy_name": "Escalar_Mecanico",
+      "strategy_rationale": "Brindar atención técnica o revisión en taller; útil para quejas de desempeño o garantía.",
+      "issue_bucket": "mecanica",
+      "mini_story": "Cliente con historial de compra y venta de vehículos, última transacción hace 2 meses. Reporta incidencias mecánicas y retrasos en procesos logísticos relacionados con su última compra. Solicita solución urgente.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:58.153982+00:00",
+      "nps_score_reported": 4.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Mariana, lamento profundamente los inconvenientes recientes y entiendo el impacto que han tenido en tu experiencia. Tu caso será atendido de inmediato por nuestro equipo mecánico especializado; agendaremos una revisión prioritaria en nuestro taller certificado y te mantendremos informada con actualizaciones personalizadas en menos de 24 horas. Puedes contactarme directamente por este canal para cualquier consulta adicional. ¿Podrías indicarme tu disponibilidad para la cita? Antes de cerrar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 4. Estoy muy frustrada por los retrasos y los problemas mecánicos que he tenido. Espero que esta vez sí puedan darme una solución rápida y clara, porque hasta ahora la comunicación ha sido muy deficiente y eso me genera mucha incertidumbre. Necesito que realmente me escuchen y me ayuden a resolver esto pronto, ya que dependo mucho del auto para mi trabajo y mis hijos.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_satisfecho_0008",
+      "nps_og": 9,
+      "vocal": true,
+      "satisfecho": true,
+      "cohort_label": "vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". Estoy muy satisfecho con la compra y la atención recibida, todo fue claro y eficiente. Me gustaría seguir recibiendo propuestas que se adapten a mis necesidades, especialmente en mantenimiento, para mantener mi Toyota en óptimas condiciones. La comunicación fluida y profesional es clave para mí.",
+      "initial_customer_message": null,
+      "LTV_og": 420000.0,
+      "LTV_final": 421006.51,
+      "engagement": 0.7,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.5100000000093,
+      "costo_estrategia": -1000.0,
+      "reward": 0.72,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Carlos compró un Toyota Corolla 2018 gris el 15 de abril de 2024 a través de la app de Kavak. El vehículo tiene 40,000 km y ha sido entregado en excelentes condiciones tras una inspección completa. Ha recibido correos informativos sobre su financiamiento y la garantía ofrecida, todo dentro de los últimos 30 días.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:57.864104+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "¡Hola, Carlos! Gracias por confiar en nosotros y felicidades por tu Toyota Corolla. Nos alegra saber que tu experiencia ha sido excelente. Para seguir cuidando tu vehículo, te propongo un plan personalizado de mantenimiento preventivo y accesorios exclusivos, con atención prioritaria y condiciones preferenciales. ¿Te gustaría agendar una llamada para conocer tus intereses y adaptar la oferta a lo que más te convenga? Valoramos mucho tu lealtad. Antes de cerrar, ¿podrías calificar tu satisfacción con Kavak del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. Estoy muy satisfecho con la compra y la atención recibida, todo fue claro y eficiente. Me gustaría seguir recibiendo propuestas que se adapten a mis necesidades, especialmente en mantenimiento, para mantener mi Toyota en óptimas condiciones. La comunicación fluida y profesional es clave para mí.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0154",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": "Me siento bien atendido y valorado, solo me gustaría un poco más de personalización en las propuestas.",
+      "initial_customer_message": null,
+      "LTV_og": 470000.0,
+      "LTV_final": 471006.39,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": 1006.390000000014,
+      "costo_estrategia": -1000.0,
+      "reward": 0.5999999999999999,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Cliente con dos compras exitosas en los últimos 4 años, siempre ha optado por comunicación vía email y prefiere un trato personalizado pero no intrusivo. No se han registrado quejas ni solicitudes recientes de contacto proactivo.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:56.917875+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Estimado Carlos, agradecemos sinceramente tu confianza en Kavak a lo largo de estos años. Nos gustaría ofrecerte acceso preferencial a opciones de actualización o mejora de vehículo, con condiciones de financiamiento personalizadas para clientes frecuentes como tú. Si te interesa recibir una asesoría personalizada y sin compromiso, por favor indícanos y agendamos según tu conveniencia. Antes de finalizar, ¿podrías calificar tu experiencia reciente con Kavak del 0 al 10? Tu opinión es muy valiosa para nosotros.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "Aprecio mucho que consideren mi perfil para opciones exclusivas, eso me hace sentir valorado como cliente. Prefiero seguir recibiendo propuestas por email, sin llamadas, para evaluar con tranquilidad y sin presión. Estoy abierto a ver vehículos premium que reflejen mi estilo y necesidades. Gracias por respetar mi espacio y comunicación discreta.\n\nNPS: 9 Me siento bien atendido y valorado, solo me gustaría un poco más de personalización en las propuestas.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0121",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ", sigo satisfecho con Kavak.",
+      "initial_customer_message": null,
+      "LTV_og": 520000.0,
+      "LTV_final": 519206.51,
+      "engagement": 0.7,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": -793.4899999999907,
+      "costo_estrategia": 800.0,
+      "reward": 0.72,
+      "strategy_name": "Cupon_Descuento",
+      "strategy_rationale": "Incentivar recompra o mantenimiento con un cupón de $500–$1,000 MXN (1–2% del ticket promedio).",
+      "issue_bucket": "atencion",
+      "mini_story": "Alejandro realizó hace dos años la compra de un sedán seminuevo a través de Kavak, con un proceso fluido y satisfactorio. Ha preferido recibir comunicaciones vía email y app para información sobre promociones y actualizaciones. Nunca ha reportado problemas con la compra y no ha participado en encuestas recientes.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:05.516496+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Alejandro, gracias por confiar en nosotros para tu compra reciente. Como reconocimiento a tu preferencia, te otorgamos un cupón exclusivo de $1,000 MXN para servicios de mantenimiento preventivo o accesorios, disponible en tu próxima visita. Es un beneficio especial para clientes como tú. Si deseas aprovecharlo o tienes alguna consulta, estamos a tu disposición por este canal o en la app. ¿Podrías calificarnos del 0 al 10 según tu experiencia con Kavak? Tu opinión es muy valiosa para seguir mejorando.",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Muchas gracias por el cupón, lo valoro mucho porque siempre me gusta mantener mi auto en buen estado. Me gustaría saber si tienen también ofertas exclusivas para clientes que buscan un segundo vehículo, con opciones claras de financiamiento y garantías. Me interesa algo que realmente se ajuste a mis necesidades y que sea confiable, sin presiones. Espero puedan enviarme información detallada por email o app. NPS: 9, la experiencia ha sido muy buena hasta ahora.",
+          "metadata": {}
+        },
+        {
+          "role": "agent",
+          "content": "Alejandro, agradecemos tu interés y tu excelente calificación. Te enviaremos por email y app una selección personalizada de vehículos seminuevos con opciones de financiamiento flexibles y garantías, pensadas para tu perfil. Nuestro equipo está listo para asesorarte sin compromiso y ayudarte a encontrar la mejor alternativa. Si tienes preferencias específicas, compártenoslas para afinar la propuesta. ¿Podrías confirmar tu calificación del 0 al 10 sobre tu experiencia con Kavak? Tu opinión nos ayuda a seguir mejorando.",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Gracias por la atención y por considerar mis necesidades. Me gustaría ver opciones de sedanes o SUVs medianos, con buen rendimiento de combustible y tecnologías actualizadas, preferiblemente modelos recientes. También me interesa conocer detalles claros sobre las garantías y los plazos de financiamiento. Aprecio mucho que no haya presiones en el proceso, eso me da confianza para evaluar bien. Espero la información por email o app cuando esté lista. NPS: 9, sigo satisfecho con Kavak.",
+          "metadata": {
+            "outcome": "customer_signaled_end:END"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0127",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". La experiencia ha sido aceptable, pero siento que falta más claridad y comunicación constante. Me gustaría tener una idea más precisa de cada paso para sentirme seguro y evitar sorpresas. Estoy un poco reservado porque no he recibido respuestas claras a mis dudas previas, y eso genera desconfianza. Espero que puedan demostrar mayor transparencia para que pueda avanzar sin preocuparme tanto.",
+      "initial_customer_message": null,
+      "LTV_og": 8500.0,
+      "LTV_final": 8204.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.3,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Ha iniciado el proceso de venta de su vehículo, recibió una oferta pero no completó la entrega de documentación requerida. Se contactó una vez para solicitar información adicional, la cual quedó pendiente de respuesta por parte de Kavak. No hay confirmaciones recientes ni seguimiento cerrado.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:01.145873+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Miguel, espero que estés muy bien. Notamos que tu proceso de venta sigue pendiente por la entrega de algunos documentos. Si tienes dudas o necesitas ayuda para completar este paso, estoy disponible para apoyarte y agilizar la operación. ¿Te gustaría que te llame o prefieres continuar por WhatsApp? Te contactaré en máximo 48 horas para dar seguimiento personalizado. ¿Podrías compartirnos tu calificación del 0 al 10 sobre tu experiencia con Kavak hasta ahora?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 6. La experiencia ha sido aceptable, pero siento que falta más claridad y comunicación constante. Me gustaría tener una idea más precisa de cada paso para sentirme seguro y evitar sorpresas. Estoy un poco reservado porque no he recibido respuestas claras a mis dudas previas, y eso genera desconfianza. Espero que puedan demostrar mayor transparencia para que pueda avanzar sin preocuparme tanto.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0019",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". He tenido muy buenas experiencias con Kavak, la calidad y el servicio me han convencido. Solo agradecería que la comunicación sea más discreta y enfocada por email, sin tanta insistencia, para poder evaluar con calma las opciones cuando esté listo.",
+      "initial_customer_message": null,
+      "LTV_og": 525000.0,
+      "LTV_final": 526006.39,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": 1006.390000000014,
+      "costo_estrategia": -1000.0,
+      "reward": 0.5999999999999999,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Ha realizado dos compras exitosas de vehículos en Kavak en los últimos cinco años, ambos sin inconvenientes. Prefiere recibir ofertas y novedades por email y ocasionalmente por mensajes en la app para evaluar opciones sin presión.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:57.263913+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Guillermo, gracias por confiar en nosotros en tus dos compras recientes. Queremos mantenerte al tanto de lanzamientos y promociones exclusivas que podrían ajustarse a tus intereses, incluyendo opciones de upgrades y condiciones de crédito personalizadas. Si deseas una asesoría personalizada o recibir más detalles, solo indícalo y te contactaremos sin compromiso. Aprovecha para estar informado y tomar la mejor decisión en el futuro. ¿Podrías calificar tu experiencia con Kavak del 0 al 10? Tu opinión nos ayuda a mejorar.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. He tenido muy buenas experiencias con Kavak, la calidad y el servicio me han convencido. Solo agradecería que la comunicación sea más discreta y enfocada por email, sin tanta insistencia, para poder evaluar con calma las opciones cuando esté listo.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_satisfecho_0025",
+      "nps_og": 9,
+      "vocal": true,
+      "satisfecho": true,
+      "cohort_label": "vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". La experiencia ha sido muy fluida y confiable, especialmente valorando la gestión digital que se adapta a mi ritmo de vida. Me gustaría que sigan mejorando la comunicación sobre promociones y mantenimientos para aprovechar aún más los beneficios. Estoy contenta con mi compra y la atención recibida.",
+      "initial_customer_message": null,
+      "LTV_og": 230000.0,
+      "LTV_final": 229706.48,
+      "engagement": 0.6,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": -293.5199999999895,
+      "costo_estrategia": 300.0,
+      "reward": 0.6749999999999999,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "logistica",
+      "mini_story": "Mariana compró un Honda Civic 2019 el 15 de marzo de 2024 a través de la app de Kavak. Realizó la inspección y financiamiento también digitalmente. Ha utilizado la app para agendar sus mantenimientos y consultar información del vehículo.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:39:58.577903+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "¡Hola, Mariana! Felicidades por tu reciente Honda Civic; es un gusto ver cómo aprovechas la app de Kavak. Recuerda que cuentas con beneficios exclusivos de mantenimiento y asistencia para tu vehículo. ¿Te gustaría agendar tu próximo servicio o recibir asesoría personalizada para cuidar tu auto? Si tienes sugerencias o necesitas algo más, estoy aquí para ayudarte. ¿Podrías valorar tu experiencia con Kavak del 0 al 10? Tu opinión es clave para seguir mejorando. Quedo atenta a tu respuesta.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. La experiencia ha sido muy fluida y confiable, especialmente valorando la gestión digital que se adapta a mi ritmo de vida. Me gustaría que sigan mejorando la comunicación sobre promociones y mantenimientos para aprovechar aún más los beneficios. Estoy contenta con mi compra y la atención recibida.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0202",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": "Me gustaría más claridad y seguimiento puntual para sentirme más confiada.",
+      "initial_customer_message": null,
+      "LTV_og": 12000.0,
+      "LTV_final": 11704.44,
+      "engagement": 0.8,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.5599999999995,
+      "costo_estrategia": 300.0,
+      "reward": 0.5549999999999999,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Gabriela vendió un vehículo hace cuatro semanas por medio de Kavak, pero no se ha completado el proceso de transferencia ni ha recibido confirmación documental. El seguimiento del caso tiene tareas pendientes por parte de Kavak para completar papeles y entregar la documentación, sin que se haya contactado para actualizarla.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:12.173939+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Gabriela, te saludo desde Kavak para informarte que estamos finalizando los trámites de la transferencia de tu vehículo. Estimamos que la documentación estará lista en un máximo de 7 días hábiles; te la enviaremos por este medio en cuanto esté disponible. Tu satisfacción es muy importante para nosotros y estamos priorizando tu caso. ¿Podrías confirmar que recibiste este mensaje? Si tienes alguna pregunta, estoy para apoyarte. Antes de cerrar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10?",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Hola, gracias por la información. Me alivia saber que están trabajando en ello, pero la verdad he estado un poco preocupada por no tener noticias claras antes. Necesito estar segura de que todo está en orden con la transferencia y que no habrá problemas legales después. Espero que esta vez sí pueda recibir toda la documentación completa y sin más demoras. Confirmo que recibí tu mensaje.  \nNPS: 6 Me gustaría más claridad y seguimiento puntual para sentirme más confiada.",
+          "metadata": {}
+        },
+        {
+          "role": "agent",
+          "content": "Gracias por tu confirmación, Gabriela. Estamos gestionando los últimos detalles para asegurar que la transferencia quede completamente regularizada y sin inconvenientes legales. Te enviaré la documentación final por WhatsApp en un plazo máximo de 7 días hábiles y te mantendré informada de cada avance. Si surge alguna novedad antes, te contactaré de inmediato. ¿Tienes alguna inquietud adicional que pueda resolver hoy? Antes de finalizar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0109",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". He tenido muy buenas experiencias con Kavak, especialmente por la calidad de los vehículos y la atención. Me gustaría recibir propuestas exclusivas y claras por email, que se ajusten a mi perfil, sin tener que buscar activamente. Valoro mucho la eficiencia en la comunicación y la personalización.",
+      "initial_customer_message": null,
+      "LTV_og": 520000.0,
+      "LTV_final": 521006.48,
+      "engagement": 0.6,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.4799999999814,
+      "costo_estrategia": -1000.0,
+      "reward": 0.6749999999999999,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Ha realizado dos compras exitosas en los últimos años, siempre ha optado por modelos premium y ha mostrado preferencia por recibir información vía email y notificaciones en la app Kavak.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:10.098567+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Alejandro, como cliente preferente, tienes acceso anticipado a nuestra nueva selección de vehículos premium y opciones de mejora exclusivas. Podemos ofrecerte condiciones de financiamiento personalizadas y servicios adicionales para tu próxima compra o upgrade. Si te interesa conocer estas oportunidades, agenda una llamada o indícanos si prefieres recibir la información detallada por email o en la app. Antes de cerrar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10? Tu opinión nos ayuda a seguir mejorando.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. He tenido muy buenas experiencias con Kavak, especialmente por la calidad de los vehículos y la atención. Me gustaría recibir propuestas exclusivas y claras por email, que se ajusten a mi perfil, sin tener que buscar activamente. Valoro mucho la eficiencia en la comunicación y la personalización.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0173",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". Aprecio que me hayan contactado, pero aún siento que falta claridad y acompañamiento constante para sentirme seguro en todo el proceso. La comunicación debería ser más fluida y personalizada para evitar la ansiedad que me genera esta venta.",
+      "initial_customer_message": null,
+      "LTV_og": 7800.0,
+      "LTV_final": 7504.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.71000000000004,
+      "costo_estrategia": 300.0,
+      "reward": 0.27,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Alejandro inició la venta de su automóvil hace dos semanas pero no ha completado todos los pasos requeridos. Hay una revisión técnica pendiente y varios documentos no han sido cargados a la plataforma. El seguimiento del equipo de Kavak ha sido limitado, sin notificaciones claras de los próximos pasos ni asesoría personalizada.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:11.148929+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Alejandro, te acompaño personalmente para avanzar con la venta de tu auto. Solo faltan la revisión técnica y subir algunos documentos; si necesitas ayuda, puedo guiarte paso a paso. ¿Prefieres que te llame o te escriba por WhatsApp en las próximas 48 horas para resolverlo juntos? Así aceleramos el proceso y aseguras el mejor valor. Al finalizar, agradecería mucho tu calificación del 0 al 10 sobre tu experiencia con Kavak. ¿Cómo prefieres continuar?",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Hola, gracias por el mensaje. La verdad, me siento un poco perdido con todo el proceso y la falta de comunicación me genera algo de ansiedad. Me gustaría tener un acompañamiento más claro y constante, porque no solo es cuestión de subir documentos, sino entender bien cada paso para no cometer errores. Prefiero que me escribas por WhatsApp; así puedo responder cuando tenga un momento sin sentir presión. Espero que así sea más sencillo avanzar.",
+          "metadata": {
+            "outcome": "customer_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 6. Aprecio que me hayan contactado, pero aún siento que falta claridad y acompañamiento constante para sentirme seguro en todo el proceso. La comunicación debería ser más fluida y personalizada para evitar la ansiedad que me genera esta venta.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0213",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ".",
+      "initial_customer_message": null,
+      "LTV_og": 8500.0,
+      "LTV_final": 8204.44,
+      "engagement": 0.8,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.5599999999995,
+      "costo_estrategia": 300.0,
+      "reward": 0.5549999999999999,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Se realizó una venta de vehículo hace un mes, pero el seguimiento postventa se ha quedado corto; Alejandro ha recibido algunas comunicaciones generales pero ninguna confirmación detallada sobre el cierre legal de la operación ni resolución de documentos. Hay tareas pendientes en el área legal para completar el proceso y comunicar el estado.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:13.795188+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Alejandro, te confirmo que tu proceso de venta está en la etapa final de cierre legal; actualmente el área legal revisa los documentos para formalizar el traspaso. Estimamos concluir y enviarte la confirmación oficial en máximo 48 horas. Si tienes alguna consulta puntual, puedes contactarme directamente por este canal. ¿Podrías compartirnos tu calificación del 0 al 10 sobre tu experiencia con Kavak hasta ahora? Esto nos ayuda a mejorar nuestro servicio. Quedo atento a cualquier duda o comentario.",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Gracias por la información. La verdad, me siento un poco ansioso porque no tengo claro si todo está en orden legalmente y eso me genera incertidumbre. Me gustaría recibir esa confirmación oficial cuanto antes para sentirme tranquilo y seguro de que la venta se cerró correctamente. Hasta ahora, la comunicación ha sido un poco general y necesito más detalles claros para confiar plenamente en el proceso. NPS: 6.",
+          "metadata": {}
+        },
+        {
+          "role": "agent",
+          "content": "Alejandro, comprendo totalmente tu inquietud y agradezco tu honestidad. El equipo legal está finalizando la validación de tu trámite; recibirás la confirmación oficial y los documentos de cierre en un plazo máximo de 48 horas por este canal. Si surge alguna actualización antes, te contactaré de inmediato. Para cualquier pregunta, estoy disponible directamente por WhatsApp. ¿Podrías compartir tu calificación del 0 al 10 sobre tu experiencia? Esto nos ayuda a mejorar y asegurar tu tranquilidad.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0022",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". La atención es amable, pero falta mayor claridad y seguimiento.",
+      "initial_customer_message": null,
+      "LTV_og": 8500.0,
+      "LTV_final": 8204.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.27,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Fernando inició el proceso de venta de su vehículo hace dos meses y ha recibido información esporádica del equipo, pero no ha habido seguimiento continuo ni confirmación sobre el estatus de la oferta ni los documentos pendientes. Hay tareas administrativas atrasadas que no se han gestionado, generando incertidumbre.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:08.597125+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Fernando, te comparto una actualización sobre tu proceso de venta: actualmente estamos revisando los documentos pendientes para avanzar con la gestión administrativa. Si necesitas apoyo para completar algún trámite, estoy disponible para asistirte y agilizar cualquier paso. En las próximas 48 horas te contactaré por WhatsApp para confirmar avances o resolver dudas. ¿Hay algo específico en lo que te gustaría que te ayudara ahora? Al finalizar, agradecería tu calificación del servicio recibido del 0 al 10.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "Agradezco la actualización, pero la verdad me gustaría tener un seguimiento más constante y claro. Han pasado semanas sin saber exactamente qué documentos faltan o cómo va el proceso, y eso me genera incertidumbre. Necesito sentir que el trámite avanza sin complicaciones y que realmente están comprometidos con facilitar la venta. Espero que en estos días la comunicación sea más puntual y completa, para poder confiar y cerrar pronto esta etapa. \n\nNPS: 6. La atención es amable, pero falta mayor claridad y seguimiento.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0007",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": "Me ha gustado mucho la rapidez y claridad en la información. Valoro que me ofrezcan opciones personalizadas, pero me gustaría que las propuestas lleguen siempre por email o app para poder revisarlas con calma en mis tiempos.",
+      "initial_customer_message": null,
+      "LTV_og": 480000.0,
+      "LTV_final": 481006.48,
+      "engagement": 0.6,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.4799999999814,
+      "costo_estrategia": -1000.0,
+      "reward": 0.69,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Ha comprado dos vehículos previamente con Kavak, ambos procesos fueron rápidos y sin complicaciones. Prefiere recibir información y ofertas por email y app, utilizando estas plataformas para consultas y seguimiento.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:08.993475+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Sofía, gracias por confiar en nosotros para tus compras anteriores. Queremos reconocerte con acceso prioritario a vehículos premium y servicios exclusivos, con opciones de financiamiento adaptadas a tu perfil. Si te interesa conocer modelos seleccionados o explorar upgrades, podemos enviarte propuestas personalizadas por email o app, según prefieras. ¿Te gustaría recibir estas recomendaciones? Además, tu opinión es clave: ¿cómo calificarías tu experiencia con Kavak del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9 Me ha gustado mucho la rapidez y claridad en la información. Valoro que me ofrezcan opciones personalizadas, pero me gustaría que las propuestas lleguen siempre por email o app para poder revisarlas con calma en mis tiempos.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_satisfecho_0053",
+      "nps_og": 9,
+      "vocal": true,
+      "satisfecho": true,
+      "cohort_label": "vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". Estoy muy contenta con la atención rápida y clara que recibí, además de la facilidad para agendar el servicio. Me gustaría seguir contando con esa eficiencia y confianza para mantener mi Tucson en buen estado.",
+      "initial_customer_message": null,
+      "LTV_og": 285000.0,
+      "LTV_final": 286006.51,
+      "engagement": 0.7,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.5100000000093,
+      "costo_estrategia": -1000.0,
+      "reward": 0.72,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Compró un Hyundai Tucson 2018 mediante Kavak el 15 de marzo de 2024. El vehículo fue entregado el 20 de marzo de 2024 con garantía extendida y revisión certificada. Ha realizado una consulta por servicio de mantenimiento vía la app el 10 de abril de 2024, y el servicio fue agendado sin inconvenientes.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:08.999808+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Sofía, ¡gracias por confiar en Kavak y por tu excelente actitud! Como clienta reciente y satisfecha, puedes acceder a un plan de mantenimiento personalizado, protección de llantas y asistencia vial, todo diseñado para que tu Hyundai Tucson esté siempre en óptimas condiciones y disfrutes de atención prioritaria. ¿Te gustaría recibir más detalles o agendar una llamada para elegir el plan ideal para ti? \n\nAntes de cerrar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. Estoy muy contenta con la atención rápida y clara que recibí, además de la facilidad para agendar el servicio. Me gustaría seguir contando con esa eficiencia y confianza para mantener mi Tucson en buen estado.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0149",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". La experiencia ha sido aceptable, pero me gustaría más claridad y seguimiento. Siento que no he tenido toda la información para estar seguro de que estoy haciendo lo correcto, y eso me genera incertidumbre. Necesito que me expliquen bien cada paso y qué beneficios realmente obtengo para sentirme tranquilo y tomar una decisión con confianza. Por ahora, estoy un poco inseguro y eso me frena para avanzar.",
+      "initial_customer_message": null,
+      "LTV_og": 12000.0,
+      "LTV_final": 11704.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.32999999999999996,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Luis inició la venta de su auto hace un mes. La gestión quedó incompleta, ya que no finalizó la firma de algunos documentos y no respondió a los intentos de contacto para cerrar la operación y recibir el pago. Actualmente, hay tareas pendientes para formalizar la operación y el seguimiento ha sido limitado.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:14.308660+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Luis, notamos que tu proceso de venta sigue pendiente por la firma de algunos documentos. Queremos ayudarte a finalizarlo para que recibas tu pago lo antes posible. ¿Prefieres que te contactemos por WhatsApp o te enviamos los documentos por otro medio? Si nos confirmas tu preferencia, te contactaremos en las próximas 48 horas. ¿Te gustaría agendar una llamada o prefieres resolverlo por mensaje? Antes de cerrar, ¿cómo calificarías tu experiencia con nosotros del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 6. La experiencia ha sido aceptable, pero me gustaría más claridad y seguimiento. Siento que no he tenido toda la información para estar seguro de que estoy haciendo lo correcto, y eso me genera incertidumbre. Necesito que me expliquen bien cada paso y qué beneficios realmente obtengo para sentirme tranquilo y tomar una decisión con confianza. Por ahora, estoy un poco inseguro y eso me frena para avanzar.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0092",
+      "nps_og": 4,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 4,
+      "NPS_comment": ". Aprecio que quieran atender mi caso con prioridad, pero la falta de comunicación clara y los retrasos previos me han generado mucha desconfianza. Necesito que realmente cumplan con mantenerme informada y que esta vez la solución sea definitiva, porque ya he perdido mucho tiempo y paciencia. Espero que esta vez sí se refleje ese compromiso que me prometen.",
+      "initial_customer_message": null,
+      "LTV_og": 12500.0,
+      "LTV_final": 11302.86,
+      "engagement": 0.2,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -1197.1399999999994,
+      "costo_estrategia": 1200.0,
+      "reward": 0.05999999999999996,
+      "strategy_name": "Escalar_Mecanico",
+      "strategy_rationale": "Brindar atención técnica o revisión en taller; útil para quejas de desempeño o garantía.",
+      "issue_bucket": "logistica",
+      "mini_story": "Cliente compró un vehículo y posteriormente vendió otro usando la plataforma Kavak. Ha reportado demoras en la entrega y fallas mecánicas repetidas que han requerido múltiples visitas al taller certificado por Kavak.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:11.520925+00:00",
+      "nps_score_reported": 4.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Verónica, lamento sinceramente los inconvenientes y entiendo tu frustración. Tu caso será atendido con máxima prioridad por nuestro equipo mecánico especializado; ya estamos gestionando una cita inmediata en el taller certificado para una revisión exhaustiva y solución definitiva. Te mantendré informada diariamente sobre el avance y los tiempos estimados. Si tienes dudas, puedes contactarme directamente por este canal. Queremos demostrarte nuestro compromiso real con tu satisfacción. Al finalizar el proceso, ¿podrías calificarnos del 0 al 10 según tu experiencia?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 4. Aprecio que quieran atender mi caso con prioridad, pero la falta de comunicación clara y los retrasos previos me han generado mucha desconfianza. Necesito que realmente cumplan con mantenerme informada y que esta vez la solución sea definitiva, porque ya he perdido mucho tiempo y paciencia. Espero que esta vez sí se refleje ese compromiso que me prometen.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_insatisfecho_0212",
+      "nps_og": 3,
+      "vocal": true,
+      "satisfecho": false,
+      "cohort_label": "vocal_insatisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 4,
+      "NPS_comment": ". La atención ha sido lenta y la falta de claridad me ha generado mucha incertidumbre. Espero que ahora sí se resuelva rápido porque dependo mucho del auto para mi trabajo y mi familia. Necesito que me confirmen bien los tiempos y que no haya más retrasos. Esto ha sido muy estresante para mí.",
+      "initial_customer_message": null,
+      "LTV_og": 350000.0,
+      "LTV_final": 348802.83,
+      "engagement": 0.1,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -1197.1699999999837,
+      "costo_estrategia": 1200.0,
+      "reward": 0.015000000000000036,
+      "strategy_name": "Escalar_Mecanico",
+      "strategy_rationale": "Brindar atención técnica o revisión en taller; útil para quejas de desempeño o garantía.",
+      "issue_bucket": "mecanica",
+      "mini_story": "Luis realizó una operación de compra y venta con Kavak hace tres meses. Ha reportado demoras en la logística de entrega y fallas mecánicas detectadas después de la compra. Ha estado en contacto con el centro de atención pero considera que las respuestas han sido insuficientes.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:10.073162+00:00",
+      "nps_score_reported": 4.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Luis, tu caso ha sido escalado de forma prioritaria al equipo técnico senior de Kavak. En menos de 24 horas, un especialista te contactará para coordinar una revisión integral de tu vehículo en nuestro taller certificado y resolver las fallas reportadas. Queremos asegurarte máxima seguridad y respaldo. ¿Podrías confirmarnos tu disponibilidad para agendar la cita? Si prefieres, puedes dar seguimiento directo por este canal. Antes de finalizar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 4. La atención ha sido lenta y la falta de claridad me ha generado mucha incertidumbre. Espero que ahora sí se resuelva rápido porque dependo mucho del auto para mi trabajo y mi familia. Necesito que me confirmen bien los tiempos y que no haya más retrasos. Esto ha sido muy estresante para mí.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0163",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ", porque aún necesito más claridad y seguimiento para sentirme completamente respaldado.",
+      "initial_customer_message": null,
+      "LTV_og": 8500.0,
+      "LTV_final": 8204.425,
+      "engagement": 0.75,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.5750000000007,
+      "costo_estrategia": 300.0,
+      "reward": 0.5399999999999999,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Luis vendió un vehículo a Kavak hace cuatro semanas. Ha recibido confirmación del inicio del proceso, pero no ha tenido ningún seguimiento después de la valoración inicial. El pago aún no ha sido liberado y no hay actualización en el estado de la operación en el portal de cliente, dejando la operación en un estado pendientede cierre.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:09.909006+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Luis, te informo que el pago de tu venta está en proceso y el retraso se debe a una validación administrativa interna. Estimamos resolverlo y liberar el pago en un plazo máximo de 5 días hábiles. Te contactaré por WhatsApp en 48 horas con una actualización puntual. Si tienes dudas, puedes escribirme directamente por este canal. Queremos que te sientas respaldado en todo momento. ¿Podrías compartirnos tu nivel de satisfacción con Kavak del 0 al 10?",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Gracias por la información. Entiendo que estos procesos pueden tardar, pero la verdad es que la falta de comunicación me ha generado algo de incertidumbre, especialmente porque dependo de ese pago para organizar mis finanzas. Aprecio que me mantengas informado, eso me ayudaría a sentirme más tranquilo. Espero que en estos días pueda tener una actualización clara y puntual. NPS: 6, porque aún necesito más claridad y seguimiento para sentirme completamente respaldado.",
+          "metadata": {
+            "outcome": "customer_signaled_end:END"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0108",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". Siempre he tenido buenas experiencias con Kavak, la compra ha sido transparente y rápida. Me gustaría seguir recibiendo propuestas claras y personalizadas por email, que se adapten a mi interés en tecnología avanzada y sin llamadas frecuentes, para poder evaluar opciones con calma. Aprecio mucho que respeten mi tiempo y me mantengan informado sin presiones.",
+      "initial_customer_message": null,
+      "LTV_og": 520000.0,
+      "LTV_final": 521006.39,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": 1006.390000000014,
+      "costo_estrategia": -1000.0,
+      "reward": 0.5999999999999999,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Alejandro ha comprado dos vehículos con Kavak en los últimos cuatro años, ambas transacciones se completaron con éxito, sin reclamos ni devoluciones. Prefiere comunicarse vía email para recibir ofertas y novedades, aunque suele responder con cierto retraso debido a su jornada laboral ocupada.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:09.772499+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Estimado Alejandro,\n\nAgradecemos sinceramente tu preferencia y confianza en Kavak. Como cliente distinguido, tienes acceso a condiciones exclusivas para renovar tu vehículo o agregar servicios premium, como planes de protección extendida y upgrades en modelos seleccionados. Si deseas conocer opciones personalizadas que se adapten a tu estilo de vida, podemos agendar una llamada cuando te convenga. ¿Te gustaría recibir una selección de vehículos premium o detalles de servicios adicionales?\n\nAntes de cerrar, ¿cómo calificarías tu experiencia con Kavak del 0 al 10? \n\nQuedo atento a tus comentarios.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. Siempre he tenido buenas experiencias con Kavak, la compra ha sido transparente y rápida. Me gustaría seguir recibiendo propuestas claras y personalizadas por email, que se adapten a mi interés en tecnología avanzada y sin llamadas frecuentes, para poder evaluar opciones con calma. Aprecio mucho que respeten mi tiempo y me mantengan informado sin presiones.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0209",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". La experiencia fue buena al vender mi auto, pero aún siento incertidumbre y falta de claridad en el seguimiento. Me gustaría que fueran más transparentes y que me dieran confianza para sentirme seguro en futuras operaciones. Estoy pasando por momentos complicados y necesito un trato más cercano y claro para poder confiar plenamente en Kavak.",
+      "initial_customer_message": null,
+      "LTV_og": 15000.0,
+      "LTV_final": 14704.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.32999999999999996,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Luis vendió su vehículo hace 3 meses, pero no ha completado la actualización de su perfil ni ha respondido a solicitudes de retroalimentación. Hay tareas pendientes en el seguimiento postventa por parte de Kavak que permanecen sin atender.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:10.417213+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Luis, espero que estés muy bien. Queremos apoyarte para que completes la actualización de tu perfil y las tareas pendientes; esto te permitirá acceder a futuras promociones y recibir un soporte más ágil cuando lo necesites. Si tienes alguna duda o inconveniente, estoy disponible para ayudarte. Te contactaré por WhatsApp en las próximas 48 horas para acompañarte en el proceso. ¿Podrías calificar tu experiencia con Kavak del 0 al 10? ¡Tu opinión es muy valiosa para nosotros!",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 6. La experiencia fue buena al vender mi auto, pero aún siento incertidumbre y falta de claridad en el seguimiento. Me gustaría que fueran más transparentes y que me dieran confianza para sentirme seguro en futuras operaciones. Estoy pasando por momentos complicados y necesito un trato más cercano y claro para poder confiar plenamente en Kavak.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_satisfecho_0165",
+      "nps_og": 9,
+      "vocal": true,
+      "satisfecho": true,
+      "cohort_label": "vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". La experiencia fue muy ágil y sencilla, justo lo que necesitaba. Me gusta la garantía y la transparencia en todo el proceso. Espero seguir viendo opciones interesantes para futuros vehículos.",
+      "initial_customer_message": null,
+      "LTV_og": 250000.0,
+      "LTV_final": 251006.48,
+      "engagement": 0.6,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.4800000000105,
+      "costo_estrategia": -1000.0,
+      "reward": 0.69,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "logistica",
+      "mini_story": "Luis adquirió un Volkswagen Jetta modelo 2018 el 10 de abril de 2024 mediante Kavak. El vehículo cuenta con 45,000 km, revisión técnica vigente y garantía extendida de 6 meses. La compra se completó a través de la app de Kavak, con entrega en Monterrey el 15 de abril de 2024.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:10.171055+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Luis, agradecemos sinceramente tu confianza y excelente valoración tras tu compra reciente. Nos alegra saber que la experiencia fue positiva y queremos seguir acompañándote. Si en algún momento te interesa renovar tu vehículo o adquirir uno adicional, tenemos opciones exclusivas y asesoría personalizada para clientes como tú, incluyendo planes de financiamiento flexibles. ¿Te gustaría recibir información sobre modelos nuevos o promociones especiales? Por favor, comparte tu calificación del 0 al 10 sobre tu experiencia con Kavak. Tu opinión es muy valiosa para nosotros.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. La experiencia fue muy ágil y sencilla, justo lo que necesitaba. Me gusta la garantía y la transparencia en todo el proceso. Espero seguir viendo opciones interesantes para futuros vehículos.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_satisfecho_0102",
+      "nps_og": 9,
+      "vocal": true,
+      "satisfecho": true,
+      "cohort_label": "vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". La experiencia ha sido muy buena, desde la compra hasta la entrega, todo fue claro y rápido. Me gustaría que la app siga mejorando con más opciones para mantenimiento y notificaciones que me ayuden a cuidar mejor mi auto. Valoro mucho la transparencia y la facilidad para resolver dudas, eso me da confianza para futuras compras.",
+      "initial_customer_message": null,
+      "LTV_og": 350000.0,
+      "LTV_final": 351006.51,
+      "engagement": 0.7,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": 1006.5100000000093,
+      "costo_estrategia": -1000.0,
+      "reward": 0.72,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Alejandro compró un Honda Civic 2020 el 15 de marzo de 2024 a través de la app de Kavak. La entrega se realizó el 22 de marzo de 2024 y desde entonces ha estado satisfecho con el rendimiento del vehículo y el servicio recibido. Ha usado regularmente la app para seguimiento y consultas.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:11.393036+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Alejandro, agradecemos sinceramente tu confianza y comentarios positivos. En Kavak seguimos enfocados en ofrecerte la mejor experiencia. Para tu Honda Civic, te recomendamos explorar servicios de mantenimiento programado y accesorios exclusivos que optimizan el confort y resguardan tu inversión. Puedes ver estas opciones personalizadas en la app; si requieres asesoría, estoy a tu disposición. ¿Te gustaría recibir una guía personalizada o tienes alguna consulta específica? Por último, ¿podrías calificar tu experiencia reciente con Kavak del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. La experiencia ha sido muy buena, desde la compra hasta la entrega, todo fue claro y rápido. Me gustaría que la app siga mejorando con más opciones para mantenimiento y notificaciones que me ayuden a cuidar mejor mi auto. Valoro mucho la transparencia y la facilidad para resolver dudas, eso me da confianza para futuras compras.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0228",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": "Me gustaría más acompañamiento claro y comprensión ante mis circunstancias.",
+      "initial_customer_message": null,
+      "LTV_og": 85000.0,
+      "LTV_final": 84704.26,
+      "engagement": 0.2,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.74000000000524,
+      "costo_estrategia": 300.0,
+      "reward": 0.23999999999999994,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Luis inició el proceso de venta de su auto hace tres semanas, pero no completó la documentación requerida. Ha recibido comunicados de recordatorio, aunque no ha respondido ni entregado los documentos pendientes para avanzar en la transacción.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:11.038502+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Luis, espero que estés bien. Noté que tu proceso de venta sigue pendiente; estoy aquí para apoyarte y resolver cualquier duda que tengas sobre la documentación. Si te parece bien, puedo llamarte o escribirte por WhatsApp en las próximas 48 horas para acompañarte paso a paso y asegurar que obtengas el mejor valor por tu auto. ¿Prefieres agendar una llamada o continuar por este medio? Al finalizar, agradeceré tu calificación del servicio de 0 a 10. ¿Cómo te gustaría avanzar?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "Hola, gracias por el seguimiento. La verdad he estado un poco abrumado con algunos gastos inesperados y eso me ha frenado para avanzar con los papeles. Me gustaría sentir que hay más flexibilidad o algún tipo de apoyo para no quedarme atorado en el proceso, porque la incertidumbre me tiene preocupado. Por ahora prefiero seguir por aquí, pero agradecería que me expliquen bien qué opciones tengo para sentirme más seguro y confiado en la venta. \n\nNPS: 6 Me gustaría más acompañamiento claro y comprensión ante mis circunstancias.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0030",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ". Estoy satisfecho, pero la falta de comunicación clara y actualizaciones constantes me ha generado dudas. Espero que cumplan con el compromiso de mantenerme informado para recuperar la confianza. Necesito sentir que el proceso es transparente y que no habrá sorpresas en la valuación ni en los tiempos de pago. Esto es clave para que me sienta seguro y tranquilo con la venta de mi vehículo.",
+      "initial_customer_message": null,
+      "LTV_og": 12000.0,
+      "LTV_final": 11704.29,
+      "engagement": 0.3,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.7099999999991,
+      "costo_estrategia": 300.0,
+      "reward": 0.3,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Se inició el proceso de venta hace dos semanas; sin embargo, faltan confirmaciones internas para liberar el pago final. El seguimiento del equipo de Kavak ha sido parcial y no han actualizado a Ricardo sobre el estado exacto de la valuación final ni el cronograma de pago.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:09.706234+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Ricardo, te informo que tu valuación final está en la última fase de revisión interna. Estimamos confirmarte el monto y el cronograma de pago en máximo 48 horas. Te contactaré personalmente por WhatsApp para mantenerte actualizado y resolver cualquier duda que tengas. Si necesitas atención inmediata, puedes responder a este mensaje y te atenderé a la brevedad. Antes de finalizar, ¿cómo calificarías tu experiencia con Kavak hasta ahora en una escala del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 6. Estoy satisfecho, pero la falta de comunicación clara y actualizaciones constantes me ha generado dudas. Espero que cumplan con el compromiso de mantenerme informado para recuperar la confianza. Necesito sentir que el proceso es transparente y que no habrá sorpresas en la valuación ni en los tiempos de pago. Esto es clave para que me sienta seguro y tranquilo con la venta de mi vehículo.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "vocal_satisfecho_0113",
+      "nps_og": 9,
+      "vocal": true,
+      "satisfecho": true,
+      "cohort_label": "vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". Me ha gustado mucho la atención y la facilidad para gestionar todo en línea. La revisión preventiva sin costo es un gran plus que me da mucha confianza. Solo me gustaría que la comunicación fuera un poco más rápida en algunos momentos, pero en general estoy muy satisfecho. Gracias por el apoyo constante.",
+      "initial_customer_message": null,
+      "LTV_og": 230000.0,
+      "LTV_final": 229706.48,
+      "engagement": 0.6,
+      "resultado": "cierre_positivo",
+      "ganancia_LTV": -293.5199999999895,
+      "costo_estrategia": 300.0,
+      "reward": 0.69,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "Compra de un vehículo Nissan Sentra 2019, finalizada el 15 de abril de 2024, con garantía extendida hasta abril de 2026. Registro de mantenimiento gratuito y asesoría personalizada ofrecida por Kavak desde la compra. Uso del vehículo desde esa fecha sin reportes de fallas ni inconvenientes.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:10.573498+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Juan Carlos, agradecemos sinceramente tu confianza y excelente valoración. Queremos que sigas disfrutando tu Nissan Sentra con total tranquilidad, por eso te ofrecemos una revisión preventiva exclusiva y sin costo adicional, respaldada por tu garantía extendida y mantenimiento gratuito. ¿Te gustaría agendar tu cita esta semana o prefieres que te contactemos por WhatsApp en las próximas 48 horas? Además, ¿hay alguna sugerencia que nos ayude a mejorar tu experiencia? Por último, ¿cómo calificarías nuestro servicio del 0 al 10?",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. Me ha gustado mucho la atención y la facilidad para gestionar todo en línea. La revisión preventiva sin costo es un gran plus que me da mucha confianza. Solo me gustaría que la comunicación fuera un poco más rápida en algunos momentos, pero en general estoy muy satisfecho. Gracias por el apoyo constante.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_riesgo_0245",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 6,
+      "NPS_comment": ".",
+      "initial_customer_message": null,
+      "LTV_og": 18000.0,
+      "LTV_final": 17704.41,
+      "engagement": 0.7,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": -295.59000000000015,
+      "costo_estrategia": 300.0,
+      "reward": 0.51,
+      "strategy_name": "Seguimiento_Concreto",
+      "strategy_rationale": "Aumentar confianza cumpliendo promesas claras (SLA de contacto o cita) sin costo alto.",
+      "issue_bucket": "atencion",
+      "mini_story": "El proceso de venta de Julio muestra tareas incompletas como la falta de confirmación de pago final y seguimiento limitado en resolver dudas sobre la factura, lo que denota un seguimiento parcial pendiente que no se ha cerrado satisfactoriamente.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:12.445536+00:00",
+      "nps_score_reported": 6.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Hola Julio, espero que estés bien. Queremos asegurarnos de que el pago final y cualquier consulta sobre tu factura queden completamente resueltos. En las próximas 48 horas te contactaremos por WhatsApp para confirmar el cierre de estos temas. Si tienes alguna pregunta puntual o necesitas apoyo adicional, por favor háznoslo saber. ¿Podrías compartirnos tu calificación del 0 al 10 sobre tu experiencia con nosotros? Tu opinión es muy valiosa para seguir mejorando nuestro servicio.",
+          "metadata": {}
+        },
+        {
+          "role": "customer",
+          "content": "Hola, gracias por el mensaje. La verdad, aún tengo dudas sobre el estado del pago final y la factura, no he recibido confirmación clara y eso me genera algo de incertidumbre. Vendí mi auto pensando que sería un proceso sencillo, pero la falta de seguimiento me ha dejado con cierta desconfianza. Espero que puedan ser más transparentes y atentos, porque necesito sentir seguridad para confiar en Kavak en el futuro. NPS: 6.",
+          "metadata": {
+            "outcome": "customer_signaled_end:END"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "no_vocal_alta_ltv_0053",
+      "nps_og": 9,
+      "vocal": false,
+      "satisfecho": true,
+      "cohort_label": "no_vocal_satisfecho",
+      "run_number": 1,
+      "estrategia_intentada": 1,
+      "mensaje_intentado": 1,
+      "NPS_final": 9,
+      "NPS_comment": ". He tenido muy buenas experiencias con Kavak, la plataforma es confiable y eficiente. Aprecio que me ofrezcan opciones personalizadas, pero prefiero que la comunicación sea por correo y sin llamadas, para revisar todo con calma. Me interesa especialmente recibir información sobre vehículos eléctricos y tecnologías avanzadas que se ajusten a mi estilo de vida. Gracias por considerar mis preferencias.",
+      "initial_customer_message": null,
+      "LTV_og": 480000.0,
+      "LTV_final": 481006.42,
+      "engagement": 0.4,
+      "resultado": "cierre_no_positivo",
+      "ganancia_LTV": 1006.4199999999837,
+      "costo_estrategia": -1000.0,
+      "reward": 0.63,
+      "strategy_name": "Upsell_Personalizado",
+      "strategy_rationale": "Incrementar valor de clientes satisfechos ofreciendo upgrades, accesorios o recompra.",
+      "issue_bucket": "atencion",
+      "mini_story": "Ha realizado tres compras exitosas a través de Kavak en los últimos cinco años, todas sin incidencias. Prefiere recibir comunicaciones por correo electrónico, donde revisa ofertas y novedades en su tiempo libre. Sus transacciones anteriores demuestran confianza en la plataforma y apertura a nuevas propuestas que se ajusten a sus intereses.",
+      "channel_pref": "whatsapp",
+      "timestamp": "2025-10-23T22:40:24.663796+00:00",
+      "nps_score_reported": 9.0,
+      "transcript": [
+        {
+          "role": "agent",
+          "content": "Estimado Alejandro,\n\nAgradecemos sinceramente tu confianza y preferencia en Kavak. Como cliente distinguido, queremos ofrecerte acceso exclusivo a nuestra selección de vehículos premium más recientes, con condiciones de financiamiento personalizadas y beneficios adicionales por tu historial con nosotros. Si deseas conocer estas opciones y recibir una asesoría adaptada a tus intereses, por favor responde a este correo o agenda una llamada con nuestro equipo.\n\nAntes de finalizar, ¿cómo calificarías tu experiencia con Kavak en una escala del 0 al 10? Tu opinión es muy valiosa para nosotros.",
+          "metadata": {
+            "outcome": "agent_signaled_end:END"
+          }
+        },
+        {
+          "role": "agent",
+          "content": "Antes de cerrar, ¿podrías compartirme tu calificación NPS de 0 a 10 para esta experiencia y un breve comentario?",
+          "metadata": {
+            "auto": "nps_request"
+          }
+        },
+        {
+          "role": "customer",
+          "content": "NPS: 9. He tenido muy buenas experiencias con Kavak, la plataforma es confiable y eficiente. Aprecio que me ofrezcan opciones personalizadas, pero prefiero que la comunicación sea por correo y sin llamadas, para revisar todo con calma. Me interesa especialmente recibir información sobre vehículos eléctricos y tecnologías avanzadas que se ajusten a mi estilo de vida. Gracias por considerar mis preferencias.",
+          "metadata": {
+            "auto": "nps_response"
+          }
+        }
+      ]
+    }
+  ]
+}

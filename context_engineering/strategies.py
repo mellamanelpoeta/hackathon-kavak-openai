@@ -11,7 +11,7 @@ Each strategy entry provides:
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Dict
+from typing import Dict, List
 
 
 @dataclass
@@ -75,6 +75,8 @@ STRATEGY_DEFINITIONS: Dict[str, StrategyDefinition] = {
     ),
 }
 
+STRATEGY_IDS: List[str] = list(STRATEGY_DEFINITIONS.keys())
+
 
 def get_strategy(strategy_id: str) -> StrategyDefinition:
     if strategy_id not in STRATEGY_DEFINITIONS:
@@ -82,4 +84,4 @@ def get_strategy(strategy_id: str) -> StrategyDefinition:
     return STRATEGY_DEFINITIONS[strategy_id]
 
 
-__all__ = ["StrategyDefinition", "STRATEGY_DEFINITIONS", "get_strategy"]
+__all__ = ["StrategyDefinition", "STRATEGY_DEFINITIONS", "STRATEGY_IDS", "get_strategy"]

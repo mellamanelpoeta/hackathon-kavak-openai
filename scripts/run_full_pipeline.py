@@ -13,7 +13,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
+
+# Ensure project root is on sys.path when executed as a script
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from context_engineering.experiment import run_experiment
 
@@ -23,8 +29,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--profiles",
         type=Path,
-        default=Path("profiles"),
-        help="Directory containing persona JSON files",
+        default=Path("personas_output"),
+        help="Directory containing persona JSON files (supports nested folders)",
     )
     parser.add_argument(
         "--output",
@@ -47,6 +53,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--judge-model", type=str, default="gpt-4.1-mini", help="Judge model")
     parser.add_argument("--planner-model", type=str, default="gpt-4.1", help="Planner model")
     parser.add_argument("--concurrency", type=int, default=10, help="Parallel conversations")
+    parser.add_argument("--seed", type=int, help="Random seed for persona sampling")
+    parser.add_argument(
+        "--no-shuffle",
+        action="store_true",
+        help="Process profiles sequentially without shuffling",
+    )
     return parser.parse_args()
 
 
@@ -66,6 +78,8 @@ def main() -> None:
         judge_model=args.judge_model,
         planner_model=args.planner_model,
         concurrency=args.concurrency,
+        seed=args.seed,
+        shuffle=not args.no_shuffle,
     )
 
     output_path = args.output

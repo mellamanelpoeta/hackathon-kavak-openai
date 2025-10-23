@@ -9,7 +9,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from app.HumanSimulacra.schemas import Persona
 from app.factories.judge import Judge
@@ -18,24 +18,33 @@ from .agents_factory import CustomerAgentFactory
 from .conversation import ProactiveConversationAgent, StrategyPlan
 from .ltv import evaluate_conversation
 from .planner import PlannerAgent
-from .profile_utils import profile_to_context
+from .profile_utils import persona_to_profile, profile_to_context
 from .strategies import get_strategy
 
 
 def load_profiles(path: Path) -> List[dict]:
-    """Load all JSON profiles from a directory."""
+    """Load all JSON profiles from a directory (supports personas_output structure)."""
     profiles: List[dict] = []
-    for json_file in sorted(path.glob("*.json")):
+    json_paths = sorted(path.glob("**/*.json"))
+    for json_file in json_paths:
         with json_file.open("r", encoding="utf-8") as f:
             payload = json.load(f)
+
+        if _is_persona_payload(payload):
+            persona_profile = persona_to_profile(payload, customer_id=json_file.stem)
+            profiles.append(persona_profile)
+            continue
 
         persona_payload = payload.get("human_simulacra")
         if persona_payload:
             persona_obj = Persona(**persona_payload)
-            payload["human_simulacra"] = json.loads(persona_obj.model_dump_json())
+            payload["human_simulacra"] = persona_obj.model_dump(mode="python")
 
         profiles.append(payload)
     return profiles
+def _is_persona_payload(payload: dict) -> bool:
+    required = {"nombre", "historia_revelada", "historia_oculta", "prompt_conversacional"}
+    return required.issubset(payload.keys())
 
 
 def run_iteration(
@@ -60,6 +69,7 @@ def run_iteration(
     proactive_model: str = "gpt-4.1",
     customer_model: str = "gpt-4.1-mini",
     verbose: bool = True,
+    include_logs: bool = True,
 ) -> List[dict]:
     """
     High-level helper to:
@@ -92,11 +102,11 @@ def run_iteration(
     }
 
     records: Dict[int, dict] = {}
-    logs: Dict[int, List[str]] = {}
+    logs: Dict[int, List[str]] = {} if include_logs else {}
 
     if concurrency <= 1:
         config["planner_instance"] = planner or PlannerAgent(api_key=api_key, model=planner_model)
-        config["factory_instance"] = CustomerAgentFactory(api_key=api_key)
+        config["factory_instance"] = CustomerAgentFactory()
         config["orchestrator_instance"] = ProactiveConversationAgent(
             api_key=api_key,
             proactive_model=proactive_model,
@@ -106,7 +116,8 @@ def run_iteration(
 
         for idx, profile in indexed_profiles:
             idx_out, record, log_lines = _process_profile(idx, profile, config, reuse_agents=True)
-            logs[idx_out] = log_lines
+            if include_logs:
+                logs[idx_out] = log_lines
             if record:
                 records[idx_out] = record
     else:
@@ -118,13 +129,14 @@ def run_iteration(
             }
             for future in as_completed(futures):
                 idx_out, record, log_lines = future.result()
-                logs[idx_out] = log_lines
+                if include_logs:
+                    logs[idx_out] = log_lines
                 if record:
                     records[idx_out] = record
 
     summaries: List[dict] = []
     for idx, _ in indexed_profiles:
-        if verbose:
+        if verbose and include_logs:
             for line in logs.get(idx, []):
                 print(line)
         if idx in records:
@@ -215,6 +227,7 @@ if __name__ == "__main__":
         planner=planner,
         concurrency=args.concurrency,
         api_key=os.getenv("OPENAI_API_KEY"),
+        include_logs=not args.quiet,
     )
 
 
@@ -294,7 +307,7 @@ def _process_profile(
             orchestrator: ProactiveConversationAgent = config["orchestrator_instance"]  # type: ignore[assignment]
             judge: Judge = config["judge_instance"]  # type: ignore[assignment]
         else:
-            factory = CustomerAgentFactory(api_key=config.get("api_key"))
+            factory = CustomerAgentFactory()
             orchestrator = ProactiveConversationAgent(
                 api_key=config.get("api_key"),
                 proactive_model=config.get("proactive_model", "gpt-4.1"),  # type: ignore[arg-type]
@@ -322,6 +335,9 @@ def _process_profile(
         ctx = profile_to_context(profile)
         score = judge.run(ctx, final_agent_message)
 
+        if result.nps_score is not None:
+            score = score.model_copy(update={"NPS_expected": float(result.nps_score)})
+
         metrics = evaluate_conversation(
             profile=profile,
             strategy=strategy_def,
@@ -348,6 +364,24 @@ def _process_profile(
         cohort = profile.get("cohort", {})
         ctx_issue_bucket = ctx.issue_bucket
 
+        transcript_records = [
+            {
+                "role": turn.role,
+                "content": turn.content,
+                "metadata": turn.metadata,
+            }
+            for turn in result.turns
+        ]
+        if result.initial_customer_message:
+            transcript_records.insert(
+                0,
+                {
+                    "role": "context",
+                    "content": result.initial_customer_message,
+                    "metadata": {"type": "initial_expectation"},
+                },
+            )
+
         record = {
             "client_id": result.customer_id,
             "nps_og": nps_original,
@@ -358,6 +392,8 @@ def _process_profile(
             "estrategia_intentada": config.get("strategy_attempt_id", 1),
             "mensaje_intentado": config.get("message_attempt_id", 1),
             "NPS_final": int(round(score.NPS_expected)),
+            "NPS_comment": result.nps_comment,
+            "initial_customer_message": result.initial_customer_message,
             "LTV_og": float(ltv_original),
             "LTV_final": float(ltv_final),
             "engagement": float(score.EngagementProb),
@@ -371,17 +407,27 @@ def _process_profile(
             "mini_story": ctx.mini_story,
             "channel_pref": ctx.channel_pref,
             "timestamp": datetime.now(timezone.utc).isoformat(),
+            "nps_score_reported": result.nps_score,
+            "transcript": transcript_records,
         }
 
         log_lines.append("=" * 60)
         log_lines.append(
             f"Customer: {result.customer_id} | Strategy: {result.strategy_id} | Outcome: {result.outcome}"
         )
+        if result.initial_customer_message:
+            log_lines.append(f"[Contexto] {result.initial_customer_message}")
+
         for turn in result.turns:
             speaker = "Agente" if turn.role == "agent" else "Cliente"
             log_lines.append(f"[{speaker}] {turn.content}")
+        nps_line = (
+            f"→ NPS auto-reportado: {result.nps_score:.2f}"
+            if result.nps_score is not None
+            else "→ NPS auto-reportado: N/D"
+        )
         log_lines.append(
-            f"→ NPS esperado: {score.NPS_expected:.2f} | Engagement: {score.EngagementProb:.2%} | Churn: {score.ChurnProb:.2%}"
+            f"{nps_line} | Engagement: {score.EngagementProb:.2%} | Churn: {score.ChurnProb:.2%}"
         )
         log_lines.append(
             f"→ LTV esperado: ${metrics['ltv_expected']:.2f} "

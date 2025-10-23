@@ -5,7 +5,13 @@ CLI wrapper to execute context-engineering experiments and persist results.
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
+
+# Ensure project root is on sys.path when executed as a script
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from context_engineering.experiment import run_experiment
 
@@ -38,6 +44,12 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Do not print detailed conversation logs",
     )
+    parser.add_argument("--seed", type=int, help="Random seed for persona sampling")
+    parser.add_argument(
+        "--no-shuffle",
+        action="store_true",
+        help="Process profiles in deterministic order",
+    )
     return parser.parse_args()
 
 
@@ -57,6 +69,8 @@ def main() -> None:
         planner_model=args.planner_model,
         concurrency=args.concurrency,
         verbose=not args.quiet,
+        seed=args.seed,
+        shuffle=not args.no_shuffle,
     )
 
     print("=== Experiment Summary ===")
