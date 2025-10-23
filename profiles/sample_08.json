@@ -1,0 +1,28 @@
+{
+  "customer_id": "C0008",
+  "cohort": {"vocal": false, "satisfied": true},
+  "persona": {
+    "name": "Hugo Cabrera",
+    "age": 39,
+    "location": "Mérida",
+    "bio": "Emprendedor satisfecho con su SUV; interesado en plan de recompra."
+  },
+  "purchase": {
+    "vehicle": "SUV 2020",
+    "price": 340000,
+    "last_purchase_days": 70,
+    "channel": "email"
+  },
+  "history": {
+    "past_nps": 9,
+    "tickets": [
+      {"issue": "Cotización de recompra", "sentiment": 0.5, "last_touch_days": 18}
+    ],
+    "messages": []
+  },
+  "risk_signals": {
+    "churn_est": 0.21,
+    "value_segment": "NVE",
+    "ltv_apriori": 24800
+  }
+}

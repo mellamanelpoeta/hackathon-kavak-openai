@@ -1,0 +1,28 @@
+{
+  "customer_id": "C0006",
+  "cohort": {"vocal": false, "satisfied": false},
+  "persona": {
+    "name": "Fernanda Ruiz",
+    "age": 45,
+    "location": "CDMX",
+    "bio": "Compró pickup para negocio; aún no recibe placas definitivas."
+  },
+  "purchase": {
+    "vehicle": "Pickup 2019",
+    "price": 285000,
+    "last_purchase_days": 150,
+    "channel": "online"
+  },
+  "history": {
+    "past_nps": 5,
+    "tickets": [
+      {"issue": "Placas y carta factura pendientes", "sentiment": -0.4, "last_touch_days": 55}
+    ],
+    "messages": []
+  },
+  "risk_signals": {
+    "churn_est": 0.41,
+    "value_segment": "NVF",
+    "ltv_apriori": 16800
+  }
+}

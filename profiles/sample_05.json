@@ -1,0 +1,30 @@
+{
+  "customer_id": "C0005",
+  "cohort": {"vocal": true, "satisfied": false},
+  "persona": {
+    "name": "Eduardo Sánchez",
+    "age": 37,
+    "location": "Puebla",
+    "bio": "Inconforme por interés final del crédito; exige aclaración inmediata."
+  },
+  "purchase": {
+    "vehicle": "SUV 2022",
+    "price": 395000,
+    "last_purchase_days": 60,
+    "channel": "phone"
+  },
+  "history": {
+    "past_nps": 3,
+    "tickets": [
+      {"issue": "Tasa de interés distinta a la acordada", "sentiment": -0.8, "last_touch_days": 3}
+    ],
+    "messages": [
+      {"role": "customer", "content": "Esto no fue lo que firmamos, necesito que finanzas lo revise ya."}
+    ]
+  },
+  "risk_signals": {
+    "churn_est": 0.58,
+    "value_segment": "VE",
+    "ltv_apriori": 15800
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "customer_id": "C0010",
+  "cohort": {"vocal": false, "satisfied": false},
+  "persona": {
+    "name": "Jessica Herrera",
+    "age": 31,
+    "location": "León",
+    "bio": "Cliente silenciosa con dudas de financiamiento; pagos recientes no aparecen."
+  },
+  "purchase": {
+    "vehicle": "Crossover 2019",
+    "price": 275000,
+    "last_purchase_days": 110,
+    "channel": "app"
+  },
+  "history": {
+    "past_nps": 5,
+    "tickets": [
+      {"issue": "Pagos no conciliados en estado de cuenta", "sentiment": -0.3, "last_touch_days": 25}
+    ],
+    "messages": []
+  },
+  "risk_signals": {
+    "churn_est": 0.38,
+    "value_segment": "NVE",
+    "ltv_apriori": 18100
+  }
+}

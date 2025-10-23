@@ -1,0 +1,28 @@
+{
+  "customer_id": "C0004",
+  "cohort": {"vocal": false, "satisfied": true},
+  "persona": {
+    "name": "Diego Ramos",
+    "age": 32,
+    "location": "Querétaro",
+    "bio": "Cliente recurrente que recomienda Kavak; busca upgrades frecuentes."
+  },
+  "purchase": {
+    "vehicle": "Coupé 2020",
+    "price": 320000,
+    "last_purchase_days": 80,
+    "channel": "app"
+  },
+  "history": {
+    "past_nps": 10,
+    "tickets": [
+      {"issue": "Solicitud de plan de recompra", "sentiment": 0.6, "last_touch_days": 20}
+    ],
+    "messages": []
+  },
+  "risk_signals": {
+    "churn_est": 0.09,
+    "value_segment": "NVF",
+    "ltv_apriori": 26500
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "customer_id": "C0007",
+  "cohort": {"vocal": true, "satisfied": true},
+  "persona": {
+    "name": "Gabriela Pineda",
+    "age": 27,
+    "location": "Toluca",
+    "bio": "Primera auto; encantada con la atención, busca accesorios adicionales."
+  },
+  "purchase": {
+    "vehicle": "Compacto 2020",
+    "price": 150000,
+    "last_purchase_days": 35,
+    "channel": "whatsapp"
+  },
+  "history": {
+    "past_nps": 10,
+    "tickets": [
+      {"issue": "Consulta sobre kit de seguridad", "sentiment": 0.7, "last_touch_days": 5}
+    ],
+    "messages": [
+      {"role": "customer", "content": "¿Qué accesorios recomiendan para mantener el auto impecable?"}
+    ]
+  },
+  "risk_signals": {
+    "churn_est": 0.12,
+    "value_segment": "VF",
+    "ltv_apriori": 23500
+  }
+}

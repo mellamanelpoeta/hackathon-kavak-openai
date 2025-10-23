@@ -1,0 +1,30 @@
+{
+  "customer_id": "C0002",
+  "cohort": {"vocal": true, "satisfied": true},
+  "persona": {
+    "name": "Carlos Méndez",
+    "age": 29,
+    "location": "Guadalajara",
+    "bio": "Primer auto financiado con Kavak, feliz con la experiencia general."
+  },
+  "purchase": {
+    "vehicle": "Hatchback 2021",
+    "price": 180000,
+    "last_purchase_days": 45,
+    "channel": "email"
+  },
+  "history": {
+    "past_nps": 9,
+    "tickets": [
+      {"issue": "Consulta sobre mantenimiento preventivo", "sentiment": 0.4, "last_touch_days": 14}
+    ],
+    "messages": [
+      {"role": "customer", "content": "Gracias por el seguimiento, ¿qué paquete de servicio recomiendan?"}
+    ]
+  },
+  "risk_signals": {
+    "churn_est": 0.18,
+    "value_segment": "VF",
+    "ltv_apriori": 22000
+  }
+}

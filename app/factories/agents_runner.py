@@ -11,7 +11,6 @@ import time
 from typing import Any, Dict, List, Optional
 
 from openai import OpenAI
-from openai.types import Response
 
 DEFAULT_RETRIES = 3
 DEFAULT_BACKOFF = 1.5
@@ -98,7 +97,7 @@ class AgentsRunner:
         user_content: str,
         extra_input: Optional[List[Dict[str, Any]]],
         response_format: Optional[Dict[str, Any]],
-    ) -> Response:
+    ) -> Any:
         """
         Invoke OpenAI Responses API with retry and backoff policy.
         """

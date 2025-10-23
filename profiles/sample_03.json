@@ -1,0 +1,28 @@
+{
+  "customer_id": "C0003",
+  "cohort": {"vocal": false, "satisfied": false},
+  "persona": {
+    "name": "Brenda Ortega",
+    "age": 41,
+    "location": "Monterrey",
+    "bio": "Compradora silenciosa; molesta por retraso en documentos de propiedad."
+  },
+  "purchase": {
+    "vehicle": "SUV 2018",
+    "price": 260000,
+    "last_purchase_days": 120,
+    "channel": "online"
+  },
+  "history": {
+    "past_nps": 6,
+    "tickets": [
+      {"issue": "Documentación incompleta", "sentiment": -0.5, "last_touch_days": 40}
+    ],
+    "messages": []
+  },
+  "risk_signals": {
+    "churn_est": 0.47,
+    "value_segment": "NVF",
+    "ltv_apriori": 17500
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "customer_id": "C0001",
+  "cohort": {"vocal": true, "satisfied": false},
+  "persona": {
+    "name": "Alejandra López",
+    "age": 34,
+    "location": "CDMX",
+    "bio": "Compró un sedán seminuevo hace 3 meses; frustrada por fallas eléctricas."
+  },
+  "purchase": {
+    "vehicle": "Sedán 2019",
+    "price": 215000,
+    "last_purchase_days": 95,
+    "channel": "whatsapp"
+  },
+  "history": {
+    "past_nps": 4,
+    "tickets": [
+      {"issue": "Fallas eléctricas intermitentes", "sentiment": -0.7, "last_touch_days": 6}
+    ],
+    "messages": [
+      {"role": "customer", "content": "Llevo semanas esperando que revisen los apagones del tablero."}
+    ]
+  },
+  "risk_signals": {
+    "churn_est": 0.52,
+    "value_segment": "VE",
+    "ltv_apriori": 16200
+  }
+}

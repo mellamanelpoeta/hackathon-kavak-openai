@@ -1,0 +1,30 @@
+{
+  "customer_id": "C0009",
+  "cohort": {"vocal": true, "satisfied": false},
+  "persona": {
+    "name": "Iván Salgado",
+    "age": 48,
+    "location": "Tijuana",
+    "bio": "Molesto por ruido constante en motor; amenaza con devolver el auto."
+  },
+  "purchase": {
+    "vehicle": "Sedán 2017",
+    "price": 195000,
+    "last_purchase_days": 140,
+    "channel": "phone"
+  },
+  "history": {
+    "past_nps": 2,
+    "tickets": [
+      {"issue": "Ruido en motor y vibraciones", "sentiment": -0.85, "last_touch_days": 4}
+    ],
+    "messages": [
+      {"role": "customer", "content": "Si no me ayudan esta semana, devuelvo el coche."}
+    ]
+  },
+  "risk_signals": {
+    "churn_est": 0.64,
+    "value_segment": "VE",
+    "ltv_apriori": 14900
+  }
+}
