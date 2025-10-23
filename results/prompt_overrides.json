@@ -1,50 +1,84 @@
 {
-  "notes": "Escalar_Mecanico pierde LTV y no mejora NPS en insatisfechos; urge priorizar seguimiento concreto y fechas claras en prompts.",
+  "notes": "Seguimiento_Concreto mantiene NPS en no_vocal_satisfecho, pero requiere más empatía y claridad. En insatisfechos, urge alternativas más resolutivas.",
   "planner": {
     "global": [
-      "Para la cohorte 'vocal_insatisfecho', enfatizar en el prompt la entrega de fechas concretas y actualizaciones diarias automáticas vía WhatsApp, sin esperar a que el cliente insista.",
-      "En 'no_vocal_satisfecho', personalizar aún más las ofertas por email/app, resaltando beneficios exclusivos y segmentando por historial de compra y preferencia de canal.",
-      "Para 'no_vocal_satisfecho' con NPS<8, incluir en el prompt un resumen claro de próximos pasos, fechas y responsable asignado, evitando mensajes genéricos de seguimiento."
+      "Para 'no_vocal_satisfecho' de alta LTV, enfatizar personalización real y segmentar ofertas según historial, siempre por email y evitando presión.",
+      "En 'no_vocal_satisfecho' de riesgo, detallar pasos pendientes y tiempos concretos en cada mensaje, reforzando transparencia y seguimiento proactivo.",
+      "Para 'vocal_insatisfecho', incluir compromisos explícitos de tiempos y responsables, con actualizaciones diarias automáticas y lenguaje empático.",
+      "En 'vocal_satisfecho', mantener tono personalizado y ofrecer beneficios exclusivos postventa, invitando a interacción digital (app/email) según preferencia.",
+      "Para la cohorte no_vocal_satisfecho, enfatizar acompañamiento empático, flexibilidad en tiempos y comunicación proactiva en cada mensaje.",
+      "Incluir confirmaciones explícitas de recepción de documentos y fechas concretas de pago/cierre en los mensajes de seguimiento.",
+      "Para cohortes vocal_insatisfecho, detallar responsables, avances diarios y plazos, pero también ofrecer alternativas inmediatas (ej. llamada directa o compensación temporal).",
+      "En Upsell_Personalizado, mantener el enfoque no invasivo y personalizar aún más la frecuencia y el canal según preferencia reportada."
     ],
     "cohorts": {
-      "vocal_insatisfecho": [
-        "Decrementar la estrategia Escalar_Mecanico",
-        "Incrementar la estrategia Seguimiento_Concreto"
-      ],
       "no_vocal_satisfecho": [
         "Mantener la estrategia Upsell_Personalizado",
-        "Incrementar la estrategia Seguimiento_Concreto"
+        "Incrementar la estrategia Seguimiento_Concreto",
+        "Mantener la estrategia Seguimiento_Concreto"
+      ],
+      "vocal_insatisfecho": [
+        "Decrementar la estrategia Escalar_Mecanico",
+        "Incrementar la estrategia Seguimiento_Concreto",
+        "Decrementar la estrategia Seguimiento_Concreto"
+      ],
+      "vocal_satisfecho": [
+        "Mantener la estrategia Upsell_Personalizado"
       ]
     }
   },
   "initiative": {
     "global": [
-      "Para la cohorte 'vocal_insatisfecho', enfatizar en el prompt la entrega de fechas concretas y actualizaciones diarias automáticas vía WhatsApp, sin esperar a que el cliente insista.",
-      "En 'no_vocal_satisfecho', personalizar aún más las ofertas por email/app, resaltando beneficios exclusivos y segmentando por historial de compra y preferencia de canal.",
-      "Para 'no_vocal_satisfecho' con NPS<8, incluir en el prompt un resumen claro de próximos pasos, fechas y responsable asignado, evitando mensajes genéricos de seguimiento."
+      "Para 'no_vocal_satisfecho' de alta LTV, enfatizar personalización real y segmentar ofertas según historial, siempre por email y evitando presión.",
+      "En 'no_vocal_satisfecho' de riesgo, detallar pasos pendientes y tiempos concretos en cada mensaje, reforzando transparencia y seguimiento proactivo.",
+      "Para 'vocal_insatisfecho', incluir compromisos explícitos de tiempos y responsables, con actualizaciones diarias automáticas y lenguaje empático.",
+      "En 'vocal_satisfecho', mantener tono personalizado y ofrecer beneficios exclusivos postventa, invitando a interacción digital (app/email) según preferencia.",
+      "Para la cohorte no_vocal_satisfecho, enfatizar acompañamiento empático, flexibilidad en tiempos y comunicación proactiva en cada mensaje.",
+      "Incluir confirmaciones explícitas de recepción de documentos y fechas concretas de pago/cierre en los mensajes de seguimiento.",
+      "Para cohortes vocal_insatisfecho, detallar responsables, avances diarios y plazos, pero también ofrecer alternativas inmediatas (ej. llamada directa o compensación temporal).",
+      "En Upsell_Personalizado, mantener el enfoque no invasivo y personalizar aún más la frecuencia y el canal según preferencia reportada."
     ],
     "cohorts": {
-      "vocal_insatisfecho": [
-        "Decrementar la estrategia Escalar_Mecanico",
-        "Incrementar la estrategia Seguimiento_Concreto"
-      ],
       "no_vocal_satisfecho": [
         "Mantener la estrategia Upsell_Personalizado",
-        "Incrementar la estrategia Seguimiento_Concreto"
+        "Incrementar la estrategia Seguimiento_Concreto",
+        "Mantener la estrategia Seguimiento_Concreto"
+      ],
+      "vocal_insatisfecho": [
+        "Decrementar la estrategia Escalar_Mecanico",
+        "Incrementar la estrategia Seguimiento_Concreto",
+        "Decrementar la estrategia Seguimiento_Concreto"
+      ],
+      "vocal_satisfecho": [
+        "Mantener la estrategia Upsell_Personalizado"
       ]
     }
   },
   "history": [
     {
-      "timestamp": "2025-10-23T17:22:47.752185",
-      "notes": "Escalar_Mecanico pierde LTV y no mejora NPS en insatisfechos; urge priorizar seguimiento concreto y fechas claras en prompts."
+      "timestamp": "2025-10-23T17:46:23.301005",
+      "notes": "El seguimiento concreto mejora NPS y engagement en cohortes de riesgo; Escalar_Mecanico es costoso y poco efectivo en insatisfechos."
     },
     {
-      "timestamp": "2025-10-23T17:22:47.752185",
+      "timestamp": "2025-10-23T17:46:23.301005",
       "experiments": [
-        "Probar Seguimiento_Concreto en 'vocal_insatisfecho' solo si NPS_final<=5 y el issue_bucket es logistica o mecanica.",
-        "En 'no_vocal_satisfecho', enviar resumen personalizado de avance y fechas por email/app antes de cualquier Upsell_Personalizado si NPS_final<8.",
-        "Testear mensajes de compensación simbólica solo en 'vocal_insatisfecho' con engagement bajo y pérdida de LTV > $1,000."
+        "Probar Seguimiento_Concreto con promesa de actualización diaria solo en cohortes 'vocal_insatisfecho' y 'no_vocal_satisfecho_riesgo'.",
+        "Testear Upsell_Personalizado solo vía email en 'no_vocal_satisfecho' de alta LTV y medir NPS vs WhatsApp.",
+        "Ofrecer asesoría digital (no llamada) como primer contacto en 'no_vocal_satisfecho' y medir engagement.",
+        "Para 'vocal_insatisfecho', combinar Seguimiento_Concreto + compensación simbólica y medir impacto en NPS."
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T17:53:37.447517",
+      "notes": "Seguimiento_Concreto mantiene NPS en no_vocal_satisfecho, pero requiere más empatía y claridad. En insatisfechos, urge alternativas más resolutivas."
+    },
+    {
+      "timestamp": "2025-10-23T17:53:37.447517",
+      "experiments": [
+        "Probar mensajes de seguimiento con doble confirmación (recepción de documentos y fecha estimada de pago) en no_vocal_satisfecho.",
+        "Ofrecer contacto inmediato (llamada o WhatsApp directo con supervisor) solo a vocal_insatisfecho con NPS<6.",
+        "Testear reducción de frecuencia de mensajes en Upsell_Personalizado para clientes que piden menos contacto.",
+        "Implementar mensajes de empatía explícita y opciones de flexibilidad en tiempos para no_vocal_satisfecho con engagement <0.5."
       ]
     }
   ]

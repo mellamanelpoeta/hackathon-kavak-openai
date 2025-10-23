@@ -13,7 +13,15 @@ from typing import Dict, List, Optional, Tuple
 import pandas as pd
 
 from .example_runner import load_profiles, run_iteration
-from .persistence import append_history_records, update_strategy_metrics
+from .persistence import (
+    append_history_records,
+    load_prompt_overrides,
+    merge_prompt_guidance,
+    save_prompt_overrides,
+    update_run_state,
+    update_strategy_metrics,
+)
+from .prompt_tuner import PromptTunerAgent
 
 
 def run_experiment(
@@ -115,7 +123,9 @@ def run_experiment(
             "best_strategy_by_cohort": {},
             "best_strategy_history": {},
             "best_strategy_by_cohort_history": {},
+            "prompt_guidance": None,
         }
+        update_run_state(run_number)
         return df, summary
 
     df = pd.DataFrame(records)
@@ -126,6 +136,24 @@ def run_experiment(
     insights = update_strategy_metrics()
     summary["best_strategy_history"] = insights.get("overall", {})
     summary["best_strategy_by_cohort_history"] = insights.get("best_by_cohort", {})
+
+    if api_key:
+        overrides = load_prompt_overrides()
+        try:
+            tuner = PromptTunerAgent(api_key=api_key)
+            guidance = tuner.run(
+                run_records=df.to_dict(orient="records"),
+                current_prompt_notes=overrides.get("notes", ""),
+            )
+            overrides = merge_prompt_guidance(overrides, guidance)
+            save_prompt_overrides(overrides)
+            summary["prompt_guidance"] = guidance
+        except Exception as exc:  # do not fail the run if tuning errors
+            summary["prompt_guidance"] = {"error": str(exc)}
+    else:
+        summary["prompt_guidance"] = None
+
+    update_run_state(run_number)
 
     if output_path:
         output_path = Path(output_path)

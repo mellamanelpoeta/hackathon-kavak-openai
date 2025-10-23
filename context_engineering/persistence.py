@@ -15,6 +15,7 @@ RESULTS_DIR = Path("results")
 HISTORY_FILE = RESULTS_DIR / "history.jsonl"
 STRATEGY_FILE = RESULTS_DIR / "strategy_metrics.json"
 PROMPT_OVERRIDES_FILE = RESULTS_DIR / "prompt_overrides.json"
+RUN_STATE_FILE = RESULTS_DIR / "run_state.json"
 
 DEFAULT_OVERRIDES = {
     "notes": "",
@@ -84,6 +85,32 @@ def load_history_df() -> pd.DataFrame:
     if {"run_number", "client_id", "timestamp"}.issubset(df.columns):
         df = df.drop_duplicates(subset=["run_number", "client_id", "timestamp"], keep="last")
     return df
+
+
+def load_run_state() -> Dict[str, Any]:
+    if RUN_STATE_FILE.exists():
+        with RUN_STATE_FILE.open("r", encoding="utf-8") as handle:
+            try:
+                return json.load(handle)
+            except json.JSONDecodeError:
+                pass
+    return {"last_run_number": 0}
+
+
+def update_run_state(run_number: int) -> None:
+    _ensure_results_dir()
+    state = {
+        "last_run_number": int(run_number),
+        "updated_at": datetime.now().isoformat(),
+    }
+    with RUN_STATE_FILE.open("w", encoding="utf-8") as handle:
+        json.dump(state, handle, ensure_ascii=False, indent=2)
+
+
+def get_next_run_number() -> int:
+    state = load_run_state()
+    last = int(state.get("last_run_number", 0))
+    return last + 1
 
 
 def update_strategy_metrics() -> Dict[str, Any]:
@@ -239,4 +266,6 @@ __all__ = [
     "load_prompt_overrides",
     "save_prompt_overrides",
     "merge_prompt_guidance",
+    "get_next_run_number",
+    "update_run_state",
 ]

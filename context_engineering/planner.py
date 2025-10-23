@@ -70,7 +70,7 @@ class PlannerAgent:
                 objectives = result.get(
                     "objectives", ["Restaurar confianza", "Clarificar próximo paso"]
                 )
-                max_turns = int(result.get("max_turns", 3))
+                max_turns = max(2, int(result.get("max_turns", 3)))
                 end_triggers = result.get("end_triggers", ["END"])
                 prompt_seed_extension = result.get("prompt_seed", "").strip()
                 break

@@ -18,6 +18,7 @@ from context_engineering.experiment import run_experiment
 from context_engineering.prompt_tuner import PromptTunerAgent
 from context_engineering.example_runner import load_profiles
 from context_engineering.persistence import (
+    get_next_run_number,
     load_history_df,
     load_strategy_insights,
     load_prompt_overrides,
@@ -39,6 +40,7 @@ def init_session_state():
     st.session_state.setdefault("history_df", load_history_df())
     st.session_state.setdefault("strategy_insights", load_strategy_insights())
     st.session_state.setdefault("prompt_overrides", load_prompt_overrides())
+    st.session_state.setdefault("next_run_number", get_next_run_number())
     if not st.session_state.history_notes:
         st.session_state.history_notes = st.session_state.prompt_overrides.get("notes", "")
 
@@ -95,14 +97,16 @@ def load_results_file(path: Path):
             df_with_source = df.copy()
             df_with_source["source_file"] = str(path)
             df_with_source["run_saved_at"] = datetime.now().isoformat()
-            st.session_state.history_df = (
-                pd.concat([st.session_state.history_df, df_with_source], ignore_index=True)
-                .drop_duplicates(subset=["run_number", "client_id", "timestamp"], keep="last")
-            )
+        st.session_state.history_df = (
+            pd.concat([st.session_state.history_df, df_with_source], ignore_index=True)
+            .drop_duplicates(subset=["run_number", "client_id", "timestamp"], keep="last")
+        )
         st.session_state.history_df = load_history_df()
         st.session_state.strategy_insights = load_strategy_insights()
         st.session_state.prompt_overrides = load_prompt_overrides()
         st.success(f"Resultados cargados desde {path}")
+        st.session_state.history_notes = st.session_state.prompt_overrides.get("notes", st.session_state.history_notes)
+        st.session_state.next_run_number = get_next_run_number()
     except FileNotFoundError:
         st.error(f"No se encontró el archivo {path}")
     except Exception as exc:
@@ -113,8 +117,6 @@ def run_experiment_ui(
     profiles_dir: Path,
     max_profiles: int,
     run_number: int,
-    strategy_attempt: int,
-    message_attempt: int,
     concurrency: int,
     max_turns: int,
     seed: int | None,
@@ -125,8 +127,8 @@ def run_experiment_ui(
             profiles_dir=profiles_dir,
             max_profiles=max_profiles,
             run_number=run_number,
-            strategy_attempt_id=strategy_attempt,
-            message_attempt_id=message_attempt,
+            strategy_attempt_id=run_number,
+            message_attempt_id=1,
             concurrency=concurrency,
             verbose=False,
             api_key=os.getenv("OPENAI_API_KEY"),
@@ -147,6 +149,8 @@ def run_experiment_ui(
     st.session_state.history_df = load_history_df()
     st.session_state.strategy_insights = load_strategy_insights()
     st.session_state.prompt_overrides = load_prompt_overrides()
+    st.session_state.history_notes = st.session_state.prompt_overrides.get("notes", st.session_state.history_notes)
+    st.session_state.next_run_number = get_next_run_number()
     st.success(
         f"Experimento completado: {summary.get('n_conversations', 0)} conversaciones. "
         f"Guardado en {output_path}"
@@ -428,6 +432,11 @@ def show_prompt_guidance(df: pd.DataFrame):
         st.info("Ejecuta un experimento para generar recomendaciones.")
         return
 
+    auto_guidance = st.session_state.summary.get("prompt_guidance") if isinstance(st.session_state.summary, dict) else None
+    if auto_guidance:
+        st.markdown("**Guía generada automáticamente (último run)**")
+        st.json(auto_guidance)
+
     prompt_overrides = st.session_state.get("prompt_overrides", load_prompt_overrides())
 
     if st.button("🔁 Generar recomendaciones de prompt"):
@@ -462,9 +471,8 @@ def main():
         st.sidebar.text_input("Directorio de perfiles", str(DEFAULT_PROFILES_DIR))
     )
     max_profiles = st.sidebar.slider("Clientes a procesar", 1, 100, 20)
-    run_number = st.sidebar.number_input("Run number", min_value=1, value=1)
-    strategy_attempt = st.sidebar.number_input("Strategy attempt", min_value=1, value=1)
-    message_attempt = st.sidebar.number_input("Message attempt", min_value=1, value=1)
+    next_run_number = st.session_state.get("next_run_number", get_next_run_number())
+    st.sidebar.markdown(f"Próximo run sugerido: **{next_run_number}**")
     max_turns = st.sidebar.slider("Turnos del agente proactivo", 3, 10, 4)
     concurrency = st.sidebar.slider("Conversaciones en paralelo", 1, 20, 8)
     seed_input = st.sidebar.text_input("Seed aleatoria (opcional)", value="")
@@ -491,9 +499,7 @@ def main():
         run_experiment_ui(
             profiles_dir=profiles_dir,
             max_profiles=max_profiles,
-            run_number=run_number,
-            strategy_attempt=strategy_attempt,
-            message_attempt=message_attempt,
+            run_number=next_run_number,
             concurrency=concurrency,
             max_turns=max_turns,
             seed=seed_value,

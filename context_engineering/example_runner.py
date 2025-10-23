@@ -262,7 +262,7 @@ def _resolve_plan(
 
     if end_triggers:
         plan.end_triggers = end_triggers
-    plan.max_turns = max_turns
+    plan.max_turns = max(2, min(plan.max_turns, max_turns))
     return plan
 
 
