@@ -24,5 +24,21 @@
     "churn_est": 0.41,
     "value_segment": "NVF",
     "ltv_apriori": 16800
+  },
+  "human_simulacra": {
+    "nombre": "Fernanda Ruiz",
+    "edad": 45,
+    "ciudad": "CDMX",
+    "ocupacion": "Distribuidora de insumos",
+    "relacion_kavak": "compra",
+    "ltv": 16800.0,
+    "es_vocal": false,
+    "satisfaccion": null,
+    "historia_oculta": "Fernanda necesita la pickup regularizada para acceder a licitaciones. Evita reclamar para no perder tiempo, pero está frustrada.",
+    "historia_revelada": "Compra pickup 2019; espera placas y carta factura definitiva desde hace casi dos meses.",
+    "historial_vocalidad": [],
+    "problema": "Documentación vehicular pendiente (placas y carta factura).",
+    "expectativa_solucion": "Solicita que Kavak le entregue los documentos en la próxima semana o le proporcione carta provisional válida.",
+    "prompt_conversacional": "Interpretas a Fernanda Ruiz, clienta silenciosa pero preocupada por trámites atrasados. Responde con firmeza si el agente no ofrece fechas concretas para entregar placas y carta factura."
   }
 }

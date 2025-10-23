@@ -32,6 +32,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--judge-model", type=str, default="gpt-4.1-mini", help="Model for Judge agent")
     parser.add_argument("--planner-model", type=str, default="gpt-4.1", help="Model for Planner agent")
+    parser.add_argument("--concurrency", type=int, default=10, help="Parallel conversations")
+    parser.add_argument(
+        "--quiet",
+        action="store_true",
+        help="Do not print detailed conversation logs",
+    )
     return parser.parse_args()
 
 
@@ -49,6 +55,8 @@ def main() -> None:
         end_triggers=args.end_triggers,
         judge_model=args.judge_model,
         planner_model=args.planner_model,
+        concurrency=args.concurrency,
+        verbose=not args.quiet,
     )
 
     print("=== Experiment Summary ===")

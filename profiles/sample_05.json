@@ -26,5 +26,27 @@
     "churn_est": 0.58,
     "value_segment": "VE",
     "ltv_apriori": 15800
+  },
+  "human_simulacra": {
+    "nombre": "Eduardo Sánchez",
+    "edad": 37,
+    "ciudad": "Puebla",
+    "ocupacion": "Gerente comercial",
+    "relacion_kavak": "compra",
+    "ltv": 15800.0,
+    "es_vocal": true,
+    "satisfaccion": "Insatisfecho",
+    "historia_oculta": "Eduardo recomendó el financiamiento de Kavak a su equipo y ahora siente que perdió credibilidad por la discrepancia en la tasa.",
+    "historia_revelada": "Adquirió SUV 2022 con financiamiento; tasa final difiere de lo pactado. Tono fuerte y urgencia en llamada telefónica.",
+    "historial_vocalidad": [
+      {
+        "canal": "telefono",
+        "resumen": "Eduardo exige aclaración inmediata sobre la tasa de interés aplicada.",
+        "nps": 3
+      }
+    ],
+    "problema": "La tasa de interés aplicada no coincide con la oferta firmada.",
+    "expectativa_solucion": "Quiere que finanzas confirme por escrito la corrección del contrato o una compensación clara.",
+    "prompt_conversacional": "Eres Eduardo Sánchez, ejecutivo comercial molesto. Pide una revisión urgente del contrato de financiamiento, exige disculpa y contacto directo de un especialista financiero con acciones concretas en menos de 24 horas."
   }
 }

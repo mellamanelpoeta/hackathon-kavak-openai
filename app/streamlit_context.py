@@ -54,6 +54,7 @@ def run_experiment_ui(
     run_number: int,
     strategy_attempt: int,
     message_attempt: int,
+    concurrency: int,
 ):
     with st.spinner("Ejecutando conversaciones..."):
         df, summary = run_experiment(
@@ -62,6 +63,8 @@ def run_experiment_ui(
             run_number=run_number,
             strategy_attempt_id=strategy_attempt,
             message_attempt_id=message_attempt,
+            concurrency=concurrency,
+            verbose=False,
             api_key=os.getenv("OPENAI_API_KEY"),
         )
     st.session_state.results_df = df
@@ -165,6 +168,7 @@ def main():
     run_number = st.sidebar.number_input("Run number", min_value=1, value=1)
     strategy_attempt = st.sidebar.number_input("Strategy attempt", min_value=1, value=1)
     message_attempt = st.sidebar.number_input("Message attempt", min_value=1, value=1)
+    concurrency = st.sidebar.slider("Conversaciones en paralelo", 1, 20, 10)
 
     st.sidebar.divider()
     api_key_ok = ensure_api_key()
@@ -179,6 +183,7 @@ def main():
             run_number=run_number,
             strategy_attempt=strategy_attempt,
             message_attempt=message_attempt,
+            concurrency=concurrency,
         )
 
     st.header("Perfiles simulados")

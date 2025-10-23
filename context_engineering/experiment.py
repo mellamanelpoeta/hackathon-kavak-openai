@@ -7,12 +7,11 @@ aggregate results, and persist them for analytics/visualization.
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 
 from .example_runner import load_profiles, run_iteration
-from .planner import PlannerAgent
 
 
 def run_experiment(
@@ -29,6 +28,8 @@ def run_experiment(
     judge_model: str = "gpt-4.1-mini",
     planner_model: str = "gpt-4.1",
     api_key: Optional[str] = None,
+    concurrency: int = 10,
+    verbose: bool = True,
 ) -> Tuple[pd.DataFrame, Dict]:
     """
     Execute conversations for all profiles in the directory and return results as DataFrame.
@@ -54,29 +55,28 @@ def run_experiment(
     if max_profiles:
         profiles = profiles[:max_profiles]
 
-    planner = PlannerAgent(api_key=api_key, model=planner_model)
-
-    records: List[dict] = []
-    for idx, profile in enumerate(profiles, start=1):
-        batch_records = run_iteration(
-            [profile],
-            tone=tone,
-            max_turns=max_turns,
-            end_triggers=end_triggers,
-            judge_model=judge_model,
-            run_number=run_number,
-            strategy_attempt_id=strategy_attempt_id,
-            message_attempt_id=message_attempt_id,
-            planner=planner,
-            api_key=api_key,
-        )
-        records.extend(batch_records)
+    records = run_iteration(
+        profiles,
+        tone=tone,
+        max_turns=max_turns,
+        end_triggers=end_triggers,
+        judge_model=judge_model,
+        run_number=run_number,
+        strategy_attempt_id=strategy_attempt_id,
+        message_attempt_id=message_attempt_id,
+        api_key=api_key,
+        concurrency=concurrency,
+        planner_model=planner_model,
+        verbose=verbose,
+    )
 
     if not records:
         df = pd.DataFrame(columns=[
             "client_id",
             "nps_og",
             "vocal",
+            "satisfecho",
+            "cohort_label",
             "run_number",
             "estrategia_intentada",
             "mensaje_intentado",
@@ -90,6 +90,9 @@ def run_experiment(
             "reward",
             "strategy_name",
             "strategy_rationale",
+            "issue_bucket",
+            "mini_story",
+            "channel_pref",
             "timestamp",
         ])
         summary = {"n_conversations": 0, "ltv_gain_avg": 0.0, "best_strategy": None}

@@ -26,5 +26,27 @@
     "churn_est": 0.12,
     "value_segment": "VF",
     "ltv_apriori": 23500
+  },
+  "human_simulacra": {
+    "nombre": "Gabriela Pineda",
+    "edad": 27,
+    "ciudad": "Toluca",
+    "ocupacion": "Diseñadora gráfica",
+    "relacion_kavak": "compra",
+    "ltv": 23500.0,
+    "es_vocal": true,
+    "satisfaccion": "Satisfecho",
+    "historia_oculta": "Gabriela cuida su compacto para grabar contenido en redes y quiere accesorios que la ayuden a mantenerlo impecable.",
+    "historia_revelada": "Compra reciente de compacto 2020; solicita opciones de accesorios y paquete de protección.",
+    "historial_vocalidad": [
+      {
+        "canal": "whatsapp",
+        "resumen": "Gabriela consulta qué accesorios recomiendan para mantener el auto impecable.",
+        "nps": 10
+      }
+    ],
+    "problema": null,
+    "expectativa_solucion": "Busca recomendaciones claras de accesorios con precios y enlaces para compra rápida.",
+    "prompt_conversacional": "Eres Gabriela Pineda, una clienta feliz que quiere tips y accesorios para su primer auto. Responde con entusiasmo cuando ofrezcan kits de protección y beneficios de fidelidad."
   }
 }

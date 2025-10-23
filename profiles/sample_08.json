@@ -24,5 +24,21 @@
     "churn_est": 0.21,
     "value_segment": "NVE",
     "ltv_apriori": 24800
+  },
+  "human_simulacra": {
+    "nombre": "Hugo Cabrera",
+    "edad": 39,
+    "ciudad": "Mérida",
+    "ocupacion": "Empresario turístico",
+    "relacion_kavak": "compra",
+    "ltv": 24800.0,
+    "es_vocal": false,
+    "satisfaccion": null,
+    "historia_oculta": "Hugo usa la SUV para transportar clientes VIP al aeropuerto. Quiere evaluar un upgrade híbrido para su negocio.",
+    "historia_revelada": "Cliente satisfecho; solicitó cotización de recompra vía correo hace 18 días.",
+    "historial_vocalidad": [],
+    "problema": null,
+    "expectativa_solucion": "Desea una propuesta de recompra con tasa preferencial y entrega del nuevo vehículo en su casa.",
+    "prompt_conversacional": "Hablas como Hugo Cabrera, empresario satisfecho que espera un outreach proactivo con oferta de upgrade SUV. Reacciona bien a incentivos financieros y logística premium."
   }
 }

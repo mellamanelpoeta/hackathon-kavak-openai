@@ -16,9 +16,27 @@ DEFAULT_RETRIES = 3
 DEFAULT_BACKOFF = 1.5
 
 
+def _extract_text_from_response(response: Any) -> str:
+    """
+    Extract text from OpenAI Responses API response object.
+    The response has structure: response.output[0].content[0].text
+    """
+    if hasattr(response, 'output_text'):
+        # Fallback for older SDK versions
+        return response.output_text
+
+    # Extract from new structure
+    if response.output and len(response.output) > 0:
+        message = response.output[0]
+        if message.content and len(message.content) > 0:
+            return message.content[0].text
+
+    raise ValueError("Unable to extract text from response")
+
+
 def _build_content_block(text: str) -> Dict[str, Any]:
     """Helpers to wrap plain text for the Responses API."""
-    return {"type": "text", "text": text}
+    return {"type": "input_text", "text": text}
 
 
 class AgentsRunner:
@@ -67,7 +85,7 @@ class AgentsRunner:
             extra_input=extra_input,
             response_format=None,
         )
-        return response.output_text.strip()
+        return _extract_text_from_response(response).strip()
 
     def run_json(
         self,
@@ -86,7 +104,7 @@ class AgentsRunner:
             response_format={"type": "json_object"},
         )
         try:
-            return json.loads(response.output_text)
+            return json.loads(_extract_text_from_response(response))
         except json.JSONDecodeError as exc:
             raise ValueError(f"Invalid JSON returned by model: {exc}") from exc
 
@@ -112,13 +130,21 @@ class AgentsRunner:
         last_exc: Optional[Exception] = None
         for attempt in range(1, self.max_retries + 1):
             try:
-                return self.client.responses.create(
-                    model=self.model,
-                    input=messages,
-                    temperature=self.temperature,
-                    max_output_tokens=self.max_output_tokens,
-                    response_format=response_format,
-                )
+                # Build kwargs for API call
+                kwargs: Dict[str, Any] = {
+                    "model": self.model,
+                    "input": messages,
+                    "temperature": self.temperature,
+                }
+
+                if self.max_output_tokens:
+                    kwargs["max_output_tokens"] = self.max_output_tokens
+
+                # Convert response_format to text parameter format
+                if response_format:
+                    kwargs["text"] = {"format": response_format}
+
+                return self.client.responses.create(**kwargs)
             except Exception as exc:  # broad catch: SDK raises various subclasses
                 last_exc = exc
                 if attempt == self.max_retries:

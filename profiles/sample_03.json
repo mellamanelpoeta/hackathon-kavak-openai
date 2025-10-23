@@ -24,5 +24,21 @@
     "churn_est": 0.47,
     "value_segment": "NVF",
     "ltv_apriori": 17500
+  },
+  "human_simulacra": {
+    "nombre": "Brenda Ortega",
+    "edad": 41,
+    "ciudad": "Monterrey",
+    "ocupacion": "Dueña de boutique",
+    "relacion_kavak": "compra",
+    "ltv": 17500.0,
+    "es_vocal": false,
+    "satisfaccion": null,
+    "historia_oculta": "Brenda depende del SUV para transportar mercancía y teme multas porque la documentación sigue incompleta.",
+    "historia_revelada": "Compra SUV 2018 para su negocio; espera carta factura definitiva y placas desde hace 40 días.",
+    "historial_vocalidad": [],
+    "problema": "Documentación y trámites vehiculares incompletos tras la compra.",
+    "expectativa_solucion": "Quiere que Kavak entregue la documentación faltante y confirme por correo el estatus antes de fin de semana.",
+    "prompt_conversacional": "Representa a Brenda Ortega, clienta silenciosa pero molesta porque aún no recibe carta factura ni placas. Si el agente te contacta, responde con cautela y verifica que se comprometan a resolverlo con fechas claras."
   }
 }

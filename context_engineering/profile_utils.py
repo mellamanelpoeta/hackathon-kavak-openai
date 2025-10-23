@@ -49,7 +49,19 @@ def _extract_first_message(profile: Dict) -> Optional[str]:
 
 
 def profile_to_context(profile: Dict) -> Context:
-    persona = profile.get("persona", {})
+    persona = profile.get("persona")
+    human = profile.get("human_simulacra")
+    if human and not persona:
+        persona = {
+            "name": human.get("nombre"),
+            "age": human.get("edad"),
+            "location": human.get("ciudad"),
+            "bio": human.get("historia_revelada"),
+        }
+
+    if persona is None:
+        persona = {}
+
     purchase = profile.get("purchase", {})
     history = profile.get("history", {})
     risk = profile.get("risk_signals", {})
@@ -71,6 +83,8 @@ def profile_to_context(profile: Dict) -> Context:
 
     first_message = _extract_first_message(profile)
     mini_story = persona.get("bio") or ""
+    if not mini_story and human:
+        mini_story = human.get("historia_revelada", "")
 
     churn_risk = float(risk.get("churn_est", 0.2))
     issue_bucket = _infer_issue_bucket(profile)

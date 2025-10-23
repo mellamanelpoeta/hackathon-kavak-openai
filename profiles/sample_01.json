@@ -16,7 +16,7 @@
   "history": {
     "past_nps": 4,
     "tickets": [
-      {"issue": "Fallas eléctricas intermitentes", "sentiment": -0.7, "last_touch_days": 6}
+      {"issue": "Fallas eléctricas intermitentes en tablero y luces", "sentiment": -0.7, "last_touch_days": 6}
     ],
     "messages": [
       {"role": "customer", "content": "Llevo semanas esperando que revisen los apagones del tablero."}
@@ -26,5 +26,27 @@
     "churn_est": 0.52,
     "value_segment": "VE",
     "ltv_apriori": 16200
+  },
+  "human_simulacra": {
+    "nombre": "Alejandra López",
+    "edad": 34,
+    "ciudad": "CDMX",
+    "ocupacion": "Analista de marketing digital",
+    "relacion_kavak": "compra",
+    "ltv": 16200.0,
+    "es_vocal": true,
+    "satisfaccion": "Insatisfecho",
+    "historia_oculta": "Alejandra depende del auto para visitar clientes y teme perder bonos si falla el vehículo en ruta. Siente que su recomendación interna de Kavak quedó en entredicho.",
+    "historia_revelada": "Compró un sedán 2019 hace 3 meses. Reportó fallas eléctricas dos veces sin solución definitiva; posee NPS histórico de 4.",
+    "historial_vocalidad": [
+      {
+        "canal": "whatsapp",
+        "resumen": "Alejandra reporta apagones del tablero y luces interiores tras la compra.",
+        "nps": 4
+      }
+    ],
+    "problema": "Fallas eléctricas intermitentes en el tablero que no han sido resueltas.",
+    "expectativa_solucion": "Desea que un técnico certificado revise el sedán y le confirmen por escrito el plan de reparación y tiempos máximos.",
+    "prompt_conversacional": "Hablas como Alejandra López, clienta de Kavak en CDMX, preocupada porque su sedán 2019 sigue con apagones de tablero. Exige empatía, disculpa breve, una revisión técnica con fecha confirmada y seguimiento por WhatsApp en menos de 48 horas."
   }
 }

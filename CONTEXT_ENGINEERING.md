@@ -28,19 +28,27 @@
    export OPENAI_API_KEY="sk-proj-..."
    ```
 
-2. **Instalación local (opcional)**
+2. **Instalación local**
    ```bash
-   python -m venv .venv && source .venv/bin/activate
+   python3 -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
+   export OPENAI_API_KEY="sk-proj-..."
    ```
 
-3. **Ejecutar experimento por CLI**
+3. **Ejecutar experimento por CLI (CSV)**
    ```bash
-   python scripts/run_experiment.py profiles --output results/iter1.csv
+   python scripts/run_experiment.py profiles --output results/iter1.csv --concurrency 10
    ```
    Resultado: CSV con el schema solicitado + resumen en consola.
 
-4. **Streamlit demo**
+4. **Pipeline completo a JSON**
+   ```bash
+   python scripts/run_full_pipeline.py --profiles profiles --output results/run1.json --concurrency 10
+   ```
+   Genera `run1.json` con `{run_number, summary, records}` listo para demos o dashboards.
+
+5. **Streamlit demo**
    ```bash
    streamlit run app/streamlit_context.py
    ```
@@ -60,7 +68,7 @@
      -v $(pwd)/profiles:/app/profiles \
      -v $(pwd)/results:/app/results \
      kavak-agents \
-     python scripts/run_experiment.py profiles --output results/iter1.csv
+     python scripts/run_experiment.py profiles --output results/iter1.csv --concurrency 10
    ```
 
    Salida:
@@ -110,7 +118,8 @@ context_engineering/
 app/
   streamlit_context.py   # UI demo
 scripts/
-  run_experiment.py      # CLI experimento
+  run_experiment.py      # CLI experimento (CSV)
+  run_full_pipeline.py   # Ejecuta batch completo y guarda JSON
 Dockerfile, .dockerignore
 requirements.txt
 ```
